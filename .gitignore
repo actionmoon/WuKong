@@ -6,3 +6,5 @@ unity/.DS_Store
 unity/UserSettings
 .DS_Store
 unity/Temp
+unity/AddressableAssetsData
+unity/Assets/AddressableAssetsData
