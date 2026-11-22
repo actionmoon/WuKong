@@ -21,6 +21,7 @@ local epoch=nil
 local bossReplay=nil
 local autoProbeStarted=false
 local skillsReplay=nil
+local hud=nil
 
 local function enqueue(name)
     sequence=sequence+1;pending[#pending+1]={id=sequence,name=name}
@@ -50,8 +51,11 @@ local function pointerControls()
     -- release a control still held by another finger.
     local held={}
     local function point(position)
+        local screenPoint=UE.Vector2(position.x,position.y)
         for _,b in ipairs(uiBindings) do
-            if UE.RectTransformUtility.RectangleContainsScreenPoint(b.rect,position) then held[b.name]=true end
+            if b.button.gameObject.activeInHierarchy and b.button.interactable
+                and not (hud and hud.IsModal())
+                and UE.RectTransformUtility.RectangleContainsScreenPoint(b.rect,screenPoint,nil) then held[b.name]=true end
         end
     end
     if UE.Input.touchCount>0 then
@@ -67,6 +71,8 @@ function Start()
     state=UE.GameObject.Find("CombatState"):GetComponent(typeof(DouyinScript)).script
     arena=UE.GameObject.Find("ArenaPresentation"):GetComponent(typeof(DouyinScript)).script
     boss=UE.GameObject.Find("TigerBaseline")
+    local hudObject=UE.GameObject.Find("PresentationHUD")
+    if hudObject then hud=hudObject:GetComponent(typeof(DouyinScript)).script end
     moveStart=function() end
     movePerform=function(v) stick=v end
     moveCancel=function() stick=UE.Vector2.zero end
@@ -75,11 +81,13 @@ function Start()
     DouyinInputService.onMoveInputCancel:AddListener(moveCancel)
     for _,name in ipairs({"light","heavy","dodge","gourd","lock","sprint","challenge","stanceCycle","spin","immobilize","cloud","transform","spirit"}) do bind(name) end
     onTouch=function(position)
+        local screenPoint=UE.Vector2(position.x,position.y)
         if DouyinApplication.isSimulator then
             print("[WK-COMBAT-POINTER] touch="..tostring(position).." mouse="..tostring(UE.Input.mousePosition))
         end
         for _,b in ipairs(uiBindings) do
-            if UE.RectTransformUtility.RectangleContainsScreenPoint(b.rect,position) then Press(b.name);return end
+            if b.button.gameObject.activeInHierarchy and b.button.interactable and not (hud and hud.IsModal())
+                and UE.RectTransformUtility.RectangleContainsScreenPoint(b.rect,screenPoint,nil) then Press(b.name);return end
         end
     end
     DouyinInputService.onTouchEvent:AddListener(onTouch)
@@ -102,6 +110,9 @@ function GetView(actorID)
     local views=state and state.GetViews()
     return views and views[tostring(actorID)]
 end
+function GetLocalView() return actor and GetView(actor.actorID) end
+function GetLocalPosition() return actor and actor.position end
+function GetLocalActorID() return actor and actor.actorID end
 local function keyboardDirection()
     local x,z=0,0
     if UE.Input.GetKey("w") then z=z+1 end;if UE.Input.GetKey("s") then z=z-1 end
@@ -264,7 +275,7 @@ function Update()
             if epoch~=nil then
                 local spawn=WKArenaConfig.spawn
                 actor:StopMove();actor:Teleport(UE.Vector3(spawn.x,spawn.y,spawn.z),UE.Quaternion.Euler(0,spawn.yaw,0))
-                arena.SetLocked(false);pose=nil;velocityX=0;velocityZ=0
+                arena.ResetView();pose=nil;velocityX=0;velocityZ=0
             end
             epoch=v.epoch
         end
@@ -274,7 +285,7 @@ function Update()
         elseif v.time~=pose.serverTime and math.abs(pose.t-v.t)>0.15 then pose.t=v.t end
         pose.serverTime=v.time;pose.kind=v.kind
         pose.form=v.form
-        updateHUD(v)
+        if hud then hud.Apply(v) else updateHUD(v) end
     end
     for key,view in pairs(views) do
         local prev=logCache[key]
@@ -331,8 +342,10 @@ function Update()
     end
     -- The platform's full-screen input surface also counts as "over UI".
     -- Our pointer callbacks identify which combat control consumed the press.
-    local overUI=false
+    local overUI=hud and hud.IsPointerOver(UE.Input.mousePosition) or false
     for _,held in pairs(uiHeld) do if held then overUI=true end end
+    local modal=hud and hud.IsModal()
+    if not modal then
     if (not overUI and UE.Input.GetMouseButtonDown(0)) or uiPressed.light then enqueue("light") end
     if (not overUI and UE.Input.GetMouseButtonDown(1)) or uiPressed.heavy then enqueue("heavy") end
     if UE.Input.GetKeyDown(UE.KeyCode.Space) or uiPressed.dodge then enqueue("dodge") end
@@ -344,6 +357,7 @@ function Update()
     if UE.Input.GetKeyDown(UE.KeyCode.Return) or uiPressed.challenge then
         enqueue(v and (v.challenge=="defeat" or v.challenge=="victory") and "retry" or "start")
     end
+    else x,z,sprint,heavy,spin=0,0,false,false,false end
     uiPressed={}
     if DouyinApplication.isSimulator then
         if UE.Input.GetKeyDown(UE.KeyCode.F8) then enqueue("test-suite") end

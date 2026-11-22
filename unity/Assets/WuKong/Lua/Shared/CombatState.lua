@@ -9,6 +9,8 @@ local Session = nil
 local Challenge, Boss = nil,nil
 local template, boss = nil, nil
 local formTemplates={}
+local traffic={inputBytes=0,inputMessages=0,snapshotBytes=0,snapshotMessages=0}
+function GetTraffic() return traffic end
 local function log(e) print("[WK-COMBAT] "..json.encode(e)) end
 
 function Start()
@@ -37,6 +39,8 @@ function OnNetSpawned()
     snapshot:OnValueChange(function(value)
         if not ready or DouyinApplication.isServer then return end
         local decoded=json.decode(value or "")
+        traffic.snapshotBytes=traffic.snapshotBytes+#(value or "")
+        traffic.snapshotMessages=traffic.snapshotMessages+1
         if decoded then
             localViews=decoded
         end
@@ -44,7 +48,10 @@ function OnNetSpawned()
 end
 function GetViews() return localViews end
 function Send(value)
-    if ready and DouyinNetService.isNetworkSettled and not DouyinApplication.isServer then request:FireServer(value) end
+    if ready and DouyinNetService.isNetworkSettled and not DouyinApplication.isServer then
+        traffic.inputBytes=traffic.inputBytes+#value;traffic.inputMessages=traffic.inputMessages+1
+        request:FireServer(value)
+    end
 end
 local function sample(model,clip,t)
     if model.clip~=clip then model.animation:Play(clip);model.clip=clip end

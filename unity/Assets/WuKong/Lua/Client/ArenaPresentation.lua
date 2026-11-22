@@ -23,16 +23,29 @@ local routeProgressAge = 0
 local poll = 0
 local currentDistance = nil
 local orbitProbe = 0
+local combat,visuals=nil,nil
+local cameraHeight=nil
+local lift=0
+local trauma=0
+local resetPending=false
+
+function Shake(value) trauma=value==0 and 0 or math.min(1,trauma+value) end
 
 local function setView(distance)
     local cfg = WKArenaConfig.camera
     DouyinCameraService.SetDistance(distance)
-    DouyinCameraService.SetOffset(UE.Vector3(0, cfg.height, 0))
+    local power=trauma*trauma
+    local t=UE.Time.time*38
+    DouyinCameraService.SetOffset(UE.Vector3(math.sin(t*1.7)*power*.16,(cameraHeight or cfg.height)+math.sin(t*2.3)*power*.12,0))
 end
 
 function Start()
     if DouyinApplication.isServer then return end
     boss = UE.GameObject.Find("TigerBaseline")
+    local input=UE.GameObject.Find("CombatInput")
+    if input then combat=input:GetComponent(typeof(DouyinScript)).script end
+    local visual=UE.GameObject.Find("AvatarVisualSample")
+    if visual then visuals=visual:GetComponent(typeof(DouyinScript)).script end
     local canvas = UE.GameObject.Find("ArenaHUD")
     if canvas then
         local labels = canvas:GetComponentsInChildren(typeof(UE.UI.Text), true)
@@ -149,6 +162,11 @@ function IsLocked() return locked end
 function IsRouteActive() return routeIndex ~= nil end
 function SetLocked(value) locked = value == true end
 function ToggleLock() locked = not locked end
+function ResetView()
+    locked=false;looking=false;freePitch=nil;lastLookTime=-math.huge
+    lift=0;trauma=0;cameraHeight=WKArenaConfig.camera.height
+    currentDistance=WKArenaConfig.camera.distance;resetPending=true
+end
 
 local function alignCamera(dt)
     if looking or UE.Time.time - lastLookTime < WKArenaConfig.camera.alignGrace then return end
@@ -163,7 +181,7 @@ local function alignCamera(dt)
     DouyinCameraService.SetYaw(yaw + UE.Mathf.Clamp(delta, -step, step))
     local offset = boss.transform.position + UE.Vector3(0, WKArenaConfig.boss.targetHeight, 0) - actor.position
     local horizontal = math.sqrt(offset.x * offset.x + offset.z * offset.z)
-    local wantPitch = -UE.Mathf.Clamp(UE.Mathf.Atan2(offset.y - WKArenaConfig.camera.height,
+    local wantPitch = -UE.Mathf.Clamp(UE.Mathf.Atan2(offset.y - (cameraHeight or WKArenaConfig.camera.height),
         math.max(horizontal, 1)) - 0.22, -0.7, 0.3) * UE.Mathf.Rad2Deg
     local pitch = DouyinCameraService.GetPitch()
     if pitch ~= nil then DouyinCameraService.SetPitch(UE.Mathf.Lerp(pitch, wantPitch, 1 - math.exp(-8 * dt))) end
@@ -174,6 +192,11 @@ function LateUpdate()
     local camera = DouyinCameraService.GetCamera()
     if camera == nil then return end
     local cfg = WKArenaConfig.camera
+    if resetPending then
+        DouyinCameraService.SetYaw(WKArenaConfig.spawn.yaw);DouyinCameraService.SetPitch(cfg.pitch)
+        camera.fieldOfView=cfg.fov;setView(cfg.distance);resetPending=false
+        print("[WK-ARENA] camera-reset yaw="..tostring(DouyinCameraService.GetYaw()).." pitch="..tostring(DouyinCameraService.GetPitch()))
+    end
     if not initialized then
         savedYaw = DouyinCameraService.GetYaw(); savedPitch = DouyinCameraService.GetPitch(); savedFov = camera.fieldOfView
         DouyinCameraService.SetYaw(WKArenaConfig.spawn.yaw); DouyinCameraService.SetPitch(cfg.pitch)
@@ -182,12 +205,27 @@ function LateUpdate()
         print("[WK-ARENA] camera-ready position=" .. tostring(camera.transform.position) .. " actor=" .. tostring(actor.position))
     end
     local dt = UE.Time.deltaTime
+    local v=combat and combat.GetLocalView()
+    local visual=visuals and visuals.GetVisual(actor.actorID)
+    local wantLift=0
+    if v and v.stance=="pillar" and v.kind~="free" and visual and visual.bones.pelvis then
+        wantLift=math.max(0,visual.bones.pelvis.position.y-actor.position.y-1)
+    end
+    lift=UE.Mathf.Lerp(lift,wantLift,math.min(1,5*dt))
+    local lang=v and v.form=="lang"
+    cameraHeight=(lang and WKSkillsConfig.forms.lang.capsule.halfHeight+WKSkillsConfig.bianhua.transform.camera.boomZ or cfg.height)+lift
+    trauma=math.max(0,trauma-dt*1.8)
     alignCamera(dt)
     camera.fieldOfView = UE.Mathf.Lerp(camera.fieldOfView, cfg.fov, math.min(1, 6 * dt))
     local yaw = DouyinCameraService.GetYaw(); local pitch = DouyinCameraService.GetPitch()
     if yaw == nil or pitch == nil then return end
     local desired = locked and cfg.lockDistance or cfg.distance
-    local focus = actor.position + UE.Vector3(0, cfg.height, 0)
+    if lang then
+        local c=WKSkillsConfig.bianhua.transform.camera
+        desired=cfg.distance*c.armLength/c.wukongArmLength
+        if locked then desired=math.max(cfg.lockDistance,desired) end
+    end
+    local focus = actor.position + UE.Vector3(0, cameraHeight, 0)
     local rotation = UE.Quaternion.Euler(pitch, yaw, 0)
     local backward = rotation * UE.Vector3(0, 0, -1)
     local hits = UE.Physics.SphereCastAll(focus, cfg.probeRadius, backward, desired, cfg.mask, UE.QueryTriggerInteraction.Collide)

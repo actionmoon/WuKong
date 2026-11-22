@@ -3,6 +3,7 @@ local state,boss,animation,localActor,template=nil,nil,nil,nil,nil
 local renderers,objects={},{}
 local observed=nil
 local lastClip=nil
+local arena,windMaterial=nil,nil
 local function collect(go)
     return go:GetComponentsInChildren(typeof(UE.Renderer),true)
 end
@@ -11,6 +12,8 @@ function Start()
     state=UE.GameObject.Find("CombatState"):GetComponent(typeof(DouyinScript)).script
     boss=UE.GameObject.Find("TigerBaseline");animation=boss:GetComponent(typeof(UE.Animation))
     renderers=collect(boss);template=UE.GameObject.Find("StoneDecoyTemplate")
+    arena=UE.GameObject.Find("ArenaPresentation"):GetComponent(typeof(DouyinScript)).script
+    windMaterial=UE.GameObject.Find("WindHazardMaterial"):GetComponent(typeof(UE.Renderer)).sharedMaterial
     if template then
         local rs=collect(template);for i=0,rs.Length-1 do rs[i].enabled=false end
     end
@@ -26,8 +29,7 @@ local function presentation(key,spec,isDecoy)
             go=UE.GameObject.CreatePrimitive(shape.box and UE.PrimitiveType.Cube or shape.capsule and UE.PrimitiveType.Cylinder or UE.PrimitiveType.Sphere)
             local collider=go:GetComponent(typeof(UE.Collider));if collider then UE.Object.Destroy(collider) end
             local renderer=go:GetComponent(typeof(UE.Renderer))
-            local source=UE.GameObject.Find("WindHazardMaterial")
-            renderer.sharedMaterial=source:GetComponent(typeof(UE.Renderer)).sharedMaterial
+            renderer.sharedMaterial=windMaterial
             if shape.box then go.transform.localScale=UE.Vector3(shape.box[2]*2,shape.box[3]*2,shape.box[1]*2)
             elseif shape.capsule then go.transform.localScale=UE.Vector3(shape.capsule.radius*2,shape.capsule.halfHeight,shape.capsule.radius*2)
             else go.transform.localScale=UE.Vector3.one*(shape.sphere*2) end
@@ -66,7 +68,6 @@ function Update()
     end
     if template then for _,d in ipairs(b.decoys or {}) do presentation(tostring(v.epoch)..":d:"..d.key,d,true) end end
     for key,item in pairs(objects) do if not item.seen then UE.Object.Destroy(item.go);objects[key]=nil end end
-    local arena=UE.GameObject.Find("ArenaPresentation"):GetComponent(typeof(DouyinScript)).script
     if not b.canLock and arena.IsLocked() then arena.SetLocked(false) end
 end
 function OnDestroy()

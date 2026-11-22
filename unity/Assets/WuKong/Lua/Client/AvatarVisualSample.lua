@@ -5,9 +5,15 @@ local initialProbe = false
 local combat = nil
 local templates={}
 local effects={}
+local function bones(go)
+    local out={}
+    local ts=go:GetComponentsInChildren(typeof(UnityEngine.Transform),true)
+    for i=0,ts.Length-1 do out[ts[i].name]=ts[i] end
+    return out
+end
 local function clone(source,name)
     local go=UnityEngine.Object.Instantiate(source);go.name=name;go:SetActive(true)
-    return {model=go,animation=go:GetComponent(typeof(UnityEngine.Animation))}
+    return {model=go,animation=go:GetComponent(typeof(UnityEngine.Animation)),bones=bones(go)}
 end
 local function poseModel(v,clip,t)
     if not v.animation then return end
@@ -17,6 +23,10 @@ local function poseModel(v,clip,t)
 end
 
 function GetTemplate() return template end
+function GetVisual(actorID)
+    local v=visuals[actorID]
+    return v and (v.active or v)
+end
 
 function Start()
     template = UnityEngine.GameObject.Find("WukongVisualTemplate")
@@ -54,7 +64,7 @@ function Update()
             end
             actor:SetVisible(false)
             visuals[key] = { actor = actor, model = model, animation = animation,
-                age = 0, samples = 0, origin = actor.position, moved = false, forms={} }
+                age = 0, samples = 0, origin = actor.position, moved = false, forms={},bones=bones(model) }
             print("[WK-SAMPLE] avatar-bound actor=" .. tostring(key)
                 .. " local=" .. tostring(actor.isLocal) .. " animation=" .. WKSampleConfig.idleClip)
         end
@@ -76,6 +86,7 @@ function LateUpdate()
             if not visual.forms[kind] then visual.forms[kind]=clone(templates[kind],"AvatarForm_"..kind.."_"..visual.actor.actorID) end
             active=visual.forms[kind]
         end
+        visual.active=active
         visual.model:SetActive(active==visual)
         for _,v in pairs(visual.forms) do v.model:SetActive(v==active) end
         active.model.transform.position=visual.actor.position
@@ -84,18 +95,6 @@ function LateUpdate()
         visual.model.transform.position = visual.actor.position
         -- glTFast mirrors source +X into -X; align that model axis with Avatar +Z.
         visual.model.transform.rotation = visual.actor.rotation * UnityEngine.Quaternion.Euler(0, 90, 0)
-        if active==visual and pose and visual.animation then
-            if visual.clip ~= pose.clip then
-                visual.animation:CrossFade(pose.clip, 0.1)
-                visual.clip = pose.clip
-            end
-            local state = visual.animation:get_Item(pose.clip)
-            if state then
-                state.speed = 0
-                state.time = pose.t
-                visual.animation:Sample()
-            end
-        end
         visual.age = visual.age + UnityEngine.Time.deltaTime
         if visual.samples < 2 and visual.age >= (visual.samples + 1) * 2 then
             visual.samples = visual.samples + 1
