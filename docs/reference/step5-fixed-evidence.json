@@ -1,0 +1,113 @@
+{
+  "lua": "5.3",
+  "tests": [
+    {
+      "name": "51-skill-clips-and-bullet-rows",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "ready-force-box-perception",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "sight-cone-hearing",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "five-hp-phases",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "near-far-candidate-range-and-cooldown",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "source-section-and-rate-timeline",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "armor-breaking-hit-continues-next-hit-reacts",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "stone-immune-rebound-and-counter",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "melee-sweep-once-per-window",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "projectile-spawn-lifetime-and-repeat-interval",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "switch-projectile-removes-missing-destination",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "stone-decoy-expiry",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "stone-decoy-player-rebound-and-buff",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "teleport-inside-arena-facing-player",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "victory-delay-retry-clears-all-resources",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "defeat-delay-retry-and-context-isolation",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "retry-waits-for-observed-player-spawn",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    },
+    {
+      "name": "all-skill-timelines-execute",
+      "ev": "bossFixedTest",
+      "actor": 1,
+      "pass": true
+    }
+  ]
+}

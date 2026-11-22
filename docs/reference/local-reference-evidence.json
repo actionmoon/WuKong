@@ -1,0 +1,186 @@
+{
+  "source": "http://127.0.0.1:8765/",
+  "origin": "https://www.anxiangsir.com/wukong-tiger-engine/",
+  "kind": "local run of extracted original website; not Unity clone",
+  "open_exit": 0,
+  "wait_exit": 0,
+  "observed": {
+    "state": {
+      "state": "ready",
+      "fps": 4.4,
+      "simTime": 0,
+      "loadError": null,
+      "player": false,
+      "boss": false
+    },
+    "text": "黑神话：悟空\n第二回 · 卧虎寺 · 虎先锋\n就绪\n点击开始"
+  },
+  "raw_logs": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/wukong-local-reference-xncbwybn",
+  "start": true,
+  "gameplay": {
+    "before": {
+      "state": "fight",
+      "fps": 4.3,
+      "simTime": 0.08,
+      "loadError": null,
+      "player": {
+        "pos": [
+          0,
+          -1.237,
+          0
+        ],
+        "yaw": -0.025,
+        "hp": 390,
+        "maxHp": 390,
+        "state": "idle",
+        "clip": "AS_Wukong_Stand",
+        "clipTime": 0.079,
+        "grounded": true,
+        "mp": 220,
+        "stamina": 250,
+        "focus": 0,
+        "focusPips": 0,
+        "gourd": 6,
+        "lockOn": false,
+        "invuln": true,
+        "action": null
+      },
+      "boss": {
+        "pos": [
+          -1.226,
+          -6.343,
+          48.157
+        ],
+        "yaw": -3.023,
+        "hp": 6480,
+        "maxHp": 6480,
+        "state": "idle",
+        "clip": "AS_HFM_Hu_Stone_Bstd_01",
+        "clipTime": 0.079,
+        "grounded": true,
+        "phase": "hp>85",
+        "fsm": "BATTLE_ATTACK",
+        "comboBudget": 0,
+        "watchTime": 0,
+        "skill": null,
+        "task": null,
+        "alive": true,
+        "aware": false
+      }
+    },
+    "moved": {
+      "state": "fight",
+      "fps": 8.9,
+      "simTime": 0.78,
+      "loadError": null,
+      "player": {
+        "pos": [
+          -0.088,
+          -0.902,
+          3.44
+        ],
+        "yaw": -0.025,
+        "hp": 390,
+        "maxHp": 390,
+        "state": "move",
+        "clip": "AS_Wukong_lock_run_fwd_loop",
+        "clipTime": 0.528,
+        "grounded": true,
+        "mp": 220,
+        "stamina": 250,
+        "focus": 0,
+        "focusPips": 0,
+        "gourd": 6,
+        "lockOn": false,
+        "invuln": true,
+        "action": null
+      },
+      "boss": {
+        "pos": [
+          -1.226,
+          -6.343,
+          48.157
+        ],
+        "yaw": -3.023,
+        "hp": 6480,
+        "maxHp": 6480,
+        "state": "idle",
+        "clip": "AS_HFM_Hu_Stone_Bstd_01",
+        "clipTime": 0.776,
+        "grounded": true,
+        "phase": "hp>85",
+        "fsm": "BATTLE_ATTACK",
+        "comboBudget": 0,
+        "watchTime": 0,
+        "skill": null,
+        "task": null,
+        "alive": true,
+        "aware": false
+      }
+    },
+    "after": {
+      "state": "fight",
+      "fps": 9.6,
+      "simTime": 0.99,
+      "loadError": null,
+      "player": {
+        "pos": [
+          -0.136,
+          -0.843,
+          6.46
+        ],
+        "yaw": -0.025,
+        "hp": 390,
+        "maxHp": 390,
+        "state": "action",
+        "clip": "AM_Wukong_ComboA_q1",
+        "clipTime": 0.148,
+        "grounded": true,
+        "mp": 220,
+        "stamina": 240,
+        "focus": 0,
+        "focusPips": 0,
+        "gourd": 6,
+        "lockOn": true,
+        "invuln": true,
+        "action": "light"
+      },
+      "boss": {
+        "pos": [
+          -1.226,
+          -6.343,
+          48.157
+        ],
+        "yaw": -3.023,
+        "hp": 6480,
+        "maxHp": 6480,
+        "state": "idle",
+        "clip": "AS_HFM_Hu_Stone_Bstd_01",
+        "clipTime": 0.99,
+        "grounded": true,
+        "phase": "hp>85",
+        "fsm": "BATTLE_ATTACK",
+        "comboBudget": 0,
+        "watchTime": 0,
+        "skill": null,
+        "task": null,
+        "alive": true,
+        "aware": false
+      }
+    },
+    "recentLog": [
+      {
+        "t": 0,
+        "ev": "phase",
+        "phase": "hp>85"
+      },
+      {
+        "t": 0.893,
+        "ev": "attack",
+        "kind": "light",
+        "clip": "AM_Wukong_ComboA_q1"
+      }
+    ]
+  },
+  "screenshot_exit": 0
+}

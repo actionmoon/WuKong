@@ -1,0 +1,1332 @@
+{
+  "source": "https://www.anxiangsir.com/wukong-tiger-engine/",
+  "captured_at": "2026-11-22",
+  "files": [
+    {
+      "path": "assets/arena/arena.glb",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/arena/arena.glb",
+      "status": 200,
+      "bytes": 26419380,
+      "sha256": "d60e1e71aa27d89e4db0915054a5a01c839c3716a274ad5e539fb136c3b7b81c",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "assets/arena/arena.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/arena/arena.json",
+      "status": 200,
+      "bytes": 7352,
+      "sha256": "8a5359a3262587fc364c6d63611b903e841dadb116f7363209e536e95c471e9e",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/arena/collision.bin",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/arena/collision.bin",
+      "status": 200,
+      "bytes": 4341227,
+      "sha256": "ee972b24e3ccdd1b8cea13bcdd4a18e11286bc581eea05282a3cfb881c09a8d8",
+      "mime": "application/octet-stream"
+    },
+    {
+      "path": "assets/audio/audio.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/audio/audio.json",
+      "status": 200,
+      "bytes": 72024,
+      "sha256": "bda657b923671246f2b9d96da868c2a9fe651ab8166d7ab7ee7402b03401e611",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/audio/bgm_lv1Intro.ogg",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/audio/bgm_lv1Intro.ogg",
+      "status": 200,
+      "bytes": 24369,
+      "sha256": "599b03db55506c656adf2160931c6c88c3d76a6c366819861c2bf1b8901a04e2",
+      "mime": "audio/ogg"
+    },
+    {
+      "path": "assets/audio/bgm_lv1Loop.ogg",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/audio/bgm_lv1Loop.ogg",
+      "status": 200,
+      "bytes": 1039850,
+      "sha256": "eea62a3c4d56096de7bf59f74ed9a5c43ad41e9399887a4f510ebcbcd4c0a156",
+      "mime": "audio/ogg"
+    },
+    {
+      "path": "assets/audio/bgm_lv2Loop.ogg",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/audio/bgm_lv2Loop.ogg",
+      "status": 200,
+      "bytes": 932610,
+      "sha256": "8968c88b1210afa5d3660dd9e4d3830271f888c75dc8f65212b652a6194bbb29",
+      "mime": "audio/ogg"
+    },
+    {
+      "path": "assets/audio/bgm_outro.ogg",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/audio/bgm_outro.ogg",
+      "status": 200,
+      "bytes": 70074,
+      "sha256": "bd525a800068bf7ec493900c7d4772f26a347494458f0c7c65bd8e253dc2d562",
+      "mime": "audio/ogg"
+    },
+    {
+      "path": "assets/audio/sfx.bin",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/audio/sfx.bin",
+      "status": 200,
+      "bytes": 2822337,
+      "sha256": "e7a90c0aa73f59b35559d02f2c6fd4cf16250117188afc9b2d77626bd2c9b6ec",
+      "mime": "application/octet-stream"
+    },
+    {
+      "path": "assets/data/bianhua.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/bianhua.json",
+      "status": 200,
+      "bytes": 39215,
+      "sha256": "b4343db72fab4845d0b595b9609bf9ff4f628874990d7fcc8bd3aa6934a93698",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/data/player.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/player.json",
+      "status": 200,
+      "bytes": 81932,
+      "sha256": "84e7a5e29fa2ccfe46778af0044cc715b27458e45fc1c5ff62cb2e5a1ebcb2bd",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/data/spells.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/spells.json",
+      "status": 200,
+      "bytes": 26031,
+      "sha256": "f9a7df26e97da2e115ef58665fd8b1b82854d9c96880c46103e48d9ff47a90c5",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/data/spells_atypical027.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/spells_atypical027.webp",
+      "error": "HTTP Error 404: Not Found",
+      "resolved_path": "assets/vfx/spells_atypical027.webp",
+      "resolution": "vfx.addTextures resolves texture filenames under assets/vfx/, independent of config directory"
+    },
+    {
+      "path": "assets/data/spells_ding.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/spells_ding.webp",
+      "error": "HTTP Error 404: Not Found",
+      "resolved_path": "assets/vfx/spells_ding.webp",
+      "resolution": "vfx.addTextures resolves texture filenames under assets/vfx/, independent of config directory"
+    },
+    {
+      "path": "assets/data/spells_fire8x8.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/spells_fire8x8.webp",
+      "error": "HTTP Error 404: Not Found",
+      "resolved_path": "assets/vfx/spells_fire8x8.webp",
+      "resolution": "vfx.addTextures resolves texture filenames under assets/vfx/, independent of config directory"
+    },
+    {
+      "path": "assets/data/spells_flare04.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/spells_flare04.webp",
+      "error": "HTTP Error 404: Not Found",
+      "resolved_path": "assets/vfx/spells_flare04.webp",
+      "resolution": "vfx.addTextures resolves texture filenames under assets/vfx/, independent of config directory"
+    },
+    {
+      "path": "assets/data/spells_flare20.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/spells_flare20.webp",
+      "error": "HTTP Error 404: Not Found",
+      "resolved_path": "assets/vfx/spells_flare20.webp",
+      "resolution": "vfx.addTextures resolves texture filenames under assets/vfx/, independent of config directory"
+    },
+    {
+      "path": "assets/data/spells_smoke8x8.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/spells_smoke8x8.webp",
+      "error": "HTTP Error 404: Not Found",
+      "resolved_path": "assets/vfx/spells_smoke8x8.webp",
+      "resolution": "vfx.addTextures resolves texture filenames under assets/vfx/, independent of config directory"
+    },
+    {
+      "path": "assets/data/stances.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/stances.json",
+      "status": 200,
+      "bytes": 66545,
+      "sha256": "7c9bd273e576c43cfabbd319d9aaff2ead7f0aad67c8780a965a50256268402a",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/data/tiger.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/tiger.json",
+      "status": 200,
+      "bytes": 274567,
+      "sha256": "38599256c848f81b1a12d090fa895ac5c07aaa163e287732aa71b148da661aec",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/player/bianhua.anims.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/player/bianhua.anims.json",
+      "status": 200,
+      "bytes": 30052,
+      "sha256": "5641f78c72673af4b5086e4f78c869857f09e3cc1ae23c5f5977ae4d5937efea",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/player/bianhua.glb",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/player/bianhua.glb",
+      "status": 200,
+      "bytes": 194124,
+      "sha256": "8f381b7c7b6527686179724152543ac90c909c1d6a6b732da741cd733f1addc8",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "assets/player/spells.anims.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/player/spells.anims.json",
+      "status": 200,
+      "bytes": 64511,
+      "sha256": "6dc7b7255bbe8fd185346c80b011de3b4b19a91797e32c50e0944f90302544b3",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/player/spells.glb",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/player/spells.glb",
+      "status": 200,
+      "bytes": 328928,
+      "sha256": "9f30112d308a0a48971e316ab101dbbe9f8fdc1006d59d332cfca72a6a6b8400",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "assets/player/stances.anims.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/player/stances.anims.json",
+      "status": 200,
+      "bytes": 743861,
+      "sha256": "2979e476a2b4fc0077608a25e5f86db24100183c39fce8cd552012665570f6e9",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/player/stances.glb",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/player/stances.glb",
+      "status": 200,
+      "bytes": 2172628,
+      "sha256": "5fa184a61babd35e45db7191b2402a84e702d9dc3d9851e04760b12c341c08e9",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "assets/player/wukong.anims.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/player/wukong.anims.json",
+      "status": 200,
+      "bytes": 1160476,
+      "sha256": "d74d403c809f9c1c10d82c14d7fb9a1fecb46588af5f5ee218245b3a1d7ee818",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/player/wukong.glb",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/player/wukong.glb",
+      "status": 200,
+      "bytes": 18184464,
+      "sha256": "fb0e9bb767874cdabaa3c3b89c77736245969921a4de57008dd1d9a9cc1a1272",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "assets/spirit/gycy_she.anims.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/spirit/gycy_she.anims.json",
+      "status": 200,
+      "bytes": 11986,
+      "sha256": "60294582088efa9ecbbb8b2888d62f0208e5389db33b3f09f47ec8929cd4920f",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/spirit/gycy_she.glb",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/spirit/gycy_she.glb",
+      "status": 200,
+      "bytes": 1497252,
+      "sha256": "f7e363cf5779d0a7b2f1b5c57c06c8b534c7935a728c24adad7f80950663cb99",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "assets/spirit/gycy_shebang.anims.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/spirit/gycy_shebang.anims.json",
+      "status": 200,
+      "bytes": 12364,
+      "sha256": "302936d341d6b550ac3f26443309d21836dbfe352d308001e38899a56259409c",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/spirit/gycy_shebang.glb",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/spirit/gycy_shebang.glb",
+      "status": 200,
+      "bytes": 583912,
+      "sha256": "ecbb2786158deab19e3181b2bfddb2618745821f2e9bd2f4c95c862835c67434",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "assets/tiger/stone_decoy.glb",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/tiger/stone_decoy.glb",
+      "status": 200,
+      "bytes": 34876,
+      "sha256": "a8caee1be0914ea6a6eb591a1d57b219e483cfbecdc66543f7c6fb6627ad439e",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "assets/tiger/tiger.anims.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/tiger/tiger.anims.json",
+      "status": 200,
+      "bytes": 2341660,
+      "sha256": "a785c507565e636c6446160d4ce0e91e7240ef69abc8d08cd587aba4b03b0567",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/tiger/tiger.glb",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/tiger/tiger.glb",
+      "status": 200,
+      "bytes": 15016700,
+      "sha256": "f6c1084b4e28adbbdb0520db9de4f2ba3d35642292a568c9a3118a04c5df4fd7",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "assets/transform/gycy_lang.anims.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/transform/gycy_lang.anims.json",
+      "status": 200,
+      "bytes": 414305,
+      "sha256": "ac1ebb60635b29bbaa5aea4c600cb8c80229ef4aab1514936f485266d2b791d1",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/transform/gycy_lang.glb",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/transform/gycy_lang.glb",
+      "status": 200,
+      "bytes": 4868904,
+      "sha256": "cc5ae5b0db664744831beba2c807e29673f2e5da27b1f15a613676b47f5def6a",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "assets/vfx/Glow_028.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/Glow_028.webp",
+      "status": 200,
+      "bytes": 382,
+      "sha256": "efc6e9e85e1a40c5564281dfbda5321cfa28ac2acaa443a835d0193aaea214c4",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/Glow_337.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/Glow_337.webp",
+      "status": 200,
+      "bytes": 4278,
+      "sha256": "a5cd120934b2808d378cf08f943d0fcd8d3c8dbeda8fb4b81f19c8b925181781",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Concrete_ChunkSubUV_D.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Concrete_ChunkSubUV_D.webp",
+      "status": 200,
+      "bytes": 49944,
+      "sha256": "ba4263025489a8ac66b0abda33b3dd70bc0be392b0d05258e82dd5e1e9c85a7e",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Dian_01.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Dian_01.webp",
+      "status": 200,
+      "bytes": 278,
+      "sha256": "0351a241797c3167b10e74540cd8f434d99f5fc83b14179940253f2d477f97af",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Fire_SmokeWisps_Tile_Dup.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Fire_SmokeWisps_Tile_Dup.webp",
+      "status": 200,
+      "bytes": 170740,
+      "sha256": "a3605c352c10a8ddb610ca381780b53967a80c4f4dcfd3922e95f0e194af62e8",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_FluidSmoke_03_D.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_FluidSmoke_03_D.webp",
+      "status": 200,
+      "bytes": 93040,
+      "sha256": "633792de332cd3c0ef542dd7a974c76e30ecf5cc46d37d9b572f472609722759"
+    },
+    {
+      "path": "assets/vfx/T_HFM_HuStone_D.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_HFM_HuStone_D.webp",
+      "status": 200,
+      "bytes": 31534,
+      "sha256": "3cb7a4f05233869256cb6b2fffb703c1578191202b2ac53a32f5a8457488951a",
+      "discovered_by": "local reference browser request"
+    },
+    {
+      "path": "assets/vfx/T_HFM_HuStone_N.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_HFM_HuStone_N.webp",
+      "status": 200,
+      "bytes": 14358,
+      "sha256": "1a649497063f03a0838dfbcdcd303f8f8d17d9c12d9df58dc87920f9e88dae70",
+      "discovered_by": "local reference browser request"
+    },
+    {
+      "path": "assets/vfx/T_HFM_HuStone_Weapon_D.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_HFM_HuStone_Weapon_D.webp",
+      "status": 200,
+      "bytes": 9846,
+      "sha256": "4b3ea25898295f2e74401202a35485fecb494577beecdec630e7e570aa97f4b6",
+      "discovered_by": "local reference browser request"
+    },
+    {
+      "path": "assets/vfx/T_ImpactDust_01.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_ImpactDust_01.webp",
+      "status": 200,
+      "bytes": 112664,
+      "sha256": "877e39b6dfcf981d00fe15740a9b5ad4c7e6e783dfa63eb515b6c6ed9e1c51dc",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Plasma_Wisps.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Plasma_Wisps.webp",
+      "status": 200,
+      "bytes": 96412,
+      "sha256": "49650e48366e32a2f8ff829d25ffc617aeec954ef0f36406b5caccba51a8b97b",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Radial_Refraction_Blur_N.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Radial_Refraction_Blur_N.webp",
+      "status": 200,
+      "bytes": 634,
+      "sha256": "fa2bb402c1a47a4b4995d26717ce43305bb55a9051b4f906e1b9b9b122e5a4c9",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Ring_001.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Ring_001.webp",
+      "status": 200,
+      "bytes": 69876,
+      "sha256": "4e821b9493904f57542b728b4b867d59765d1a0e56dfee3de399b5353a725c51",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Ring_005.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Ring_005.webp",
+      "status": 200,
+      "bytes": 13656,
+      "sha256": "4f3ac5c31817e9caf3bb892d370aaab9a7cc009b3029c39f1f0e3ff3a2ce06ef",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_SmokeMedium_Var06_D__8x8.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_SmokeMedium_Var06_D__8x8.webp",
+      "status": 200,
+      "bytes": 125016,
+      "sha256": "4455f008a8ebf2d60da35cbe14dfe0540211b30ee0cd3f8aa45a6d9fd0b117bb",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_SmokeTrailCoord1_Mask.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_SmokeTrailCoord1_Mask.webp",
+      "status": 200,
+      "bytes": 222,
+      "sha256": "1faf5dd72769a5317029036d52e57a4ac9cc7c99a57157c1a498cfc6b21929f4",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Smoke_Wisp.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Smoke_Wisp.webp",
+      "status": 200,
+      "bytes": 22796,
+      "sha256": "e101f718a72748baa5ab1052c3918975f813d4c6f56072a385489516db2ed431",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_SoftDust_Mask_01.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_SoftDust_Mask_01.webp",
+      "status": 200,
+      "bytes": 566,
+      "sha256": "71d3b3a3a9b2333d9d640bb3c55d90ae3330c2ca0cb3054e7a3e515d9e23fa37",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Streak_Soft_Trail_01.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Streak_Soft_Trail_01.webp",
+      "status": 200,
+      "bytes": 1184,
+      "sha256": "c2c8310e2444225899a747226a790a1c2c87f2f66e52fe81938a3763def2b4b7",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Streak_Soft_Trail_03.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Streak_Soft_Trail_03.webp",
+      "status": 200,
+      "bytes": 34972,
+      "sha256": "54f4bf3a6ee255d279660be94e72b842bbb0a80ab6889f48046dc0909ad1edbe",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Streak_Soft_Trail_04.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Streak_Soft_Trail_04.webp",
+      "status": 200,
+      "bytes": 14310,
+      "sha256": "8f130bdeecfbb2a3a41a49bad89b378845e700a12add1274f70bd43db1732c10",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Tile_A_009.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Tile_A_009.webp",
+      "status": 200,
+      "bytes": 2196,
+      "sha256": "6526a78b6f6e3347d284fd31d0d20a912093259f4aa5f19be2a61ad008819b06",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Trai_mohul.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Trai_mohul.webp",
+      "status": 200,
+      "bytes": 600,
+      "sha256": "e676882dc4cf4bd1b9c458c09ab6af52e0821abac476f2d822abcba676680241"
+    },
+    {
+      "path": "assets/vfx/T_Trail046_2_A.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Trail046_2_A.webp",
+      "status": 200,
+      "bytes": 20394,
+      "sha256": "730a01fd921a689290393375dee612a4be51c1ae5d6c06d0dc6bac5e5b3fe614",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Venus_Trail.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Venus_Trail.webp",
+      "status": 200,
+      "bytes": 2140,
+      "sha256": "7d0395d5fd73fb6605b7b15794714bab62654de21b4d0cb22d4f96a5b91c72f3"
+    },
+    {
+      "path": "assets/vfx/T_WaterSpark001.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_WaterSpark001.webp",
+      "status": 200,
+      "bytes": 116198,
+      "sha256": "011d40f04f2518d23a61c298aee0da681a6cdbb60a7f600bae12dae8da1e61f0",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_Water_01.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_Water_01.webp",
+      "status": 200,
+      "bytes": 118960,
+      "sha256": "a3d2d451e89407363c11a484903ead465df0aa206a16c274db18b34580b12b17",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_atypical_027.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_atypical_027.webp",
+      "status": 200,
+      "bytes": 15518,
+      "sha256": "b490d2c3e071da87636bf46d632f3d07047f07de798fdb19da24c250850f7da2",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_daoguang03_NRM.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_daoguang03_NRM.webp",
+      "status": 200,
+      "bytes": 2292,
+      "sha256": "0668e91f24805b90ea2cd9665c006bd0a7f7827227fd4fd150754eda586d205c",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_ember_Fire0001.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_ember_Fire0001.webp",
+      "status": 200,
+      "bytes": 88534,
+      "sha256": "732545e081eda781dbed5d46ca8b600159399c8d2275eecc40a371376030df86"
+    },
+    {
+      "path": "assets/vfx/T_liquid_8x8_006.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_liquid_8x8_006.webp",
+      "status": 200,
+      "bytes": 282536,
+      "sha256": "ae5cd8c9f2e97471ef34ce74f9c47049588469985bd7fb4e244d5ddc78c9472f",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_swk_gunying.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_swk_gunying.webp",
+      "status": 200,
+      "bytes": 69606,
+      "sha256": "6201b3d7034f722b6b472399f5d6d1ba90c5852b7efcbf21907b6a0499b1ff58",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/T_swk_mao0001.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/T_swk_mao0001.webp",
+      "status": 200,
+      "bytes": 28790,
+      "sha256": "cd112e56afcd0ff0a58be68c0d2e483d9771c8b072a9273963765d5e9efacfb0",
+      "mime": "image/webp"
+    },
+    {
+      "path": "assets/vfx/spells_atypical027.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/spells_atypical027.webp",
+      "status": 200,
+      "bytes": 15256,
+      "sha256": "05f5bd259c1e98fd8069d42eabd7875aefb4ac1203c465d8701848dbeeb5952f"
+    },
+    {
+      "path": "assets/vfx/spells_ding.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/spells_ding.webp",
+      "status": 200,
+      "bytes": 12460,
+      "sha256": "9a6813dfb372a0b4e7b3419727ef25cb612ff6849a790a9d01e573504365808b"
+    },
+    {
+      "path": "assets/vfx/spells_fire8x8.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/spells_fire8x8.webp",
+      "status": 200,
+      "bytes": 131860,
+      "sha256": "1a6c0cf226d17749b1dc375d12877e543daaea06e953fccdfceefc8043621256"
+    },
+    {
+      "path": "assets/vfx/spells_flare04.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/spells_flare04.webp",
+      "status": 200,
+      "bytes": 10728,
+      "sha256": "79c5dce2f02b51cc438eaf4daaa9899b55786387d52621b1fdc1ab56a00b6b36"
+    },
+    {
+      "path": "assets/vfx/spells_flare20.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/spells_flare20.webp",
+      "status": 200,
+      "bytes": 17334,
+      "sha256": "b1909ce5897af869fd1fa3143743522d92e1726c985a82d80b276a5bdd353407"
+    },
+    {
+      "path": "assets/vfx/spells_smoke8x8.webp",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/spells_smoke8x8.webp",
+      "status": 200,
+      "bytes": 150416,
+      "sha256": "221194184ca1d82af537c54634a123ab2d3d0f7504274371560b33d6f025aaca"
+    },
+    {
+      "path": "assets/vfx/vfx.json",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/vfx.json",
+      "status": 200,
+      "bytes": 129996,
+      "sha256": "b7439bee46d65e0239d5583ab7a866bc9dedb3bf066e046d2c3e436770a78ead",
+      "mime": "application/json; charset=utf-8"
+    },
+    {
+      "path": "favicon.ico",
+      "url": "https://www.anxiangsir.com/favicon.ico",
+      "error": "HTTP Error 404: Not Found",
+      "discovered_by": "local reference browser request"
+    },
+    {
+      "path": "index.html",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/",
+      "status": 200,
+      "bytes": 4277,
+      "sha256": "27a2999f630e524ba68be818a27759acd76e06227d48a56086128be6fce01291",
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "path": "src/assets.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/assets.js",
+      "status": 200,
+      "bytes": 9461,
+      "sha256": "21265290ea98922d8c789a0c146b89664e079d5e0b4161116e5b872c8cd4c039",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/audio.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/audio.js",
+      "status": 200,
+      "bytes": 20001,
+      "sha256": "8e2ea2620a4bbfdfc862bc01cd94890e546953ac0c78cf8ffd6e8f2af6d67808",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/boss.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/boss.js",
+      "status": 200,
+      "bytes": 37438,
+      "sha256": "f209a8d97cc7663000865cf722bf75e8442ac7a9e079824fc0a72460d0829aaf",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/camera.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/camera.js",
+      "status": 200,
+      "bytes": 4121,
+      "sha256": "23983108aa3b4f390577ba92d6fc03fe72ea9bd0f940c5fc51b5cdf171bb119c",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/character.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/character.js",
+      "status": 200,
+      "bytes": 12250,
+      "sha256": "d796b8c52996d3b4db462ec69dde729f89881d9633eb4f952411520068a784d3",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/collision.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/collision.js",
+      "status": 200,
+      "bytes": 4983,
+      "sha256": "bcb91e61ba960551fe084ec628b2d43cc0d3745738b55ff825f99e431bc315d3",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/combat.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/combat.js",
+      "status": 200,
+      "bytes": 5408,
+      "sha256": "1a88221d4a2dc533da48ca1817e6f9500ee2e2c49556e9ff395d2417f9956dbe",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/damage.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/damage.js",
+      "status": 200,
+      "bytes": 1747,
+      "sha256": "e78dca3748c1361e5356847469e4549cd352b116e6be28238fbf30e837c479ca",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/debug.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/debug.js",
+      "status": 200,
+      "bytes": 3002,
+      "sha256": "f12ad5bd94f989079452b3b0a7b143b9f49ebd8a2b32768f49d09c8582fe5510",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/hazards.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/hazards.js",
+      "status": 200,
+      "bytes": 7967,
+      "sha256": "51d056e5ded39a803b11242c0752f33449b053e721ccc76f22abb6cbf43cae35",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/hud.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/hud.js",
+      "status": 200,
+      "bytes": 5809,
+      "sha256": "3a15484a5f7845fb29772968181ae90587a932aa263f180e9686fcc71a49cbec",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/input.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/input.js",
+      "status": 200,
+      "bytes": 2348,
+      "sha256": "86e85b4209362eb01eccaf0708f15a5ead90c027a8559eb3934ea87eefe29cf9",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/locomotion.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/locomotion.js",
+      "status": 200,
+      "bytes": 3037,
+      "sha256": "c62100e00e4d48e5c0782814855c8f61b9ed29f5e24590c248f164124b974ec1",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/main.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/main.js",
+      "status": 200,
+      "bytes": 10564,
+      "sha256": "3f8e97fef3ea6894a4f3ea54a0ec90ff8904a734fe7a9c8e46f2aed6d0c4c7e7",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/modules.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/modules.js",
+      "status": 200,
+      "bytes": 680,
+      "sha256": "ad65090f9a80a7fe5b1c3c0fd2e773aaa5bc5594b486dcc0a86c64da6b2f4a06",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/player.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/player.js",
+      "status": 200,
+      "bytes": 30521,
+      "sha256": "43263b8f6487c597904a3d10c5e83e4dcc4ae652d8fcf7b7cb5c5e38fe8dd4ba",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/render.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/render.js",
+      "status": 200,
+      "bytes": 4138,
+      "sha256": "b5008a3631e2f501cd209f583067c8a067eab0b681af825bc1c9dfd1a49a0317",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/spells.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/spells.js",
+      "status": 200,
+      "bytes": 41349,
+      "sha256": "cd868cdeb4218ff0e699b7e0d3af442582d65f62a00a6a23e39856a9e5b5d572",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/spirit.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/spirit.js",
+      "status": 200,
+      "bytes": 15224,
+      "sha256": "bdb36a309b97ed1a37dfb5724d8ab6189b03d4b125fcb731eb8255a6eef79a30",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/stances.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/stances.js",
+      "status": 200,
+      "bytes": 25121,
+      "sha256": "0fce50bbd206e630a37891150ff0b1c7cc9647e2dfa076e15f78609465645e7d",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/stone.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/stone.js",
+      "status": 200,
+      "bytes": 17965,
+      "sha256": "74d370c9e8e2f31d8ee50819ffb45a1c1c17665b177997a2e5a085a83a7f23bf",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/style.css",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/style.css",
+      "status": 200,
+      "bytes": 10405,
+      "sha256": "1446f044e997003b7561b71c3b096d0066ab0903f881d0caaba6a88d46e51778",
+      "mime": "text/css; charset=utf-8"
+    },
+    {
+      "path": "src/touch.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/touch.js",
+      "status": 200,
+      "bytes": 9632,
+      "sha256": "62516bf230e4ad4120364402cfa231ba52919e552943a2e1ec5624dfe5503c41",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/transform.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/transform.js",
+      "status": 200,
+      "bytes": 22618,
+      "sha256": "62bbbe944984e08b307f21fbbfafb4df7c56fc303f1de9e8862c3bf0b0ff6055",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/vfx.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/vfx.js",
+      "status": 200,
+      "bytes": 45797,
+      "sha256": "efb2ac4f6aa032653b42b8c624190dbd99728e05048778bcc641995edd6e657d",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "src/vfx_extra.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/vfx_extra.js",
+      "status": 200,
+      "bytes": 10163,
+      "sha256": "ab851bbe7c32a6026443dc6e81635057ddc6d469f1a2f93e0385ac256cfadeff",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/BVH.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/BVH.js",
+      "status": 200,
+      "bytes": 11621,
+      "sha256": "2a0813bf437c245e14937bb929776b7106f48d94bc98cf96cc106f54356b8a34",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/BVHNode.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/BVHNode.js",
+      "status": 200,
+      "bytes": 246,
+      "sha256": "7cf8d828145b54d4ee2feec166c575b099cea71da07f807a8d5ef0f90b1fc7bc",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/BVHTraversalHelper.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/BVHTraversalHelper.js",
+      "status": 200,
+      "bytes": 2890,
+      "sha256": "68959d21d75001e2fdb345b4890821991c2044c9d9fd938132fc926b3035f2db",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/Constants.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/Constants.js",
+      "status": 200,
+      "bytes": 2394,
+      "sha256": "2844d2bd13dab0fcc219229eceebd5a592f411e93fb2dd8efe02663589a69e09",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/GeometryBVH.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/GeometryBVH.js",
+      "status": 200,
+      "bytes": 5413,
+      "sha256": "1ce7464e1f77be01e69029ffbb3d76b182b38f6a10947763e46891696888bf7f",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/LineBVH.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/LineBVH.js",
+      "status": 200,
+      "bytes": 7399,
+      "sha256": "5e494eeab88a8f473081ef206c854d5c72a6139e50866e047ff06ab9fbdb67f3",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/MeshBVH.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/MeshBVH.js",
+      "status": 200,
+      "bytes": 27980,
+      "sha256": "fd1f0e3413bb9d76eead54e58d74e3a87ae12e6e293c2e52ceef1be013469e80",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/ObjectBVH.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/ObjectBVH.js",
+      "status": 200,
+      "bytes": 15765,
+      "sha256": "01b3cac6e88d72bbea2c1dd04f9f10393a5364049d2d2496448752a488f3aea3",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/PointsBVH.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/PointsBVH.js",
+      "status": 200,
+      "bytes": 5894,
+      "sha256": "8abcd7a85bbb9621b13837ef9ef2e431de21548f582b97a87dcbea7022e73d0e",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/SkinnedMeshBVH.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/SkinnedMeshBVH.js",
+      "status": 200,
+      "bytes": 9744,
+      "sha256": "8305377bc8fb72d597418b0e708754a2e452f00ddeec405356f0926542c837d0",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/build/buildTree.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/buildTree.js",
+      "status": 200,
+      "bytes": 4919,
+      "sha256": "14793377d68353617a7e76b560223b173a768846719cbb3a3b4aaf038fe7ef80",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/build/buildUtils.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/buildUtils.js",
+      "status": 200,
+      "bytes": 2312,
+      "sha256": "a8b849fbfa2f4ae3808bd111ecf20f79213cc18c13ea4043d2d7fa8e81b3ea44",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/build/computeBoundsUtils.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/computeBoundsUtils.js",
+      "status": 200,
+      "bytes": 1882,
+      "sha256": "b0596bd329f99f9dcc5f33c3af909ca853726c07d7d7ced42ca974319a46b3e4",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/build/geometryUtils.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/geometryUtils.js",
+      "status": 200,
+      "bytes": 4126,
+      "sha256": "ae71dfbadf9e6a3a8963b0784aaf4d3f1b12a7ee8a8f3bccc9b251c838360e3e",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/build/sortUtils.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/sortUtils.js",
+      "status": 200,
+      "bytes": 1761,
+      "sha256": "54923f99e4d5e779943b0c211b12a2c65b3a9f5579da6e1d589b1088128a3add",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/build/splitUtils.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/splitUtils.js",
+      "status": 200,
+      "bytes": 7338,
+      "sha256": "611c1b9f9fcf7e3f55997def32f0c47476269b8a1cc8b38d38ea8aff02baa4e0",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/bvhcast.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/bvhcast.js",
+      "status": 200,
+      "bytes": 9365,
+      "sha256": "be889ce017e3fb0d2758a40082969fbbc3db6d0a1bdb098a88e4f404e5e20ddd",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/closestPointToGeometry.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/closestPointToGeometry.generated.js",
+      "status": 200,
+      "bytes": 6051,
+      "sha256": "0f981858f3971a6e1a86f4597fe02c0028e9c826ec213cc3b0cb0ffe2c040913",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/closestPointToGeometry_indirect.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/closestPointToGeometry_indirect.generated.js",
+      "status": 200,
+      "bytes": 6226,
+      "sha256": "b233234d031601808be957a1f2eb37a8d4d7389f3522861b904d35ccfaa6d9d7",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/closestPointToPoint.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/closestPointToPoint.js",
+      "status": 200,
+      "bytes": 1603,
+      "sha256": "296711939d33aab99c7b887fedd97dae5a53a35ff6bb2ad9f9ecb181a5badcd4",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/intersectsGeometry.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/intersectsGeometry.generated.js",
+      "status": 200,
+      "bytes": 4797,
+      "sha256": "c618a6af5c7e0649240b54bae66f57de0c33cda9f5eef9b35d775fc5891ba2ad",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/intersectsGeometry_indirect.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/intersectsGeometry_indirect.generated.js",
+      "status": 200,
+      "bytes": 4867,
+      "sha256": "cba4c920f9cadb170de37db74655a980c9e34b90ec14e0656969adfbfb79929e",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/raycast.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/raycast.generated.js",
+      "status": 200,
+      "bytes": 1645,
+      "sha256": "8185e10aa2f8c3c0249f2e0c770b66c4dcb7dd58ed8bfaf3efbc5838e0384f3d",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/raycastFirst.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/raycastFirst.generated.js",
+      "status": 200,
+      "bytes": 3291,
+      "sha256": "4e89cfc9695bcff713d3457229fda35f8ec3eb8d16c43ffeb34a7c1ae79551a0",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/raycastFirst_indirect.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/raycastFirst_indirect.generated.js",
+      "status": 200,
+      "bytes": 3281,
+      "sha256": "294b7c7f89c1c985a0df7a3c4a2b55a2d8a6df8c452c5c22717c80c3ca030783",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/raycast_indirect.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/raycast_indirect.generated.js",
+      "status": 200,
+      "bytes": 1680,
+      "sha256": "e579930a4012c6aa26ecf156268f7e155250f47dc6b73e250335d2469d2cb296",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/refit.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/refit.generated.js",
+      "status": 200,
+      "bytes": 4463,
+      "sha256": "7dfe122498f14ac79cd4e74bd77872a4401ee6b6bf4a93ad97f80790f189af35",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/refit_indirect.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/refit_indirect.generated.js",
+      "status": 200,
+      "bytes": 4617,
+      "sha256": "97fa130b81de7f568abfba9eb0e2186512f9b3d027fa88c6521aca909e981c5f",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/cast/shapecast.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/shapecast.js",
+      "status": 200,
+      "bytes": 5344,
+      "sha256": "9fa4aed17f4e2895c2b1a34cb0f072c37acc8ded99868066d4f07fa0e2f570a2",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/utils/BufferStack.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/utils/BufferStack.js",
+      "status": 200,
+      "bytes": 729,
+      "sha256": "c94b20fde61b58d10596ff4c969667eb19ac19f09c7397f3f4fc06449abc0375",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/utils/intersectUtils.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/utils/intersectUtils.js",
+      "status": 200,
+      "bytes": 1686,
+      "sha256": "b98f82110a9c6c45a3b29a9e79583a4f35f0f1f4bd7d126c8fc072112546540c",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/utils/iterationUtils.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/utils/iterationUtils.generated.js",
+      "status": 200,
+      "bytes": 1664,
+      "sha256": "900ed65be866c9f5e39adc523f68c0ecb1c7235d03cff965b7b72378bfd4f58e",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/utils/iterationUtils_indirect.generated.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/utils/iterationUtils_indirect.generated.js",
+      "status": 200,
+      "bytes": 1840,
+      "sha256": "36ca2be43e2776b3de3d32f45a47f53ac7b1aa241396e8199556cdb64b5ade5c",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/core/utils/nodeBufferUtils.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/utils/nodeBufferUtils.js",
+      "status": 200,
+      "bytes": 943,
+      "sha256": "8632a4444c086c1984a471bc75f0902964cbcd52013aba06c73df4403401b0b2",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/debug/Debug.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/debug/Debug.js",
+      "status": 200,
+      "bytes": 7156,
+      "sha256": "89e23aed54b12ad28e92b32aa3a6fad8388946d1eb621e1036b44352a0c789de",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/index.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/index.js",
+      "status": 200,
+      "bytes": 1284,
+      "sha256": "6ca769fd9657673f4a3e1a006af5e34450bd5764bc58c1d641ad227ff3630090",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/math/ExtendedTriangle.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/math/ExtendedTriangle.js",
+      "status": 200,
+      "bytes": 20399,
+      "sha256": "85435041c00fbb0e2e69caecf1289339deef791cd2a8badc08bdca004700436f",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/math/MathUtilities.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/math/MathUtilities.js",
+      "status": 200,
+      "bytes": 4308,
+      "sha256": "9b1f8facd181b29506c32dda303097c3c2515b95c19ac1f5121e8d8a9946154b",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/math/OrientedBox.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/math/OrientedBox.js",
+      "status": 200,
+      "bytes": 11304,
+      "sha256": "5f24dec94ea76ee1c78da7b6593703b4d4c06eccc1e92cafca853477856dc89c",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/math/SeparatingAxisBounds.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/math/SeparatingAxisBounds.js",
+      "status": 200,
+      "bytes": 2391,
+      "sha256": "3e608a7bb5acc71d1f09af9a3b169518ea4de7cc436f11f7d868f5823ac09434",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/objects/BVHHelper.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/objects/BVHHelper.js",
+      "status": 200,
+      "bytes": 10427,
+      "sha256": "d5ad7b77f5c0fcc9bc5fd4f9dfef2d93a6e97dff6f81ad5f701db860d0c29d8e",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/utils/ArrayBoxUtilities.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/ArrayBoxUtilities.js",
+      "status": 200,
+      "bytes": 2015,
+      "sha256": "583898689314c583d53d1eeb627890a3559d879e922ada706424f585a6bff763",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/utils/BufferUtils.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/BufferUtils.js",
+      "status": 200,
+      "bytes": 753,
+      "sha256": "b83540dd60363892ce18082c5910a8e2cc87f37d6e811768830a0f34863b5658",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/utils/ExtendedTrianglePool.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/ExtendedTrianglePool.js",
+      "status": 200,
+      "bytes": 324,
+      "sha256": "b6bf7e421537d4cb7be66f6d7a60a87eb8a96b45b41e51e89e344f81f4295a37",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/utils/ExtensionUtilities.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/ExtensionUtilities.js",
+      "status": 200,
+      "bytes": 7353,
+      "sha256": "bfd3997c8350432e4388e799e93c4dff8b84fa26094558f2f083272ae1f9859b",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/utils/GeometryRayIntersectUtilities.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/GeometryRayIntersectUtilities.js",
+      "status": 200,
+      "bytes": 406,
+      "sha256": "cbb52046616cc9e0c9c5d20e309b8ce5d0b1c7695937a5cf1db8baebdc5b5a34",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/utils/PrimitivePool.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/PrimitivePool.js",
+      "status": 200,
+      "bytes": 397,
+      "sha256": "91c2510b6414084634479cacb9af1dee2f56114025108d68ab0ae01814ba329a",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/utils/StaticGeometryGenerator.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/StaticGeometryGenerator.js",
+      "status": 200,
+      "bytes": 19153,
+      "sha256": "1449a338f92c7c0fe90a41917b991782091b469ccbd94ce052c9a3a157ab0fd2",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/utils/ThreeRayIntersectUtilities.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/ThreeRayIntersectUtilities.js",
+      "status": 200,
+      "bytes": 5329,
+      "sha256": "157bed8831521365f325ed5c4c1827f6d7b7afa0a6cf2b0cbc2ec34df0043240",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/utils/TriangleUtilities.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/TriangleUtilities.js",
+      "status": 200,
+      "bytes": 4189,
+      "sha256": "1b6118e427f613160570f22da94b1016420d1b692610aaade00d74a83736b8ce",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/webgl/BVHShaderGLSL.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/BVHShaderGLSL.js",
+      "status": 200,
+      "bytes": 209,
+      "sha256": "1680ce1b28a7eee5db9f339378c90b2eaffe64b3aa66badad3ab401e8fd4cf1c",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/webgl/MeshBVHUniformStruct.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/MeshBVHUniformStruct.js",
+      "status": 200,
+      "bytes": 5713,
+      "sha256": "44ecf9812b1cf6855863dcef9075edac426ea7697a5f1e723ccd8ba395c71970",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/webgl/VertexAttributeTexture.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/VertexAttributeTexture.js",
+      "status": 200,
+      "bytes": 7747,
+      "sha256": "92faf674385c53a00b53d04f07418caf74dcd7d9c355b68556e2b1d85472c68e",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/webgl/glsl/bvh_distance_functions.glsl.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/glsl/bvh_distance_functions.glsl.js",
+      "status": 200,
+      "bytes": 5860,
+      "sha256": "e8b716d9cf0740a9c0a898d9f6498ba7bc33bc09add5e4fb7f0279092f86e855",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/webgl/glsl/bvh_ray_functions.glsl.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/glsl/bvh_ray_functions.glsl.js",
+      "status": 200,
+      "bytes": 6205,
+      "sha256": "1da5da042843d879e1170086a7f479b70ba89b600603ae3eaceeeafd648475a5",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/webgl/glsl/bvh_struct_definitions.glsl.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/glsl/bvh_struct_definitions.glsl.js",
+      "status": 200,
+      "bytes": 910,
+      "sha256": "e196322216da3954a5bace7c091cd19308b78c0988650ef71a790a5d8c88c97c",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three-mesh-bvh/src/webgl/glsl/common_functions.glsl.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/glsl/common_functions.glsl.js",
+      "status": 200,
+      "bytes": 2582,
+      "sha256": "19ee249214138a0d9aba7712121cccd06780640e53a3f0edb7f80c61780e0bae",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three/build/three.core.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/build/three.core.js",
+      "status": 200,
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three/build/three.module.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/build/three.module.js",
+      "status": 200,
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three/examples/jsm/libs/meshopt_decoder.module.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/examples/jsm/libs/meshopt_decoder.module.js",
+      "status": 200,
+      "bytes": 29256,
+      "sha256": "d428e73a000057c6c94bfcedc3412d0c2dc14ca8800e88553aab05113ad2bf19",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three/examples/jsm/loaders/GLTFLoader.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/examples/jsm/loaders/GLTFLoader.js",
+      "status": 200,
+      "bytes": 117570,
+      "sha256": "131c0f78c01d19368ae495caa65b3adaa10487810a36a05bb5901b769a35ac16",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three/examples/jsm/utils/BufferGeometryUtils.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/examples/jsm/utils/BufferGeometryUtils.js",
+      "status": 200,
+      "bytes": 37712,
+      "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797",
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three/examples/jsm/utils/SkeletonUtils.js",
+      "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/examples/jsm/utils/SkeletonUtils.js",
+      "status": 200,
+      "bytes": 11535,
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f",
+      "mime": "application/javascript; charset=utf-8"
+    }
+  ]
+}

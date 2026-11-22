@@ -1,0 +1,614 @@
+{
+  "source": "https://www.anxiangsir.com/wukong-tiger-engine/",
+  "captured_at": "2026-11-22",
+  "open_exit": 0,
+  "wait_exit": 1,
+  "raw_logs": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/wukong-browser-70ursuna",
+  "screenshot_exit": 0,
+  "observed": {
+    "state": {
+      "state": "loading",
+      "fps": 60,
+      "simTime": 0,
+      "loadError": null
+    },
+    "text": "黑神话：悟空\n第二回 · 卧虎寺 · 虎先锋\n卧虎寺　22.5 MB　(7/27)",
+    "canvas": [
+      {
+        "width": 1280,
+        "height": 577
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/style.css",
+        "type": "link",
+        "size": 3176,
+        "duration": 348.2999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/main.js",
+        "type": "script",
+        "size": 4282,
+        "duration": 370.10000002384186
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/build/three.module.js",
+        "type": "script",
+        "size": 134142,
+        "duration": 527.7000000476837
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/index.js",
+        "type": "script",
+        "size": 790,
+        "duration": 319
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/assets.js",
+        "type": "script",
+        "size": 3915,
+        "duration": 430.10000002384186
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/render.js",
+        "type": "script",
+        "size": 2124,
+        "duration": 430.2999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/collision.js",
+        "type": "script",
+        "size": 2245,
+        "duration": 523.6999999284744
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/character.js",
+        "type": "script",
+        "size": 4762,
+        "duration": 525.1000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/camera.js",
+        "type": "script",
+        "size": 1876,
+        "duration": 426
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/input.js",
+        "type": "script",
+        "size": 1193,
+        "duration": 430.2999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/player.js",
+        "type": "script",
+        "size": 9959,
+        "duration": 524.4000000953674
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/hud.js",
+        "type": "script",
+        "size": 2438,
+        "duration": 525.8000000715256
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/boss.js",
+        "type": "script",
+        "size": 12283,
+        "duration": 525.6000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/touch.js",
+        "type": "script",
+        "size": 3864,
+        "duration": 523.8000000715256
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/debug.js",
+        "type": "script",
+        "size": 1625,
+        "duration": 526
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/hazards.js",
+        "type": "script",
+        "size": 3424,
+        "duration": 525.8000000715256
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/vfx.js",
+        "type": "script",
+        "size": 15427,
+        "duration": 526.6000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/audio.js",
+        "type": "script",
+        "size": 7678,
+        "duration": 525
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/modules.js",
+        "type": "script",
+        "size": 767,
+        "duration": 526.7999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/BVH.js",
+        "type": "script",
+        "size": 3866,
+        "duration": 449.2999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/LineBVH.js",
+        "type": "script",
+        "size": 2749,
+        "duration": 326.7999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/GeometryBVH.js",
+        "type": "script",
+        "size": 2290,
+        "duration": 450.10000002384186
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/MeshBVH.js",
+        "type": "script",
+        "size": 8030,
+        "duration": 450.7999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/objects/BVHHelper.js",
+        "type": "script",
+        "size": 3613,
+        "duration": 315.3000000715256
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/PointsBVH.js",
+        "type": "script",
+        "size": 2303,
+        "duration": 317.10000002384186
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/SkinnedMeshBVH.js",
+        "type": "script",
+        "size": 3331,
+        "duration": 321.40000009536743
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/ObjectBVH.js",
+        "type": "script",
+        "size": 4480,
+        "duration": 451.10000002384186
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/ExtensionUtilities.js",
+        "type": "script",
+        "size": 2462,
+        "duration": 448
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/debug/Debug.js",
+        "type": "script",
+        "size": 2805,
+        "duration": 449.39999997615814
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/Constants.js",
+        "type": "script",
+        "size": 1378,
+        "duration": 450.8000000715256
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/math/OrientedBox.js",
+        "type": "script",
+        "size": 3009,
+        "duration": 329.2000000476837
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/TriangleUtilities.js",
+        "type": "script",
+        "size": 1745,
+        "duration": 449.10000002384186
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/math/ExtendedTriangle.js",
+        "type": "script",
+        "size": 5167,
+        "duration": 451.10000002384186
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/MeshBVHUniformStruct.js",
+        "type": "script",
+        "size": 2190,
+        "duration": 451.39999997615814
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/VertexAttributeTexture.js",
+        "type": "script",
+        "size": 2484,
+        "duration": 448.10000002384186
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/StaticGeometryGenerator.js",
+        "type": "script",
+        "size": 5296,
+        "duration": 448.2999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/BVHShaderGLSL.js",
+        "type": "script",
+        "size": 509,
+        "duration": 448.6999999284744
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/examples/jsm/loaders/GLTFLoader.js",
+        "type": "script",
+        "size": 26702,
+        "duration": 342.2000000476837
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/examples/jsm/libs/meshopt_decoder.module.js",
+        "type": "script",
+        "size": 8032,
+        "duration": 354.10000002384186
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/combat.js",
+        "type": "script",
+        "size": 2546,
+        "duration": 335.2999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/damage.js",
+        "type": "script",
+        "size": 1093,
+        "duration": 692.2999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/locomotion.js",
+        "type": "script",
+        "size": 1686,
+        "duration": 691
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/spells.js",
+        "type": "script",
+        "size": 13087,
+        "duration": 321.89999997615814
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/transform.js",
+        "type": "script",
+        "size": 8252,
+        "duration": 333.7000000476837
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/spirit.js",
+        "type": "script",
+        "size": 5725,
+        "duration": 688.3000000715256
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/stances.js",
+        "type": "script",
+        "size": 8733,
+        "duration": 708.3000000715256
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/vfx_extra.js",
+        "type": "script",
+        "size": 4148,
+        "duration": 748
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/src/stone.js",
+        "type": "script",
+        "size": 7020,
+        "duration": 743.6000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/build/three.core.js",
+        "type": "script",
+        "size": 294847,
+        "duration": 1006.9000000953674
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/ArrayBoxUtilities.js",
+        "type": "script",
+        "size": 985,
+        "duration": 812.1000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/PrimitivePool.js",
+        "type": "script",
+        "size": 488,
+        "duration": 810.7000000476837
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/math/SeparatingAxisBounds.js",
+        "type": "script",
+        "size": 1013,
+        "duration": 798.3999999761581
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/math/MathUtilities.js",
+        "type": "script",
+        "size": 1497,
+        "duration": 887.6000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/glsl/common_functions.glsl.js",
+        "type": "script",
+        "size": 1329,
+        "duration": 772.3000000715256
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/glsl/bvh_distance_functions.glsl.js",
+        "type": "script",
+        "size": 2378,
+        "duration": 779.2000000476837
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/glsl/bvh_struct_definitions.glsl.js",
+        "type": "script",
+        "size": 838,
+        "duration": 782.1000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/webgl/glsl/bvh_ray_functions.glsl.js",
+        "type": "script",
+        "size": 2538,
+        "duration": 791.7999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/utils/nodeBufferUtils.js",
+        "type": "script",
+        "size": 685,
+        "duration": 786.0999999046326
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/shapecast.js",
+        "type": "script",
+        "size": 1815,
+        "duration": 790.5
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/buildTree.js",
+        "type": "script",
+        "size": 2007,
+        "duration": 833.8999999761581
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/bvhcast.js",
+        "type": "script",
+        "size": 2373,
+        "duration": 803.4000000953674
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/BVHTraversalHelper.js",
+        "type": "script",
+        "size": 1133,
+        "duration": 836.6000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/BufferUtils.js",
+        "type": "script",
+        "size": 595,
+        "duration": 767.1000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/geometryUtils.js",
+        "type": "script",
+        "size": 1776,
+        "duration": 769.0999999046326
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/ExtendedTrianglePool.js",
+        "type": "script",
+        "size": 489,
+        "duration": 832.2999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/closestPointToPoint.js",
+        "type": "script",
+        "size": 937,
+        "duration": 773.6000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/utils/iterationUtils.generated.js",
+        "type": "script",
+        "size": 879,
+        "duration": 780
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/raycast.generated.js",
+        "type": "script",
+        "size": 827,
+        "duration": 780.2999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/refit.generated.js",
+        "type": "script",
+        "size": 1652,
+        "duration": 837.1000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/closestPointToGeometry.generated.js",
+        "type": "script",
+        "size": 1835,
+        "duration": 785.1000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/raycastFirst.generated.js",
+        "type": "script",
+        "size": 1462,
+        "duration": 840.7000000476837
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/utils/iterationUtils_indirect.generated.js",
+        "type": "script",
+        "size": 920,
+        "duration": 840.9000000953674
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/intersectsGeometry.generated.js",
+        "type": "script",
+        "size": 1717,
+        "duration": 844.6000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/closestPointToGeometry_indirect.generated.js",
+        "type": "script",
+        "size": 1874,
+        "duration": 789.3999999761581
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/raycast_indirect.generated.js",
+        "type": "script",
+        "size": 835,
+        "duration": 845.6000000238419
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/refit_indirect.generated.js",
+        "type": "script",
+        "size": 1716,
+        "duration": 849.8000000715256
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/raycastFirst_indirect.generated.js",
+        "type": "script",
+        "size": 1439,
+        "duration": 849.8999999761581
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/cast/intersectsGeometry_indirect.generated.js",
+        "type": "script",
+        "size": 1752,
+        "duration": 858
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/GeometryRayIntersectUtilities.js",
+        "type": "script",
+        "size": 554,
+        "duration": 849.7999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/examples/jsm/utils/BufferGeometryUtils.js",
+        "type": "script",
+        "size": 9107,
+        "duration": 816.5
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three/examples/jsm/utils/SkeletonUtils.js",
+        "type": "script",
+        "size": 3512,
+        "duration": 860.5
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/utils/ThreeRayIntersectUtilities.js",
+        "type": "script",
+        "size": 1761,
+        "duration": 344.89999997615814
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/utils/BufferStack.js",
+        "type": "script",
+        "size": 587,
+        "duration": 360
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/utils/intersectUtils.js",
+        "type": "script",
+        "size": 889,
+        "duration": 366.10000002384186
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/BVHNode.js",
+        "type": "script",
+        "size": 546,
+        "duration": 319.7999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/computeBoundsUtils.js",
+        "type": "script",
+        "size": 930,
+        "duration": 339.6999999284744
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/sortUtils.js",
+        "type": "script",
+        "size": 957,
+        "duration": 450.89999997615814
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/splitUtils.js",
+        "type": "script",
+        "size": 2295,
+        "duration": 451.1999999284744
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/vendor/three-mesh-bvh/src/core/build/buildUtils.js",
+        "type": "script",
+        "size": 1131,
+        "duration": 342.2999999523163
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/arena/arena.json",
+        "type": "fetch",
+        "size": 2861,
+        "duration": 311.5
+      },
+      {
+        "url": "https://www.anxiangsir.com/favicon.ico",
+        "type": "other",
+        "size": 1278,
+        "duration": 87.80000007152557
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/arena/arena.json",
+        "type": "fetch",
+        "size": 2861,
+        "duration": 200.09999990463257
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/tiger/stone_decoy.glb",
+        "type": "fetch",
+        "size": 30982,
+        "duration": 17655.200000047684
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/tiger/tiger.anims.json",
+        "type": "fetch",
+        "size": 374758,
+        "duration": 69362.70000004768
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/player/wukong.anims.json",
+        "type": "fetch",
+        "size": 138713,
+        "duration": 89946
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/tiger.json",
+        "type": "fetch",
+        "size": 35315,
+        "duration": 80000.29999995232
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/data/player.json",
+        "type": "fetch",
+        "size": 11494,
+        "duration": 40027.299999952316
+      },
+      {
+        "url": "https://www.anxiangsir.com/wukong-tiger-engine/assets/vfx/vfx.json",
+        "type": "fetch",
+        "size": 18539,
+        "duration": 79999.89999997616
+      }
+    ]
+  },
+  "assessment": "Online loading not ready within 90 seconds; gameplay not verified"
+}

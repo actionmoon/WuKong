@@ -1,0 +1,160 @@
+{
+  "verified_files": 161,
+  "total_bytes": 88946212,
+  "integrity_failures": [],
+  "resolved_texture_paths": [
+    "assets/vfx/T_FluidSmoke_03_D.webp",
+    "assets/vfx/T_Trai_mohul.webp",
+    "assets/vfx/T_Venus_Trail.webp",
+    "assets/vfx/T_ember_Fire0001.webp",
+    "assets/vfx/spells_atypical027.webp",
+    "assets/vfx/spells_ding.webp",
+    "assets/vfx/spells_fire8x8.webp",
+    "assets/vfx/spells_flare04.webp",
+    "assets/vfx/spells_flare20.webp",
+    "assets/vfx/spells_smoke8x8.webp"
+  ],
+  "unresolved_downloads": [
+    {
+      "path": "favicon.ico",
+      "url": "https://www.anxiangsir.com/favicon.ico",
+      "error": "HTTP Error 404: Not Found",
+      "discovered_by": "local reference browser request"
+    }
+  ],
+  "glb": [
+    {
+      "path": "assets/arena/arena.glb",
+      "valid_header": true,
+      "meshes": 570,
+      "skins": 0,
+      "animations": 0,
+      "images": 940,
+      "extensions_required": [
+        "KHR_mesh_quantization",
+        "KHR_meshopt_compression",
+        "EXT_texture_webp",
+        "EXT_mesh_gpu_instancing"
+      ]
+    },
+    {
+      "path": "assets/player/bianhua.glb",
+      "valid_header": true,
+      "meshes": 0,
+      "skins": 0,
+      "animations": 4,
+      "images": 0,
+      "extensions_required": [
+        "KHR_mesh_quantization",
+        "KHR_meshopt_compression"
+      ]
+    },
+    {
+      "path": "assets/player/spells.glb",
+      "valid_header": true,
+      "meshes": 0,
+      "skins": 0,
+      "animations": 7,
+      "images": 0,
+      "extensions_required": [
+        "KHR_mesh_quantization",
+        "KHR_meshopt_compression"
+      ]
+    },
+    {
+      "path": "assets/player/stances.glb",
+      "valid_header": true,
+      "meshes": 0,
+      "skins": 0,
+      "animations": 45,
+      "images": 0,
+      "extensions_required": [
+        "KHR_mesh_quantization",
+        "KHR_meshopt_compression"
+      ]
+    },
+    {
+      "path": "assets/player/wukong.glb",
+      "valid_header": true,
+      "meshes": 8,
+      "skins": 2,
+      "animations": 107,
+      "images": 36,
+      "extensions_required": [
+        "KHR_mesh_quantization",
+        "KHR_meshopt_compression",
+        "EXT_texture_webp"
+      ]
+    },
+    {
+      "path": "assets/spirit/gycy_she.glb",
+      "valid_header": true,
+      "meshes": 1,
+      "skins": 1,
+      "animations": 1,
+      "images": 13,
+      "extensions_required": [
+        "KHR_mesh_quantization",
+        "KHR_meshopt_compression",
+        "EXT_texture_webp"
+      ]
+    },
+    {
+      "path": "assets/spirit/gycy_shebang.glb",
+      "valid_header": true,
+      "meshes": 1,
+      "skins": 1,
+      "animations": 4,
+      "images": 2,
+      "extensions_required": [
+        "KHR_mesh_quantization",
+        "KHR_meshopt_compression",
+        "EXT_texture_webp"
+      ]
+    },
+    {
+      "path": "assets/tiger/stone_decoy.glb",
+      "valid_header": true,
+      "meshes": 1,
+      "skins": 0,
+      "animations": 0,
+      "images": 0,
+      "extensions_required": [
+        "KHR_mesh_quantization",
+        "KHR_meshopt_compression"
+      ]
+    },
+    {
+      "path": "assets/tiger/tiger.glb",
+      "valid_header": true,
+      "meshes": 2,
+      "skins": 1,
+      "animations": 81,
+      "images": 14,
+      "extensions_required": [
+        "KHR_mesh_quantization",
+        "KHR_meshopt_compression",
+        "EXT_texture_webp"
+      ]
+    },
+    {
+      "path": "assets/transform/gycy_lang.glb",
+      "valid_header": true,
+      "meshes": 2,
+      "skins": 1,
+      "animations": 55,
+      "images": 14,
+      "extensions_required": [
+        "KHR_mesh_quantization",
+        "KHR_meshopt_compression",
+        "EXT_texture_webp"
+      ]
+    }
+  ],
+  "runtime_discovered_files": [
+    "assets/vfx/T_HFM_HuStone_D.webp",
+    "assets/vfx/T_HFM_HuStone_Weapon_D.webp",
+    "assets/vfx/T_HFM_HuStone_N.webp",
+    "favicon.ico"
+  ]
+}

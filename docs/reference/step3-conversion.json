@@ -1,0 +1,1311 @@
+{
+  "collision": {
+    "sourceVertices": 457494,
+    "triangles": 846228,
+    "chunks": [
+      {
+        "file": "Collision_-11_1.bytes",
+        "vertices": 3,
+        "triangles": 1
+      },
+      {
+        "file": "Collision_-11_2.bytes",
+        "vertices": 9,
+        "triangles": 4
+      },
+      {
+        "file": "Collision_-10_-2.bytes",
+        "vertices": 190,
+        "triangles": 318
+      },
+      {
+        "file": "Collision_-10_-1.bytes",
+        "vertices": 280,
+        "triangles": 474
+      },
+      {
+        "file": "Collision_-10_0.bytes",
+        "vertices": 290,
+        "triangles": 489
+      },
+      {
+        "file": "Collision_-10_1.bytes",
+        "vertices": 297,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_-10_2.bytes",
+        "vertices": 104,
+        "triangles": 150
+      },
+      {
+        "file": "Collision_-9_-5.bytes",
+        "vertices": 4,
+        "triangles": 2
+      },
+      {
+        "file": "Collision_-9_-2.bytes",
+        "vertices": 204,
+        "triangles": 347
+      },
+      {
+        "file": "Collision_-9_-1.bytes",
+        "vertices": 302,
+        "triangles": 513
+      },
+      {
+        "file": "Collision_-9_0.bytes",
+        "vertices": 302,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_-9_1.bytes",
+        "vertices": 295,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_-9_2.bytes",
+        "vertices": 112,
+        "triangles": 166
+      },
+      {
+        "file": "Collision_-9_6.bytes",
+        "vertices": 21,
+        "triangles": 38
+      },
+      {
+        "file": "Collision_-8_-5.bytes",
+        "vertices": 12,
+        "triangles": 24
+      },
+      {
+        "file": "Collision_-8_-4.bytes",
+        "vertices": 12,
+        "triangles": 20
+      },
+      {
+        "file": "Collision_-8_-2.bytes",
+        "vertices": 201,
+        "triangles": 327
+      },
+      {
+        "file": "Collision_-8_-1.bytes",
+        "vertices": 520,
+        "triangles": 803
+      },
+      {
+        "file": "Collision_-8_0.bytes",
+        "vertices": 364,
+        "triangles": 633
+      },
+      {
+        "file": "Collision_-8_1.bytes",
+        "vertices": 1187,
+        "triangles": 1665
+      },
+      {
+        "file": "Collision_-8_2.bytes",
+        "vertices": 991,
+        "triangles": 1251
+      },
+      {
+        "file": "Collision_-8_3.bytes",
+        "vertices": 31,
+        "triangles": 76
+      },
+      {
+        "file": "Collision_-8_4.bytes",
+        "vertices": 24,
+        "triangles": 60
+      },
+      {
+        "file": "Collision_-8_5.bytes",
+        "vertices": 19,
+        "triangles": 39
+      },
+      {
+        "file": "Collision_-8_6.bytes",
+        "vertices": 28,
+        "triangles": 47
+      },
+      {
+        "file": "Collision_-7_-4.bytes",
+        "vertices": 23,
+        "triangles": 56
+      },
+      {
+        "file": "Collision_-7_-3.bytes",
+        "vertices": 32,
+        "triangles": 76
+      },
+      {
+        "file": "Collision_-7_-2.bytes",
+        "vertices": 231,
+        "triangles": 354
+      },
+      {
+        "file": "Collision_-7_-1.bytes",
+        "vertices": 1078,
+        "triangles": 1628
+      },
+      {
+        "file": "Collision_-7_0.bytes",
+        "vertices": 403,
+        "triangles": 686
+      },
+      {
+        "file": "Collision_-7_1.bytes",
+        "vertices": 1284,
+        "triangles": 1598
+      },
+      {
+        "file": "Collision_-7_2.bytes",
+        "vertices": 1445,
+        "triangles": 1922
+      },
+      {
+        "file": "Collision_-7_3.bytes",
+        "vertices": 52,
+        "triangles": 59
+      },
+      {
+        "file": "Collision_-7_4.bytes",
+        "vertices": 64,
+        "triangles": 77
+      },
+      {
+        "file": "Collision_-7_5.bytes",
+        "vertices": 85,
+        "triangles": 111
+      },
+      {
+        "file": "Collision_-7_6.bytes",
+        "vertices": 148,
+        "triangles": 236
+      },
+      {
+        "file": "Collision_-7_7.bytes",
+        "vertices": 112,
+        "triangles": 153
+      },
+      {
+        "file": "Collision_-7_8.bytes",
+        "vertices": 120,
+        "triangles": 176
+      },
+      {
+        "file": "Collision_-7_9.bytes",
+        "vertices": 134,
+        "triangles": 198
+      },
+      {
+        "file": "Collision_-7_10.bytes",
+        "vertices": 49,
+        "triangles": 72
+      },
+      {
+        "file": "Collision_-6_-6.bytes",
+        "vertices": 122,
+        "triangles": 197
+      },
+      {
+        "file": "Collision_-6_-5.bytes",
+        "vertices": 241,
+        "triangles": 404
+      },
+      {
+        "file": "Collision_-6_-4.bytes",
+        "vertices": 249,
+        "triangles": 421
+      },
+      {
+        "file": "Collision_-6_-3.bytes",
+        "vertices": 260,
+        "triangles": 445
+      },
+      {
+        "file": "Collision_-6_-2.bytes",
+        "vertices": 406,
+        "triangles": 590
+      },
+      {
+        "file": "Collision_-6_-1.bytes",
+        "vertices": 1837,
+        "triangles": 2965
+      },
+      {
+        "file": "Collision_-6_0.bytes",
+        "vertices": 2148,
+        "triangles": 3941
+      },
+      {
+        "file": "Collision_-6_1.bytes",
+        "vertices": 950,
+        "triangles": 1561
+      },
+      {
+        "file": "Collision_-6_2.bytes",
+        "vertices": 925,
+        "triangles": 1252
+      },
+      {
+        "file": "Collision_-6_3.bytes",
+        "vertices": 4128,
+        "triangles": 7742
+      },
+      {
+        "file": "Collision_-6_4.bytes",
+        "vertices": 1609,
+        "triangles": 2866
+      },
+      {
+        "file": "Collision_-6_5.bytes",
+        "vertices": 349,
+        "triangles": 600
+      },
+      {
+        "file": "Collision_-6_6.bytes",
+        "vertices": 419,
+        "triangles": 679
+      },
+      {
+        "file": "Collision_-6_7.bytes",
+        "vertices": 384,
+        "triangles": 640
+      },
+      {
+        "file": "Collision_-6_8.bytes",
+        "vertices": 377,
+        "triangles": 640
+      },
+      {
+        "file": "Collision_-6_9.bytes",
+        "vertices": 377,
+        "triangles": 625
+      },
+      {
+        "file": "Collision_-6_10.bytes",
+        "vertices": 126,
+        "triangles": 199
+      },
+      {
+        "file": "Collision_-5_-6.bytes",
+        "vertices": 153,
+        "triangles": 250
+      },
+      {
+        "file": "Collision_-5_-5.bytes",
+        "vertices": 303,
+        "triangles": 511
+      },
+      {
+        "file": "Collision_-5_-4.bytes",
+        "vertices": 299,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_-5_-3.bytes",
+        "vertices": 299,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_-5_-2.bytes",
+        "vertices": 325,
+        "triangles": 525
+      },
+      {
+        "file": "Collision_-5_-1.bytes",
+        "vertices": 306,
+        "triangles": 522
+      },
+      {
+        "file": "Collision_-5_0.bytes",
+        "vertices": 317,
+        "triangles": 541
+      },
+      {
+        "file": "Collision_-5_1.bytes",
+        "vertices": 936,
+        "triangles": 1594
+      },
+      {
+        "file": "Collision_-5_2.bytes",
+        "vertices": 3921,
+        "triangles": 5812
+      },
+      {
+        "file": "Collision_-5_3.bytes",
+        "vertices": 2099,
+        "triangles": 3850
+      },
+      {
+        "file": "Collision_-5_4.bytes",
+        "vertices": 1701,
+        "triangles": 3068
+      },
+      {
+        "file": "Collision_-5_5.bytes",
+        "vertices": 2031,
+        "triangles": 3735
+      },
+      {
+        "file": "Collision_-5_6.bytes",
+        "vertices": 402,
+        "triangles": 654
+      },
+      {
+        "file": "Collision_-5_7.bytes",
+        "vertices": 379,
+        "triangles": 641
+      },
+      {
+        "file": "Collision_-5_8.bytes",
+        "vertices": 371,
+        "triangles": 640
+      },
+      {
+        "file": "Collision_-5_9.bytes",
+        "vertices": 368,
+        "triangles": 623
+      },
+      {
+        "file": "Collision_-5_10.bytes",
+        "vertices": 136,
+        "triangles": 224
+      },
+      {
+        "file": "Collision_-4_-6.bytes",
+        "vertices": 138,
+        "triangles": 226
+      },
+      {
+        "file": "Collision_-4_-5.bytes",
+        "vertices": 298,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_-4_-4.bytes",
+        "vertices": 659,
+        "triangles": 1083
+      },
+      {
+        "file": "Collision_-4_-3.bytes",
+        "vertices": 764,
+        "triangles": 1119
+      },
+      {
+        "file": "Collision_-4_-2.bytes",
+        "vertices": 326,
+        "triangles": 528
+      },
+      {
+        "file": "Collision_-4_-1.bytes",
+        "vertices": 314,
+        "triangles": 524
+      },
+      {
+        "file": "Collision_-4_0.bytes",
+        "vertices": 1275,
+        "triangles": 1905
+      },
+      {
+        "file": "Collision_-4_1.bytes",
+        "vertices": 794,
+        "triangles": 1103
+      },
+      {
+        "file": "Collision_-4_2.bytes",
+        "vertices": 3847,
+        "triangles": 6643
+      },
+      {
+        "file": "Collision_-4_3.bytes",
+        "vertices": 9613,
+        "triangles": 16682
+      },
+      {
+        "file": "Collision_-4_4.bytes",
+        "vertices": 4459,
+        "triangles": 8302
+      },
+      {
+        "file": "Collision_-4_5.bytes",
+        "vertices": 1067,
+        "triangles": 1865
+      },
+      {
+        "file": "Collision_-4_6.bytes",
+        "vertices": 423,
+        "triangles": 666
+      },
+      {
+        "file": "Collision_-4_7.bytes",
+        "vertices": 402,
+        "triangles": 672
+      },
+      {
+        "file": "Collision_-4_8.bytes",
+        "vertices": 398,
+        "triangles": 681
+      },
+      {
+        "file": "Collision_-4_9.bytes",
+        "vertices": 391,
+        "triangles": 647
+      },
+      {
+        "file": "Collision_-4_10.bytes",
+        "vertices": 152,
+        "triangles": 246
+      },
+      {
+        "file": "Collision_-3_-6.bytes",
+        "vertices": 130,
+        "triangles": 205
+      },
+      {
+        "file": "Collision_-3_-5.bytes",
+        "vertices": 2902,
+        "triangles": 5000
+      },
+      {
+        "file": "Collision_-3_-4.bytes",
+        "vertices": 12216,
+        "triangles": 22791
+      },
+      {
+        "file": "Collision_-3_-3.bytes",
+        "vertices": 2497,
+        "triangles": 3573
+      },
+      {
+        "file": "Collision_-3_-2.bytes",
+        "vertices": 4771,
+        "triangles": 7955
+      },
+      {
+        "file": "Collision_-3_-1.bytes",
+        "vertices": 7512,
+        "triangles": 12748
+      },
+      {
+        "file": "Collision_-3_0.bytes",
+        "vertices": 10025,
+        "triangles": 15531
+      },
+      {
+        "file": "Collision_-3_1.bytes",
+        "vertices": 17909,
+        "triangles": 31643
+      },
+      {
+        "file": "Collision_-3_2.bytes",
+        "vertices": 24299,
+        "triangles": 45201
+      },
+      {
+        "file": "Collision_-3_3.bytes",
+        "vertices": 15606,
+        "triangles": 27588
+      },
+      {
+        "file": "Collision_-3_4.bytes",
+        "vertices": 3463,
+        "triangles": 6051
+      },
+      {
+        "file": "Collision_-3_5.bytes",
+        "vertices": 3465,
+        "triangles": 6375
+      },
+      {
+        "file": "Collision_-3_6.bytes",
+        "vertices": 811,
+        "triangles": 1181
+      },
+      {
+        "file": "Collision_-3_7.bytes",
+        "vertices": 312,
+        "triangles": 515
+      },
+      {
+        "file": "Collision_-3_8.bytes",
+        "vertices": 287,
+        "triangles": 482
+      },
+      {
+        "file": "Collision_-3_9.bytes",
+        "vertices": 279,
+        "triangles": 460
+      },
+      {
+        "file": "Collision_-3_10.bytes",
+        "vertices": 99,
+        "triangles": 160
+      },
+      {
+        "file": "Collision_-2_-6.bytes",
+        "vertices": 132,
+        "triangles": 194
+      },
+      {
+        "file": "Collision_-2_-5.bytes",
+        "vertices": 787,
+        "triangles": 1202
+      },
+      {
+        "file": "Collision_-2_-4.bytes",
+        "vertices": 2329,
+        "triangles": 3869
+      },
+      {
+        "file": "Collision_-2_-3.bytes",
+        "vertices": 3438,
+        "triangles": 5647
+      },
+      {
+        "file": "Collision_-2_-2.bytes",
+        "vertices": 3032,
+        "triangles": 5236
+      },
+      {
+        "file": "Collision_-2_-1.bytes",
+        "vertices": 6171,
+        "triangles": 10306
+      },
+      {
+        "file": "Collision_-2_0.bytes",
+        "vertices": 31721,
+        "triangles": 59946
+      },
+      {
+        "file": "Collision_-2_1.bytes",
+        "vertices": 12830,
+        "triangles": 24246
+      },
+      {
+        "file": "Collision_-2_2.bytes",
+        "vertices": 1906,
+        "triangles": 3357
+      },
+      {
+        "file": "Collision_-2_3.bytes",
+        "vertices": 11025,
+        "triangles": 20598
+      },
+      {
+        "file": "Collision_-2_4.bytes",
+        "vertices": 1116,
+        "triangles": 1904
+      },
+      {
+        "file": "Collision_-2_5.bytes",
+        "vertices": 1488,
+        "triangles": 2613
+      },
+      {
+        "file": "Collision_-2_6.bytes",
+        "vertices": 338,
+        "triangles": 508
+      },
+      {
+        "file": "Collision_-2_7.bytes",
+        "vertices": 123,
+        "triangles": 176
+      },
+      {
+        "file": "Collision_-2_8.bytes",
+        "vertices": 87,
+        "triangles": 132
+      },
+      {
+        "file": "Collision_-2_9.bytes",
+        "vertices": 72,
+        "triangles": 112
+      },
+      {
+        "file": "Collision_-1_-6.bytes",
+        "vertices": 113,
+        "triangles": 165
+      },
+      {
+        "file": "Collision_-1_-5.bytes",
+        "vertices": 3113,
+        "triangles": 3986
+      },
+      {
+        "file": "Collision_-1_-4.bytes",
+        "vertices": 3395,
+        "triangles": 4785
+      },
+      {
+        "file": "Collision_-1_-3.bytes",
+        "vertices": 6442,
+        "triangles": 11985
+      },
+      {
+        "file": "Collision_-1_-2.bytes",
+        "vertices": 3979,
+        "triangles": 7085
+      },
+      {
+        "file": "Collision_-1_-1.bytes",
+        "vertices": 6090,
+        "triangles": 10525
+      },
+      {
+        "file": "Collision_-1_0.bytes",
+        "vertices": 9726,
+        "triangles": 17433
+      },
+      {
+        "file": "Collision_-1_1.bytes",
+        "vertices": 10882,
+        "triangles": 18455
+      },
+      {
+        "file": "Collision_-1_2.bytes",
+        "vertices": 18441,
+        "triangles": 30569
+      },
+      {
+        "file": "Collision_-1_3.bytes",
+        "vertices": 3789,
+        "triangles": 5995
+      },
+      {
+        "file": "Collision_-1_4.bytes",
+        "vertices": 8094,
+        "triangles": 14071
+      },
+      {
+        "file": "Collision_-1_5.bytes",
+        "vertices": 862,
+        "triangles": 1553
+      },
+      {
+        "file": "Collision_-1_6.bytes",
+        "vertices": 804,
+        "triangles": 1404
+      },
+      {
+        "file": "Collision_-1_7.bytes",
+        "vertices": 122,
+        "triangles": 176
+      },
+      {
+        "file": "Collision_-1_8.bytes",
+        "vertices": 87,
+        "triangles": 132
+      },
+      {
+        "file": "Collision_-1_9.bytes",
+        "vertices": 72,
+        "triangles": 112
+      },
+      {
+        "file": "Collision_0_-6.bytes",
+        "vertices": 101,
+        "triangles": 143
+      },
+      {
+        "file": "Collision_0_-5.bytes",
+        "vertices": 3475,
+        "triangles": 4578
+      },
+      {
+        "file": "Collision_0_-4.bytes",
+        "vertices": 4892,
+        "triangles": 7196
+      },
+      {
+        "file": "Collision_0_-3.bytes",
+        "vertices": 2895,
+        "triangles": 4755
+      },
+      {
+        "file": "Collision_0_-2.bytes",
+        "vertices": 4410,
+        "triangles": 7682
+      },
+      {
+        "file": "Collision_0_-1.bytes",
+        "vertices": 6175,
+        "triangles": 10405
+      },
+      {
+        "file": "Collision_0_0.bytes",
+        "vertices": 9740,
+        "triangles": 17263
+      },
+      {
+        "file": "Collision_0_1.bytes",
+        "vertices": 10762,
+        "triangles": 19056
+      },
+      {
+        "file": "Collision_0_2.bytes",
+        "vertices": 29925,
+        "triangles": 55384
+      },
+      {
+        "file": "Collision_0_3.bytes",
+        "vertices": 5716,
+        "triangles": 8338
+      },
+      {
+        "file": "Collision_0_4.bytes",
+        "vertices": 1289,
+        "triangles": 2352
+      },
+      {
+        "file": "Collision_0_5.bytes",
+        "vertices": 869,
+        "triangles": 1554
+      },
+      {
+        "file": "Collision_0_6.bytes",
+        "vertices": 830,
+        "triangles": 1470
+      },
+      {
+        "file": "Collision_0_7.bytes",
+        "vertices": 133,
+        "triangles": 208
+      },
+      {
+        "file": "Collision_0_8.bytes",
+        "vertices": 81,
+        "triangles": 128
+      },
+      {
+        "file": "Collision_0_9.bytes",
+        "vertices": 72,
+        "triangles": 112
+      },
+      {
+        "file": "Collision_1_-6.bytes",
+        "vertices": 87,
+        "triangles": 124
+      },
+      {
+        "file": "Collision_1_-5.bytes",
+        "vertices": 993,
+        "triangles": 1860
+      },
+      {
+        "file": "Collision_1_-4.bytes",
+        "vertices": 424,
+        "triangles": 674
+      },
+      {
+        "file": "Collision_1_-3.bytes",
+        "vertices": 13292,
+        "triangles": 25250
+      },
+      {
+        "file": "Collision_1_-2.bytes",
+        "vertices": 1510,
+        "triangles": 2421
+      },
+      {
+        "file": "Collision_1_-1.bytes",
+        "vertices": 7961,
+        "triangles": 13970
+      },
+      {
+        "file": "Collision_1_0.bytes",
+        "vertices": 8032,
+        "triangles": 13874
+      },
+      {
+        "file": "Collision_1_1.bytes",
+        "vertices": 342,
+        "triangles": 540
+      },
+      {
+        "file": "Collision_1_2.bytes",
+        "vertices": 378,
+        "triangles": 570
+      },
+      {
+        "file": "Collision_1_3.bytes",
+        "vertices": 343,
+        "triangles": 541
+      },
+      {
+        "file": "Collision_1_4.bytes",
+        "vertices": 420,
+        "triangles": 635
+      },
+      {
+        "file": "Collision_1_5.bytes",
+        "vertices": 551,
+        "triangles": 899
+      },
+      {
+        "file": "Collision_1_6.bytes",
+        "vertices": 340,
+        "triangles": 532
+      },
+      {
+        "file": "Collision_1_7.bytes",
+        "vertices": 90,
+        "triangles": 144
+      },
+      {
+        "file": "Collision_1_8.bytes",
+        "vertices": 90,
+        "triangles": 144
+      },
+      {
+        "file": "Collision_1_9.bytes",
+        "vertices": 80,
+        "triangles": 126
+      },
+      {
+        "file": "Collision_2_-6.bytes",
+        "vertices": 85,
+        "triangles": 106
+      },
+      {
+        "file": "Collision_2_-5.bytes",
+        "vertices": 335,
+        "triangles": 535
+      },
+      {
+        "file": "Collision_2_-4.bytes",
+        "vertices": 2296,
+        "triangles": 4318
+      },
+      {
+        "file": "Collision_2_-3.bytes",
+        "vertices": 9082,
+        "triangles": 16056
+      },
+      {
+        "file": "Collision_2_-2.bytes",
+        "vertices": 4396,
+        "triangles": 7082
+      },
+      {
+        "file": "Collision_2_-1.bytes",
+        "vertices": 6305,
+        "triangles": 10622
+      },
+      {
+        "file": "Collision_2_0.bytes",
+        "vertices": 2788,
+        "triangles": 4167
+      },
+      {
+        "file": "Collision_2_1.bytes",
+        "vertices": 353,
+        "triangles": 554
+      },
+      {
+        "file": "Collision_2_2.bytes",
+        "vertices": 344,
+        "triangles": 539
+      },
+      {
+        "file": "Collision_2_3.bytes",
+        "vertices": 300,
+        "triangles": 513
+      },
+      {
+        "file": "Collision_2_4.bytes",
+        "vertices": 321,
+        "triangles": 526
+      },
+      {
+        "file": "Collision_2_5.bytes",
+        "vertices": 322,
+        "triangles": 535
+      },
+      {
+        "file": "Collision_2_6.bytes",
+        "vertices": 347,
+        "triangles": 561
+      },
+      {
+        "file": "Collision_2_7.bytes",
+        "vertices": 81,
+        "triangles": 128
+      },
+      {
+        "file": "Collision_2_8.bytes",
+        "vertices": 81,
+        "triangles": 128
+      },
+      {
+        "file": "Collision_2_9.bytes",
+        "vertices": 72,
+        "triangles": 112
+      },
+      {
+        "file": "Collision_3_-6.bytes",
+        "vertices": 65,
+        "triangles": 82
+      },
+      {
+        "file": "Collision_3_-5.bytes",
+        "vertices": 305,
+        "triangles": 511
+      },
+      {
+        "file": "Collision_3_-4.bytes",
+        "vertices": 447,
+        "triangles": 756
+      },
+      {
+        "file": "Collision_3_-3.bytes",
+        "vertices": 831,
+        "triangles": 1216
+      },
+      {
+        "file": "Collision_3_-2.bytes",
+        "vertices": 403,
+        "triangles": 635
+      },
+      {
+        "file": "Collision_3_-1.bytes",
+        "vertices": 288,
+        "triangles": 511
+      },
+      {
+        "file": "Collision_3_0.bytes",
+        "vertices": 645,
+        "triangles": 1108
+      },
+      {
+        "file": "Collision_3_1.bytes",
+        "vertices": 713,
+        "triangles": 1224
+      },
+      {
+        "file": "Collision_3_2.bytes",
+        "vertices": 395,
+        "triangles": 642
+      },
+      {
+        "file": "Collision_3_3.bytes",
+        "vertices": 305,
+        "triangles": 511
+      },
+      {
+        "file": "Collision_3_4.bytes",
+        "vertices": 304,
+        "triangles": 511
+      },
+      {
+        "file": "Collision_3_5.bytes",
+        "vertices": 316,
+        "triangles": 528
+      },
+      {
+        "file": "Collision_3_6.bytes",
+        "vertices": 334,
+        "triangles": 542
+      },
+      {
+        "file": "Collision_3_7.bytes",
+        "vertices": 81,
+        "triangles": 128
+      },
+      {
+        "file": "Collision_3_8.bytes",
+        "vertices": 81,
+        "triangles": 128
+      },
+      {
+        "file": "Collision_3_9.bytes",
+        "vertices": 72,
+        "triangles": 112
+      },
+      {
+        "file": "Collision_4_-6.bytes",
+        "vertices": 51,
+        "triangles": 62
+      },
+      {
+        "file": "Collision_4_-5.bytes",
+        "vertices": 299,
+        "triangles": 511
+      },
+      {
+        "file": "Collision_4_-4.bytes",
+        "vertices": 292,
+        "triangles": 511
+      },
+      {
+        "file": "Collision_4_-3.bytes",
+        "vertices": 300,
+        "triangles": 514
+      },
+      {
+        "file": "Collision_4_-2.bytes",
+        "vertices": 325,
+        "triangles": 525
+      },
+      {
+        "file": "Collision_4_-1.bytes",
+        "vertices": 298,
+        "triangles": 513
+      },
+      {
+        "file": "Collision_4_0.bytes",
+        "vertices": 320,
+        "triangles": 530
+      },
+      {
+        "file": "Collision_4_1.bytes",
+        "vertices": 681,
+        "triangles": 1193
+      },
+      {
+        "file": "Collision_4_2.bytes",
+        "vertices": 425,
+        "triangles": 699
+      },
+      {
+        "file": "Collision_4_3.bytes",
+        "vertices": 302,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_4_4.bytes",
+        "vertices": 299,
+        "triangles": 511
+      },
+      {
+        "file": "Collision_4_5.bytes",
+        "vertices": 315,
+        "triangles": 529
+      },
+      {
+        "file": "Collision_4_6.bytes",
+        "vertices": 333,
+        "triangles": 551
+      },
+      {
+        "file": "Collision_4_7.bytes",
+        "vertices": 81,
+        "triangles": 128
+      },
+      {
+        "file": "Collision_4_8.bytes",
+        "vertices": 81,
+        "triangles": 128
+      },
+      {
+        "file": "Collision_4_9.bytes",
+        "vertices": 72,
+        "triangles": 112
+      },
+      {
+        "file": "Collision_5_-6.bytes",
+        "vertices": 40,
+        "triangles": 38
+      },
+      {
+        "file": "Collision_5_-5.bytes",
+        "vertices": 302,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_5_-4.bytes",
+        "vertices": 296,
+        "triangles": 513
+      },
+      {
+        "file": "Collision_5_-3.bytes",
+        "vertices": 299,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_5_-2.bytes",
+        "vertices": 335,
+        "triangles": 544
+      },
+      {
+        "file": "Collision_5_-1.bytes",
+        "vertices": 322,
+        "triangles": 529
+      },
+      {
+        "file": "Collision_5_0.bytes",
+        "vertices": 325,
+        "triangles": 524
+      },
+      {
+        "file": "Collision_5_1.bytes",
+        "vertices": 378,
+        "triangles": 602
+      },
+      {
+        "file": "Collision_5_2.bytes",
+        "vertices": 338,
+        "triangles": 528
+      },
+      {
+        "file": "Collision_5_3.bytes",
+        "vertices": 250,
+        "triangles": 426
+      },
+      {
+        "file": "Collision_5_4.bytes",
+        "vertices": 241,
+        "triangles": 411
+      },
+      {
+        "file": "Collision_5_5.bytes",
+        "vertices": 238,
+        "triangles": 397
+      },
+      {
+        "file": "Collision_5_6.bytes",
+        "vertices": 254,
+        "triangles": 415
+      },
+      {
+        "file": "Collision_5_7.bytes",
+        "vertices": 63,
+        "triangles": 96
+      },
+      {
+        "file": "Collision_5_8.bytes",
+        "vertices": 63,
+        "triangles": 96
+      },
+      {
+        "file": "Collision_5_9.bytes",
+        "vertices": 56,
+        "triangles": 84
+      },
+      {
+        "file": "Collision_6_-6.bytes",
+        "vertices": 8,
+        "triangles": 6
+      },
+      {
+        "file": "Collision_6_-5.bytes",
+        "vertices": 65,
+        "triangles": 84
+      },
+      {
+        "file": "Collision_6_-4.bytes",
+        "vertices": 50,
+        "triangles": 62
+      },
+      {
+        "file": "Collision_6_-3.bytes",
+        "vertices": 41,
+        "triangles": 39
+      },
+      {
+        "file": "Collision_6_-2.bytes",
+        "vertices": 50,
+        "triangles": 43
+      },
+      {
+        "file": "Collision_6_-1.bytes",
+        "vertices": 297,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_6_0.bytes",
+        "vertices": 292,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_6_1.bytes",
+        "vertices": 293,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_6_2.bytes",
+        "vertices": 280,
+        "triangles": 481
+      },
+      {
+        "file": "Collision_7_-2.bytes",
+        "vertices": 20,
+        "triangles": 10
+      },
+      {
+        "file": "Collision_7_-1.bytes",
+        "vertices": 306,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_7_0.bytes",
+        "vertices": 300,
+        "triangles": 511
+      },
+      {
+        "file": "Collision_7_1.bytes",
+        "vertices": 301,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_7_2.bytes",
+        "vertices": 297,
+        "triangles": 505
+      },
+      {
+        "file": "Collision_8_-1.bytes",
+        "vertices": 297,
+        "triangles": 506
+      },
+      {
+        "file": "Collision_8_0.bytes",
+        "vertices": 298,
+        "triangles": 513
+      },
+      {
+        "file": "Collision_8_1.bytes",
+        "vertices": 301,
+        "triangles": 512
+      },
+      {
+        "file": "Collision_8_2.bytes",
+        "vertices": 304,
+        "triangles": 519
+      },
+      {
+        "file": "Collision_9_-1.bytes",
+        "vertices": 269,
+        "triangles": 467
+      },
+      {
+        "file": "Collision_9_0.bytes",
+        "vertices": 274,
+        "triangles": 478
+      },
+      {
+        "file": "Collision_9_1.bytes",
+        "vertices": 261,
+        "triangles": 453
+      },
+      {
+        "file": "Collision_9_2.bytes",
+        "vertices": 258,
+        "triangles": 441
+      },
+      {
+        "file": "Collision_9_3.bytes",
+        "vertices": 26,
+        "triangles": 21
+      }
+    ]
+  },
+  "materials": {
+    "materials": 424,
+    "alphaModes": [
+      "BLEND",
+      "MASK",
+      "OPAQUE"
+    ]
+  }
+}

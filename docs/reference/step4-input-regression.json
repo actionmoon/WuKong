@@ -1,0 +1,156 @@
+{
+  "status": "启动通过；屏幕锁定，手动输入回归未执行",
+  "desktopError": "SDK error: The screen is locked; skip tool operation until the screen is unlocked",
+  "processesStopped": [6430, 6473, 6516],
+  "processExitVerified": true,
+  "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-h6qpruxn",
+  "mode": "DedicatedServer",
+  "players": 2,
+  "scene": "Assets/WuKong/Scenes/WuKongTiger.unity",
+  "catalogBuiltAt": "2026-11-22T12:36:55.720462",
+  "fixedTests": [],
+  "serverEvents": [
+    {
+      "line": 1081,
+      "value": {
+        "text": "session-module=true"
+      }
+    },
+    {
+      "line": 1678,
+      "value": {
+        "hp": 390,
+        "ev": "session",
+        "bossHp": 6480.0,
+        "actor": 2
+      }
+    },
+    {
+      "line": 2012,
+      "value": {
+        "hp": 390,
+        "ev": "session",
+        "bossHp": 6480.0,
+        "actor": 3
+      }
+    }
+  ],
+  "clientViews": {
+    "client-1": [
+      {
+        "line": 1712,
+        "value": {
+          "vx": 0.0,
+          "vz": 0.0,
+          "heals": 0,
+          "depleted": 0,
+          "ack": 0,
+          "hits": 0,
+          "t": 0.0087881246581674,
+          "locked": false,
+          "clip": "AS_Wukong_Stand",
+          "pips": 0,
+          "bossHp": 6480.0,
+          "stamina": 250,
+          "mp": 220,
+          "gourd": 6,
+          "play": 0,
+          "kind": "free",
+          "perfect": 0,
+          "time": 0.017576249316335,
+          "focus": 0,
+          "hp": 390,
+          "actorID": 2
+        }
+      },
+      {
+        "line": 2020,
+        "value": {
+          "vx": 0.0,
+          "vz": 0.0,
+          "heals": 0,
+          "depleted": 0,
+          "ack": 0,
+          "hits": 0,
+          "t": 0.025946124456823,
+          "locked": false,
+          "clip": "AS_Wukong_Stand",
+          "pips": 0,
+          "bossHp": 6480.0,
+          "stamina": 250,
+          "mp": 220,
+          "gourd": 6,
+          "play": 0,
+          "kind": "free",
+          "perfect": 0,
+          "time": 0.051892248913646,
+          "focus": 0,
+          "hp": 390,
+          "actorID": 3
+        }
+      }
+    ],
+    "client-2": [
+      {
+        "line": 1919,
+        "value": {
+          "bossHp": 6480.0,
+          "mp": 220,
+          "hits": 0,
+          "depleted": 0,
+          "focus": 0,
+          "locked": false,
+          "pips": 0,
+          "gourd": 6,
+          "clip": "AS_Wukong_Stand",
+          "actorID": 2,
+          "t": 0.75998735539615,
+          "play": 0,
+          "kind": "free",
+          "vx": 0.0,
+          "stamina": 250,
+          "perfect": 0,
+          "time": 1.5199747107923,
+          "hp": 390,
+          "vz": 0.0,
+          "ack": 0,
+          "heals": 0
+        }
+      },
+      {
+        "line": 1974,
+        "value": {
+          "bossHp": 6480.0,
+          "mp": 220,
+          "hits": 0,
+          "depleted": 0,
+          "focus": 0,
+          "locked": false,
+          "pips": 0,
+          "gourd": 6,
+          "clip": "AS_Wukong_Stand",
+          "actorID": 3,
+          "t": 0.025946124456823,
+          "play": 0,
+          "kind": "free",
+          "vx": 0.0,
+          "stamina": 250,
+          "perfect": 0,
+          "time": 0.051892248913646,
+          "hp": 390,
+          "vz": 0.0,
+          "ack": 0,
+          "heals": 0
+        }
+      }
+    ]
+  },
+  "hitReplication": [],
+  "luaErrors": {
+    "server": [],
+    "client-1": [],
+    "client-2": []
+  },
+  "replay": [],
+  "dedupUnique": true
+}

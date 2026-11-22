@@ -1,0 +1,349 @@
+{
+  "lua": "5.3",
+  "tests": [
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "contracts-have-116-clips"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "stance-switch-and-independent-context"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "pillar-grow-to-three-and-release"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "pillar-depleted-falls-thrust-depleted-releases"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "thrust-release-uses-current-focus"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "spin-loop-cost-repeat-and-release"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "spin-intercepts-swept-projectile"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "pillar-body-raised-staff-costs-no-hp"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "shipo-parry-guansuo-q3-and-hit-followup"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "shipo-expired-receives-hit"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "zhangun-requires-hit-mark-and-focus"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "pillar-fengyunzhuan-and-thrust-followup"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "cast-resource-cooldown-and-input-window"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "normal-immobilize-cost-freeze-and-timer"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "precise-immobilize-cooldown-and-vulnerability"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "immobilize-repeated-min-and-damage-break"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "immobilize-immune-still-pays-and-precast-interrupt"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "cloud-taunt-cost-strike-and-exit"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "cloud-timer-and-no-magic-protection"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "transform-separate-resources-manual-return"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "transform-hp-zero-reverts-without-defeat"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "transform-energy-exhaustion-and-not-full-rejected"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "transform-light-hit-effects-and-heavy-trigger-cost"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "transform-fire-direction-heavy-and-r2-hit-follow"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "transform-perfect-dodge-full-focus-and-gourd-block"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "spirit-mutual-exclusion-energy-and-recover"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "spirit-summons-two-ground-points-bullets-hit-and-expire"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "spirit-break-armor-restores-and-energy-gain-table"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "landed-base-light-hit-recovers-vigor-once"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "victory-in-form-restores-player-and-clears-summons"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "skillsFixedTest",
+      "name": "death-retry-clears-skills-and-full-energy"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "51-skill-clips-and-bullet-rows"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "ready-force-box-perception"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "sight-cone-hearing"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "five-hp-phases"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "near-far-candidate-range-and-cooldown"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "source-section-and-rate-timeline"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "armor-breaking-hit-continues-next-hit-reacts"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "stone-immune-rebound-and-counter"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "melee-sweep-once-per-window"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "projectile-spawn-lifetime-and-repeat-interval"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "switch-projectile-removes-missing-destination"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "stone-decoy-expiry"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "stone-decoy-player-rebound-and-buff"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "teleport-inside-arena-facing-player"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "victory-delay-retry-clears-all-resources"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "defeat-delay-retry-and-context-isolation"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "retry-waits-for-observed-player-spawn"
+    },
+    {
+      "actor": 1,
+      "pass": true,
+      "ev": "bossFixedTest",
+      "name": "all-skill-timelines-execute"
+    },
+    {
+      "pass": true,
+      "ev": "fixedTest",
+      "name": "damage-formula"
+    },
+    {
+      "pass": true,
+      "ev": "fixedTest",
+      "name": "five-light-combo"
+    },
+    {
+      "pass": true,
+      "ev": "fixedTest",
+      "name": "group-hit-dedup-and-new-play"
+    },
+    {
+      "pass": true,
+      "ev": "fixedTest",
+      "name": "dodge-cancel"
+    },
+    {
+      "pass": true,
+      "ev": "fixedTest",
+      "name": "heavy-charge-level-1"
+    },
+    {
+      "pass": true,
+      "ev": "fixedTest",
+      "name": "depletion-and-recovery"
+    },
+    {
+      "pass": true,
+      "ev": "fixedTest",
+      "name": "iframe-and-after-window"
+    },
+    {
+      "pass": true,
+      "ev": "fixedTest",
+      "name": "perfect-dodge-once"
+    },
+    {
+      "pass": true,
+      "ev": "fixedTest",
+      "name": "gourd-time-and-once"
+    },
+    {
+      "pass": true,
+      "ev": "fixedTest",
+      "name": "gourd-interrupted-before-heal"
+    }
+  ]
+}

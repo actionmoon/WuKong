@@ -1,0 +1,132 @@
+[
+  {
+    "view": "spawn",
+    "path": "docs/reference/step3-reference-spawn-wk-arena-114152.png",
+    "camera": [
+      0,
+      1.5854712164571172,
+      -4.525680986825359
+    ],
+    "fov": 55,
+    "state": {
+      "boss": {
+        "alive": true,
+        "aware": false,
+        "clip": "AS_HFM_Hu_Stone_Bstd_01",
+        "clipTime": 0.458,
+        "comboBudget": 0,
+        "fsm": "BATTLE_ATTACK",
+        "grounded": true,
+        "hp": 6480,
+        "maxHp": 6480,
+        "phase": "hp>85",
+        "pos": [
+          -1.226,
+          -6.343,
+          48.157
+        ],
+        "skill": null,
+        "state": "idle",
+        "task": null,
+        "watchTime": 0,
+        "yaw": -3.023
+      },
+      "fps": 16.6,
+      "loadError": null,
+      "player": {
+        "action": null,
+        "clip": "AS_Wukong_Stand",
+        "clipTime": 0.458,
+        "focus": 0,
+        "focusPips": 0,
+        "gourd": 6,
+        "grounded": true,
+        "hp": 390,
+        "invuln": true,
+        "lockOn": false,
+        "maxHp": 390,
+        "mp": 220,
+        "pos": [
+          0,
+          -1.237,
+          0
+        ],
+        "stamina": 250,
+        "state": "idle",
+        "yaw": -0.025
+      },
+      "simTime": 0.46,
+      "state": "fight"
+    },
+    "target": [
+      0,
+      0.7619351786983259,
+      0
+    ]
+  },
+  {
+    "view": "blood-pool",
+    "path": "docs/reference/step3-reference-blood-pool-wk-arena-114152.png",
+    "camera": [
+      0,
+      -3.5962280094824197,
+      37.47431901317464
+    ],
+    "fov": 55,
+    "state": {
+      "boss": {
+        "alive": true,
+        "aware": true,
+        "clip": "AS_HFM_Hu_Stone_Bstd_01",
+        "clipTime": 0.84,
+        "comboBudget": 0,
+        "fsm": "BATTLE_ATTACK",
+        "grounded": true,
+        "hp": 6480,
+        "maxHp": 6480,
+        "phase": "hp>85",
+        "pos": [
+          -1.226,
+          -6.343,
+          48.157
+        ],
+        "skill": null,
+        "state": "idle",
+        "task": null,
+        "watchTime": 0,
+        "yaw": -3.023
+      },
+      "fps": 21.5,
+      "loadError": null,
+      "player": {
+        "action": null,
+        "clip": "AS_Wukong_Stand",
+        "clipTime": 0.84,
+        "focus": 0,
+        "focusPips": 0,
+        "gourd": 6,
+        "grounded": true,
+        "hp": 390,
+        "invuln": true,
+        "lockOn": false,
+        "maxHp": 390,
+        "mp": 220,
+        "pos": [
+          0,
+          -6.419,
+          42
+        ],
+        "stamina": 250,
+        "state": "idle",
+        "yaw": -0.025
+      },
+      "simTime": 0.84,
+      "state": "fight"
+    },
+    "target": [
+      0,
+      -4.419764047241211,
+      42
+    ]
+  }
+]

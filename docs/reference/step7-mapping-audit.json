@@ -1,0 +1,27 @@
+{
+  "unmappedAudioCues": {
+    "Player_WK_ATK_Impact_ComboA_q5": 2,
+    "Player_WK_Action_Whoosh_Light": 2,
+    "HAP_player_behit_sl01": 15,
+    "HAP_player_behit_sl02": 11,
+    "HAP_player_behit_sl03": 8,
+    "HAP_player_behit_sl04": 6,
+    "HAP_player_behit_sl05": 4,
+    "HAP_player_behit_sl06": 3,
+    "HAP_player_behit_sl07": 4,
+    "Wukong_Voice_Attack_Light": 1,
+    "EVT_hud_player_dead_tishi": 4,
+    "ENM_HFM_Hu_Stone_01_Voice_ATK_Mid_Light": 2
+  },
+  "unmappedVfxCues": {
+    "NG_wukong_HS_In": 1,
+    "NG_wukong_HS_InBurst": 1,
+    "NG_wukong_chenggun_baofa": 7,
+    "NG_WuKong_WeaponTrail_Qiang": 3,
+    "NG__wukong_comboc_z_01_smoke_loop": 1,
+    "NG_yangjian_parry_lv2": 3
+  },
+  "luaSyntaxFiles": 31,
+  "fixedTestCount": 59,
+  "fixedTestsPassed": true
+}

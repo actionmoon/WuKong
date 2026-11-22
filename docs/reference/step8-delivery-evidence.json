@@ -1,0 +1,969 @@
+{
+  "recordedAt": "2026-11-22T16:24:00.908861+08:00",
+  "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/session.json",
+  "scene": "unity/Assets/WuKong/Scenes/WuKongTiger.unity",
+  "sceneSavedAt": "2026-11-22T16:16:29.088344+08:00",
+  "sceneSHA256": "6b493e3256f64e9392a30d07d62188e512a2c626977a048201e13f56a5808768",
+  "catalogs": [
+    {
+      "path": "unity/Library/com.unity.addressables/aa/OSX/catalog.json",
+      "bytes": 12736,
+      "sha256": "adfdf1bbcba4d10e27024770b38c163334ea481f5a34cf23772cb9abbe1e683e",
+      "modifiedAt": "2026-11-22T16:16:45.850879+08:00"
+    },
+    {
+      "path": "unity/AddressableAssetsData/StandaloneOSX/WuKongTiger/OSX/addrsettingcache/catalog.json",
+      "bytes": 12736,
+      "sha256": "adfdf1bbcba4d10e27024770b38c163334ea481f5a34cf23772cb9abbe1e683e",
+      "modifiedAt": "2026-11-22T16:16:45.850879+08:00"
+    }
+  ],
+  "bundles": [
+    {
+      "path": "unity/AddressableAssetsData/StandaloneOSX/WuKongTiger/979ebaa5a17ed2834a47fa1373510580_monoscripts_df3266c4b35da5df56123cad93d6475b.bundle",
+      "bytes": 6048,
+      "sha256": "04e4d6dac9856874b7530f35021506b2797358f40f7ad65d98963319d3b1d701"
+    },
+    {
+      "path": "unity/AddressableAssetsData/StandaloneOSX/WuKongTiger/duplicateassetisolation_assets_all_d3b9122b6cb7b82630806181603b8ef0.bundle",
+      "bytes": 2621067,
+      "sha256": "1398adcfc8e71d7c59ea6217dbce5c649b5e11092336903f59800b36947c5c80"
+    },
+    {
+      "path": "unity/AddressableAssetsData/StandaloneOSX/WuKongTiger/wukongtiger_assets_assets/wukong/scenes/wukongtiger.shadervariants_0dec9ebdb891d6e0901e584034a047eb.bundle",
+      "bytes": 170128,
+      "sha256": "85965a77f8d8971ac3f7de6b34580cb5e1276ef2ed4f15dedb04968e81d26e5f"
+    },
+    {
+      "path": "unity/AddressableAssetsData/StandaloneOSX/WuKongTiger/wukongtiger_scenes_assets/wukong/scenes/wukongtiger.unity_df925f1e2ecdc20954fc33cff8da8146.bundle",
+      "bytes": 1324679840,
+      "sha256": "94a2f3b7de3a5b63f68462920bb8ac21261c6248c7d623117fc9c3883c9ab048"
+    }
+  ],
+  "referenceFilesChecked": 161,
+  "referenceMismatches": [],
+  "luaSyntax": [
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/ArenaPresentation.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/AvatarVisualSample.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/BossPresentation.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/CombatInput.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/PresentationAudio.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/PresentationFX.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/PresentationHUD.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/PresentationMetrics.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/BossSession.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/BossTests.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/ChallengeSession.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/CombatSession.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/FormSession.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/ServerConfig.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/SkillsSession.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/SkillsTests.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/SpellSession.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/StanceSession.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/index.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/ServerBoot.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/ArenaTrigger.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/CombatState.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/ArenaConfig.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/BossConfig.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/CombatClock.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/CombatConfig.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/SampleConfig.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/SkillsConfig.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/dkjson.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/index.lua",
+      "pass": true,
+      "error": null
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/SampleState.lua",
+      "pass": true,
+      "error": null
+    }
+  ],
+  "sources": [
+    {
+      "path": "unity/Assets/WuKong/Art/ArenaPacked/materials.json",
+      "bytes": 180755,
+      "sha256": "5cb43cbe50be25c8f300f9a12943194b2719a2a974641268b1bae14f834a24f0"
+    },
+    {
+      "path": "unity/Assets/WuKong/Editor/WuKongArenaBuilder.cs",
+      "bytes": 20088,
+      "sha256": "6138db5de3435403e6c290713e2ccd8a90d8da27ddfb11bc3bf43f33143fc986"
+    },
+    {
+      "path": "unity/Assets/WuKong/Editor/WuKongBossBuilder.cs",
+      "bytes": 5052,
+      "sha256": "d982e70a3283491ca23b3f29a883b7235452bb5885c0422956aed89d390f8ae3"
+    },
+    {
+      "path": "unity/Assets/WuKong/Editor/WuKongCombatBuilder.cs",
+      "bytes": 3386,
+      "sha256": "02d5a145ec4ff9d0ad0ecd0c164ceea3dfab55bd6af82b9f2983d4e19a993a40"
+    },
+    {
+      "path": "unity/Assets/WuKong/Editor/WuKongPresentationBuilder.cs",
+      "bytes": 16524,
+      "sha256": "5cf8d28b57210ce2035e5ae9704761257c51e4b392d0063c4f1eeff637cc304d"
+    },
+    {
+      "path": "unity/Assets/WuKong/Editor/WuKongSampleBuilder.cs",
+      "bytes": 8688,
+      "sha256": "f02b44ff1e009aeac074d253a4ab4c2ce3026ea486a777879814c21dae2ca130"
+    },
+    {
+      "path": "unity/Assets/WuKong/Editor/WuKongSkillsBuilder.cs",
+      "bytes": 6478,
+      "sha256": "63163bf752e8fc9f1a3f964024c472e0838aa0302bdb495a2f692e97523630a7"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/ArenaPresentation.lua",
+      "bytes": 13248,
+      "sha256": "a1839974b58c2372d9dcf600d1cf2fb75c2f8ef87e6e2e79fad5ae1839e0de33"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/AvatarVisualSample.lua",
+      "bytes": 8559,
+      "sha256": "06d16223a2852beab3b0f85e147433ce2ad8267296845291cfb652dd133a5781"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/BossPresentation.lua",
+      "bytes": 3966,
+      "sha256": "e960fc349edeef9136d4883e8e75d84a875938c09dd5027ea7cf80551b9f32a8"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/CombatInput.lua",
+      "bytes": 23946,
+      "sha256": "e046e1bbb3c27c62d092cd05f61c9782c0c390668d7fe01a865d76644efe1344"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/PresentationAudio.lua",
+      "bytes": 7485,
+      "sha256": "89ed4c969999756770e4a6e3a5c10b865bafb32229e7118b8678c50ebc96d0e7"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/PresentationFX.lua",
+      "bytes": 11196,
+      "sha256": "3e5d52760db4b4494626b8d03a3c165bcd07f1a66d5d48447303955efa549e06"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/PresentationHUD.lua",
+      "bytes": 9186,
+      "sha256": "0735bdbccb1a09e8e9400720de453ef653cbbe55d3c423953667f616b647153e"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Client/PresentationMetrics.lua",
+      "bytes": 4002,
+      "sha256": "ed403398df9bafe426c0a0aa5b483bc15a1359f04537a27cf97b59dfcb14144d"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/BossSession.lua",
+      "bytes": 34822,
+      "sha256": "6e2e5035ec6ff5672aae3cc076f52c1865738a37b65079ba5bd4d5874f0068a0"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/BossTests.lua",
+      "bytes": 8573,
+      "sha256": "9bffbb2a1517d9d202580ea6efd5db20e8f01e79c2947d70cb714572b8b8154d"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/ChallengeSession.lua",
+      "bytes": 2852,
+      "sha256": "bb2529c64a7875d44e3ebfc174807bdab235ffe3efce9865361646834510e409"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/CombatSession.lua",
+      "bytes": 17167,
+      "sha256": "4ac475be9d5af4bfa96702b58677c14b0a8346224ff83173b5e0010677a8b8f4"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/FormSession.lua",
+      "bytes": 10212,
+      "sha256": "a83f8e179137c5c6720f44bd0105a7f35e778046e36fcbd8ccd8ffec8228b4b5"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/ServerConfig.lua",
+      "bytes": 53,
+      "sha256": "b9045ce4d79bb817037587821961ef9211219eea0cd010f42d832bd38f3f274d"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/SkillsSession.lua",
+      "bytes": 5511,
+      "sha256": "8fb4af8c22c1b2ff6ab7b57134eb792b702c6855fc57c51b1d4324d7fa1e7509"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/SkillsTests.lua",
+      "bytes": 12454,
+      "sha256": "5cdd08a7ddc2fd64a86fbb435e3a6c654afa44e5b348f224de1185d3c7461237"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/SpellSession.lua",
+      "bytes": 4876,
+      "sha256": "326e89e01f765851e2ca142b8441707e6fcc3d7fb2cffbad3af160997dae58ac"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/StanceSession.lua",
+      "bytes": 7111,
+      "sha256": "fa97350f042df6b386dafe0f509b385bdb72c665385178ee4a56150949294d7f"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/Modules/index.lua",
+      "bytes": 402,
+      "sha256": "426ef01b31212081504bc0812cbc0c38bce52678040eeb3cfedbbf026514dde6"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Server/ServerBoot.lua",
+      "bytes": 742,
+      "sha256": "511414d712ec96eaa2499c9e32be99dd48444ed0c2f2f51366eea74b6746ecd1"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/ArenaTrigger.lua",
+      "bytes": 934,
+      "sha256": "6a94cd68230a42748c8ca27a5ea47fa477690e093d8ddd9d13404614b7260464"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/CombatState.lua",
+      "bytes": 18070,
+      "sha256": "1898d561c7f8cd20e5eecea1aaf34995eb7b0048cd046138f5b72acc4d1f8f11"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/ArenaConfig.lua",
+      "bytes": 828,
+      "sha256": "3a3330dfbb718567a3fff6aab4868c246639bf4ba5f35452349d7469fa62b170"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/BossConfig.lua",
+      "bytes": 837571,
+      "sha256": "134676ce5842cdd55a01972765860276f6963c374deda896e7ba976203461ea8"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/CombatClock.lua",
+      "bytes": 5743,
+      "sha256": "6aa1abb036e8b9fdcfaad4aa6adde7f2f7e88c6210f02a902451ff7dd523d862"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/CombatConfig.lua",
+      "bytes": 295114,
+      "sha256": "f3ded04556614926dc7ac9a84b01a005b0df8a0a9bec543aada6887e7ac486c4"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/SampleConfig.lua",
+      "bytes": 167,
+      "sha256": "6a22d85c8d4f0a41e20742b53fd7e5b61c27c22dbcdcab8aa8bf24cebe8eb34f"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/SkillsConfig.lua",
+      "bytes": 437668,
+      "sha256": "f1d7a0a983dc131b3e6cd3eebfa54f65b0e63357e63d106a89eed3185ce1df7e"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/dkjson.lua",
+      "bytes": 23790,
+      "sha256": "eb3bf160688fb395a2db6bc52eeff4f7855a6321d2b41bdc754554d13f4e7d44"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/Modules/index.lua",
+      "bytes": 342,
+      "sha256": "432900a958f74a44dbccdadc48200649eb026a30b04424f1ddc5528effd6837e"
+    },
+    {
+      "path": "unity/Assets/WuKong/Lua/Shared/SampleState.lua",
+      "bytes": 3378,
+      "sha256": "9ccbac9f2ba192bb3552f2d3f7b19c7992b19caff099f63f1d2f4b89fbca8ffc"
+    },
+    {
+      "path": "unity/Assets/WuKong/Scenes/WuKongTiger.unity",
+      "bytes": 39019337,
+      "sha256": "6b493e3256f64e9392a30d07d62188e512a2c626977a048201e13f56a5808768"
+    },
+    {
+      "path": "unity/Assets/WuKong/VFX/PresentationData.json",
+      "bytes": 556606,
+      "sha256": "692696d16bb480b966743bc48e3c7230f49231270bf71b3bcdc17ce087a15329"
+    }
+  ],
+  "processes": [
+    {
+      "role": "server",
+      "pid": 46908,
+      "identityTag": "e463b91b1b6f",
+      "roomTag": "39ffce969fa6",
+      "exited": true
+    },
+    {
+      "role": "client-1",
+      "pid": 46913,
+      "identityTag": "e6112695f959",
+      "roomTag": "39ffce969fa6",
+      "exited": true
+    },
+    {
+      "role": "client-2",
+      "pid": 46956,
+      "identityTag": "6e7a88e2d0c7",
+      "roomTag": "39ffce969fa6",
+      "exited": true
+    },
+    {
+      "role": "client-2-rejoin",
+      "pid": 47207,
+      "identityTag": "6e7a88e2d0c7",
+      "roomTag": "39ffce969fa6",
+      "exited": true
+    }
+  ],
+  "lifecycleEvents": [
+    {
+      "role": "server",
+      "actorID": 3,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/server.log"
+    },
+    {
+      "role": "server",
+      "actorID": 4,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/server.log"
+    },
+    {
+      "role": "server",
+      "actorID": 2,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/server.log"
+    },
+    {
+      "role": "client-1",
+      "actorID": 3,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-1.log"
+    },
+    {
+      "role": "client-1",
+      "actorID": 4,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-1.log"
+    },
+    {
+      "role": "client-1",
+      "actorID": 2,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-1.log"
+    },
+    {
+      "role": "client-1",
+      "actorID": 1,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-1.log"
+    },
+    {
+      "role": "client-2",
+      "actorID": 3,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-2.log"
+    },
+    {
+      "role": "client-2",
+      "actorID": 1,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-2.log"
+    },
+    {
+      "role": "client-2",
+      "actorID": 2,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-2.log"
+    },
+    {
+      "role": "client-2-rejoin",
+      "actorID": 4,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-2-rejoin.log"
+    },
+    {
+      "role": "client-2-rejoin",
+      "actorID": 1,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-2-rejoin.log"
+    },
+    {
+      "role": "client-2-rejoin",
+      "actorID": 2,
+      "event": "ExitRoom",
+      "log": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-2-rejoin.log"
+    }
+  ],
+  "logFindings": [
+    {
+      "role": "server",
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/server.log",
+      "counts": {
+        "LuaException|LuaScriptException": 0,
+        "NullReferenceException": 0,
+        "CreateDirectory .*failed": 0,
+        "\\[hdb\\].*disconnected": 129,
+        "GetPrefab failed": 7
+      }
+    },
+    {
+      "role": "server",
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/server-console.log",
+      "counts": {
+        "LuaException|LuaScriptException": 0,
+        "NullReferenceException": 0,
+        "CreateDirectory .*failed": 0,
+        "\\[hdb\\].*disconnected": 0,
+        "GetPrefab failed": 0
+      }
+    },
+    {
+      "role": "client-1",
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-1.log",
+      "counts": {
+        "LuaException|LuaScriptException": 0,
+        "NullReferenceException": 1,
+        "CreateDirectory .*failed": 12,
+        "\\[hdb\\].*disconnected": 117,
+        "GetPrefab failed": 7
+      }
+    },
+    {
+      "role": "client-1",
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-1-console.log",
+      "counts": {
+        "LuaException|LuaScriptException": 0,
+        "NullReferenceException": 0,
+        "CreateDirectory .*failed": 0,
+        "\\[hdb\\].*disconnected": 0,
+        "GetPrefab failed": 0
+      }
+    },
+    {
+      "role": "client-2",
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-2.log",
+      "counts": {
+        "LuaException|LuaScriptException": 0,
+        "NullReferenceException": 1,
+        "CreateDirectory .*failed": 12,
+        "\\[hdb\\].*disconnected": 32,
+        "GetPrefab failed": 5
+      }
+    },
+    {
+      "role": "client-2",
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-2-console.log",
+      "counts": {
+        "LuaException|LuaScriptException": 0,
+        "NullReferenceException": 0,
+        "CreateDirectory .*failed": 0,
+        "\\[hdb\\].*disconnected": 0,
+        "GetPrefab failed": 0
+      }
+    },
+    {
+      "role": "client-2-rejoin",
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-2-rejoin.log",
+      "counts": {
+        "LuaException|LuaScriptException": 0,
+        "NullReferenceException": 1,
+        "CreateDirectory .*failed": 12,
+        "\\[hdb\\].*disconnected": 72,
+        "GetPrefab failed": 5
+      }
+    },
+    {
+      "role": "client-2-rejoin",
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-imtm7zj4/client-2-rejoin-console.log",
+      "counts": {
+        "LuaException|LuaScriptException": 0,
+        "NullReferenceException": 0,
+        "CreateDirectory .*failed": 0,
+        "\\[hdb\\].*disconnected": 0,
+        "GetPrefab failed": 0
+      }
+    }
+  ],
+  "fixedTests": 77,
+  "fixedTestsPassed": 77,
+  "projectLuaExceptionCount": 0,
+  "rawRuntimeErrorCount": 3,
+  "crossClientIdenticalSnapshots": 55,
+  "lateClientActors": [
+    2,
+    4
+  ],
+  "lateClientPhases": [
+    "hp<=40",
+    "hp<=50",
+    "hp<=60",
+    "hp<=85",
+    "hp>85"
+  ],
+  "heavyFatalHit": {
+    "actor": 2,
+    "hp": 0,
+    "bossPlay": 0,
+    "phase": "hp<=40",
+    "skill": 10831,
+    "time": 5.1428665276617,
+    "ev": "bossHit",
+    "damage": 326
+  },
+  "finalClientStates": {
+    "client-1": {
+      "2": {
+        "hits": 0,
+        "mp": 220,
+        "perfect": 0,
+        "locked": false,
+        "kind": "free",
+        "form": "wukong",
+        "transEnergy": 150,
+        "vz": 0.0,
+        "projectiles": [],
+        "snakes": [],
+        "cooldowns": [],
+        "vigor": 211.83595,
+        "slow": 1,
+        "pips": 0,
+        "hpMax": 390,
+        "clip": "AS_Wukong_Stand",
+        "actorID": 2,
+        "time": 0.033857375383377,
+        "bossHp": 6480.0,
+        "resultReady": false,
+        "stamina": 250,
+        "movement": {
+          "turnSpeed": 270,
+          "bigTurnSpeed": 540,
+          "backwardRate": 0.8,
+          "sprint": 10.8,
+          "walk": 1.6,
+          "run": 6.5
+        },
+        "t": 0.016928687691689,
+        "immobilized": 0,
+        "spiritPhase": "none",
+        "vx": 0.0,
+        "heals": 0,
+        "gourd": 6,
+        "depleted": 0,
+        "staminaMax": 250,
+        "hp": 390,
+        "ack": 63,
+        "epoch": 5,
+        "formPhase": "none",
+        "play": 0,
+        "focus": 0,
+        "challenge": "ready",
+        "stance": "smash",
+        "boss": {
+          "clip": "AS_HFM_Hu_Stone_Bstd_01",
+          "invisible": false,
+          "pos": {
+            "y": -6.3428649902344,
+            "x": 1.226,
+            "z": 48.157
+          },
+          "bgm": 1,
+          "play": 0,
+          "canLock": true,
+          "hazards": [],
+          "yaw": 3.0230689803847,
+          "decoys": [],
+          "state": "idle",
+          "t": 0.033857375383377,
+          "phase": "hp>85",
+          "stone": false
+        }
+      },
+      "3": {
+        "hits": 0,
+        "mp": 160,
+        "perfect": 0,
+        "locked": false,
+        "kind": "free",
+        "form": "wukong",
+        "transEnergy": 150,
+        "vz": 0.0,
+        "projectiles": [],
+        "snakes": [],
+        "cooldowns": {
+          "cloud": 24.755374314263
+        },
+        "vigor": 211.83595,
+        "slow": 1,
+        "pips": 0,
+        "hpMax": 390,
+        "clip": "AS_Wukong_Stand",
+        "actorID": 3,
+        "time": 39.143910870329,
+        "bossHp": 6480.0,
+        "resultReady": false,
+        "stamina": 250,
+        "movement": {
+          "turnSpeed": 270,
+          "bigTurnSpeed": 540,
+          "backwardRate": 0.8,
+          "sprint": 10.8,
+          "walk": 1.6,
+          "run": 6.5
+        },
+        "t": 0.62128388306275,
+        "immobilized": 0,
+        "spiritPhase": "none",
+        "vx": 0.0,
+        "heals": 0,
+        "gourd": 6,
+        "depleted": 0,
+        "staminaMax": 250,
+        "hp": 390,
+        "ack": 2,
+        "epoch": 1,
+        "formPhase": "none",
+        "play": 1,
+        "focus": 0,
+        "challenge": "fight",
+        "stance": "smash",
+        "boss": {
+          "clip": "AS_HFM_Hu_Stone_Bstd_01",
+          "invisible": false,
+          "pos": {
+            "y": -6.3428649902344,
+            "x": 1.226,
+            "z": 48.157
+          },
+          "bgm": 1,
+          "play": 0,
+          "canLock": true,
+          "hazards": [],
+          "yaw": 3.0230689803847,
+          "decoys": [],
+          "state": "idle",
+          "t": 0.043910870328547,
+          "phase": "hp>85",
+          "stone": false
+        }
+      },
+      "4": {
+        "hits": 0,
+        "mp": 220,
+        "perfect": 0,
+        "locked": false,
+        "kind": "free",
+        "form": "wukong",
+        "transEnergy": 150,
+        "vz": 0.0,
+        "projectiles": [],
+        "snakes": [],
+        "cooldowns": [],
+        "vigor": 211.83595,
+        "slow": 1,
+        "pips": 0,
+        "hpMax": 390,
+        "clip": "AS_Wukong_Stand",
+        "actorID": 4,
+        "time": 0.051508251577616,
+        "bossHp": 6480.0,
+        "resultReady": false,
+        "stamina": 250,
+        "movement": {
+          "turnSpeed": 270,
+          "bigTurnSpeed": 540,
+          "backwardRate": 0.8,
+          "sprint": 10.8,
+          "walk": 1.6,
+          "run": 6.5
+        },
+        "t": 0.025754125788808,
+        "immobilized": 0,
+        "spiritPhase": "none",
+        "vx": 0.0,
+        "heals": 0,
+        "gourd": 6,
+        "depleted": 0,
+        "staminaMax": 250,
+        "hp": 390,
+        "ack": 0,
+        "epoch": 1,
+        "formPhase": "none",
+        "play": 0,
+        "focus": 0,
+        "challenge": "ready",
+        "stance": "smash",
+        "boss": {
+          "clip": "AS_HFM_Hu_Stone_Bstd_01",
+          "invisible": false,
+          "pos": {
+            "y": -6.3428649902344,
+            "x": 1.226,
+            "z": 48.157
+          },
+          "bgm": 1,
+          "play": 0,
+          "canLock": true,
+          "hazards": [],
+          "yaw": 3.0230689803847,
+          "decoys": [],
+          "state": "idle",
+          "t": 0.051508251577616,
+          "phase": "hp>85",
+          "stone": false
+        }
+      }
+    },
+    "client-2-rejoin": {
+      "2": {
+        "vz": 0.0,
+        "focus": 0,
+        "movement": {
+          "turnSpeed": 270,
+          "backwardRate": 0.8,
+          "bigTurnSpeed": 540,
+          "run": 6.5,
+          "walk": 1.6,
+          "sprint": 10.8
+        },
+        "perfect": 0,
+        "vx": 0.0,
+        "ack": 63,
+        "hp": 390,
+        "transEnergy": 150,
+        "bossHp": 6480.0,
+        "mp": 220,
+        "locked": false,
+        "staminaMax": 250,
+        "stamina": 250,
+        "formPhase": "none",
+        "slow": 1,
+        "kind": "free",
+        "heals": 0,
+        "stance": "smash",
+        "hpMax": 390,
+        "t": 0.016928687691689,
+        "challenge": "ready",
+        "spiritPhase": "none",
+        "gourd": 6,
+        "clip": "AS_Wukong_Stand",
+        "form": "wukong",
+        "projectiles": [],
+        "cooldowns": [],
+        "pips": 0,
+        "depleted": 0,
+        "actorID": 2,
+        "vigor": 211.83595,
+        "immobilized": 0,
+        "time": 0.033857375383377,
+        "boss": {
+          "yaw": 3.0230689803847,
+          "canLock": true,
+          "t": 0.033857375383377,
+          "clip": "AS_HFM_Hu_Stone_Bstd_01",
+          "hazards": [],
+          "pos": {
+            "x": 1.226,
+            "y": -6.3428649902344,
+            "z": 48.157
+          },
+          "state": "idle",
+          "bgm": 1,
+          "play": 0,
+          "decoys": [],
+          "phase": "hp>85",
+          "invisible": false,
+          "stone": false
+        },
+        "epoch": 5,
+        "snakes": [],
+        "hits": 0,
+        "resultReady": false,
+        "play": 0
+      },
+      "4": {
+        "vz": 0.0,
+        "focus": 0,
+        "movement": {
+          "turnSpeed": 270,
+          "backwardRate": 0.8,
+          "bigTurnSpeed": 540,
+          "run": 6.5,
+          "walk": 1.6,
+          "sprint": 10.8
+        },
+        "perfect": 0,
+        "vx": 0.0,
+        "ack": 0,
+        "hp": 390,
+        "transEnergy": 150,
+        "bossHp": 6480.0,
+        "mp": 220,
+        "locked": false,
+        "staminaMax": 250,
+        "stamina": 250,
+        "formPhase": "none",
+        "slow": 1,
+        "kind": "free",
+        "heals": 0,
+        "stance": "smash",
+        "hpMax": 390,
+        "t": 0.025754125788808,
+        "challenge": "ready",
+        "spiritPhase": "none",
+        "gourd": 6,
+        "clip": "AS_Wukong_Stand",
+        "form": "wukong",
+        "projectiles": [],
+        "cooldowns": [],
+        "pips": 0,
+        "depleted": 0,
+        "actorID": 4,
+        "vigor": 211.83595,
+        "immobilized": 0,
+        "time": 0.051508251577616,
+        "boss": {
+          "yaw": 3.0230689803847,
+          "canLock": true,
+          "t": 0.051508251577616,
+          "clip": "AS_HFM_Hu_Stone_Bstd_01",
+          "hazards": [],
+          "pos": {
+            "x": 1.226,
+            "y": -6.3428649902344,
+            "z": 48.157
+          },
+          "state": "idle",
+          "bgm": 1,
+          "play": 0,
+          "decoys": [],
+          "phase": "hp>85",
+          "invisible": false,
+          "stone": false
+        },
+        "epoch": 1,
+        "snakes": [],
+        "hits": 0,
+        "resultReady": false,
+        "play": 0
+      }
+    }
+  },
+  "scope": "Fixed suites and replay evidence; not a claim of natural full completion or mobile acceptance."
+}

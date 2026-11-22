@@ -1,0 +1,34 @@
+{
+  "scene": "unity/Assets/WuKong/Scenes/WuKongTiger.unity",
+  "catalog": "unity/Library/com.unity.addressables/aa/OSX/catalog.json",
+  "catalogBuiltAt": "2026-11-22T15:16:03.405293+08:00",
+  "sceneSavedAt": "2026-11-22T15:15:45.338259+08:00",
+  "sceneSHA256": "6b493e3256f64e9392a30d07d62188e512a2c626977a048201e13f56a5808768",
+  "markers": [
+    {
+      "name": "SkillsDebugAutoRun",
+      "present": false
+    },
+    {
+      "name": "BossDebugAutoRun",
+      "present": false
+    }
+  ],
+  "stoppedRegressionProcesses": [
+    {
+      "pid": 28551,
+      "exited": true
+    },
+    {
+      "pid": 28563,
+      "exited": true
+    },
+    {
+      "pid": 28606,
+      "exited": true
+    }
+  ],
+  "localDryRunPassed": true,
+  "luaSyntaxPassed": 31,
+  "knownUnresolvedShaderIssue": "glTF ShaderGraph BuiltIn Deferred / Metal PBRDeferredFragment; see docs/plan.md 5.8"
+}

@@ -1,0 +1,2288 @@
+{
+  "status": "核心战斗回放通过；手动输入、重棍实际命中与镜头拖动仍待取证",
+  "processesStopped": [5080, 5085, 5209],
+  "processExitVerified": true,
+  "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-gtxhfrs0",
+  "mode": "DedicatedServer",
+  "players": 2,
+  "scene": "Assets/WuKong/Scenes/WuKongTiger.unity",
+  "catalogBuiltAt": "2026-11-22T12:30:34.111443",
+  "fixedTests": [
+    {
+      "pass": true,
+      "name": "damage-formula",
+      "ev": "fixedTest"
+    },
+    {
+      "pass": true,
+      "name": "five-light-combo",
+      "ev": "fixedTest"
+    },
+    {
+      "pass": true,
+      "name": "group-hit-dedup-and-new-play",
+      "ev": "fixedTest"
+    },
+    {
+      "pass": true,
+      "name": "dodge-cancel",
+      "ev": "fixedTest"
+    },
+    {
+      "pass": true,
+      "name": "heavy-charge-level-1",
+      "ev": "fixedTest"
+    },
+    {
+      "pass": true,
+      "name": "depletion-and-recovery",
+      "ev": "fixedTest"
+    },
+    {
+      "pass": true,
+      "name": "iframe-and-after-window",
+      "ev": "fixedTest"
+    },
+    {
+      "pass": true,
+      "name": "perfect-dodge-once",
+      "ev": "fixedTest"
+    },
+    {
+      "pass": true,
+      "name": "gourd-time-and-once",
+      "ev": "fixedTest"
+    },
+    {
+      "pass": true,
+      "name": "gourd-interrupted-before-heal",
+      "ev": "fixedTest"
+    }
+  ],
+  "serverEvents": [
+    {
+      "line": 1084,
+      "value": {
+        "text": "session-module=true"
+      }
+    },
+    {
+      "line": 1681,
+      "value": {
+        "bossHp": 6480.0,
+        "actor": 2,
+        "hp": 390,
+        "ev": "session"
+      }
+    },
+    {
+      "line": 2012,
+      "value": {
+        "bossHp": 6480.0,
+        "actor": 3,
+        "hp": 390,
+        "ev": "session"
+      }
+    },
+    {
+      "line": 2123,
+      "value": {
+        "pass": true,
+        "name": "damage-formula",
+        "ev": "fixedTest"
+      }
+    },
+    {
+      "line": 2133,
+      "value": {
+        "pass": true,
+        "name": "five-light-combo",
+        "ev": "fixedTest"
+      }
+    },
+    {
+      "line": 2143,
+      "value": {
+        "pass": true,
+        "name": "group-hit-dedup-and-new-play",
+        "ev": "fixedTest"
+      }
+    },
+    {
+      "line": 2153,
+      "value": {
+        "pass": true,
+        "name": "dodge-cancel",
+        "ev": "fixedTest"
+      }
+    },
+    {
+      "line": 2163,
+      "value": {
+        "pass": true,
+        "name": "heavy-charge-level-1",
+        "ev": "fixedTest"
+      }
+    },
+    {
+      "line": 2173,
+      "value": {
+        "pass": true,
+        "name": "depletion-and-recovery",
+        "ev": "fixedTest"
+      }
+    },
+    {
+      "line": 2183,
+      "value": {
+        "pass": true,
+        "name": "iframe-and-after-window",
+        "ev": "fixedTest"
+      }
+    },
+    {
+      "line": 2193,
+      "value": {
+        "pass": true,
+        "name": "perfect-dodge-once",
+        "ev": "fixedTest"
+      }
+    },
+    {
+      "line": 2203,
+      "value": {
+        "pass": true,
+        "name": "gourd-time-and-once",
+        "ev": "fixedTest"
+      }
+    },
+    {
+      "line": 2213,
+      "value": {
+        "pass": true,
+        "name": "gourd-interrupted-before-heal",
+        "ev": "fixedTest"
+      }
+    },
+    {
+      "line": 2223,
+      "value": {
+        "bossHp": 6480.0,
+        "actor": 3,
+        "hp": 390,
+        "ev": "session"
+      }
+    },
+    {
+      "line": 2238,
+      "value": {
+        "play": 1,
+        "actor": 3,
+        "kind": "light",
+        "time": 0.48032025434077,
+        "skill": 10801,
+        "step": 1,
+        "clip": "AM_Wukong_ComboA_q1",
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2249,
+      "value": {
+        "effect": "1080101",
+        "actor": 3,
+        "damage": 53,
+        "t": 0.28035187534988,
+        "group": "g0",
+        "crit": false,
+        "play": 1,
+        "bossHp": 6427.0,
+        "time": 0.75187237933278,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2260,
+      "value": {
+        "play": 2,
+        "actor": 3,
+        "kind": "light",
+        "time": 1.1610595630482,
+        "skill": 10802,
+        "step": 2,
+        "clip": "AM_Wukong_ComboA_q2",
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2271,
+      "value": {
+        "effect": "1080201",
+        "actor": 3,
+        "damage": 76,
+        "t": 0.67157605299726,
+        "group": "g0",
+        "crit": false,
+        "play": 2,
+        "bossHp": 6351.0,
+        "time": 1.772617935203,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2279,
+      "value": {
+        "play": 3,
+        "actor": 3,
+        "kind": "light",
+        "time": 2.1032317690551,
+        "skill": 10803,
+        "step": 3,
+        "clip": "AM_Wukong_ComboA_q3",
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2290,
+      "value": {
+        "effect": "1080301",
+        "actor": 3,
+        "damage": 58,
+        "t": 0.2494883723557,
+        "group": "e5",
+        "crit": false,
+        "play": 3,
+        "bossHp": 6293.0,
+        "time": 2.3038132078946,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2298,
+      "value": {
+        "effect": "1080302",
+        "actor": 3,
+        "damage": 60,
+        "t": 0.45747287422419,
+        "group": "e8",
+        "crit": false,
+        "play": 3,
+        "bossHp": 6233.0,
+        "time": 2.4771336261183,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2309,
+      "value": {
+        "play": 4,
+        "actor": 3,
+        "kind": "light",
+        "time": 2.9406164782122,
+        "skill": 10804,
+        "step": 4,
+        "clip": "AM_Wukong_ComboA_q4",
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2320,
+      "value": {
+        "effect": "1080401",
+        "actor": 3,
+        "damage": 30,
+        "t": 0.27871195971966,
+        "group": "e3",
+        "crit": false,
+        "play": 4,
+        "bossHp": 6203.0,
+        "time": 3.2105420418084,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2328,
+      "value": {
+        "effect": "1080411",
+        "actor": 3,
+        "damage": 30,
+        "t": 0.27871195971966,
+        "group": "e4",
+        "crit": false,
+        "play": 4,
+        "bossHp": 6173.0,
+        "time": 3.2105420418084,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2336,
+      "value": {
+        "effect": "1080401",
+        "actor": 3,
+        "damage": 30,
+        "t": 0.3828545846045,
+        "group": "e7",
+        "crit": false,
+        "play": 4,
+        "bossHp": 6143.0,
+        "time": 3.3146846666932,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2344,
+      "value": {
+        "effect": "1080411",
+        "actor": 3,
+        "damage": 30,
+        "t": 0.40043066814542,
+        "group": "e8",
+        "crit": false,
+        "play": 4,
+        "bossHp": 6113.0,
+        "time": 3.3322607502341,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2352,
+      "value": {
+        "effect": "1080401",
+        "actor": 3,
+        "damage": 30,
+        "t": 0.51381406467408,
+        "group": "e9",
+        "crit": false,
+        "play": 4,
+        "bossHp": 6083.0,
+        "time": 3.4456441467628,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2360,
+      "value": {
+        "effect": "1080411",
+        "actor": 3,
+        "damage": 30,
+        "t": 0.53938750177622,
+        "group": "e11",
+        "crit": false,
+        "play": 4,
+        "bossHp": 6053.0,
+        "time": 3.4712175838649,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2368,
+      "value": {
+        "effect": "1080401",
+        "actor": 3,
+        "damage": 38,
+        "t": 0.65361288003623,
+        "group": "e13",
+        "crit": true,
+        "play": 4,
+        "bossHp": 6015.0,
+        "time": 3.5854429621249,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2376,
+      "value": {
+        "effect": "1080402",
+        "actor": 3,
+        "damage": 61,
+        "t": 1.1410930696875,
+        "group": "g0",
+        "crit": false,
+        "play": 4,
+        "bossHp": 5954.0,
+        "time": 4.0729231517762,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2384,
+      "value": {
+        "play": 5,
+        "actor": 3,
+        "kind": "light",
+        "time": 4.4400829225779,
+        "skill": 10805,
+        "step": 5,
+        "clip": "AM_Wukong_ComboA_q5",
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2398,
+      "value": {
+        "effect": "1080501",
+        "actor": 3,
+        "damage": 178,
+        "t": 0.81892554089427,
+        "group": "e9",
+        "crit": false,
+        "play": 5,
+        "bossHp": 5776.0,
+        "time": 5.2502212133259,
+        "ev": "hit"
+      }
+    },
+    {
+      "line": 2409,
+      "value": {
+        "bossHp": 6480.0,
+        "actor": 3,
+        "hp": 390,
+        "ev": "session"
+      }
+    },
+    {
+      "line": 2418,
+      "value": {
+        "actor": 3,
+        "kind": "heavyStart",
+        "play": 1,
+        "clip": "AM_Wukong_xuli_start_0",
+        "time": 0.46188641898334,
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2432,
+      "value": {
+        "actor": 3,
+        "kind": "heavyLoop",
+        "play": 2,
+        "clip": "AM_Wukong_xuli_loop",
+        "time": 1.3598151691258,
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2444,
+      "value": {
+        "actor": 3,
+        "kind": "heavy",
+        "play": 3,
+        "skill": 10831,
+        "clip": "AM_Wukong_xuli_attack_1",
+        "time": 3.4942271951586,
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2454,
+      "value": {
+        "actor": 3,
+        "play": 3,
+        "time": 3.4942271951586,
+        "ev": "heavyRelease",
+        "level": 1
+      }
+    },
+    {
+      "line": 2469,
+      "value": {
+        "bossHp": 6480.0,
+        "actor": 3,
+        "hp": 390,
+        "ev": "session"
+      }
+    },
+    {
+      "line": 2478,
+      "value": {
+        "actor": 3,
+        "id": 11,
+        "ev": "testWarning"
+      }
+    },
+    {
+      "line": 2486,
+      "value": {
+        "actor": 3,
+        "hp": 344,
+        "damage": 46,
+        "play": 0,
+        "time": 1.1839451733977,
+        "ev": "playerHit"
+      }
+    },
+    {
+      "line": 2494,
+      "value": {
+        "actor": 3,
+        "kind": "hit",
+        "play": 1,
+        "clip": "AM_Wukong_bh_dep01_sl1_df_hf",
+        "time": 1.1839451733977,
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2506,
+      "value": {
+        "actor": 3,
+        "kind": "gourd",
+        "play": 2,
+        "clip": "AM_Wukong_heyao_01",
+        "time": 2.0115928193554,
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2517,
+      "value": {
+        "amount": 149.8,
+        "hp": 390,
+        "left": 5,
+        "play": 2,
+        "actor": 3,
+        "time": 3.0039736293256,
+        "ev": "heal"
+      }
+    },
+    {
+      "line": 2532,
+      "value": {
+        "bossHp": 6480.0,
+        "actor": 3,
+        "hp": 390,
+        "ev": "session"
+      }
+    },
+    {
+      "line": 2550,
+      "value": {
+        "actor": 3,
+        "id": 14,
+        "ev": "testWarning"
+      }
+    },
+    {
+      "line": 2558,
+      "value": {
+        "actor": 3,
+        "kind": "perfectDodge",
+        "play": 1,
+        "clip": "AM_Wukong_PreciseDodge_B_01",
+        "time": 1.0878282729536,
+        "ev": "action"
+      }
+    },
+    {
+      "line": 2569,
+      "value": {
+        "actor": 3,
+        "play": 1,
+        "time": 1.0878282729536,
+        "ev": "perfectDodge",
+        "warning": 14
+      }
+    },
+    {
+      "line": 2579,
+      "value": {
+        "actor": 3,
+        "play": 1,
+        "time": 1.2536851279438,
+        "ev": "invulnerable",
+        "warning": 14
+      }
+    },
+    {
+      "line": 2593,
+      "value": {
+        "bossHp": 6480.0,
+        "actor": 3,
+        "hp": 390,
+        "ev": "session"
+      }
+    },
+    {
+      "line": 2608,
+      "value": {
+        "actor": 3,
+        "kind": "sprintLight",
+        "play": 1,
+        "skill": 10800,
+        "clip": "AM_Wukong_ComboA_q1_sprint",
+        "time": 4.1897010076791,
+        "ev": "action"
+      }
+    }
+  ],
+  "clientViews": {
+    "client-1": [
+      {
+        "line": 2005,
+        "value": {
+          "heals": 0,
+          "ack": 0,
+          "bossHp": 6480.0,
+          "clip": "AS_Wukong_Stand",
+          "time": 0.16941291689873,
+          "hits": 0,
+          "vz": 0.0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.084706458449364,
+          "locked": false,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0.0,
+          "play": 0,
+          "mp": 220,
+          "stamina": 250,
+          "kind": "free",
+          "actorID": 2
+        }
+      },
+      {
+        "line": 2022,
+        "value": {
+          "heals": 0,
+          "ack": 0,
+          "bossHp": 6480.0,
+          "clip": "AS_Wukong_Stand",
+          "time": 0.051872374489903,
+          "hits": 0,
+          "vz": 0.0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.025936187244952,
+          "locked": false,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0.0,
+          "play": 0,
+          "mp": 220,
+          "stamina": 250,
+          "kind": "free",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2225,
+        "value": {
+          "heals": 0,
+          "ack": 3,
+          "bossHp": 6480.0,
+          "clip": "AM_Wukong_ComboA_q1",
+          "time": 0.48912000469863,
+          "hits": 0,
+          "vz": 0,
+          "depleted": 0,
+          "step": 1,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.017599500715733,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 1,
+          "mp": 220,
+          "stamina": 240,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2230,
+        "value": {
+          "heals": 0,
+          "ack": 3,
+          "bossHp": 6427.0,
+          "clip": "AM_Wukong_ComboA_q1",
+          "time": 0.75187237933278,
+          "hits": 1,
+          "vz": 0,
+          "depleted": 0,
+          "step": 1,
+          "focus": 15,
+          "gourd": 6,
+          "t": 0.28035187534988,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 1,
+          "mp": 220,
+          "stamina": 240,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2235,
+        "value": {
+          "heals": 0,
+          "ack": 4,
+          "bossHp": 6427.0,
+          "clip": "AM_Wukong_ComboA_q2",
+          "time": 1.1695227921009,
+          "hits": 1,
+          "vz": 0,
+          "depleted": 0,
+          "step": 2,
+          "focus": 15,
+          "gourd": 6,
+          "t": 0.018619103915989,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 2,
+          "mp": 220,
+          "stamina": 225,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2254,
+        "value": {
+          "heals": 0,
+          "ack": 4,
+          "bossHp": 6351.0,
+          "clip": "AM_Wukong_ComboA_q2",
+          "time": 1.7979985401034,
+          "hits": 2,
+          "vz": 0,
+          "depleted": 0,
+          "step": 2,
+          "focus": 30,
+          "gourd": 6,
+          "t": 0.69695665789768,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 2,
+          "mp": 220,
+          "stamina": 225,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2259,
+        "value": {
+          "heals": 0,
+          "ack": 5,
+          "bossHp": 6351.0,
+          "clip": "AM_Wukong_ComboA_q3",
+          "time": 2.1120224148035,
+          "hits": 2,
+          "vz": 0,
+          "depleted": 0,
+          "step": 3,
+          "focus": 30,
+          "gourd": 6,
+          "t": 0.019339420646429,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 3,
+          "mp": 220,
+          "stamina": 210,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2264,
+        "value": {
+          "heals": 0,
+          "ack": 5,
+          "bossHp": 6293.0,
+          "clip": "AM_Wukong_ComboA_q3",
+          "time": 2.3213438335806,
+          "hits": 3,
+          "vz": 0,
+          "depleted": 0,
+          "step": 3,
+          "focus": 40,
+          "gourd": 6,
+          "t": 0.27052512317896,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 3,
+          "mp": 220,
+          "stamina": 210,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2269,
+        "value": {
+          "heals": 0,
+          "ack": 5,
+          "bossHp": 6233.0,
+          "clip": "AM_Wukong_ComboA_q3",
+          "time": 2.5298837926239,
+          "hits": 4,
+          "vz": 0,
+          "depleted": 0,
+          "step": 3,
+          "focus": 50,
+          "gourd": 6,
+          "t": 0.52077307403088,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 3,
+          "mp": 220,
+          "stamina": 210,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2274,
+        "value": {
+          "heals": 0,
+          "ack": 6,
+          "bossHp": 6233.0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "time": 2.9494028743356,
+          "hits": 4,
+          "vz": 0,
+          "depleted": 0,
+          "step": 4,
+          "focus": 50,
+          "gourd": 6,
+          "t": 0.017572792246938,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 4,
+          "mp": 220,
+          "stamina": 195,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2279,
+        "value": {
+          "heals": 0,
+          "ack": 6,
+          "bossHp": 6173.0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "time": 3.2626838330179,
+          "hits": 6,
+          "vz": 0,
+          "depleted": 0,
+          "step": 4,
+          "focus": 56,
+          "gourd": 6,
+          "t": 0.33085375092924,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 4,
+          "mp": 220,
+          "stamina": 195,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2284,
+        "value": {
+          "heals": 0,
+          "ack": 6,
+          "bossHp": 6113.0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "time": 3.367407001555,
+          "hits": 8,
+          "vz": 0,
+          "depleted": 0,
+          "step": 4,
+          "focus": 62,
+          "gourd": 6,
+          "t": 0.43557691946626,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 4,
+          "mp": 220,
+          "stamina": 195,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2294,
+        "value": {
+          "heals": 0,
+          "ack": 6,
+          "bossHp": 6053.0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "time": 3.4712175838649,
+          "hits": 10,
+          "vz": 0,
+          "depleted": 0,
+          "step": 4,
+          "focus": 68,
+          "gourd": 6,
+          "t": 0.53938750177622,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 4,
+          "mp": 220,
+          "stamina": 195,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2299,
+        "value": {
+          "heals": 0,
+          "ack": 6,
+          "bossHp": 6015.0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "time": 3.6288284212351,
+          "hits": 11,
+          "vz": 0,
+          "depleted": 0,
+          "step": 4,
+          "focus": 71,
+          "gourd": 6,
+          "t": 0.69699833914638,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 4,
+          "mp": 220,
+          "stamina": 195,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2307,
+        "value": {
+          "heals": 0,
+          "ack": 6,
+          "bossHp": 5954.0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "time": 4.0991845894605,
+          "hits": 12,
+          "vz": 0,
+          "depleted": 0,
+          "step": 4,
+          "focus": 84,
+          "gourd": 6,
+          "t": 1.1673545073718,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 4,
+          "mp": 220,
+          "stamina": 195,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2312,
+        "value": {
+          "heals": 0,
+          "ack": 7,
+          "bossHp": 5954.0,
+          "clip": "AM_Wukong_ComboA_q5",
+          "time": 4.4664555881172,
+          "hits": 12,
+          "vz": 0,
+          "depleted": 0,
+          "step": 5,
+          "focus": 84,
+          "gourd": 6,
+          "t": 0.035159915685654,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 5,
+          "mp": 220,
+          "stamina": 170,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2317,
+        "value": {
+          "heals": 0,
+          "ack": 7,
+          "bossHp": 5776.0,
+          "clip": "AM_Wukong_ComboA_q5",
+          "time": 5.2502212133259,
+          "hits": 13,
+          "vz": 0,
+          "depleted": 0,
+          "step": 5,
+          "focus": 124,
+          "gourd": 6,
+          "t": 0.81892554089427,
+          "locked": true,
+          "pips": 1,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 5,
+          "mp": 220,
+          "stamina": 170,
+          "kind": "light",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2338,
+        "value": {
+          "heals": 0,
+          "ack": 8,
+          "bossHp": 6480.0,
+          "clip": "AS_Wukong_Stand",
+          "time": 0.069924749433994,
+          "hits": 0,
+          "vz": 0.0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.034962374716997,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0.0,
+          "play": 0,
+          "mp": 220,
+          "stamina": 250,
+          "kind": "free",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2349,
+        "value": {
+          "heals": 0,
+          "ack": 9,
+          "bossHp": 6480.0,
+          "clip": "AM_Wukong_xuli_start_0",
+          "time": 0.48825171031058,
+          "hits": 0,
+          "vz": 0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.035156374797225,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 1,
+          "mp": 220,
+          "stamina": 240,
+          "kind": "heavyStart",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2354,
+        "value": {
+          "heals": 0,
+          "ack": 9,
+          "bossHp": 6480.0,
+          "clip": "AM_Wukong_xuli_loop",
+          "time": 1.4809681307524,
+          "hits": 0,
+          "vz": 0,
+          "depleted": 0,
+          "focus": 18.147115036845,
+          "gourd": 6,
+          "t": 0.12115296162665,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 2,
+          "mp": 220,
+          "stamina": 240.43948232196,
+          "kind": "heavyLoop",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2372,
+        "value": {
+          "heals": 0,
+          "ack": 9,
+          "bossHp": 6480.0,
+          "clip": "AM_Wukong_xuli_attack_1",
+          "time": 3.5204756744206,
+          "hits": 0,
+          "vz": 0,
+          "depleted": 0,
+          "focus": 128.87636357918,
+          "gourd": 6,
+          "t": 0.034927416592836,
+          "locked": true,
+          "pips": 1,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 3,
+          "mp": 220,
+          "stamina": 175.43948232196,
+          "kind": "heavy",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2394,
+        "value": {
+          "heals": 0,
+          "ack": 10,
+          "bossHp": 6480.0,
+          "clip": "AS_Wukong_Stand",
+          "time": 0.10533612594008,
+          "hits": 0,
+          "vz": 0.0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.052668062970042,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0.0,
+          "play": 0,
+          "mp": 220,
+          "stamina": 250,
+          "kind": "free",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2413,
+        "value": {
+          "heals": 0,
+          "ack": 11,
+          "bossHp": 6480.0,
+          "clip": "AM_Wukong_bh_dep01_sl1_df_hf",
+          "time": 1.2008644230664,
+          "hits": 0,
+          "vz": 0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.016919249668717,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 344,
+          "vx": 0,
+          "play": 1,
+          "mp": 220,
+          "stamina": 250,
+          "kind": "hit",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2418,
+        "value": {
+          "heals": 0,
+          "ack": 12,
+          "bossHp": 6480.0,
+          "clip": "AM_Wukong_heyao_01",
+          "time": 2.037561673671,
+          "hits": 0,
+          "vz": 0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.0347572080791,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 344,
+          "vx": 0,
+          "play": 2,
+          "mp": 220,
+          "stamina": 250,
+          "kind": "gourd",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2431,
+        "value": {
+          "heals": 1,
+          "ack": 12,
+          "bossHp": 6480.0,
+          "clip": "AM_Wukong_heyao_01",
+          "time": 3.0303475465626,
+          "hits": 0,
+          "vz": 0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 5,
+          "t": 1.0275430809706,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 2,
+          "mp": 220,
+          "stamina": 250,
+          "kind": "gourd",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2444,
+        "value": {
+          "heals": 0,
+          "ack": 13,
+          "bossHp": 6480.0,
+          "clip": "AS_Wukong_Stand",
+          "time": 0.086876207962632,
+          "hits": 0,
+          "vz": 0.0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.043438103981316,
+          "locked": true,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0.0,
+          "play": 0,
+          "mp": 220,
+          "stamina": 250,
+          "kind": "free",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2457,
+        "value": {
+          "heals": 0,
+          "ack": 15,
+          "bossHp": 6480.0,
+          "clip": "AM_Wukong_PreciseDodge_B_01",
+          "time": 1.1308747101575,
+          "hits": 0,
+          "vz": 0,
+          "depleted": 0,
+          "focus": 40,
+          "gourd": 6,
+          "t": 0.051837749779224,
+          "locked": true,
+          "pips": 0,
+          "perfect": 1,
+          "hp": 390,
+          "vx": 0,
+          "play": 1,
+          "mp": 220,
+          "stamina": 250,
+          "kind": "perfectDodge",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2484,
+        "value": {
+          "heals": 0,
+          "ack": 16,
+          "bossHp": 6480.0,
+          "clip": "AS_Wukong_Stand",
+          "time": 0.017097583040595,
+          "hits": 0,
+          "vz": 0.0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.0085487915202975,
+          "locked": false,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0.0,
+          "play": 0,
+          "mp": 220,
+          "stamina": 250,
+          "kind": "free",
+          "actorID": 3
+        }
+      },
+      {
+        "line": 2511,
+        "value": {
+          "heals": 0,
+          "ack": 17,
+          "bossHp": 6480.0,
+          "clip": "AM_Wukong_ComboA_q1_sprint",
+          "time": 4.1984909661114,
+          "hits": 0,
+          "vz": 0,
+          "depleted": 0,
+          "focus": 0,
+          "gourd": 6,
+          "t": 0.02109590023756,
+          "locked": false,
+          "pips": 0,
+          "perfect": 0,
+          "hp": 390,
+          "vx": 0,
+          "play": 1,
+          "mp": 220,
+          "stamina": 228.6938677961,
+          "kind": "sprintLight",
+          "actorID": 3
+        }
+      }
+    ],
+    "client-2": [
+      {
+        "line": 1968,
+        "value": {
+          "kind": "free",
+          "actorID": 2,
+          "stamina": 250,
+          "perfect": 0,
+          "ack": 0,
+          "locked": false,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 0.37883945591748,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AS_Wukong_Stand",
+          "t": 0.18941972795874,
+          "focus": 0,
+          "vx": 0.0,
+          "play": 0,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0.0
+        }
+      },
+      {
+        "line": 1982,
+        "value": {
+          "kind": "free",
+          "actorID": 3,
+          "stamina": 250,
+          "perfect": 0,
+          "ack": 0,
+          "locked": false,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 0.051872374489903,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AS_Wukong_Stand",
+          "t": 0.025936187244952,
+          "focus": 0,
+          "vx": 0.0,
+          "play": 0,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0.0
+        }
+      },
+      {
+        "line": 2208,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 240,
+          "step": 1,
+          "ack": 3,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 0.48912000469863,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q1",
+          "t": 0.017599500715733,
+          "vx": 0,
+          "focus": 0,
+          "vz": 0,
+          "play": 1,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2213,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 240,
+          "step": 1,
+          "ack": 3,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 0.75187237933278,
+          "hits": 1,
+          "bossHp": 6427.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q1",
+          "t": 0.28035187534988,
+          "vx": 0,
+          "focus": 15,
+          "vz": 0,
+          "play": 1,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2218,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 225,
+          "step": 2,
+          "ack": 4,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 1.1695227921009,
+          "hits": 1,
+          "bossHp": 6427.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q2",
+          "t": 0.018619103915989,
+          "vx": 0,
+          "focus": 15,
+          "vz": 0,
+          "play": 2,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2226,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 225,
+          "step": 2,
+          "ack": 4,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 1.7979985401034,
+          "hits": 2,
+          "bossHp": 6351.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q2",
+          "t": 0.69695665789768,
+          "vx": 0,
+          "focus": 30,
+          "vz": 0,
+          "play": 2,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2231,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 210,
+          "step": 3,
+          "ack": 5,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 2.1120224148035,
+          "hits": 2,
+          "bossHp": 6351.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q3",
+          "t": 0.019339420646429,
+          "vx": 0,
+          "focus": 30,
+          "vz": 0,
+          "play": 3,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2241,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 210,
+          "step": 3,
+          "ack": 5,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 2.3213438335806,
+          "hits": 3,
+          "bossHp": 6293.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q3",
+          "t": 0.27052512317896,
+          "vx": 0,
+          "focus": 40,
+          "vz": 0,
+          "play": 3,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2246,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 210,
+          "step": 3,
+          "ack": 5,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 2.5298837926239,
+          "hits": 4,
+          "bossHp": 6233.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q3",
+          "t": 0.52077307403088,
+          "vx": 0,
+          "focus": 50,
+          "vz": 0,
+          "play": 3,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2251,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 195,
+          "step": 4,
+          "ack": 6,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 2.9494028743356,
+          "hits": 4,
+          "bossHp": 6233.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "t": 0.017572792246938,
+          "vx": 0,
+          "focus": 50,
+          "vz": 0,
+          "play": 4,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2256,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 195,
+          "step": 4,
+          "ack": 6,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 3.2105420418084,
+          "hits": 6,
+          "bossHp": 6173.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "t": 0.27871195971966,
+          "vx": 0,
+          "focus": 56,
+          "vz": 0,
+          "play": 4,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2261,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 195,
+          "step": 4,
+          "ack": 6,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 3.367407001555,
+          "hits": 8,
+          "bossHp": 6113.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "t": 0.43557691946626,
+          "vx": 0,
+          "focus": 62,
+          "vz": 0,
+          "play": 4,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2266,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 195,
+          "step": 4,
+          "ack": 6,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 3.4712175838649,
+          "hits": 10,
+          "bossHp": 6053.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "t": 0.53938750177622,
+          "vx": 0,
+          "focus": 68,
+          "vz": 0,
+          "play": 4,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2271,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 195,
+          "step": 4,
+          "ack": 6,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 3.6288284212351,
+          "hits": 11,
+          "bossHp": 6015.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "t": 0.69699833914638,
+          "vx": 0,
+          "focus": 71,
+          "vz": 0,
+          "play": 4,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2279,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 195,
+          "step": 4,
+          "ack": 6,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 4.0991845894605,
+          "hits": 12,
+          "bossHp": 5954.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q4",
+          "t": 1.1673545073718,
+          "vx": 0,
+          "focus": 84,
+          "vz": 0,
+          "play": 4,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2289,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 170,
+          "step": 5,
+          "ack": 7,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 4.4664555881172,
+          "hits": 12,
+          "bossHp": 5954.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q5",
+          "t": 0.035159915685654,
+          "vx": 0,
+          "focus": 84,
+          "vz": 0,
+          "play": 5,
+          "depleted": 0,
+          "pips": 0,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2294,
+        "value": {
+          "kind": "light",
+          "actorID": 3,
+          "stamina": 170,
+          "step": 5,
+          "ack": 7,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 5.2502212133259,
+          "hits": 13,
+          "bossHp": 5776.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q5",
+          "t": 0.81892554089427,
+          "vx": 0,
+          "focus": 124,
+          "vz": 0,
+          "play": 5,
+          "depleted": 0,
+          "pips": 1,
+          "perfect": 0
+        }
+      },
+      {
+        "line": 2310,
+        "value": {
+          "kind": "free",
+          "actorID": 3,
+          "stamina": 250,
+          "perfect": 0,
+          "ack": 8,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 0.017582707107067,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AS_Wukong_Stand",
+          "t": 0.0087913535535336,
+          "focus": 0,
+          "vx": 0.0,
+          "play": 0,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0.0
+        }
+      },
+      {
+        "line": 2320,
+        "value": {
+          "kind": "heavyStart",
+          "actorID": 3,
+          "stamina": 240,
+          "perfect": 0,
+          "ack": 9,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 0.48825171031058,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AM_Wukong_xuli_start_0",
+          "t": 0.035156374797225,
+          "focus": 0,
+          "vx": 0,
+          "play": 1,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0
+        }
+      },
+      {
+        "line": 2325,
+        "value": {
+          "kind": "heavyLoop",
+          "actorID": 3,
+          "stamina": 240.43948232196,
+          "perfect": 0,
+          "ack": 9,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 1.4294169638306,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AM_Wukong_xuli_loop",
+          "t": 0.069601794704795,
+          "focus": 15.311800856143,
+          "vx": 0,
+          "play": 2,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0
+        }
+      },
+      {
+        "line": 2338,
+        "value": {
+          "kind": "heavy",
+          "actorID": 3,
+          "stamina": 175.43948232196,
+          "perfect": 0,
+          "ack": 9,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 3.5204756744206,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AM_Wukong_xuli_attack_1",
+          "t": 0.034927416592836,
+          "focus": 128.87636357918,
+          "vx": 0,
+          "play": 3,
+          "depleted": 0,
+          "pips": 1,
+          "vz": 0
+        }
+      },
+      {
+        "line": 2359,
+        "value": {
+          "kind": "free",
+          "actorID": 3,
+          "stamina": 250,
+          "perfect": 0,
+          "ack": 10,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 0.10533612594008,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AS_Wukong_Stand",
+          "t": 0.052668062970042,
+          "focus": 0,
+          "vx": 0.0,
+          "play": 0,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0.0
+        }
+      },
+      {
+        "line": 2367,
+        "value": {
+          "kind": "hit",
+          "actorID": 3,
+          "stamina": 250,
+          "perfect": 0,
+          "ack": 11,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 344,
+          "time": 1.2008644230664,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AM_Wukong_bh_dep01_sl1_df_hf",
+          "t": 0.016919249668717,
+          "focus": 0,
+          "vx": 0,
+          "play": 1,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0
+        }
+      },
+      {
+        "line": 2377,
+        "value": {
+          "kind": "gourd",
+          "actorID": 3,
+          "stamina": 250,
+          "perfect": 0,
+          "ack": 12,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 344,
+          "time": 2.037561673671,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AM_Wukong_heyao_01",
+          "t": 0.0347572080791,
+          "focus": 0,
+          "vx": 0,
+          "play": 2,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0
+        }
+      },
+      {
+        "line": 2385,
+        "value": {
+          "kind": "gourd",
+          "actorID": 3,
+          "stamina": 250,
+          "perfect": 0,
+          "ack": 12,
+          "locked": true,
+          "mp": 220,
+          "gourd": 5,
+          "hp": 390,
+          "time": 3.0303475465626,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 1,
+          "clip": "AM_Wukong_heyao_01",
+          "t": 1.0275430809706,
+          "focus": 0,
+          "vx": 0,
+          "play": 2,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0
+        }
+      },
+      {
+        "line": 2403,
+        "value": {
+          "kind": "free",
+          "actorID": 3,
+          "stamina": 250,
+          "perfect": 0,
+          "ack": 13,
+          "vz": 0.0,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 0.03505783341825,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AS_Wukong_Stand",
+          "t": 0.017528916709125,
+          "focus": 0,
+          "vx": 0.0,
+          "depleted": 0,
+          "pips": 0,
+          "play": 0
+        }
+      },
+      {
+        "line": 2411,
+        "value": {
+          "kind": "perfectDodge",
+          "actorID": 3,
+          "stamina": 250,
+          "perfect": 1,
+          "ack": 15,
+          "locked": true,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 1.1308747101575,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AM_Wukong_PreciseDodge_B_01",
+          "t": 0.051837749779224,
+          "focus": 40,
+          "vx": 0,
+          "play": 1,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0
+        }
+      },
+      {
+        "line": 2446,
+        "value": {
+          "kind": "free",
+          "actorID": 3,
+          "stamina": 250,
+          "perfect": 0,
+          "ack": 16,
+          "locked": false,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 0.017097583040595,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AS_Wukong_Stand",
+          "t": 0.0085487915202975,
+          "focus": 0,
+          "vx": 0.0,
+          "play": 0,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0.0
+        }
+      },
+      {
+        "line": 2475,
+        "value": {
+          "kind": "sprintLight",
+          "actorID": 3,
+          "stamina": 228.6938677961,
+          "perfect": 0,
+          "ack": 17,
+          "locked": false,
+          "mp": 220,
+          "gourd": 6,
+          "hp": 390,
+          "time": 4.1984909661114,
+          "hits": 0,
+          "bossHp": 6480.0,
+          "heals": 0,
+          "clip": "AM_Wukong_ComboA_q1_sprint",
+          "t": 0.02109590023756,
+          "focus": 0,
+          "vx": 0,
+          "play": 1,
+          "depleted": 0,
+          "pips": 0,
+          "vz": 0
+        }
+      }
+    ]
+  },
+  "hitReplication": [
+    {
+      "hit": {
+        "effect": "1080101",
+        "actor": 3,
+        "damage": 53,
+        "t": 0.28035187534988,
+        "group": "g0",
+        "crit": false,
+        "play": 1,
+        "bossHp": 6427.0,
+        "time": 0.75187237933278,
+        "ev": "hit"
+      },
+      "observed": {
+        "client-1": true,
+        "client-2": true
+      }
+    },
+    {
+      "hit": {
+        "effect": "1080201",
+        "actor": 3,
+        "damage": 76,
+        "t": 0.67157605299726,
+        "group": "g0",
+        "crit": false,
+        "play": 2,
+        "bossHp": 6351.0,
+        "time": 1.772617935203,
+        "ev": "hit"
+      },
+      "observed": {
+        "client-1": true,
+        "client-2": true
+      }
+    },
+    {
+      "hit": {
+        "effect": "1080302",
+        "actor": 3,
+        "damage": 60,
+        "t": 0.45747287422419,
+        "group": "e8",
+        "crit": false,
+        "play": 3,
+        "bossHp": 6233.0,
+        "time": 2.4771336261183,
+        "ev": "hit"
+      },
+      "observed": {
+        "client-1": true,
+        "client-2": true
+      }
+    },
+    {
+      "hit": {
+        "effect": "1080402",
+        "actor": 3,
+        "damage": 61,
+        "t": 1.1410930696875,
+        "group": "g0",
+        "crit": false,
+        "play": 4,
+        "bossHp": 5954.0,
+        "time": 4.0729231517762,
+        "ev": "hit"
+      },
+      "observed": {
+        "client-1": true,
+        "client-2": true
+      }
+    },
+    {
+      "hit": {
+        "effect": "1080501",
+        "actor": 3,
+        "damage": 178,
+        "t": 0.81892554089427,
+        "group": "e9",
+        "crit": false,
+        "play": 5,
+        "bossHp": 5776.0,
+        "time": 5.2502212133259,
+        "ev": "hit"
+      },
+      "observed": {
+        "client-1": true,
+        "client-2": true
+      }
+    }
+  ],
+  "luaErrors": {
+    "server": [],
+    "client-1": [],
+    "client-2": []
+  },
+  "replay": [
+    {
+      "line": 2184,
+      "value": {
+        "text": "start"
+      }
+    },
+    {
+      "line": 2435,
+      "value": {
+        "text": "move-origin=(1.23, -6.29, 44.86): 741718001"
+      }
+    },
+    {
+      "line": 2464,
+      "value": {
+        "text": "move-end=(14.13, -6.35, 44.86): 1388508638"
+      }
+    },
+    {
+      "line": 2499,
+      "value": {
+        "text": "finished position=(14.74, -6.35, 54.61): 1389386586"
+      }
+    }
+  ],
+  "dedupUnique": true
+}

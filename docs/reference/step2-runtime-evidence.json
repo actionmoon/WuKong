@@ -1,0 +1,137 @@
+{
+  "session": "/private/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-ogv4f_4g",
+  "scene": "Assets/WuKong/Scenes/WuKongTiger.unity",
+  "mode": "ds",
+  "network": "new",
+  "pawnActorType": "avatar",
+  "dataStore": false,
+  "resourceCatalogModified": "2026-11-22 10:55:34",
+  "checks": {
+    "ds_initialization": true,
+    "two_independent_contexts": true,
+    "both_clients_bound_two_actors": true,
+    "manual_client_a_request_to_ds": true,
+    "revision_three_on_both_clients": true,
+    "animation_advances": true,
+    "movement_visible_on_both_clients": true
+  },
+  "events": {
+    "server": [
+      "[2026-11-22T02:56:04.1097400Z log] [][D][UnityFrame:6900]LUA: [WK-SAMPLE] state-start server=true",
+      "[2026-11-22T02:56:04.1101880Z log] [][D][UnityFrame:6900]LUA: [WK-SAMPLE] visuals-start server=true",
+      "[2026-11-22T02:56:04.1105050Z log] [][D][UnityFrame:6900]LUA: [WK-SAMPLE] ds-boot context-mode=independent-single-player",
+      "[2026-11-22T02:56:04.4249120Z log] [][D][UnityFrame:6918]LUA: [WK-SAMPLE] net-spawned revision=0",
+      "[2026-11-22T02:56:04.4252920Z log] [][D][UnityFrame:6918]LUA: [WK-SAMPLE] revision 0 -> 0",
+      "[2026-11-22T02:56:04.4257010Z log] [][D][UnityFrame:6918]LUA: [WK-SAMPLE] contexts 0 -> 0",
+      "[2026-11-22T02:56:12.4722270Z log] [][D][UnityFrame:7368]LUA: [WK-SAMPLE] real-player-joined",
+      "[2026-11-22T02:56:13.1057440Z log] [][D][UnityFrame:7405]LUA: [WK-SAMPLE] request-received type=string command=probe",
+      "[2026-11-22T02:56:13.1063740Z log] [][D][UnityFrame:7405]LUA: [WK-SAMPLE] contexts 0 -> 1",
+      "[2026-11-22T02:56:13.1068350Z log] [][D][UnityFrame:7405]LUA: [WK-SAMPLE] context-created id=1 hp=390",
+      "[2026-11-22T02:56:13.1072710Z log] [][D][UnityFrame:7405]LUA: [WK-SAMPLE] revision 0 -> 1",
+      "[2026-11-22T02:56:13.1077510Z log] [][D][UnityFrame:7405]LUA: [WK-SAMPLE] request-processed context=1 revision=1",
+      "[2026-11-22T02:56:14.0925460Z log] [][D][UnityFrame:7453]LUA: [WK-SAMPLE] real-player-joined",
+      "[2026-11-22T02:56:14.8765440Z log] [][D][UnityFrame:7499]LUA: [WK-SAMPLE] request-received type=string command=probe",
+      "[2026-11-22T02:56:14.8772720Z log] [][D][UnityFrame:7499]LUA: [WK-SAMPLE] contexts 1 -> 2",
+      "[2026-11-22T02:56:14.8776470Z log] [][D][UnityFrame:7499]LUA: [WK-SAMPLE] context-created id=2 hp=390",
+      "[2026-11-22T02:56:14.8781270Z log] [][D][UnityFrame:7499]LUA: [WK-SAMPLE] revision 1 -> 2",
+      "[2026-11-22T02:56:14.8785150Z log] [][D][UnityFrame:7499]LUA: [WK-SAMPLE] request-processed context=2 revision=2",
+      "[2026-11-22T02:56:46.1342660Z log] [][D][UnityFrame:9292]LUA: [WK-SAMPLE] request-received type=string command=probe",
+      "[2026-11-22T02:56:46.1357870Z log] [][D][UnityFrame:9292]LUA: [WK-SAMPLE] revision 2 -> 3",
+      "[2026-11-22T02:56:46.1366730Z log] [][D][UnityFrame:9292]LUA: [WK-SAMPLE] request-processed context=1 revision=3"
+    ],
+    "client-1": [
+      "[2026-11-22T02:56:11.9367450Z log] [][D][UnityFrame:4846]LUA: [WK-SAMPLE] state-start server=false",
+      "[2026-11-22T02:56:11.9376930Z log] [][D][UnityFrame:4846]LUA: [WK-SAMPLE] visuals-start server=false",
+      "[2026-11-22T02:56:12.4342760Z log] [][D][UnityFrame:4852]LUA: [WK-SAMPLE] net-spawned revision=0",
+      "[2026-11-22T02:56:12.4348660Z log] [][D][UnityFrame:4852]LUA: [WK-SAMPLE] revision 0 -> 0",
+      "[2026-11-22T02:56:12.4361250Z log] [][D][UnityFrame:4852]LUA: [WK-SAMPLE] contexts 0 -> 0",
+      "[2026-11-22T02:56:13.0245010Z log] [][D][UnityFrame:4863]LUA: [WK-SAMPLE] avatar-bound actor=2 local=true animation=AS_Wukong_idle_stand_1",
+      "[2026-11-22T02:56:13.0250830Z log] [][D][UnityFrame:4863]LUA: [WK-SAMPLE] request-sent",
+      "[2026-11-22T02:56:13.3111140Z log] [][D][UnityFrame:4871]LUA: [WK-SAMPLE] response-received revision=1",
+      "[2026-11-22T02:56:13.3119750Z log] [][D][UnityFrame:4871]LUA: [WK-SAMPLE] revision 0 -> 1",
+      "[2026-11-22T02:56:13.3125400Z log] [][D][UnityFrame:4871]LUA: [WK-SAMPLE] contexts 0 -> 1",
+      "[2026-11-22T02:56:14.3723150Z log] [][D][UnityFrame:4930]LUA: [WK-SAMPLE] avatar-bound actor=3 local=false animation=AS_Wukong_idle_stand_1",
+      "[2026-11-22T02:56:14.8244840Z log] [][D][UnityFrame:4956]LUA: [WK-SAMPLE] animation-sample actor=2 time=1.9879091978073 playing=true position=(1.50, 0.02, -2.00): 1023418544",
+      "[2026-11-22T02:56:14.9465010Z log] [][D][UnityFrame:4963]LUA: [WK-SAMPLE] response-received revision=2",
+      "[2026-11-22T02:56:15.0347780Z log] [][D][UnityFrame:4968]LUA: [WK-SAMPLE] revision 1 -> 2",
+      "[2026-11-22T02:56:15.0357430Z log] [][D][UnityFrame:4968]LUA: [WK-SAMPLE] contexts 1 -> 2",
+      "[2026-11-22T02:56:16.3597150Z log] [][D][UnityFrame:5044]LUA: [WK-SAMPLE] animation-sample actor=3 time=1.9874371290207 playing=true position=(1.82, 0.02, -2.00): 1030993806",
+      "[2026-11-22T02:56:16.8338080Z log] [][D][UnityFrame:5071]LUA: [WK-SAMPLE] animation-sample actor=2 time=3.9973845481873 playing=true position=(1.50, 0.02, -2.00): 1023418544",
+      "[2026-11-22T02:56:18.3678060Z log] [][D][UnityFrame:5159]LUA: [WK-SAMPLE] animation-sample actor=3 time=3.9953238964081 playing=true position=(1.82, 0.02, -2.00): 1030993806",
+      "[2026-11-22T02:56:46.0453440Z log] [][D][UnityFrame:6747]LUA: [WK-SAMPLE] request-sent",
+      "[2026-11-22T02:56:46.2016100Z log] [][D][UnityFrame:6756]LUA: [WK-SAMPLE] response-received revision=3",
+      "[2026-11-22T02:56:46.2194300Z log] [][D][UnityFrame:6757]LUA: [WK-SAMPLE] revision 2 -> 3",
+      "[2026-11-22T02:56:47.1395260Z log] [][D][UnityFrame:6810]LUA: [WK-SAMPLE] visual-follow actor=2 position=(1.50, 0.02, -1.47): 586058581 error=0.0",
+      "[2026-11-22T03:08:57.3937950Z log] [][D][UnityFrame:48696]LUA: [WK-SAMPLE] visual-follow actor=3 position=(1.85, 0.02, -1.61): 579305544 error=0.0"
+    ],
+    "client-2": [
+      "[2026-11-22T02:56:13.6576500Z log] [][D][UnityFrame:3666]LUA: [WK-SAMPLE] state-start server=false",
+      "[2026-11-22T02:56:13.6582580Z log] [][D][UnityFrame:3666]LUA: [WK-SAMPLE] visuals-start server=false",
+      "[2026-11-22T02:56:14.2434030Z log] [][D][UnityFrame:3675]LUA: [WK-SAMPLE] net-spawned revision=1",
+      "[2026-11-22T02:56:14.2438330Z log] [][D][UnityFrame:3675]LUA: [WK-SAMPLE] revision 0 -> 1",
+      "[2026-11-22T02:56:14.2443040Z log] [][D][UnityFrame:3675]LUA: [WK-SAMPLE] contexts 0 -> 1",
+      "[2026-11-22T02:56:14.8065890Z log] [][D][UnityFrame:3686]LUA: [WK-SAMPLE] avatar-bound actor=3 local=true animation=AS_Wukong_idle_stand_1",
+      "[2026-11-22T02:56:14.8074110Z log] [][D][UnityFrame:3686]LUA: [WK-SAMPLE] request-sent",
+      "[2026-11-22T02:56:14.8087090Z log] [][D][UnityFrame:3686]LUA: [WK-SAMPLE] avatar-bound actor=2 local=false animation=AS_Wukong_idle_stand_1",
+      "[2026-11-22T02:56:14.9910600Z log] [][D][UnityFrame:3689]LUA: [WK-SAMPLE] response-received revision=2",
+      "[2026-11-22T02:56:15.0287590Z log] [][D][UnityFrame:3692]LUA: [WK-SAMPLE] revision 1 -> 2",
+      "[2026-11-22T02:56:15.0295170Z log] [][D][UnityFrame:3692]LUA: [WK-SAMPLE] contexts 1 -> 2",
+      "[2026-11-22T02:56:16.6167500Z log] [][D][UnityFrame:3783]LUA: [WK-SAMPLE] animation-sample actor=2 time=1.9952179193497 playing=true position=(1.50, 0.02, -2.00): 1023418544",
+      "[2026-11-22T02:56:16.6176140Z log] [][D][UnityFrame:3783]LUA: [WK-SAMPLE] animation-sample actor=3 time=1.9952179193497 playing=true position=(1.82, 0.02, -2.00): 1030997064",
+      "[2026-11-22T02:56:18.6104410Z log] [][D][UnityFrame:3897]LUA: [WK-SAMPLE] animation-sample actor=2 time=3.988762140274 playing=true position=(1.50, 0.02, -2.00): 1023418544",
+      "[2026-11-22T02:56:18.6112920Z log] [][D][UnityFrame:3897]LUA: [WK-SAMPLE] animation-sample actor=3 time=3.988762140274 playing=true position=(1.82, 0.02, -2.00): 1030997064",
+      "[2026-11-22T02:56:46.2001930Z log] [][D][UnityFrame:5480]LUA: [WK-SAMPLE] response-received revision=3",
+      "[2026-11-22T02:56:46.2351400Z log] [][D][UnityFrame:5482]LUA: [WK-SAMPLE] revision 2 -> 3",
+      "[2026-11-22T02:56:47.2464890Z log] [][D][UnityFrame:5540]LUA: [WK-SAMPLE] visual-follow actor=2 position=(1.50, 0.02, -1.49): 586039627 error=0.0",
+      "[2026-11-22T03:08:57.3167720Z log] [][D][UnityFrame:47410]LUA: [WK-SAMPLE] visual-follow actor=3 position=(1.86, 0.02, -1.49): 580491080 error=0.0"
+    ]
+  },
+  "editorMeasurements": {
+    "collisionRay": {
+      "origin": [
+        7,
+        10,
+        0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "hit": [
+        7,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    "idleClipLength": 14.53333,
+    "spinePoseAngleAtOneSecond": 0.3582736,
+    "gpuInstancing": {
+      "meshCount": 1,
+      "rendererCount": 42,
+      "distinctPositions": 42,
+      "firstSourcePosition": [
+        -364.703125,
+        -167.796875,
+        481.375
+      ],
+      "firstUnityPosition": [
+        364.703125,
+        -167.796875,
+        481.375
+      ]
+    }
+  },
+  "remaining": [
+    "Client B manual input unverified after desktop tool timeout; its automatic request passed.",
+    "Reference collision route walking unverified; isolated collider ray passed.",
+    "SDK AvatarData null / missing pawn_avatar_bundle_uri / id type errors remain at startup.",
+    "Fine normal, transparency and PBR calibration remain for later asset work.",
+    "GPU extension instances became separate Renderers; batching and performance unverified."
+  ]
+}

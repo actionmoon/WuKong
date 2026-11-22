@@ -1,0 +1,50 @@
+{
+  "source": "stances.js / spells.js / transform.js / spirit.js",
+  "clips": {
+    "stances": 45,
+    "spells": 7,
+    "transition": 4,
+    "lang": 55,
+    "she": 1,
+    "snake": 4
+  },
+  "notifyTypes": [
+    "attackState",
+    "behavior",
+    "buff",
+    "bullet",
+    "cameraShake",
+    "cancel",
+    "castDingShen",
+    "comboWindow",
+    "cost",
+    "dodgeInputBuffer",
+    "dodgeWindow",
+    "effect",
+    "focus",
+    "hit",
+    "iframe",
+    "inputBuffer",
+    "itemWindow",
+    "magicBuffer",
+    "magicWindow",
+    "moveWindow",
+    "playRate",
+    "rootMotionScale",
+    "rotate",
+    "slowTime",
+    "sound",
+    "superArmor",
+    "trigger",
+    "vfx"
+  ],
+  "inferences": [
+    "Base montage Vigor rows omitted: landed hit falls back to the first gainByEffect row whose ID encodes the skill."
+  ],
+  "presentationDeferredToStep7": [
+    "particles",
+    "audio",
+    "material curves",
+    "dissolve"
+  ]
+}
