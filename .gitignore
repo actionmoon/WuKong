@@ -1,0 +1,6 @@
+unity/Library
+unity/Logs
+*.csproj
+*.sln
+unity/.DS_Store
+unity/UserSettings
