@@ -4,3 +4,4 @@ unity/Logs
 *.sln
 unity/.DS_Store
 unity/UserSettings
+.DS_Store

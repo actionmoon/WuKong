@@ -1,0 +1,4167 @@
+{
+  "files": {
+    "API Reference Index.md": {
+      "id": "6a7ab8ea1e86180537b40109",
+      "path": "API Reference Index",
+      "title": "API Reference Index"
+    },
+    "API Reference/DouyinActor.md": {
+      "export_version": "edited",
+      "id": "680af1c340ce2e0546094363",
+      "path": "API Reference/DouyinActor",
+      "title": "DouyinActor"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onActionPlay.md": {
+      "export_version": "edited",
+      "id": "68b68d21ffddda05a2992147",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onActionPlay",
+      "title": "DouyinActor.onActionPlay"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onActorLoaded.md": {
+      "export_version": "edited",
+      "id": "680b0583eb63e4055fcf3ced",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onActorLoaded",
+      "title": "DouyinActor.onActorLoaded"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onDrop.md": {
+      "export_version": "edited",
+      "id": "69099b50e906c60503321e65",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onDrop",
+      "title": "DouyinActor.onDrop"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onDuoInteractionEnd.md": {
+      "export_version": "edited",
+      "id": "68b68e2e9ef4ce04f851090b",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onDuoInteractionEnd",
+      "title": "DouyinActor.onDuoInteractionEnd"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onDuoInteractionStart.md": {
+      "export_version": "edited",
+      "id": "68b68d85e9be7204f4e1b793",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onDuoInteractionStart",
+      "title": "DouyinActor.onDuoInteractionStart"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onDuoInteractionWaiting.md": {
+      "export_version": "edited",
+      "id": "690c4896cbf6860542d76030",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onDuoInteractionWaiting",
+      "title": "DouyinActor.onDuoInteractionWaiting"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onEmotionPlay.md": {
+      "export_version": "edited",
+      "id": "68b68abeffddda05a2990a03",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onEmotionPlay",
+      "title": "DouyinActor.onEmotionPlay"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onFallingGround.md": {
+      "export_version": "edited",
+      "id": "680b2e7c955366051ec45c11",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onFallingGround",
+      "title": "DouyinActor.onFallingGround"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onFlyStart.md": {
+      "export_version": "edited",
+      "id": "680b2ec3fe0185053f8888f1",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onFlyStart",
+      "title": "DouyinActor.onFlyStart"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onFlyStop.md": {
+      "export_version": "edited",
+      "id": "680b2ed1fd8f6b055242ebab",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onFlyStop",
+      "title": "DouyinActor.onFlyStop"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onHoldHandStart.md": {
+      "export_version": "edited",
+      "id": "68b68f3d221ecb04ffe7cf92",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onHoldHandStart",
+      "title": "DouyinActor.onHoldHandStart"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onHoldHandStop.md": {
+      "export_version": "edited",
+      "id": "68b68f9d9ef4ce04f8511c4b",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onHoldHandStop",
+      "title": "DouyinActor.onHoldHandStop"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onJump.md": {
+      "export_version": "edited",
+      "id": "680b2eb7e3a079054245f9fc",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onJump",
+      "title": "DouyinActor.onJump"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onPickup.md": {
+      "export_version": "edited",
+      "id": "69099a287c662405040130e5",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onPickup",
+      "title": "DouyinActor.onPickup"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onSitDown.md": {
+      "export_version": "edited",
+      "id": "69099c00e906c60503322793",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onSitDown",
+      "title": "DouyinActor.onSitDown"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onStandUp.md": {
+      "export_version": "edited",
+      "id": "69099ccc09cc670542986ced",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onStandUp",
+      "title": "DouyinActor.onStandUp"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onSwimStart.md": {
+      "export_version": "edited",
+      "id": "690afb0ccf794d0547eb8614",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onSwimStart",
+      "title": "DouyinActor.onSwimStart"
+    },
+    "API Reference/DouyinActor/事件/DouyinActor.onSwimStop.md": {
+      "export_version": "edited",
+      "id": "690afb6c9b96dc05310a3079",
+      "path": "API Reference/DouyinActor/事件/DouyinActor.onSwimStop",
+      "title": "DouyinActor.onSwimStop"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.UID.md": {
+      "export_version": "edited",
+      "id": "6923fec91e67f4053791c6c5",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.UID",
+      "title": "DouyinActor.UID"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.actorID.md": {
+      "export_version": "edited",
+      "id": "680b31c4e3a0790542461314",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.actorID",
+      "title": "DouyinActor.actorID"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.allowAccessUserPanel.md": {
+      "export_version": "edited",
+      "id": "68b6906dbbf41a04fb0fb894",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.allowAccessUserPanel",
+      "title": "DouyinActor.allowAccessUserPanel"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.allowPushByOtherActor.md": {
+      "export_version": "edited",
+      "id": "680b399be3a0790542463f59",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.allowPushByOtherActor",
+      "title": "DouyinActor.allowPushByOtherActor"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.disableActorCollider.md": {
+      "export_version": "edited",
+      "id": "69ef22fba7c2c805073fcf8d",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.disableActorCollider",
+      "title": "DouyinActor.disableActorCollider"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.displayName.md": {
+      "export_version": "edited",
+      "id": "680b3273d8115704fce6dcc2",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.displayName",
+      "title": "DouyinActor.displayName"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.douyinPet.md": {
+      "export_version": "edited",
+      "id": "680b357c3e071e05498e9aca",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.douyinPet",
+      "title": "DouyinActor.douyinPet"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.flyMaxHeight.md": {
+      "export_version": "edited",
+      "id": "680b37033e071e05498ea8e2",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.flyMaxHeight",
+      "title": "DouyinActor.flyMaxHeight"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.flyMinHeight.md": {
+      "export_version": "edited",
+      "id": "680b3757fd8f6b0552432492",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.flyMinHeight",
+      "title": "DouyinActor.flyMinHeight"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.flySpeed.md": {
+      "export_version": "edited",
+      "id": "680b3610134bce0566a8f94d",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.flySpeed",
+      "title": "DouyinActor.flySpeed"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.flyVerticalSpeed.md": {
+      "export_version": "edited",
+      "id": "680b36a2955366051ec49229",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.flyVerticalSpeed",
+      "title": "DouyinActor.flyVerticalSpeed"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.gameObject.md": {
+      "export_version": "edited",
+      "id": "680b2ee5fd8f6b055242ec7f",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.gameObject",
+      "title": "DouyinActor.gameObject"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.gravityScale.md": {
+      "export_version": "edited",
+      "id": "680b384640ce2e05460a8504",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.gravityScale",
+      "title": "DouyinActor.gravityScale"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.isLocal.md": {
+      "export_version": "edited",
+      "id": "680d9bf9eb63e4055fd6eed5",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.isLocal",
+      "title": "DouyinActor.isLocal"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.isPet.md": {
+      "export_version": "edited",
+      "id": "680b3328fd8f6b0552430ac3",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.isPet",
+      "title": "DouyinActor.isPet"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.jumpHeight.md": {
+      "export_version": "edited",
+      "id": "690aef696743770523b58420",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.jumpHeight",
+      "title": "DouyinActor.jumpHeight"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.minSlopeAngleLimit.md": {
+      "export_version": "edited",
+      "id": "680b390cd8115704fce703c5",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.minSlopeAngleLimit",
+      "title": "DouyinActor.minSlopeAngleLimit"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.position.md": {
+      "export_version": "edited",
+      "id": "680b2f7528b720054bb670b6",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.position",
+      "title": "DouyinActor.position"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.rotation.md": {
+      "export_version": "edited",
+      "id": "680b300f62c14605067b6069",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.rotation",
+      "title": "DouyinActor.rotation"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.scale.md": {
+      "export_version": "edited",
+      "id": "680b310feb63e4055fcfe6f9",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.scale",
+      "title": "DouyinActor.scale"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.speed.md": {
+      "export_version": "edited",
+      "id": "680b37b218f3fe052fcb5c46",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.speed",
+      "title": "DouyinActor.speed"
+    },
+    "API Reference/DouyinActor/属性/DouyinActor.velocity.md": {
+      "export_version": "edited",
+      "id": "680b37ef18f3fe052fcb5d17",
+      "path": "API Reference/DouyinActor/属性/DouyinActor.velocity",
+      "title": "DouyinActor.velocity"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.AcceptDuoInteraction.md": {
+      "export_version": "edited",
+      "id": "690c537e1a914505461ce623",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.AcceptDuoInteraction",
+      "title": "DouyinActor.AcceptDuoInteraction"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.CalculatePalmTransform.md": {
+      "export_version": "edited",
+      "id": "68b6e4ba9ef4ce04f85405aa",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.CalculatePalmTransform",
+      "title": "DouyinActor.CalculatePalmTransform"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.CanFly.md": {
+      "export_version": "edited",
+      "id": "680d9335e3a07905424cc263",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.CanFly",
+      "title": "DouyinActor.CanFly"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.CanHoldHand.md": {
+      "export_version": "edited",
+      "id": "68b6ecd5221ecb04ffeafbd8",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.CanHoldHand",
+      "title": "DouyinActor.CanHoldHand"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.CanMove.md": {
+      "export_version": "edited",
+      "id": "680b88dceb63e4055fd184af",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.CanMove",
+      "title": "DouyinActor.CanMove"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.CanSwim.md": {
+      "export_version": "edited",
+      "id": "680d943b955366051ecb31b8",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.CanSwim",
+      "title": "DouyinActor.CanSwim"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.ChangState.md": {
+      "export_version": "edited",
+      "id": "680b84eceb63e4055fd178f8",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.ChangState",
+      "title": "DouyinActor.ChangState"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.ClearActorTags.md": {
+      "export_version": "edited",
+      "id": "680b831a62c14605067cdee6",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.ClearActorTags",
+      "title": "DouyinActor.ClearActorTags"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.DisableFly.md": {
+      "export_version": "edited",
+      "id": "68b6e7f29ef4ce04f8541db6",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.DisableFly",
+      "title": "DouyinActor.DisableFly"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.DisableHoldHand.md": {
+      "export_version": "edited",
+      "id": "68b6ebc10bcacd05aa147538",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.DisableHoldHand",
+      "title": "DouyinActor.DisableHoldHand"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.DisableInteraction.md": {
+      "export_version": "edited",
+      "id": "68b6e4553bcbc80500c3ff39",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.DisableInteraction",
+      "title": "DouyinActor.DisableInteraction"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.Drop.md": {
+      "export_version": "edited",
+      "id": "680b61e828b720054bb7aa49",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.Drop",
+      "title": "DouyinActor.Drop"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.EnableFly.md": {
+      "export_version": "edited",
+      "id": "68b6e5ca3bcbc80500c409ec",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.EnableFly",
+      "title": "DouyinActor.EnableFly"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.EnableHoldHand.md": {
+      "export_version": "edited",
+      "id": "68b6e893ffddda05a29c5021",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.EnableHoldHand",
+      "title": "DouyinActor.EnableHoldHand"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.EnableInteraction.md": {
+      "export_version": "edited",
+      "id": "68b6e3f53bcbc80500c3fc74",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.EnableInteraction",
+      "title": "DouyinActor.EnableInteraction"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.GetActorTag.md": {
+      "export_version": "edited",
+      "id": "680b82234be21d052b5f7732",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.GetActorTag",
+      "title": "DouyinActor.GetActorTag"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.GetBonePosition.md": {
+      "export_version": "edited",
+      "id": "680b3a86fd8f6b0552433a2c",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.GetBonePosition",
+      "title": "DouyinActor.GetBonePosition"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.GetBoneRotation.md": {
+      "export_version": "edited",
+      "id": "680b3cb3134bce0566a924c0",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.GetBoneRotation",
+      "title": "DouyinActor.GetBoneRotation"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.GetBoneTransform.md": {
+      "export_version": "edited",
+      "id": "680b409818f3fe052fcb8ee8",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.GetBoneTransform",
+      "title": "DouyinActor.GetBoneTransform"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.GetHoldHandState.md": {
+      "export_version": "edited",
+      "id": "690c5f66987e460549eacf87",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.GetHoldHandState",
+      "title": "DouyinActor.GetHoldHandState"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.GetNameplate.md": {
+      "export_version": "edited",
+      "id": "680b5bcd952b0e05507893e8",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.GetNameplate",
+      "title": "DouyinActor.GetNameplate"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.GetPickupInHand.md": {
+      "export_version": "edited",
+      "id": "680b5db362c14605067c77a3",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.GetPickupInHand",
+      "title": "DouyinActor.GetPickupInHand"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.GetState.md": {
+      "export_version": "edited",
+      "id": "680b83d6a428760549c82edf",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.GetState",
+      "title": "DouyinActor.GetState"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.GetStateEnabled.md": {
+      "export_version": "edited",
+      "id": "680b858cd8115704fce85c5a",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.GetStateEnabled",
+      "title": "DouyinActor.GetStateEnabled"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.Immobilize.md": {
+      "export_version": "edited",
+      "id": "680d951aa428760549cd80e7",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.Immobilize",
+      "title": "DouyinActor.Immobilize"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.Interact.md": {
+      "export_version": "edited",
+      "id": "680b5ca6134bce0566a9e3df",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.Interact",
+      "title": "DouyinActor.Interact"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.InviteDuoInteraction.md": {
+      "export_version": "edited",
+      "id": "690c4da652ea0c04e8788bd8",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.InviteDuoInteraction",
+      "title": "DouyinActor.InviteDuoInteraction"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.IsDuoInteracting.md": {
+      "export_version": "edited",
+      "id": "690c5c4dcba98d04ef4b2856",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.IsDuoInteracting",
+      "title": "DouyinActor.IsDuoInteracting"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.IsDuoInteractionWaiting.md": {
+      "export_version": "edited",
+      "id": "690c5851741131053e2d9911",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.IsDuoInteractionWaiting",
+      "title": "DouyinActor.IsDuoInteractionWaiting"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.IsFlying.md": {
+      "export_version": "edited",
+      "id": "680d93a24be21d052b64c4a7",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.IsFlying",
+      "title": "DouyinActor.IsFlying"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.IsGrounded.md": {
+      "export_version": "edited",
+      "id": "680b87dc955366051ec5ed0e",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.IsGrounded",
+      "title": "DouyinActor.IsGrounded"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.IsHoldHand.md": {
+      "export_version": "edited",
+      "id": "68b6ec5b6888fd04f91c015a",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.IsHoldHand",
+      "title": "DouyinActor.IsHoldHand"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.IsPickup.md": {
+      "export_version": "edited",
+      "id": "69099e68842d4d053d847e47",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.IsPickup",
+      "title": "DouyinActor.IsPickup"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.IsSitting.md": {
+      "export_version": "edited",
+      "id": "680b8a2562c14605067cf341",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.IsSitting",
+      "title": "DouyinActor.IsSitting"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.IsSwimming.md": {
+      "export_version": "edited",
+      "id": "680d94aa478c4305363f655a",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.IsSwimming",
+      "title": "DouyinActor.IsSwimming"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.Jump.md": {
+      "export_version": "edited",
+      "id": "680b877162c14605067ceaeb",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.Jump",
+      "title": "DouyinActor.Jump"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.MoveContinuously.md": {
+      "export_version": "edited",
+      "id": "680b89704be21d052b5f8cb7",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.MoveContinuously",
+      "title": "DouyinActor.MoveContinuously"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.NetSpawn.md": {
+      "export_version": "edited",
+      "id": "6912affe67cfa0050484fa1e",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.NetSpawn",
+      "title": "DouyinActor.NetSpawn"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.Pickup.md": {
+      "export_version": "edited",
+      "id": "680b601b28b720054bb7a1ae",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.Pickup",
+      "title": "DouyinActor.Pickup"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.PlayAnimation.md": {
+      "export_version": "edited",
+      "id": "680b567118f3fe052fcc1bc6",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.PlayAnimation",
+      "title": "DouyinActor.PlayAnimation"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.PlayEmoji.md": {
+      "export_version": "edited",
+      "id": "680b637ffd8f6b05524419d2",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.PlayEmoji",
+      "title": "DouyinActor.PlayEmoji"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.Respawn.md": {
+      "export_version": "edited",
+      "id": "680b7e60134bce0566aa4053",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.Respawn",
+      "title": "DouyinActor.Respawn"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SetActorTag.md": {
+      "export_version": "edited",
+      "id": "680b80ab18f3fe052fcca94b",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SetActorTag",
+      "title": "DouyinActor.SetActorTag"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SetAlpha.md": {
+      "export_version": "edited",
+      "id": "68b693710bcacd05aa1198a5",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SetAlpha",
+      "title": "DouyinActor.SetAlpha"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SetFlyMode.md": {
+      "export_version": "edited",
+      "id": "680b8d6e134bce0566aa66f1",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SetFlyMode",
+      "title": "DouyinActor.SetFlyMode"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SetFootstepAudioClips.md": {
+      "export_version": "edited",
+      "id": "696f7d8df69e2d051b1d6bea",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SetFootstepAudioClips",
+      "title": "DouyinActor.SetFootstepAudioClips"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SetJumpAudioClip.md": {
+      "export_version": "edited",
+      "id": "696f7d67644e7305267aadb2",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SetJumpAudioClip",
+      "title": "DouyinActor.SetJumpAudioClip"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SetOverrideAnimation.md": {
+      "export_version": "edited",
+      "id": "680b54f93e071e05498f63c1",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SetOverrideAnimation",
+      "title": "DouyinActor.SetOverrideAnimation"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SetOverrideAnimationController.md": {
+      "export_version": "edited",
+      "id": "680b53de134bce0566a9abb7",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SetOverrideAnimationController",
+      "title": "DouyinActor.SetOverrideAnimationController"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SetSpeed.md": {
+      "export_version": "edited",
+      "id": "6a3bd894f7b20a04e1b4f7a9",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SetSpeed",
+      "title": "DouyinActor.SetSpeed"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SetStateEnabled.md": {
+      "export_version": "edited",
+      "id": "680b86adeb63e4055fd17db5",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SetStateEnabled",
+      "title": "DouyinActor.SetStateEnabled"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SetVisible.md": {
+      "export_version": "edited",
+      "id": "68b6e3620bcacd05aa14398d",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SetVisible",
+      "title": "DouyinActor.SetVisible"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.ShowNameplate.md": {
+      "export_version": "edited",
+      "id": "680b5a8de3a07905424704c5",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.ShowNameplate",
+      "title": "DouyinActor.ShowNameplate"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.SitDown.md": {
+      "export_version": "edited",
+      "id": "680b8ab43e071e0549901cf6",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.SitDown",
+      "title": "DouyinActor.SitDown"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.StandUp.md": {
+      "export_version": "edited",
+      "id": "680b8cbceb63e4055fd19190",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.StandUp",
+      "title": "DouyinActor.StandUp"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.StartDuoInteraction.md": {
+      "export_version": "edited",
+      "id": "690c5628741131053e2d6b09",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.StartDuoInteraction",
+      "title": "DouyinActor.StartDuoInteraction"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.StartFly.md": {
+      "export_version": "edited",
+      "id": "680d91d93e071e054995550e",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.StartFly",
+      "title": "DouyinActor.StartFly"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.StopAnimation.md": {
+      "export_version": "edited",
+      "id": "680b585340ce2e05460b432f",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.StopAnimation",
+      "title": "DouyinActor.StopAnimation"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.StopDuoInteraction.md": {
+      "export_version": "edited",
+      "id": "690c573f52ea0c04e8795fae",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.StopDuoInteraction",
+      "title": "DouyinActor.StopDuoInteraction"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.StopDuoInteractionWaiting.md": {
+      "export_version": "edited",
+      "id": "690c59e51a914505461d5c4b",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.StopDuoInteractionWaiting",
+      "title": "DouyinActor.StopDuoInteractionWaiting"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.StopFly.md": {
+      "export_version": "edited",
+      "id": "680d9296eb63e4055fd6bac7",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.StopFly",
+      "title": "DouyinActor.StopFly"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.StopHoldHand.md": {
+      "export_version": "edited",
+      "id": "68b6ed359ef4ce04f8544404",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.StopHoldHand",
+      "title": "DouyinActor.StopHoldHand"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.StopMove.md": {
+      "export_version": "edited",
+      "id": "680b8934955366051ec5f096",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.StopMove",
+      "title": "DouyinActor.StopMove"
+    },
+    "API Reference/DouyinActor/方法/DouyinActor.Teleport.md": {
+      "export_version": "edited",
+      "id": "680b7ea328b720054bb7f68d",
+      "path": "API Reference/DouyinActor/方法/DouyinActor.Teleport",
+      "title": "DouyinActor.Teleport"
+    },
+    "API Reference/DouyinActorService.md": {
+      "export_version": "edited",
+      "id": "680d9f71134bce0566afd4e2",
+      "path": "API Reference/DouyinActorService",
+      "title": "DouyinActorService"
+    },
+    "API Reference/DouyinActorService/DouyinActorService.ClearAllActorsTag.md": {
+      "export_version": "edited",
+      "id": "680ddb37d8115704fceed3a5",
+      "path": "API Reference/DouyinActorService/DouyinActorService.ClearAllActorsTag",
+      "title": "DouyinActorService.ClearAllActorsTag"
+    },
+    "API Reference/DouyinActorService/DouyinActorService.GetActor.md": {
+      "export_version": "edited",
+      "id": "680dd5704be21d052b65cebc",
+      "path": "API Reference/DouyinActorService/DouyinActorService.GetActor",
+      "title": "DouyinActorService.GetActor"
+    },
+    "API Reference/DouyinActorService/DouyinActorService.GetActorById.md": {
+      "export_version": "edited",
+      "id": "680dd49a952b0e05507f57fd",
+      "path": "API Reference/DouyinActorService/DouyinActorService.GetActorById",
+      "title": "DouyinActorService.GetActorById"
+    },
+    "API Reference/DouyinActorService/DouyinActorService.GetActors.md": {
+      "export_version": "edited",
+      "id": "680dd3b862c1460506832985",
+      "path": "API Reference/DouyinActorService/DouyinActorService.GetActors",
+      "title": "DouyinActorService.GetActors"
+    },
+    "API Reference/DouyinActorService/DouyinActorService.GetActorsWithTag.md": {
+      "export_version": "edited",
+      "id": "680dd9d0134bce0566b0c585",
+      "path": "API Reference/DouyinActorService/DouyinActorService.GetActorsWithTag",
+      "title": "DouyinActorService.GetActorsWithTag"
+    },
+    "API Reference/DouyinActorService/DouyinActorService.GetLocalActor.md": {
+      "export_version": "edited",
+      "id": "680dd90dd8115704fceec24a",
+      "path": "API Reference/DouyinActorService/DouyinActorService.GetLocalActor",
+      "title": "DouyinActorService.GetLocalActor"
+    },
+    "API Reference/DouyinActorService/DouyinActorService.GetMaxActorCount.md": {
+      "export_version": "edited",
+      "id": "680dd32540ce2e0546121c95",
+      "path": "API Reference/DouyinActorService/DouyinActorService.GetMaxActorCount",
+      "title": "DouyinActorService.GetMaxActorCount"
+    },
+    "API Reference/DouyinApplication.md": {
+      "export_version": "edited",
+      "id": "692d083a75bf990565edba3d",
+      "path": "API Reference/DouyinApplication",
+      "title": "DouyinApplication"
+    },
+    "API Reference/DouyinApplication/DouyinApplication.Quit.md": {
+      "export_version": "edited",
+      "id": "692edfa13a29410577d4dd13",
+      "path": "API Reference/DouyinApplication/DouyinApplication.Quit",
+      "title": "DouyinApplication.Quit"
+    },
+    "API Reference/DouyinApplication/DouyinApplication.isServer.md": {
+      "export_version": "edited",
+      "id": "695e148d94316406a9de09d8",
+      "path": "API Reference/DouyinApplication/DouyinApplication.isServer",
+      "title": "DouyinApplication.isServer"
+    },
+    "API Reference/DouyinApplication/DouyinApplication.isSimulator.md": {
+      "export_version": "edited",
+      "id": "692edee12bd4900525ae30b8",
+      "path": "API Reference/DouyinApplication/DouyinApplication.isSimulator",
+      "title": "DouyinApplication.isSimulator"
+    },
+    "API Reference/DouyinCameraService.md": {
+      "export_version": "edited",
+      "id": "680ee45728b720054bc2252c",
+      "path": "API Reference/DouyinCameraService",
+      "title": "DouyinCameraService"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.GetCamera.md": {
+      "export_version": "edited",
+      "id": "680ef0afa428760549d293a3",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.GetCamera",
+      "title": "DouyinCameraService.GetCamera"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.GetPitch.md": {
+      "export_version": "edited",
+      "id": "680ef3b6c7dbd304fa0547a3",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.GetPitch",
+      "title": "DouyinCameraService.GetPitch"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.GetYaw.md": {
+      "export_version": "edited",
+      "id": "680ef5005eff950501ce3218",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.GetYaw",
+      "title": "DouyinCameraService.GetYaw"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.IsPhotographMode.md": {
+      "export_version": "edited",
+      "id": "68b7b8af0bcacd05aa190f18",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.IsPhotographMode",
+      "title": "DouyinCameraService.IsPhotographMode"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.SetDistance.md": {
+      "export_version": "edited",
+      "id": "680ef61980e5f30548661654",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.SetDistance",
+      "title": "DouyinCameraService.SetDistance"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.SetOffset.md": {
+      "export_version": "edited",
+      "id": "680ef6c4952b0e05508375e9",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.SetOffset",
+      "title": "DouyinCameraService.SetOffset"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.SetPitch.md": {
+      "export_version": "edited",
+      "id": "680ef46262c1460506874f1e",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.SetPitch",
+      "title": "DouyinCameraService.SetPitch"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.SetYaw.md": {
+      "export_version": "edited",
+      "id": "680ef5913e071e05499a71bc",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.SetYaw",
+      "title": "DouyinCameraService.SetYaw"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.StartPhotograph.md": {
+      "export_version": "edited",
+      "id": "68b7bcde6888fd04f9209642",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.StartPhotograph",
+      "title": "DouyinCameraService.StartPhotograph"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.StopPhotograph.md": {
+      "export_version": "edited",
+      "id": "68b7bd863bcbc80500c8ed43",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.StopPhotograph",
+      "title": "DouyinCameraService.StopPhotograph"
+    },
+    "API Reference/DouyinCameraService/DouyinCameraService.onCameraModeChanged.md": {
+      "export_version": "edited",
+      "id": "680ee6daf5e8300541251278",
+      "path": "API Reference/DouyinCameraService/DouyinCameraService.onCameraModeChanged",
+      "title": "DouyinCameraService.onCameraModeChanged"
+    },
+    "API Reference/DouyinCreatorService.md": {
+      "export_version": "edited",
+      "id": "693a7d8e7973ba054efa8f49",
+      "path": "API Reference/DouyinCreatorService",
+      "title": "DouyinCreatorService"
+    },
+    "API Reference/DouyinCreatorService/CreatorInfo.md": {
+      "export_version": "edited",
+      "id": "692d62972bd4900525a06301",
+      "path": "API Reference/DouyinCreatorService/CreatorInfo",
+      "title": "CreatorInfo"
+    },
+    "API Reference/DouyinCreatorService/DouyinCreatorService.Follow.md": {
+      "export_version": "edited",
+      "id": "68c3c6e9393abc0556420301",
+      "path": "API Reference/DouyinCreatorService/DouyinCreatorService.Follow",
+      "title": "DouyinCreatorService.Follow"
+    },
+    "API Reference/DouyinCreatorService/DouyinCreatorService.GetCreatorInfo.md": {
+      "export_version": "edited",
+      "id": "68c3c6746f222f0522e6efb2",
+      "path": "API Reference/DouyinCreatorService/DouyinCreatorService.GetCreatorInfo",
+      "title": "DouyinCreatorService.GetCreatorInfo"
+    },
+    "API Reference/DouyinCreatorService/DouyinCreatorService.OpenCreatorInformation.md": {
+      "export_version": "edited",
+      "id": "68c3c6e54f3f3b0524323fa3",
+      "path": "API Reference/DouyinCreatorService/DouyinCreatorService.OpenCreatorInformation",
+      "title": "DouyinCreatorService.OpenCreatorInformation"
+    },
+    "API Reference/DouyinImageService.md": {
+      "export_version": "edited",
+      "id": "6901a947c342c505363edb97",
+      "path": "API Reference/DouyinImageService",
+      "title": "DouyinImageService"
+    },
+    "API Reference/DouyinImageService/DouyinImageService.DownloadImage.md": {
+      "export_version": "edited",
+      "id": "6901abb5842d4d053d45a2ed",
+      "path": "API Reference/DouyinImageService/DouyinImageService.DownloadImage",
+      "title": "DouyinImageService.DownloadImage"
+    },
+    "API Reference/DouyinInputService.md": {
+      "export_version": "edited",
+      "id": "680dffc9eb63e4055fd8d347",
+      "path": "API Reference/DouyinInputService",
+      "title": "DouyinInputService"
+    },
+    "API Reference/DouyinInputService/DouyinInputService.onJumpInputCancel.md": {
+      "export_version": "edited",
+      "id": "680e21935eff950501cba695",
+      "path": "API Reference/DouyinInputService/DouyinInputService.onJumpInputCancel",
+      "title": "DouyinInputService.onJumpInputCancel"
+    },
+    "API Reference/DouyinInputService/DouyinInputService.onJumpInputStart.md": {
+      "export_version": "edited",
+      "id": "680e1fd180e5f3054863883c",
+      "path": "API Reference/DouyinInputService/DouyinInputService.onJumpInputStart",
+      "title": "DouyinInputService.onJumpInputStart"
+    },
+    "API Reference/DouyinInputService/DouyinInputService.onLookInputCancel.md": {
+      "export_version": "edited",
+      "id": "680e1de762c146050684bd08",
+      "path": "API Reference/DouyinInputService/DouyinInputService.onLookInputCancel",
+      "title": "DouyinInputService.onLookInputCancel"
+    },
+    "API Reference/DouyinInputService/DouyinInputService.onLookInputPerform.md": {
+      "export_version": "edited",
+      "id": "680e1d314be21d052b6744e3",
+      "path": "API Reference/DouyinInputService/DouyinInputService.onLookInputPerform",
+      "title": "DouyinInputService.onLookInputPerform"
+    },
+    "API Reference/DouyinInputService/DouyinInputService.onLookInputStart.md": {
+      "export_version": "edited",
+      "id": "680e1c6080e5f30548637710",
+      "path": "API Reference/DouyinInputService/DouyinInputService.onLookInputStart",
+      "title": "DouyinInputService.onLookInputStart"
+    },
+    "API Reference/DouyinInputService/DouyinInputService.onMoveInputCancel.md": {
+      "export_version": "edited",
+      "id": "680e1b983e071e054997e9a4",
+      "path": "API Reference/DouyinInputService/DouyinInputService.onMoveInputCancel",
+      "title": "DouyinInputService.onMoveInputCancel"
+    },
+    "API Reference/DouyinInputService/DouyinInputService.onMoveInputPerform.md": {
+      "export_version": "edited",
+      "id": "680e1ae6134bce0566b2244c",
+      "path": "API Reference/DouyinInputService/DouyinInputService.onMoveInputPerform",
+      "title": "DouyinInputService.onMoveInputPerform"
+    },
+    "API Reference/DouyinInputService/DouyinInputService.onMoveInputStart.md": {
+      "export_version": "edited",
+      "id": "680e1a26134bce0566b22061",
+      "path": "API Reference/DouyinInputService/DouyinInputService.onMoveInputStart",
+      "title": "DouyinInputService.onMoveInputStart"
+    },
+    "API Reference/DouyinInputService/DouyinInputService.onTouchEvent.md": {
+      "export_version": "edited",
+      "id": "680e148c478c43053641e61c",
+      "path": "API Reference/DouyinInputService/DouyinInputService.onTouchEvent",
+      "title": "DouyinInputService.onTouchEvent"
+    },
+    "API Reference/DouyinInputService/DouyinInputService.onZoomInput.md": {
+      "export_version": "edited",
+      "id": "680e1f23d8115704fcf030bc",
+      "path": "API Reference/DouyinInputService/DouyinInputService.onZoomInput",
+      "title": "DouyinInputService.onZoomInput"
+    },
+    "API Reference/DouyinInputService/DouyiuInputService.onJumpInputPerform.md": {
+      "export_version": "edited",
+      "id": "680e20c7955366051ecdf41c",
+      "path": "API Reference/DouyinInputService/DouyiuInputService.onJumpInputPerform",
+      "title": "DouyiuInputService.onJumpInputPerform"
+    },
+    "API Reference/DouyinJoyStickControl.md": {
+      "export_version": "edited",
+      "id": "680e23a7d8115704fcf04226",
+      "path": "API Reference/DouyinJoyStickControl",
+      "title": "DouyinJoyStickControl"
+    },
+    "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.OnUIDrag.md": {
+      "export_version": "edited",
+      "id": "680e29bd5eff950501cbc879",
+      "path": "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.OnUIDrag",
+      "title": "DouyinJoyStickControl.OnUIDrag"
+    },
+    "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.OnUIPointerDown.md": {
+      "export_version": "edited",
+      "id": "680e2d76eb63e4055fd99108",
+      "path": "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.OnUIPointerDown",
+      "title": "DouyinJoyStickControl.OnUIPointerDown"
+    },
+    "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.OnUIPointerUp.md": {
+      "export_version": "edited",
+      "id": "680e2e0de3a07905424f9a41",
+      "path": "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.OnUIPointerUp",
+      "title": "DouyinJoyStickControl.OnUIPointerUp"
+    },
+    "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.background.md": {
+      "export_version": "edited",
+      "id": "680e27123e071e05499815cf",
+      "path": "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.background",
+      "title": "DouyinJoyStickControl.background"
+    },
+    "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.frontground.md": {
+      "export_version": "edited",
+      "id": "680e2749134bce0566b255ff",
+      "path": "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.frontground",
+      "title": "DouyinJoyStickControl.frontground"
+    },
+    "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.gameObject.md": {
+      "export_version": "edited",
+      "id": "680e265280e5f3054863a018",
+      "path": "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.gameObject",
+      "title": "DouyinJoyStickControl.gameObject"
+    },
+    "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.overrideFunctionEnabled.md": {
+      "export_version": "edited",
+      "id": "680e279fd8115704fcf05234",
+      "path": "API Reference/DouyinJoyStickControl/DouyinJoyStickControl.overrideFunctionEnabled",
+      "title": "DouyinJoyStickControl.overrideFunctionEnabled"
+    },
+    "API Reference/DouyinLogService.md": {
+      "export_version": "edited",
+      "id": "69e766b219bc5e05918ac4e4",
+      "path": "API Reference/DouyinLogService",
+      "title": "DouyinLogService"
+    },
+    "API Reference/DouyinLogService/DouyinLogService.Debug.md": {
+      "export_version": "edited",
+      "id": "69e77155969ba90504e53e86",
+      "path": "API Reference/DouyinLogService/DouyinLogService.Debug",
+      "title": "DouyinLogService.Debug"
+    },
+    "API Reference/DouyinLogService/DouyinLogService.Error.md": {
+      "export_version": "edited",
+      "id": "69e775a2b78955052a9f65e3",
+      "path": "API Reference/DouyinLogService/DouyinLogService.Error",
+      "title": "DouyinLogService.Error"
+    },
+    "API Reference/DouyinLogService/DouyinLogService.Info.md": {
+      "export_version": "edited",
+      "id": "69e7753ac9abae0523dcf584",
+      "path": "API Reference/DouyinLogService/DouyinLogService.Info",
+      "title": "DouyinLogService.Info"
+    },
+    "API Reference/DouyinLogService/DouyinLogService.Log.md": {
+      "export_version": "edited",
+      "id": "69e7750c18a680056d337c45",
+      "path": "API Reference/DouyinLogService/DouyinLogService.Log",
+      "title": "DouyinLogService.Log"
+    },
+    "API Reference/DouyinLogService/DouyinLogService.Warning.md": {
+      "export_version": "edited",
+      "id": "69e77589c9abae0523dcf9d7",
+      "path": "API Reference/DouyinLogService/DouyinLogService.Warning",
+      "title": "DouyinLogService.Warning"
+    },
+    "API Reference/DouyinMarketingService.md": {
+      "export_version": "edited",
+      "id": "6971cdf5f69e2d051b32e1a4",
+      "path": "API Reference/DouyinMarketingService",
+      "title": "DouyinMarketingService"
+    },
+    "API Reference/DouyinMarketingService/DouyinMarketingService.StarLight.md": {
+      "export_version": "edited",
+      "id": "6971e9442d3aa10526dd6a39",
+      "path": "API Reference/DouyinMarketingService/DouyinMarketingService.StarLight",
+      "title": "DouyinMarketingService.StarLight"
+    },
+    "API Reference/DouyinMarketingService/DouyinProductInfo.md": {
+      "export_version": "edited",
+      "id": "697211ee29fa9f052c237bca",
+      "path": "API Reference/DouyinMarketingService/DouyinProductInfo",
+      "title": "DouyinProductInfo"
+    },
+    "API Reference/DouyinMarketingService/DouyinReceiptInfo.md": {
+      "export_version": "edited",
+      "id": "69721386ab10da0522dbf090",
+      "path": "API Reference/DouyinMarketingService/DouyinReceiptInfo",
+      "title": "DouyinReceiptInfo"
+    },
+    "API Reference/DouyinMarketingService/事件/DouyinMarketingService.onOrderPayment.md": {
+      "export_version": "edited",
+      "id": "6971ea73c5092d04fc0c67d4",
+      "path": "API Reference/DouyinMarketingService/事件/DouyinMarketingService.onOrderPayment",
+      "title": "DouyinMarketingService.onOrderPayment"
+    },
+    "API Reference/DouyinMarketingService/事件/DouyinMarketingService.onPurchaseResult.md": {
+      "export_version": "edited",
+      "id": "6971ebfbc93dbb05479c6ed3",
+      "path": "API Reference/DouyinMarketingService/事件/DouyinMarketingService.onPurchaseResult",
+      "title": "DouyinMarketingService.onPurchaseResult"
+    },
+    "API Reference/DouyinMarketingService/事件/DouyinMarketingService.onStarLightChanged.md": {
+      "export_version": "edited",
+      "id": "6971ee04b2ef4c053e73a240",
+      "path": "API Reference/DouyinMarketingService/事件/DouyinMarketingService.onStarLightChanged",
+      "title": "DouyinMarketingService.onStarLightChanged"
+    },
+    "API Reference/DouyinMarketingService/方法/DouyinMarketingService.BackOrder.md": {
+      "export_version": "edited",
+      "id": "6a02c701c40e3e055389bc08",
+      "path": "API Reference/DouyinMarketingService/方法/DouyinMarketingService.BackOrder",
+      "title": "DouyinMarketingService.BackOrder"
+    },
+    "API Reference/DouyinMarketingService/方法/DouyinMarketingService.ConfirmOrder.md": {
+      "export_version": "edited",
+      "id": "6977047f5103cd0539a2bf52",
+      "path": "API Reference/DouyinMarketingService/方法/DouyinMarketingService.ConfirmOrder",
+      "title": "DouyinMarketingService.ConfirmOrder"
+    },
+    "API Reference/DouyinMarketingService/方法/DouyinMarketingService.GetProductInfo.md": {
+      "export_version": "edited",
+      "id": "6971f3df2d3aa10526ddfaa3",
+      "path": "API Reference/DouyinMarketingService/方法/DouyinMarketingService.GetProductInfo",
+      "title": "DouyinMarketingService.GetProductInfo"
+    },
+    "API Reference/DouyinMarketingService/方法/DouyinMarketingService.GetProductInfos.md": {
+      "export_version": "edited",
+      "id": "6971f213b2ef4c053e73def7",
+      "path": "API Reference/DouyinMarketingService/方法/DouyinMarketingService.GetProductInfos",
+      "title": "DouyinMarketingService.GetProductInfos"
+    },
+    "API Reference/DouyinMarketingService/方法/DouyinMarketingService.GetProductPage.md": {
+      "export_version": "edited",
+      "id": "698eebc7492fb20531585216",
+      "path": "API Reference/DouyinMarketingService/方法/DouyinMarketingService.GetProductPage",
+      "title": "DouyinMarketingService.GetProductPage"
+    },
+    "API Reference/DouyinMarketingService/方法/DouyinMarketingService.OpenRechargePage.md": {
+      "export_version": "edited",
+      "id": "6971ef392b19f8053f87c94f",
+      "path": "API Reference/DouyinMarketingService/方法/DouyinMarketingService.OpenRechargePage",
+      "title": "DouyinMarketingService.OpenRechargePage"
+    },
+    "API Reference/DouyinMarketingService/方法/DouyinMarketingService.Purchase.md": {
+      "export_version": "edited",
+      "id": "69720ab1ab10da0522db960d",
+      "path": "API Reference/DouyinMarketingService/方法/DouyinMarketingService.Purchase",
+      "title": "DouyinMarketingService.Purchase"
+    },
+    "API Reference/DouyinNetService.md": {
+      "export_version": "edited",
+      "id": "680ef80f4be21d052b69f231",
+      "path": "API Reference/DouyinNetService",
+      "title": "DouyinNetService"
+    },
+    "API Reference/DouyinNetService/DouyinNetService.OnNetworkSettled.md": {
+      "export_version": "edited",
+      "id": "680efa49d8115704fcf2d8d7",
+      "path": "API Reference/DouyinNetService/DouyinNetService.OnNetworkSettled",
+      "title": "DouyinNetService.OnNetworkSettled"
+    },
+    "API Reference/DouyinNetService/DouyinNetService.isNetworkSettled.md": {
+      "export_version": "edited",
+      "id": "680ef96f80e5f30548662b83",
+      "path": "API Reference/DouyinNetService/DouyinNetService.isNetworkSettled",
+      "title": "DouyinNetService.isNetworkSettled"
+    },
+    "API Reference/DouyinNetService/DouyinNetService.onDisconnect.md": {
+      "export_version": "edited",
+      "id": "695dd49c6677fe04f0dd6690",
+      "path": "API Reference/DouyinNetService/DouyinNetService.onDisconnect",
+      "title": "DouyinNetService.onDisconnect"
+    },
+    "API Reference/DouyinNetService/DouyinNetService.onReconnect.md": {
+      "export_version": "edited",
+      "id": "695dd9742abbaa04f385de6e",
+      "path": "API Reference/DouyinNetService/DouyinNetService.onReconnect",
+      "title": "DouyinNetService.onReconnect"
+    },
+    "API Reference/DouyinObject.md": {
+      "export_version": "edited",
+      "id": "680de044fd8f6b05524af593",
+      "path": "API Reference/DouyinObject",
+      "title": "DouyinObject"
+    },
+    "API Reference/DouyinObject/DouyinObject.EnableSync.md": {
+      "export_version": "edited",
+      "id": "680de450478c43053640dd77",
+      "path": "API Reference/DouyinObject/DouyinObject.EnableSync",
+      "title": "DouyinObject.EnableSync"
+    },
+    "API Reference/DouyinObject/DouyinObject.SetDestroyWhenDrop.md": {
+      "export_version": "edited",
+      "id": "680de4e54be21d052b66270b",
+      "path": "API Reference/DouyinObject/DouyinObject.SetDestroyWhenDrop",
+      "title": "DouyinObject.SetDestroyWhenDrop"
+    },
+    "API Reference/DouyinObject/DouyinObject.UID.md": {
+      "export_version": "edited",
+      "id": "680de3af62c14605068380e7",
+      "path": "API Reference/DouyinObject/DouyinObject.UID",
+      "title": "DouyinObject.UID"
+    },
+    "API Reference/DouyinObject/DouyinObject.gameObject.md": {
+      "export_version": "edited",
+      "id": "680de40f62c1460506838372",
+      "path": "API Reference/DouyinObject/DouyinObject.gameObject",
+      "title": "DouyinObject.gameObject"
+    },
+    "API Reference/DouyinObjectService.md": {
+      "export_version": "edited",
+      "id": "680de600e3a07905424e314d",
+      "path": "API Reference/DouyinObjectService",
+      "title": "DouyinObjectService"
+    },
+    "API Reference/DouyinObjectService/DouyinObjectService.EnableSync.md": {
+      "export_version": "edited",
+      "id": "680dfc1c134bce0566b1a86a",
+      "path": "API Reference/DouyinObjectService/DouyinObjectService.EnableSync",
+      "title": "DouyinObjectService.EnableSync"
+    },
+    "API Reference/DouyinObjectService/DouyinObjectService.GetDouyinObject.md": {
+      "export_version": "edited",
+      "id": "690de07c18470804fae35bc7",
+      "path": "API Reference/DouyinObjectService/DouyinObjectService.GetDouyinObject",
+      "title": "DouyinObjectService.GetDouyinObject"
+    },
+    "API Reference/DouyinObjectService/DouyinObjectService.NetDestroy.md": {
+      "export_version": "edited",
+      "id": "680dfaa8e3a07905424ebba8",
+      "path": "API Reference/DouyinObjectService/DouyinObjectService.NetDestroy",
+      "title": "DouyinObjectService.NetDestroy"
+    },
+    "API Reference/DouyinObjectService/DouyinObjectService.NetSpawn.md": {
+      "export_version": "edited",
+      "id": "680de8fbeb63e4055fd83941",
+      "path": "API Reference/DouyinObjectService/DouyinObjectService.NetSpawn",
+      "title": "DouyinObjectService.NetSpawn"
+    },
+    "API Reference/DouyinObjectService/DouyinObjectService.ServerDestroy.md": {
+      "export_version": "edited",
+      "id": "695e2038944789055eecff37",
+      "path": "API Reference/DouyinObjectService/DouyinObjectService.ServerDestroy",
+      "title": "DouyinObjectService.ServerDestroy"
+    },
+    "API Reference/DouyinObjectService/DouyinObjectService.ServerSpawn.md": {
+      "export_version": "edited",
+      "id": "695e1d76944789055eecbaf0",
+      "path": "API Reference/DouyinObjectService/DouyinObjectService.ServerSpawn",
+      "title": "DouyinObjectService.ServerSpawn"
+    },
+    "API Reference/DouyinObjectService/DouyinObjectService.SetDestroyWhenDrop.md": {
+      "export_version": "edited",
+      "id": "680dfdc8fd8f6b05524ba93c",
+      "path": "API Reference/DouyinObjectService/DouyinObjectService.SetDestroyWhenDrop",
+      "title": "DouyinObjectService.SetDestroyWhenDrop"
+    },
+    "API Reference/DouyinOfficialRewardService/DouyinOfficialRewardService.IssueReward.md": {
+      "export_version": "edited",
+      "id": "693015263a29410577df1d10",
+      "path": "API Reference/DouyinOfficialRewardService/DouyinOfficialRewardService.IssueReward",
+      "title": "DouyinOfficialRewardService.IssueReward"
+    },
+    "API Reference/DouyinPet.md": {
+      "export_version": "edited",
+      "id": "680a267f3e071e05498b0f9c",
+      "path": "API Reference/DouyinPet",
+      "title": "DouyinPet"
+    },
+    "API Reference/DouyinPet/DouyinPet.GetActor.md": {
+      "export_version": "edited",
+      "id": "680a3620fe0185053f857192",
+      "path": "API Reference/DouyinPet/DouyinPet.GetActor",
+      "title": "DouyinPet.GetActor"
+    },
+    "API Reference/DouyinPet/DouyinPet.GetPetPortrait.md": {
+      "export_version": "edited",
+      "id": "68b663d4221ecb04ffe67044",
+      "path": "API Reference/DouyinPet/DouyinPet.GetPetPortrait",
+      "title": "DouyinPet.GetPetPortrait"
+    },
+    "API Reference/DouyinPet/DouyinPet.isMaster.md": {
+      "export_version": "edited",
+      "id": "680a34c7fe0185053f856de2",
+      "path": "API Reference/DouyinPet/DouyinPet.isMaster",
+      "title": "DouyinPet.isMaster"
+    },
+    "API Reference/DouyinPet/DouyinPet.onMasterTranferred (已废弃).md": {
+      "export_version": "edited",
+      "id": "680a2fba478c43053635409f",
+      "path": "API Reference/DouyinPet/DouyinPet.onMasterTranferred (已废弃)",
+      "title": "DouyinPet.onMasterTranferred (已废弃)"
+    },
+    "API Reference/DouyinPet/DouyinPet.petAccesory.md": {
+      "export_version": "edited",
+      "id": "68b66156e9be7204f4e06630",
+      "path": "API Reference/DouyinPet/DouyinPet.petAccesory",
+      "title": "DouyinPet.petAccesory"
+    },
+    "API Reference/DouyinPet/DouyinPet.petAppearance.md": {
+      "export_version": "edited",
+      "id": "68b660be221ecb04ffe65366",
+      "path": "API Reference/DouyinPet/ DouyinPet.petAppearance",
+      "title": " DouyinPet.petAppearance"
+    },
+    "API Reference/DouyinPet/DouyinPet.petID.md": {
+      "export_version": "edited",
+      "id": "680a324ae3a079054242e031",
+      "path": "API Reference/DouyinPet/DouyinPet.petID",
+      "title": "DouyinPet.petID"
+    },
+    "API Reference/DouyinPet/DouyinPet.petLevel.md": {
+      "export_version": "edited",
+      "id": "680a3456fd8f6b05523fbcf9",
+      "path": "API Reference/DouyinPet/DouyinPet.petLevel",
+      "title": "DouyinPet.petLevel"
+    },
+    "API Reference/DouyinPet/DouyinPet.petName.md": {
+      "export_version": "edited",
+      "id": "680a32f2fd8f6b05523fb74b",
+      "path": "API Reference/DouyinPet/DouyinPet.petName",
+      "title": "DouyinPet.petName"
+    },
+    "API Reference/DouyinPet/DouyinPet.petOpenID.md": {
+      "export_version": "edited",
+      "id": "68c3c24ba8da7a055de7037e",
+      "path": "API Reference/DouyinPet/DouyinPet.petOpenID",
+      "title": "DouyinPet.petOpenID"
+    },
+    "API Reference/DouyinPetService.md": {
+      "export_version": "edited",
+      "id": "680a38d1134bce0566a5ce47",
+      "path": "API Reference/DouyinPetService",
+      "title": "DouyinPetService"
+    },
+    "API Reference/DouyinPetService/DouyinPetService.GetLocalPet.md": {
+      "export_version": "edited",
+      "id": "680a3cbf4be21d052b5ae010",
+      "path": "API Reference/DouyinPetService/DouyinPetService.GetLocalPet",
+      "title": "DouyinPetService.GetLocalPet"
+    },
+    "API Reference/DouyinPetService/DouyinPetService.GetPet.md": {
+      "export_version": "edited",
+      "id": "680a3b2a40ce2e054607315d",
+      "path": "API Reference/DouyinPetService/DouyinPetService.GetPet",
+      "title": "DouyinPetService.GetPet"
+    },
+    "API Reference/DouyinPetService/DouyinPetService.GetPetCount.md": {
+      "export_version": "edited",
+      "id": "680a3ec04be21d052b5ae832",
+      "path": "API Reference/DouyinPetService/DouyinPetService.GetPetCount",
+      "title": "DouyinPetService.GetPetCount"
+    },
+    "API Reference/DouyinPetService/DouyinPetService.GetPets.md": {
+      "export_version": "edited",
+      "id": "680a3e0b28b720054bb36ace",
+      "path": "API Reference/DouyinPetService/DouyinPetService.GetPets",
+      "title": "DouyinPetService.GetPets"
+    },
+    "API Reference/DouyinPlayer.md": {
+      "export_version": "edited",
+      "id": "6809ae4c1f59dc04f4549003",
+      "path": "API Reference/DouyinPlayer",
+      "title": "DouyinPlayer"
+    },
+    "API Reference/DouyinPlayer/DouyinPlayer.GetActor.md": {
+      "export_version": "edited",
+      "id": "6809fe05a428760549c2a6ee",
+      "path": "API Reference/DouyinPlayer/DouyinPlayer.GetActor",
+      "title": "DouyinPlayer.GetActor"
+    },
+    "API Reference/DouyinPlayer/DouyinPlayer.GetPlayerPortrait.md": {
+      "export_version": "edited",
+      "id": "6809ff1a18f3fe052fc72f2d",
+      "path": "API Reference/DouyinPlayer/DouyinPlayer.GetPlayerPortrait",
+      "title": "DouyinPlayer.GetPlayerPortrait"
+    },
+    "API Reference/DouyinPlayer/DouyinPlayer.gameObject.md": {
+      "export_version": "edited",
+      "id": "6809b5ebc39b660505acc81a",
+      "path": "API Reference/DouyinPlayer/DouyinPlayer.gameObject",
+      "title": "DouyinPlayer.gameObject"
+    },
+    "API Reference/DouyinPlayer/DouyinPlayer.isLocal.md": {
+      "export_version": "edited",
+      "id": "6809fa934be21d052b59c3ef",
+      "path": "API Reference/DouyinPlayer/DouyinPlayer.isLocal",
+      "title": "DouyinPlayer.isLocal"
+    },
+    "API Reference/DouyinPlayer/DouyinPlayer.isServer.md": {
+      "export_version": "edited",
+      "id": "695e1bd831b26e0574a3469a",
+      "path": "API Reference/DouyinPlayer/DouyinPlayer.isServer",
+      "title": "DouyinPlayer.isServer"
+    },
+    "API Reference/DouyinPlayer/DouyinPlayer.playerID.md": {
+      "export_version": "edited",
+      "id": "6809f8484be21d052b59b755",
+      "path": "API Reference/DouyinPlayer/DouyinPlayer.playerID",
+      "title": "DouyinPlayer.playerID"
+    },
+    "API Reference/DouyinPlayer/DouyinPlayer.playerName.md": {
+      "export_version": "edited",
+      "id": "6809f9b3952b0e0550734c61",
+      "path": "API Reference/DouyinPlayer/DouyinPlayer.playerName",
+      "title": "DouyinPlayer.playerName"
+    },
+    "API Reference/DouyinPlayer/DouyinPlayer.playerOpenID.md": {
+      "export_version": "edited",
+      "id": "68c3c12f7954a404f1fb21fb",
+      "path": "API Reference/DouyinPlayer/DouyinPlayer.playerOpenID",
+      "title": "DouyinPlayer.playerOpenID"
+    },
+    "API Reference/DouyinPlayerService.md": {
+      "export_version": "edited",
+      "id": "680a00a0478c4305363475d2",
+      "path": "API Reference/DouyinPlayerService",
+      "title": "DouyinPlayerService"
+    },
+    "API Reference/DouyinPlayerService/DouyinPlayerService.GetLocalPlayer.md": {
+      "export_version": "edited",
+      "id": "680a034eeb63e4055fcbd6b1",
+      "path": "API Reference/DouyinPlayerService/DouyinPlayerService.GetLocalPlayer",
+      "title": "DouyinPlayerService.GetLocalPlayer"
+    },
+    "API Reference/DouyinPlayerService/DouyinPlayerService.GetPlayer.md": {
+      "export_version": "edited",
+      "id": "680a03ffd8115704fce2cc7d",
+      "path": "API Reference/DouyinPlayerService/DouyinPlayerService.GetPlayer",
+      "title": "DouyinPlayerService.GetPlayer"
+    },
+    "API Reference/DouyinPlayerService/DouyinPlayerService.GetPlayerByOpenID.md": {
+      "export_version": "edited",
+      "id": "69017f7ebc6c2c0546c1a3a6",
+      "path": "API Reference/DouyinPlayerService/DouyinPlayerService.GetPlayerByOpenID",
+      "title": "DouyinPlayerService.GetPlayerByOpenID"
+    },
+    "API Reference/DouyinPlayerService/DouyinPlayerService.GetPlayerCount.md": {
+      "export_version": "edited",
+      "id": "680a058f952b0e0550739455",
+      "path": "API Reference/DouyinPlayerService/DouyinPlayerService.GetPlayerCount",
+      "title": "DouyinPlayerService.GetPlayerCount"
+    },
+    "API Reference/DouyinPlayerService/DouyinPlayerService.GetPlayers.md": {
+      "export_version": "edited",
+      "id": "680a0504ee6dab0567fb2883",
+      "path": "API Reference/DouyinPlayerService/DouyinPlayerService.GetPlayers",
+      "title": "DouyinPlayerService.GetPlayers"
+    },
+    "API Reference/DouyinPlayerSettings.md": {
+      "export_version": "edited",
+      "id": "693a821a7973ba054efacf2d",
+      "path": "API Reference/DouyinPlayerSettings",
+      "title": "DouyinPlayerSettings"
+    },
+    "API Reference/DouyinPlayerSettting/DouyinPlayerSettings.allowAction.md": {
+      "export_version": "edited",
+      "id": "68c3c8f30017b9051bdc5d80",
+      "path": "API Reference/DouyinPlayerSettting/DouyinPlayerSettings.allowAction",
+      "title": "DouyinPlayerSettings.allowAction"
+    },
+    "API Reference/DouyinPlayerSettting/DouyinPlayerSettings.allowActorChange.md": {
+      "export_version": "edited",
+      "id": "68c3c8f8e2eec805496d7ff8",
+      "path": "API Reference/DouyinPlayerSettting/DouyinPlayerSettings.allowActorChange",
+      "title": "DouyinPlayerSettings.allowActorChange"
+    },
+    "API Reference/DouyinPlayerSettting/DouyinPlayerSettings.allowEmotion.md": {
+      "export_version": "edited",
+      "id": "68c3c8f57954a404f1fb7a66",
+      "path": "API Reference/DouyinPlayerSettting/DouyinPlayerSettings.allowEmotion",
+      "title": "DouyinPlayerSettings.allowEmotion"
+    },
+    "API Reference/DouyinPlayerSettting/DouyinPlayerSettings.allowRespawn.md": {
+      "export_version": "edited",
+      "id": "68c3c8e7a8da7a055de742a5",
+      "path": "API Reference/DouyinPlayerSettting/DouyinPlayerSettings.allowRespawn",
+      "title": "DouyinPlayerSettings.allowRespawn"
+    },
+    "API Reference/DouyinProductPage.md": {
+      "export_version": "edited",
+      "id": "698ee30b11184a053f1f5f66",
+      "path": "API Reference/DouyinProductPage",
+      "title": "DouyinProductPage"
+    },
+    "API Reference/DouyinProductPage/DouyinProductPage.AdvanceToNextPage.md": {
+      "export_version": "edited",
+      "id": "698ee8049ec8630520b28952",
+      "path": "API Reference/DouyinProductPage/DouyinProductPage.AdvanceToNextPage",
+      "title": "DouyinProductPage.AdvanceToNextPage"
+    },
+    "API Reference/DouyinProductPage/DouyinProductPage.hasMore.md": {
+      "export_version": "edited",
+      "id": "698ee95f492fb20531583626",
+      "path": "API Reference/DouyinProductPage/DouyinProductPage.hasMore",
+      "title": "DouyinProductPage.hasMore"
+    },
+    "API Reference/DouyinProductPage/DouyinProductPage.pageOffset.md": {
+      "export_version": "edited",
+      "id": "698ee8f0deedae0546b81410",
+      "path": "API Reference/DouyinProductPage/DouyinProductPage.pageOffset",
+      "title": "DouyinProductPage.pageOffset"
+    },
+    "API Reference/DouyinProductPage/DouyinProductPage.pageSize.md": {
+      "export_version": "edited",
+      "id": "698ee94815da200538794701",
+      "path": "API Reference/DouyinProductPage/DouyinProductPage.pageSize",
+      "title": "DouyinProductPage.pageSize"
+    },
+    "API Reference/DouyinProductPage/DouyinProductPage.productInfos.md": {
+      "export_version": "edited",
+      "id": "698ee96911184a053f1fb69c",
+      "path": "API Reference/DouyinProductPage/DouyinProductPage.productInfos",
+      "title": "DouyinProductPage.productInfos"
+    },
+    "API Reference/DouyinProductPage/DouyinProductPage.queryTime.md": {
+      "export_version": "edited",
+      "id": "698ee950890ec20519c3aad7",
+      "path": "API Reference/DouyinProductPage/DouyinProductPage.queryTime",
+      "title": "DouyinProductPage.queryTime"
+    },
+    "API Reference/DouyinProductPage/DouyinProductPage.totalSize.md": {
+      "export_version": "edited",
+      "id": "698ee94c890ec20519c3aa40",
+      "path": "API Reference/DouyinProductPage/DouyinProductPage.totalSize",
+      "title": "DouyinProductPage.totalSize"
+    },
+    "API Reference/DouyinRankService.md": {
+      "export_version": "edited",
+      "id": "693a80ce19688b0501e4b743",
+      "path": "API Reference/DouyinRankService",
+      "title": "DouyinRankService"
+    },
+    "API Reference/DouyinRankService/DouyinRankService.SetRankData.md": {
+      "export_version": "edited",
+      "id": "68c3c8136f222f0522e70125",
+      "path": "API Reference/DouyinRankService/DouyinRankService.SetRankData",
+      "title": "DouyinRankService.SetRankData"
+    },
+    "API Reference/DouyinRemoteEvent.md": {
+      "export_version": "edited",
+      "id": "695e20f343f91c04ed945ae9",
+      "path": "API Reference/DouyinRemoteEvent",
+      "title": "DouyinRemoteEvent"
+    },
+    "API Reference/DouyinRemoteEvent/DouyinRemoteEvent.FireAllClients.md": {
+      "export_version": "edited",
+      "id": "695e275d817f6a04eccbdb07",
+      "path": "API Reference/DouyinRemoteEvent/DouyinRemoteEvent.FireAllClients",
+      "title": "DouyinRemoteEvent.FireAllClients"
+    },
+    "API Reference/DouyinRemoteEvent/DouyinRemoteEvent.FireClient.md": {
+      "export_version": "edited",
+      "id": "695e2631944789055eed9a24",
+      "path": "API Reference/DouyinRemoteEvent/DouyinRemoteEvent.FireClient",
+      "title": "DouyinRemoteEvent.FireClient"
+    },
+    "API Reference/DouyinRemoteEvent/DouyinRemoteEvent.FireServer.md": {
+      "export_version": "edited",
+      "id": "695e28ac2abbaa04f38b289e",
+      "path": "API Reference/DouyinRemoteEvent/DouyinRemoteEvent.FireServer",
+      "title": "DouyinRemoteEvent.FireServer"
+    },
+    "API Reference/DouyinRemoteEvent/DouyinRemoteEvent.onClientEvent.md": {
+      "export_version": "edited",
+      "id": "695e23ed6b9b0304e9dd01ba",
+      "path": "API Reference/DouyinRemoteEvent/DouyinRemoteEvent.onClientEvent",
+      "title": "DouyinRemoteEvent.onClientEvent"
+    },
+    "API Reference/DouyinRemoteEvent/DouyinRemoteEvent.onServerEvent.md": {
+      "export_version": "edited",
+      "id": "695e2559dd63e804e6e67f7f",
+      "path": "API Reference/DouyinRemoteEvent/DouyinRemoteEvent.onServerEvent",
+      "title": "DouyinRemoteEvent.onServerEvent"
+    },
+    "API Reference/DouyinRemoteFunction.md": {
+      "export_version": "edited",
+      "id": "695e29f0817f6a04eccc113d",
+      "path": "API Reference/DouyinRemoteFunction",
+      "title": "DouyinRemoteFunction"
+    },
+    "API Reference/DouyinRemoteFunction/DouyinRemoteFunction.InvokeClient.md": {
+      "export_version": "edited",
+      "id": "695e2daddd63e804e6e73605",
+      "path": "API Reference/DouyinRemoteFunction/DouyinRemoteFunction.InvokeClient",
+      "title": "DouyinRemoteFunction.InvokeClient"
+    },
+    "API Reference/DouyinRemoteFunction/DouyinRemoteFunction.InvokeServer.md": {
+      "export_version": "edited",
+      "id": "695e2cc8944789055eee31cf",
+      "path": "API Reference/DouyinRemoteFunction/DouyinRemoteFunction.InvokeServer",
+      "title": "DouyinRemoteFunction.InvokeServer"
+    },
+    "API Reference/DouyinRemoteFunction/DouyinRemoteFunction.onClientInvoke.md": {
+      "export_version": "edited",
+      "id": "695e2ba62abbaa04f38b610e",
+      "path": "API Reference/DouyinRemoteFunction/DouyinRemoteFunction.onClientInvoke",
+      "title": "DouyinRemoteFunction.onClientInvoke"
+    },
+    "API Reference/DouyinRemoteFunction/DouyinRemoteFunction.onServerInvoke.md": {
+      "export_version": "edited",
+      "id": "695e2c696677fe04f0e307cc",
+      "path": "API Reference/DouyinRemoteFunction/DouyinRemoteFunction.onServerInvoke",
+      "title": "DouyinRemoteFunction.onServerInvoke"
+    },
+    "API Reference/DouyinRoomService.md": {
+      "export_version": "edited",
+      "id": "692d5a469756e505059b57ef",
+      "path": "API Reference/DouyinRoomService",
+      "title": "DouyinRoomService"
+    },
+    "API Reference/DouyinRoomService/DouyinRoomInfo.md": {
+      "export_version": "edited",
+      "id": "692d5e195a907c054cc835e9",
+      "path": "API Reference/DouyinRoomService/DouyinRoomInfo",
+      "title": "DouyinRoomInfo"
+    },
+    "API Reference/DouyinRoomService/DouyinRoomService.GetCurrentRoomInfo.md": {
+      "export_version": "edited",
+      "id": "692d5d425a907c054cc82a1a",
+      "path": "API Reference/DouyinRoomService/DouyinRoomService.GetCurrentRoomInfo",
+      "title": "DouyinRoomService.GetCurrentRoomInfo"
+    },
+    "API Reference/DouyinScript.md": {
+      "export_version": "edited",
+      "id": "680f2c11d5b5430530b89d47",
+      "path": "API Reference/DouyinScript",
+      "title": "DouyinScript"
+    },
+    "API Reference/DouyinScript/属性/DouyinScript.douyinActor.md": {
+      "export_version": "edited",
+      "id": "680f3d1c60c1610543ab360e",
+      "path": "API Reference/DouyinScript/属性/DouyinScript.douyinActor",
+      "title": "DouyinScript.douyinActor"
+    },
+    "API Reference/DouyinScript/属性/DouyinScript.douyinObject.md": {
+      "export_version": "edited",
+      "id": "680f342f1f2d52054190a990",
+      "path": "API Reference/DouyinScript/属性/DouyinScript.douyinObject",
+      "title": "DouyinScript.douyinObject"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.AddInteractorButton.md": {
+      "export_version": "edited",
+      "id": "68b804a99ef4ce04f85b2570",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.AddInteractorButton",
+      "title": "DouyinScript.AddInteractorButton"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.DisableInteraction.md": {
+      "export_version": "edited",
+      "id": "680f6cce57c55205483eee0d",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.DisableInteraction",
+      "title": "DouyinScript.DisableInteraction"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.EnableInteraction.md": {
+      "export_version": "edited",
+      "id": "680f6bd0d5b5430530b9e8c3",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.EnableInteraction",
+      "title": "DouyinScript.EnableInteraction"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.GetController.md": {
+      "export_version": "edited",
+      "id": "680f697284e31904fb6af8c8",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.GetController",
+      "title": "DouyinScript.GetController"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.GetDouyinScript.md": {
+      "export_version": "edited",
+      "id": "680f69d2557f83057079e5eb",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.GetDouyinScript",
+      "title": "DouyinScript.GetDouyinScript"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.GetDouyinScripts.md": {
+      "export_version": "edited",
+      "id": "680f6b128b106c05699f47e3",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.GetDouyinScripts",
+      "title": "DouyinScript.GetDouyinScripts"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.GetOwner.md": {
+      "export_version": "edited",
+      "id": "680f507cd5b5430530b97f9d",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.GetOwner",
+      "title": "DouyinScript.GetOwner"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.HasControllership.md": {
+      "export_version": "edited",
+      "id": "680f552b557f830570799cce",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.HasControllership",
+      "title": "DouyinScript.HasControllership"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.HasOwnership.md": {
+      "export_version": "edited",
+      "id": "680f49f5ea41c5055834cc1b",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.HasOwnership",
+      "title": "DouyinScript.HasOwnership"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.IsController.md": {
+      "export_version": "edited",
+      "id": "680f6650ea41c50558353e0e",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.IsController",
+      "title": "DouyinScript.IsController"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.IsOwner.md": {
+      "export_version": "edited",
+      "id": "680f4e747008e30537da1782",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.IsOwner",
+      "title": "DouyinScript.IsOwner"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.IsSpawned.md": {
+      "export_version": "edited",
+      "id": "680f6d27b1ea89054a5d5b9d",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.IsSpawned",
+      "title": "DouyinScript.IsSpawned"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.OwnerCall.md": {
+      "export_version": "edited",
+      "id": "680f45477008e30537d9dff1",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.OwnerCall",
+      "title": "DouyinScript.OwnerCall"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.ReleaseControllership.md": {
+      "export_version": "edited",
+      "id": "680f5389ab668c055f54b0ca",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.ReleaseControllership",
+      "title": "DouyinScript.ReleaseControllership"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.RemoveAllInteractorButtons.md": {
+      "export_version": "edited",
+      "id": "68b80c906888fd04f9233bac",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.RemoveAllInteractorButtons",
+      "title": "DouyinScript.RemoveAllInteractorButtons"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.RemoveInteractorButton.md": {
+      "export_version": "edited",
+      "id": "68b808096888fd04f9230e65",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.RemoveInteractorButton",
+      "title": "DouyinScript.RemoveInteractorButton"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.RemoveInteractorButtonAt.md": {
+      "export_version": "edited",
+      "id": "68b808e59ef4ce04f85b4bea",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.RemoveInteractorButtonAt",
+      "title": "DouyinScript.RemoveInteractorButtonAt"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.RequestControllership.md": {
+      "export_version": "edited",
+      "id": "680f514d1f2d520541916458",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.RequestControllership",
+      "title": "DouyinScript.RequestControllership"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.RequestOwnership.md": {
+      "export_version": "edited",
+      "id": "680f4741edeabb051d3f73e8",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.RequestOwnership",
+      "title": "DouyinScript.RequestOwnership"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.Respawn.md": {
+      "export_version": "edited",
+      "id": "680f6da4c822900524ae5d31",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.Respawn",
+      "title": "DouyinScript.Respawn"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.SendMessageToAll.md": {
+      "export_version": "edited",
+      "id": "680f42f6b1ea89054a5c9dd0",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.SendMessageToAll",
+      "title": "DouyinScript.SendMessageToAll"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.SendMessageToOthers.md": {
+      "export_version": "edited",
+      "id": "680f447660c1610543ab67c2",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.SendMessageToOthers",
+      "title": "DouyinScript.SendMessageToOthers"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.SendMessageToOwner.md": {
+      "export_version": "edited",
+      "id": "680f3d6757c55205483e08a9",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.SendMessageToOwner",
+      "title": "DouyinScript.SendMessageToOwner"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.SendMessageToTarget.md": {
+      "export_version": "edited",
+      "id": "680f439d1f2d520541910fdd",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.SendMessageToTarget",
+      "title": "DouyinScript.SendMessageToTarget"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.SetAnimationEvent.md": {
+      "export_version": "edited",
+      "id": "68ea248877f4fb0538333401",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.SetAnimationEvent",
+      "title": "DouyinScript.SetAnimationEvent"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.SetController.md": {
+      "export_version": "edited",
+      "id": "680f68187008e30537da7627",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.SetController",
+      "title": "DouyinScript.SetController"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.SetControllership.md": {
+      "export_version": "edited",
+      "id": "680f54509f74680563ec1cbc",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.SetControllership",
+      "title": "DouyinScript.SetControllership"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.SetOwner.md": {
+      "export_version": "edited",
+      "id": "680f4ac857c55205483e61d8",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.SetOwner",
+      "title": "DouyinScript.SetOwner"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.SetOwnership.md": {
+      "export_version": "edited",
+      "id": "680f483eab668c055f54721e",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.SetOwnership",
+      "title": "DouyinScript.SetOwnership"
+    },
+    "API Reference/DouyinScript/方法/DouyinScript.TargetCall.md": {
+      "export_version": "edited",
+      "id": "680f45f9b1ea89054a5cb5c5",
+      "path": "API Reference/DouyinScript/方法/DouyinScript.TargetCall",
+      "title": "DouyinScript.TargetCall"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.Awake.md": {
+      "export_version": "edited",
+      "id": "680f7aa0557f8305707a251c",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.Awake",
+      "title": "DouyinScript.Awake"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.FixedUpdate.md": {
+      "export_version": "edited",
+      "id": "680f7c0e8b106c05699f85f7",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.FixedUpdate",
+      "title": "DouyinScript.FixedUpdate"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.LateUpdate.md": {
+      "export_version": "edited",
+      "id": "680f7d3db1ea89054a5d9398",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.LateUpdate",
+      "title": "DouyinScript.LateUpdate"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.On3DClick.md": {
+      "export_version": "edited",
+      "id": "6810455dd5b5430530bd1561",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.On3DClick",
+      "title": "DouyinScript.On3DClick"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.On3DTouchBegin.md": {
+      "export_version": "edited",
+      "id": "681041698b106c0569a270c4",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.On3DTouchBegin",
+      "title": "DouyinScript.On3DTouchBegin"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.On3DTouchDrag.md": {
+      "export_version": "edited",
+      "id": "681043c2f62281056ab7bb21",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.On3DTouchDrag",
+      "title": "DouyinScript.On3DTouchDrag"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.On3DTouchEnd.md": {
+      "export_version": "edited",
+      "id": "681044c684e31904fb6e2f75",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.On3DTouchEnd",
+      "title": "DouyinScript.On3DTouchEnd"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnActorCollisionEnter.md": {
+      "export_version": "edited",
+      "id": "68106f8789ee6004f65dc522",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnActorCollisionEnter",
+      "title": "DouyinScript.OnActorCollisionEnter"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnActorCollisionExit.md": {
+      "export_version": "edited",
+      "id": "6810706221839f04f6f8df6b",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnActorCollisionExit",
+      "title": "DouyinScript.OnActorCollisionExit"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnActorDespawned.md": {
+      "export_version": "edited",
+      "id": "68107647e5f25004fcf13214",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnActorDespawned",
+      "title": "DouyinScript.OnActorDespawned"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnActorRespawn.md": {
+      "export_version": "edited",
+      "id": "681076c921839f04f6f8fdbe",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnActorRespawn",
+      "title": "DouyinScript.OnActorRespawn"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnActorSpawned.md": {
+      "export_version": "edited",
+      "id": "6810753121839f04f6f8f5ca",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnActorSpawned",
+      "title": "DouyinScript.OnActorSpawned"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnActorTriggerEnter.md": {
+      "export_version": "edited",
+      "id": "68106df3a5df7c0505ec1e4d",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnActorTriggerEnter",
+      "title": "DouyinScript.OnActorTriggerEnter"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnActorTriggerExit.md": {
+      "export_version": "edited",
+      "id": "68106eeafe7e0d0504fe4b4c",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnActorTriggerExit",
+      "title": "DouyinScript.OnActorTriggerExit"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnBeginDrag.md": {
+      "export_version": "edited",
+      "id": "6810835c39c152050b6c13a5",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnBeginDrag",
+      "title": "DouyinScript.OnBeginDrag"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnCancel.md": {
+      "export_version": "edited",
+      "id": "681083a5d2fde904f248e81a",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnCancel",
+      "title": "DouyinScript.OnCancel"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnCollisionEnter.md": {
+      "export_version": "edited",
+      "id": "680f7e6f08744604eecbb00d",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnCollisionEnter",
+      "title": "DouyinScript.OnCollisionEnter"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnCollisionExit.md": {
+      "export_version": "edited",
+      "id": "680f7ed208744604eecbb154",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnCollisionExit",
+      "title": "DouyinScript.OnCollisionExit"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnControllershipTransferred.md": {
+      "export_version": "edited",
+      "id": "6810380984e31904fb6dde23",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnControllershipTransferred",
+      "title": "DouyinScript.OnControllershipTransferred"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnDisable.md": {
+      "export_version": "edited",
+      "id": "680f7daaea41c505583592cb",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnDisable",
+      "title": "DouyinScript.OnDisable"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnDrag.md": {
+      "export_version": "edited",
+      "id": "681083d29e0b5104f5470d67",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnDrag",
+      "title": "DouyinScript.OnDrag"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnDrop.md": {
+      "export_version": "edited",
+      "id": "68104791d5b5430530bd2581",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnDrop",
+      "title": "DouyinScript.OnDrop"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnEnable.md": {
+      "export_version": "edited",
+      "id": "680f7dfc57c55205483f2c00",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnEnable",
+      "title": "DouyinScript.OnEnable"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnEndDrag.md": {
+      "export_version": "edited",
+      "id": "68108431e5f25004fcf19f2c",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnEndDrag",
+      "title": "DouyinScript.OnEndDrag"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnFocus.md": {
+      "export_version": "edited",
+      "id": "681040e9557f8305707d17c2",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnFocus",
+      "title": "DouyinScript.OnFocus"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnInteract.md": {
+      "export_version": "edited",
+      "id": "681046ed9f74680563efce58",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnInteract",
+      "title": "DouyinScript.OnInteract"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnInteractorButtonClick.md": {
+      "export_version": "edited",
+      "id": "690c093cff41ac0534111d7f",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnInteractorButtonClick",
+      "title": "DouyinScript.OnInteractorButtonClick"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnLostFocus.md": {
+      "export_version": "edited",
+      "id": "6810412b60c1610543af5332",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnLostFocus",
+      "title": "DouyinScript.OnLostFocus"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnMouseDown.md": {
+      "export_version": "edited",
+      "id": "68107ec3dba73204fe9b76c8",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnMouseDown",
+      "title": "DouyinScript.OnMouseDown"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnMouseDrag.md": {
+      "export_version": "edited",
+      "id": "68107f3c39c152050b6bf696",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnMouseDrag",
+      "title": "DouyinScript.OnMouseDrag"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnMouseEnter.md": {
+      "export_version": "edited",
+      "id": "68107f75bd0de204efb3b2be",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnMouseEnter",
+      "title": "DouyinScript.OnMouseEnter"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnMouseExit.md": {
+      "export_version": "edited",
+      "id": "6810800217aea004f9c2cc25",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnMouseExit",
+      "title": "DouyinScript.OnMouseExit"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnMouseOver.md": {
+      "export_version": "edited",
+      "id": "68108040dba73204fe9b84b9",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnMouseOver",
+      "title": "DouyinScript.OnMouseOver"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnMouseUp.md": {
+      "export_version": "edited",
+      "id": "6810809fe5f25004fcf1822a",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnMouseUp",
+      "title": "DouyinScript.OnMouseUp"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnMouseUpAsButton.md": {
+      "export_version": "edited",
+      "id": "681080d6d2fde904f248d46f",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnMouseUpAsButton",
+      "title": "DouyinScript.OnMouseUpAsButton"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnNetDestroy.md": {
+      "export_version": "edited",
+      "id": "681038b8ab668c055f57ef61",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnNetDestroy",
+      "title": "DouyinScript.OnNetDestroy"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnNetSpawned.md": {
+      "export_version": "edited",
+      "id": "68103694edeabb051d42e66e",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnNetSpawned",
+      "title": "DouyinScript.OnNetSpawned"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnOwnershipRequest.md": {
+      "export_version": "edited",
+      "id": "681036ecedeabb051d42e864",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnOwnershipRequest",
+      "title": "DouyinScript.OnOwnershipRequest"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnOwnershipTransferred.md": {
+      "export_version": "edited",
+      "id": "6810379b8b106c0569a22cdf",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnOwnershipTransferred",
+      "title": "DouyinScript.OnOwnershipTransferred"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPickUp.md": {
+      "export_version": "edited",
+      "id": "68104c7d84e31904fb6e6115",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPickUp",
+      "title": "DouyinScript.OnPickUp"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPlayerJoined.md": {
+      "export_version": "edited",
+      "id": "681070c321839f04f6f8e200",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPlayerJoined",
+      "title": "DouyinScript.OnPlayerJoined"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPlayerLeft.md": {
+      "export_version": "edited",
+      "id": "68107347bd0de204efb352c8",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPlayerLeft",
+      "title": "DouyinScript.OnPlayerLeft"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPlayerRejoined.md": {
+      "export_version": "edited",
+      "id": "69e725e0b78955052a9aa9f1",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPlayerRejoined",
+      "title": "DouyinScript.OnPlayerRejoined"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPlayerTriggerEnter.md": {
+      "export_version": "edited",
+      "id": "68107435d2fde904f2488245",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPlayerTriggerEnter",
+      "title": "DouyinScript.OnPlayerTriggerEnter"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPlayerTriggerExit.md": {
+      "export_version": "edited",
+      "id": "681074d0dba73204fe9b327b",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPlayerTriggerExit",
+      "title": "DouyinScript.OnPlayerTriggerExit"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPointerClick.md": {
+      "export_version": "edited",
+      "id": "681081d9dba73204fe9b9209",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPointerClick",
+      "title": "DouyinScript.OnPointerClick"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPointerDown.md": {
+      "export_version": "edited",
+      "id": "6810826dbd0de204efb3c759",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPointerDown",
+      "title": "DouyinScript.OnPointerDown"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPointerEnter.md": {
+      "export_version": "edited",
+      "id": "681082ac9e0b5104f5470539",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPointerEnter",
+      "title": "DouyinScript.OnPointerEnter"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPointerExit.md": {
+      "export_version": "edited",
+      "id": "681082dd50f95104f78493a9",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPointerExit",
+      "title": "DouyinScript.OnPointerExit"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnPointerUp.md": {
+      "export_version": "edited",
+      "id": "68108316a5df7c0505eca1ef",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnPointerUp",
+      "title": "DouyinScript.OnPointerUp"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnRespawn.md": {
+      "export_version": "edited",
+      "id": "68104ed257c55205484262be",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnRespawn",
+      "title": "DouyinScript.OnRespawn"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnSeatEntered.md": {
+      "export_version": "edited",
+      "id": "68106aa4dba73204fe9aface",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnSeatEntered",
+      "title": "DouyinScript.OnSeatEntered"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnSeatExited.md": {
+      "export_version": "edited",
+      "id": "68106d11d2fde904f248584a",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnSeatExited",
+      "title": "DouyinScript.OnSeatExited"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnTheft.md": {
+      "export_version": "edited",
+      "id": "68104e4460c1610543afa912",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnTheft",
+      "title": "DouyinScript.OnTheft"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnTriggerEnter.md": {
+      "export_version": "edited",
+      "id": "680f7f0e57c55205483f2f56",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnTriggerEnter",
+      "title": "DouyinScript.OnTriggerEnter"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnTriggerExit.md": {
+      "export_version": "edited",
+      "id": "681035b7ab668c055f57dcbf",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnTriggerExit",
+      "title": "DouyinScript.OnTriggerExit"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnUIDrag.md": {
+      "export_version": "edited",
+      "id": "68103b10edeabb051d42fcc8",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnUIDrag",
+      "title": "DouyinScript.OnUIDrag"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnUILongPress.md": {
+      "export_version": "edited",
+      "id": "68103ab9b1ea89054a602d1d",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnUILongPress",
+      "title": "DouyinScript.OnUILongPress"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnUIPointerClick.md": {
+      "export_version": "edited",
+      "id": "68103a5a57c552054841d5e5",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnUIPointerClick",
+      "title": "DouyinScript.OnUIPointerClick"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnUIPointerDown.md": {
+      "export_version": "edited",
+      "id": "6810397ef62281056ab76ae8",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnUIPointerDown",
+      "title": "DouyinScript.OnUIPointerDown"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnUIPointerUp.md": {
+      "export_version": "edited",
+      "id": "681039fe9f74680563ef71fc",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnUIPointerUp",
+      "title": "DouyinScript.OnUIPointerUp"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnUnityDrop.md": {
+      "export_version": "edited",
+      "id": "681083f7bd0de204efb3d2cb",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnUnityDrop",
+      "title": "DouyinScript.OnUnityDrop"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.OnVariablesSynced.md": {
+      "export_version": "edited",
+      "id": "6810392a557f8305707ce487",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.OnVariablesSynced",
+      "title": "DouyinScript.OnVariablesSynced"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.Start.md": {
+      "export_version": "edited",
+      "id": "680f7b657008e30537dabdce",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.Start",
+      "title": "DouyinScript.Start"
+    },
+    "API Reference/DouyinScript/消息/DouyinScript.Update.md": {
+      "export_version": "edited",
+      "id": "680f7bd6d5b5430530ba25b7",
+      "path": "API Reference/DouyinScript/消息/DouyinScript.Update",
+      "title": "DouyinScript.Update"
+    },
+    "API Reference/DouyinSocialService.md": {
+      "export_version": "edited",
+      "id": "693a7f9f9ac20a055fcc7a64",
+      "path": "API Reference/DouyinSocialService",
+      "title": "DouyinSocialService"
+    },
+    "API Reference/DouyinSocialService/DouyinSocialService.ShareTexture.md": {
+      "export_version": "edited",
+      "id": "69b003efead03c0552cd45db",
+      "path": "API Reference/DouyinSocialService/DouyinSocialService.ShareTexture",
+      "title": "DouyinSocialService.ShareTexture"
+    },
+    "API Reference/DouyinSocialService/DouyinSocialService.ShareWorld.md": {
+      "export_version": "edited",
+      "id": "69b0014e27ec3604f61661b6",
+      "path": "API Reference/DouyinSocialService/DouyinSocialService.ShareWorld",
+      "title": "DouyinSocialService.ShareWorld"
+    },
+    "API Reference/DouyinSocialService/DouyinSocialService.onPublishProcessEvent.md": {
+      "export_version": "edited",
+      "id": "68c3c4194f3f3b0524322084",
+      "path": "API Reference/DouyinSocialService/DouyinSocialService.onPublishProcessEvent",
+      "title": "DouyinSocialService.onPublishProcessEvent"
+    },
+    "API Reference/DouyinSocialService/DouyinSocialService.onPublishResultEvent.md": {
+      "export_version": "edited",
+      "id": "68c3c5c788ef5e04f8e9ead9",
+      "path": "API Reference/DouyinSocialService/DouyinSocialService.onPublishResultEvent",
+      "title": "DouyinSocialService.onPublishResultEvent"
+    },
+    "API Reference/DouyinTaskService.md": {
+      "export_version": "edited",
+      "id": "6a06b621eb41de05555373fd",
+      "path": "API Reference/DouyinTaskService",
+      "title": "DouyinTaskService"
+    },
+    "API Reference/DouyinTaskService/DouyinTaskService.SendEvent.md": {
+      "export_version": "edited",
+      "id": "6a06c3184246c9054e52af36",
+      "path": "API Reference/DouyinTaskService/DouyinTaskService.SendEvent",
+      "title": "DouyinTaskService.SendEvent"
+    },
+    "API Reference/DouyinThirdPartyService.md": {
+      "export_version": "edited",
+      "id": "692ee4e574b5630564606a87",
+      "path": "API Reference/DouyinThirdPartyService",
+      "title": "DouyinThirdPartyService"
+    },
+    "API Reference/DouyinThirdPartyService/DouyinThirdPartyService.SendRequest.md": {
+      "export_version": "edited",
+      "id": "692ee74ad06e1e04fa3d6f43",
+      "path": "API Reference/DouyinThirdPartyService/DouyinThirdPartyService.SendRequest",
+      "title": "DouyinThirdPartyService.SendRequest"
+    },
+    "API Reference/DouyinThirdPartyService/DouyinThirdPartyService.onThirdPartyMessage.md": {
+      "export_version": "edited",
+      "id": "692ee6763a29410577d52181",
+      "path": "API Reference/DouyinThirdPartyService/DouyinThirdPartyService.onThirdPartyMessage",
+      "title": "DouyinThirdPartyService.onThirdPartyMessage"
+    },
+    "API Reference/DouyinUIService.md": {
+      "export_version": "edited",
+      "id": "680e2f94c7dbd304fa030233",
+      "path": "API Reference/DouyinUIService",
+      "title": "DouyinUIService"
+    },
+    "API Reference/DouyinUIService/DouyinUIService.GetDefaultIcon.md": {
+      "export_version": "edited",
+      "id": "680e34eaf5e83005412328ba",
+      "path": "API Reference/DouyinUIService/DouyinUIService.GetDefaultIcon",
+      "title": "DouyinUIService.GetDefaultIcon"
+    },
+    "API Reference/DouyinUIService/DouyinUIService.GetInteractionButton.md": {
+      "export_version": "edited",
+      "id": "680e323b952b0e0550812b76",
+      "path": "API Reference/DouyinUIService/DouyinUIService.GetInteractionButton",
+      "title": "DouyinUIService.GetInteractionButton"
+    },
+    "API Reference/DouyinUIService/DouyinUIService.GetJoyStickControl.md": {
+      "export_version": "edited",
+      "id": "680e33fb952b0e055081317d",
+      "path": "API Reference/DouyinUIService/DouyinUIService.GetJoyStickControl",
+      "title": "DouyinUIService.GetJoyStickControl"
+    },
+    "API Reference/DouyinUIService/DouyinUIService.SetNativeUIVisible.md": {
+      "export_version": "edited",
+      "id": "68b7b0a8221ecb04ffef34a0",
+      "path": "API Reference/DouyinUIService/DouyinUIService.SetNativeUIVisible",
+      "title": "DouyinUIService.SetNativeUIVisible"
+    },
+    "API Reference/DouyinUIService/DouyinUIService.SetUIVisible.md": {
+      "export_version": "edited",
+      "id": "68b7b6c36888fd04f920610e",
+      "path": "API Reference/DouyinUIService/DouyinUIService.SetUIVisible",
+      "title": "DouyinUIService.SetUIVisible"
+    },
+    "API Reference/DouyinUIService/DouyinUIService.onScreenResolutionChanged.md": {
+      "export_version": "edited",
+      "id": "680e3164c7dbd304fa0307e7",
+      "path": "API Reference/DouyinUIService/DouyinUIService.onScreenResolutionChanged",
+      "title": "DouyinUIService.onScreenResolutionChanged"
+    },
+    "API Reference/DouyinUserService.md": {
+      "export_version": "edited",
+      "id": "69042cdaa94e0a0533e8c951",
+      "path": "API Reference/DouyinUserService",
+      "title": "DouyinUserService"
+    },
+    "API Reference/DouyinUserService/DouyinUserInfo.md": {
+      "export_version": "edited",
+      "id": "690433bd4fe042056068967f",
+      "path": "API Reference/DouyinUserService/DouyinUserInfo",
+      "title": "DouyinUserInfo"
+    },
+    "API Reference/DouyinUserService/DouyinUserService.GetUserInfo.md": {
+      "export_version": "edited",
+      "id": "69042f314dd2ff04f7e226df",
+      "path": "API Reference/DouyinUserService/DouyinUserService.GetUserInfo",
+      "title": "DouyinUserService.GetUserInfo"
+    },
+    "API Reference/DouyinUserService/DouyinUserService.GetUserInfos.md": {
+      "export_version": "edited",
+      "id": "6904323b1ac52905088c7275",
+      "path": "API Reference/DouyinUserService/DouyinUserService.GetUserInfos",
+      "title": "DouyinUserService.GetUserInfos"
+    },
+    "API Reference/DouyinUtility.md": {
+      "export_version": "edited",
+      "id": "680efd0ed8115704fcf2e33b",
+      "path": "API Reference/DouyinUtility",
+      "title": "DouyinUtility"
+    },
+    "API Reference/DouyinUtility/DouyinUtility.Alert.md": {
+      "export_version": "edited",
+      "id": "680f2795b1ea89054a5be940",
+      "path": "API Reference/DouyinUtility/DouyinUtility.Alert",
+      "title": "DouyinUtility.Alert"
+    },
+    "API Reference/DouyinUtility/DouyinUtility.FilteEmoji.md": {
+      "export_version": "edited",
+      "id": "680f2ae0b1ea89054a5c0028",
+      "path": "API Reference/DouyinUtility/DouyinUtility.FilteEmoji",
+      "title": "DouyinUtility.FilteEmoji"
+    },
+    "API Reference/DouyinUtility/DouyinUtility.GetServerTime.md": {
+      "export_version": "edited",
+      "id": "68b7bed73bcbc80500c8f5bc",
+      "path": "API Reference/DouyinUtility/DouyinUtility.GetServerTime",
+      "title": "DouyinUtility.GetServerTime"
+    },
+    "API Reference/DouyinUtility/DouyinUtility.GetServerUnixTime.md": {
+      "export_version": "edited",
+      "id": "68b7c037ffddda05a2a10b57",
+      "path": "API Reference/DouyinUtility/DouyinUtility.GetServerUnixTime",
+      "title": "DouyinUtility.GetServerUnixTime"
+    },
+    "API Reference/DouyinUtility/DouyinUtility.Toast.md": {
+      "export_version": "edited",
+      "id": "680f2a61557f830570789400",
+      "path": "API Reference/DouyinUtility/DouyinUtility.Toast",
+      "title": "DouyinUtility.Toast"
+    },
+    "API Reference/数据存储/DouyinDataInfo.md": {
+      "export_version": "edited",
+      "id": "68baa2daffddda05a2b51160",
+      "path": "API Reference/数据存储/DouyinDataInfo",
+      "title": "DouyinDataInfo"
+    },
+    "API Reference/数据存储/DouyinDataInfo/DouyinDataInfo.GetMetaData.md": {
+      "export_version": "edited",
+      "id": "68baa9b60bcacd05aa2db566",
+      "path": "API Reference/数据存储/DouyinDataInfo/DouyinDataInfo.GetMetaData",
+      "title": "DouyinDataInfo.GetMetaData"
+    },
+    "API Reference/数据存储/DouyinDataPages.md": {
+      "export_version": "edited",
+      "id": "68bab17b221ecb04ff0490ac",
+      "path": "API Reference/数据存储/DouyinDataPages",
+      "title": "DouyinDataPages"
+    },
+    "API Reference/数据存储/DouyinDataPages/DouyinDataPages.AdvanceToNextPage.md": {
+      "export_version": "edited",
+      "id": "68bab4c53bcbc80500ddc452",
+      "path": "API Reference/数据存储/DouyinDataPages/DouyinDataPages.AdvanceToNextPage",
+      "title": "DouyinDataPages.AdvanceToNextPage"
+    },
+    "API Reference/数据存储/DouyinDataPages/DouyinDataPages.GetCurrentPage.md": {
+      "export_version": "edited",
+      "id": "68bab32b0bcacd05aa2e21cc",
+      "path": "API Reference/数据存储/DouyinDataPages/DouyinDataPages.GetCurrentPage",
+      "title": "DouyinDataPages.GetCurrentPage"
+    },
+    "API Reference/数据存储/DouyinDataPages/DouyinDataPages.GetPageByIndex.md": {
+      "export_version": "edited",
+      "id": "68bab4106888fd04f935a639",
+      "path": "API Reference/数据存储/DouyinDataPages/DouyinDataPages.GetPageByIndex",
+      "title": "DouyinDataPages.GetPageByIndex"
+    },
+    "API Reference/数据存储/DouyinDataService.md": {
+      "export_version": "edited",
+      "id": "68ba9e9e221ecb04ff039607",
+      "path": "API Reference/数据存储/DouyinDataService",
+      "title": "DouyinDataService"
+    },
+    "API Reference/数据存储/DouyinDataService/DouyinDataService.CreateDataSetOptions.md": {
+      "export_version": "edited",
+      "id": "68baa143ffddda05a2b4f6de",
+      "path": "API Reference/数据存储/DouyinDataService/DouyinDataService.CreateDataSetOptions",
+      "title": "DouyinDataService.CreateDataSetOptions"
+    },
+    "API Reference/数据存储/DouyinDataService/DouyinDataService.GetDataStore.md": {
+      "export_version": "edited",
+      "id": "68ba9f81ffddda05a2b4ddb9",
+      "path": "API Reference/数据存储/DouyinDataService/DouyinDataService.GetDataStore",
+      "title": "DouyinDataService.GetDataStore"
+    },
+    "API Reference/数据存储/DouyinDataService/DouyinDataService.GetOrderedDataStore.md": {
+      "export_version": "edited",
+      "id": "68baa0a89ef4ce04f86cd306",
+      "path": "API Reference/数据存储/DouyinDataService/DouyinDataService.GetOrderedDataStore",
+      "title": "DouyinDataService.GetOrderedDataStore"
+    },
+    "API Reference/数据存储/DouyinDataSetOptions.md": {
+      "export_version": "edited",
+      "id": "68bab6160bcacd05aa2e4b02",
+      "path": "API Reference/数据存储/DouyinDataSetOptions",
+      "title": "DouyinDataSetOptions"
+    },
+    "API Reference/数据存储/DouyinDataSetOptions/DouyinDataSetOptions.GetMetaData.md": {
+      "export_version": "edited",
+      "id": "68bab6b56888fd04f935c48e",
+      "path": "API Reference/数据存储/DouyinDataSetOptions/DouyinDataSetOptions.GetMetaData",
+      "title": "DouyinDataSetOptions.GetMetaData"
+    },
+    "API Reference/数据存储/DouyinDataSetOptions/DouyinDataSetOptions.SetMetadata.md": {
+      "export_version": "edited",
+      "id": "68bab7213bcbc80500dde23c",
+      "path": "API Reference/数据存储/DouyinDataSetOptions/DouyinDataSetOptions.SetMetadata",
+      "title": "DouyinDataSetOptions.SetMetadata"
+    },
+    "API Reference/数据存储/DouyinDataSetOptions/DouyinDataSetOptions.SetPetDataOwner.md": {
+      "export_version": "edited",
+      "id": "6a2295f2c9abae0523fb27f1",
+      "path": "API Reference/数据存储/DouyinDataSetOptions/DouyinDataSetOptions.SetPetDataOwner",
+      "title": "DouyinDataSetOptions.SetPetDataOwner"
+    },
+    "API Reference/数据存储/DouyinDataSetOptions/DouyinDataSetOptions.SetPlayerDataOwner.md": {
+      "export_version": "edited",
+      "id": "6a228cc69e1fce0521f0b18e",
+      "path": "API Reference/数据存储/DouyinDataSetOptions/DouyinDataSetOptions.SetPlayerDataOwner",
+      "title": "DouyinDataSetOptions.SetPlayerDataOwner"
+    },
+    "API Reference/数据存储/DouyinDataStore.md": {
+      "export_version": "edited",
+      "id": "68400da8cbca9004fd566a09",
+      "path": "API Reference/数据存储/DouyinDataStore",
+      "title": "DouyinDataStore"
+    },
+    "API Reference/数据存储/DouyinDataStore/DouyinDataStore.GetData.md": {
+      "export_version": "edited",
+      "id": "684b9ab84cec38051771e76c",
+      "path": "API Reference/数据存储/DouyinDataStore/DouyinDataStore.GetData",
+      "title": "DouyinDataStore.GetData"
+    },
+    "API Reference/数据存储/DouyinDataStore/DouyinDataStore.IncrementData.md": {
+      "export_version": "edited",
+      "id": "684b9bc577f5de0546b7628d",
+      "path": "API Reference/数据存储/DouyinDataStore/DouyinDataStore.IncrementData",
+      "title": "DouyinDataStore.IncrementData"
+    },
+    "API Reference/数据存储/DouyinDataStore/DouyinDataStore.RemoveData.md": {
+      "export_version": "edited",
+      "id": "684b9c0f2257e504fbfb5944",
+      "path": "API Reference/数据存储/DouyinDataStore/DouyinDataStore.RemoveData",
+      "title": "DouyinDataStore.RemoveData"
+    },
+    "API Reference/数据存储/DouyinDataStore/DouyinDataStore.SetData.md": {
+      "export_version": "edited",
+      "id": "684b9b7a2257e504fbfb54ba",
+      "path": "API Reference/数据存储/DouyinDataStore/DouyinDataStore.SetData",
+      "title": "DouyinDataStore.SetData"
+    },
+    "API Reference/数据存储/DouyinDataStore/DouyinDataStore.UpdateData.md": {
+      "export_version": "edited",
+      "id": "684b9cab4cec38051771f2c4",
+      "path": "API Reference/数据存储/DouyinDataStore/DouyinDataStore.UpdateData",
+      "title": "DouyinDataStore.UpdateData"
+    },
+    "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.GetData.md": {
+      "export_version": "edited",
+      "id": "68baab433bcbc80500dd5875",
+      "path": "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.GetData",
+      "title": "DouyinOrderedDataStore.GetData"
+    },
+    "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.GetSortedData.md": {
+      "export_version": "edited",
+      "id": "68bab075221ecb04ff0484fa",
+      "path": "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.GetSortedData",
+      "title": "DouyinOrderedDataStore.GetSortedData"
+    },
+    "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.IncrementData.md": {
+      "export_version": "edited",
+      "id": "68baace69ef4ce04f86d8629",
+      "path": "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.IncrementData",
+      "title": "DouyinOrderedDataStore.IncrementData"
+    },
+    "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.RemoveData.md": {
+      "export_version": "edited",
+      "id": "68baae9e6888fd04f9356a20",
+      "path": "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.RemoveData",
+      "title": "DouyinOrderedDataStore.RemoveData"
+    },
+    "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.SetData.md": {
+      "export_version": "edited",
+      "id": "68baac130bcacd05aa2dd738",
+      "path": "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.SetData",
+      "title": "DouyinOrderedDataStore.SetData"
+    },
+    "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.UpdateData.md": {
+      "export_version": "edited",
+      "id": "68baada0ffddda05a2b597a8",
+      "path": "API Reference/数据存储/DouyinOrdededDataStore/DouyinOrderedDataStore.UpdateData",
+      "title": "DouyinOrderedDataStore.UpdateData"
+    },
+    "API Reference/数据存储/DouyinOrderedDataStore.md": {
+      "export_version": "edited",
+      "id": "68baaa4a3bcbc80500dd498c",
+      "path": "API Reference/数据存储/DouyinOrderedDataStore",
+      "title": "DouyinOrderedDataStore"
+    },
+    "API Reference/组件/DouyinSceneEnvironment.md": {
+      "export_version": "edited",
+      "id": "68bfa5b1ffddda05a2d141cb",
+      "path": "API Reference/组件/DouyinSceneEnvironment",
+      "title": "DouyinSceneEnvironment"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.Change.md": {
+      "export_version": "edited",
+      "id": "68c268297dfbcc054a46abb1",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.Change",
+      "title": "DouyinSceneEnvironment.Change"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.JsonAsset.md": {
+      "export_version": "edited",
+      "id": "68c0ed93235bf5053cf25a11",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.JsonAsset",
+      "title": "DouyinSceneEnvironment.JsonAsset"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.LoadJson.md": {
+      "export_version": "edited",
+      "id": "68c267ecdd62470503fbc359",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.LoadJson",
+      "title": "DouyinSceneEnvironment.LoadJson"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.BloomColor.md": {
+      "export_version": "edited",
+      "id": "68c2420f8eac48054374543f",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.BloomColor",
+      "title": "DouyinSceneEnvironment.settings.BloomColor"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.BloomEnabled.md": {
+      "export_version": "edited",
+      "id": "68c241e4ba5bd00533dbcea9",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.BloomEnabled",
+      "title": "DouyinSceneEnvironment.settings.BloomEnabled"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.BloomIntensity.md": {
+      "export_version": "edited",
+      "id": "68c243518df3d704fc546421",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.BloomIntensity",
+      "title": "DouyinSceneEnvironment.settings.BloomIntensity"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.BloomScatter.md": {
+      "export_version": "edited",
+      "id": "68c243868df3d704fc546519",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.BloomScatter",
+      "title": "DouyinSceneEnvironment.settings.BloomScatter"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.BloomThreshold.md": {
+      "export_version": "edited",
+      "id": "68c242fdba5bd00533dbd86b",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.BloomThreshold",
+      "title": "DouyinSceneEnvironment.settings.BloomThreshold"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Brightness.md": {
+      "export_version": "edited",
+      "id": "68c24621ba5bd00533dbf043",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Brightness",
+      "title": "DouyinSceneEnvironment.settings.Brightness"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.ChromaticAberration.md": {
+      "export_version": "edited",
+      "id": "68c246b4ba5bd00533dbf76d",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.ChromaticAberration",
+      "title": "DouyinSceneEnvironment.settings.ChromaticAberration"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Color.md": {
+      "export_version": "edited",
+      "id": "68c245d2eec778052c5cac53",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Color",
+      "title": "DouyinSceneEnvironment.settings.Color"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Contrast.md": {
+      "export_version": "edited",
+      "id": "68c245f5eec778052c5cae77",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Contrast",
+      "title": "DouyinSceneEnvironment.settings.Contrast"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.CustomizedPassMaterial.md": {
+      "export_version": "edited",
+      "id": "68c2492b8eac480543749787",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.CustomizedPassMaterial",
+      "title": "DouyinSceneEnvironment.settings.CustomizedPassMaterial"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Distortion.md": {
+      "export_version": "edited",
+      "id": "68c2473c8df3d704fc548e5d",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Distortion",
+      "title": "DouyinSceneEnvironment.settings.Distortion"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.DistortionIntensity.md": {
+      "export_version": "edited",
+      "id": "68c2477d8df3d704fc5490c9",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.DistortionIntensity",
+      "title": "DouyinSceneEnvironment.settings.DistortionIntensity"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.EnableCustomizedPass.md": {
+      "export_version": "edited",
+      "id": "68c248faba5bd00533dc0f7a",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.EnableCustomizedPass",
+      "title": "DouyinSceneEnvironment.settings.EnableCustomizedPass"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.ImageFiltering.md": {
+      "export_version": "edited",
+      "id": "68c245ae8df3d704fc54780c",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.ImageFiltering",
+      "title": "DouyinSceneEnvironment.settings.ImageFiltering"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.LUT.md": {
+      "export_version": "edited",
+      "id": "68c243c3eec778052c5c964a",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.LUT",
+      "title": "DouyinSceneEnvironment.settings.LUT"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.LutAmount.md": {
+      "export_version": "edited",
+      "id": "68c243f7eec778052c5c9896",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.LutAmount",
+      "title": "DouyinSceneEnvironment.settings.LutAmount"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Offset.md": {
+      "export_version": "edited",
+      "id": "68c246fb8df3d704fc548b29",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Offset",
+      "title": "DouyinSceneEnvironment.settings.Offset"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Saturation.md": {
+      "export_version": "edited",
+      "id": "68c2465feec778052c5cb1bc",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Saturation",
+      "title": "DouyinSceneEnvironment.settings.Saturation"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.SourceLut.md": {
+      "export_version": "edited",
+      "id": "68c244258eac480543746758",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.SourceLut",
+      "title": "DouyinSceneEnvironment.settings.SourceLut"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Vignette.md": {
+      "export_version": "edited",
+      "id": "68c247b48df3d704fc5494a8",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.Vignette",
+      "title": "DouyinSceneEnvironment.settings.Vignette"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.VignetteAmount.md": {
+      "export_version": "edited",
+      "id": "68c24893830327054af6cc3e",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.VignetteAmount",
+      "title": "DouyinSceneEnvironment.settings.VignetteAmount"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.VignetteSoftness.md": {
+      "export_version": "edited",
+      "id": "68c248ba8eac4805437491cd",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.VignetteSoftness",
+      "title": "DouyinSceneEnvironment.settings.VignetteSoftness"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterAmbient.md": {
+      "export_version": "edited",
+      "id": "68c0f19d3c825b054d61c0a6",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterAmbient",
+      "title": "DouyinSceneEnvironment.settings.characterAmbient"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterAmbientEnable.md": {
+      "export_version": "edited",
+      "id": "68c0f0f8e6b0660546a786b0",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterAmbientEnable",
+      "title": "DouyinSceneEnvironment.settings.characterAmbientEnable"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterCubemap.md": {
+      "export_version": "edited",
+      "id": "68c0f1fe10c20204fc1c5171",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterCubemap",
+      "title": "DouyinSceneEnvironment.settings.characterCubemap"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterCubemapEnable.md": {
+      "export_version": "edited",
+      "id": "68c0f15d2e19f404f51c9414",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterCubemapEnable",
+      "title": "DouyinSceneEnvironment.settings.characterCubemapEnable"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterLightColor.md": {
+      "export_version": "edited",
+      "id": "68c0f0693c825b054d61b14d",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterLightColor",
+      "title": "DouyinSceneEnvironment.settings.characterLightColor"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterRotation.md": {
+      "export_version": "edited",
+      "id": "68c0f0ca235bf5053cf276f7",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterRotation",
+      "title": "DouyinSceneEnvironment.settings.characterRotation"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterStrength.md": {
+      "export_version": "edited",
+      "id": "68c0f0993c825b054d61b306",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.characterStrength",
+      "title": "DouyinSceneEnvironment.settings.characterStrength"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.enableCharacterLight.md": {
+      "export_version": "edited",
+      "id": "68c0f0386bbcfd05436dd9dd",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.enableCharacterLight",
+      "title": "DouyinSceneEnvironment.settings.enableCharacterLight"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.enableMainLight.md": {
+      "export_version": "edited",
+      "id": "68c0ee30235bf5053cf26146",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.enableMainLight",
+      "title": "DouyinSceneEnvironment.settings.enableMainLight"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.enablePostProcess.md": {
+      "export_version": "edited",
+      "id": "68c241a9dd62470503faa090",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.enablePostProcess",
+      "title": "DouyinSceneEnvironment.settings.enablePostProcess"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.enableShadow.md": {
+      "export_version": "edited",
+      "id": "68c0ef76235bf5053cf26b59",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.enableShadow",
+      "title": "DouyinSceneEnvironment.settings.enableShadow"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.endFog.md": {
+      "export_version": "edited",
+      "id": "68c0f2de10c20204fc1c5b20",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.endFog",
+      "title": "DouyinSceneEnvironment.settings.endFog"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.flareEnable.md": {
+      "export_version": "edited",
+      "id": "68c0f32d235bf5053cf292ab",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.flareEnable",
+      "title": "DouyinSceneEnvironment.settings.flareEnable"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.fogColor.md": {
+      "export_version": "edited",
+      "id": "68c0f27410c20204fc1c575f",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.fogColor",
+      "title": "DouyinSceneEnvironment.settings.fogColor"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.fogEnable.md": {
+      "export_version": "edited",
+      "id": "68c0f246235bf5053cf28a04",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.fogEnable",
+      "title": "DouyinSceneEnvironment.settings.fogEnable"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.followCamera.md": {
+      "export_version": "edited",
+      "id": "68c23fe3eec778052c5c6f61",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.followCamera",
+      "title": "DouyinSceneEnvironment.settings.followCamera"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlare.md": {
+      "export_version": "edited",
+      "id": "68c2400deec778052c5c7113",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlare",
+      "title": "DouyinSceneEnvironment.settings.lenFlare"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareAllowOffScreen.md": {
+      "export_version": "edited",
+      "id": "68c24181dd62470503fa9d84",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareAllowOffScreen",
+      "title": "DouyinSceneEnvironment.settings.lenFlareAllowOffScreen"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareAttenuationDistance.md": {
+      "export_version": "edited",
+      "id": "68c2410aba5bd00533dbc67b",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareAttenuationDistance",
+      "title": "DouyinSceneEnvironment.settings.lenFlareAttenuationDistance"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareEnableOcclusion.md": {
+      "export_version": "edited",
+      "id": "68c241558eac480543744c52",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareEnableOcclusion",
+      "title": "DouyinSceneEnvironment.settings.lenFlareEnableOcclusion"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareIntensity.md": {
+      "export_version": "edited",
+      "id": "68c2409bdd62470503fa964b",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareIntensity",
+      "title": "DouyinSceneEnvironment.settings.lenFlareIntensity"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlarePosition.md": {
+      "export_version": "edited",
+      "id": "68c240698df3d704fc54482d",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlarePosition",
+      "title": "DouyinSceneEnvironment.settings.lenFlarePosition"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareScale.md": {
+      "export_version": "edited",
+      "id": "68c240dfdd62470503fa98ec",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareScale",
+      "title": "DouyinSceneEnvironment.settings.lenFlareScale"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareScaleDistance.md": {
+      "export_version": "edited",
+      "id": "68c2412f8eac480543744b80",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.lenFlareScaleDistance",
+      "title": "DouyinSceneEnvironment.settings.lenFlareScaleDistance"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.mainLightDir.md": {
+      "export_version": "edited",
+      "id": "68c0ef286bbcfd05436dd15d",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.mainLightDir",
+      "title": "DouyinSceneEnvironment.settings.mainLightDir"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.mainLightStrength.md": {
+      "export_version": "edited",
+      "id": "68c0eefb2e19f404f51c7e6a",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.mainLightStrength",
+      "title": "DouyinSceneEnvironment.settings.mainLightStrength"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.mainLightType.md": {
+      "export_version": "edited",
+      "id": "68c0ee74235bf5053cf26399",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.mainLightType",
+      "title": "DouyinSceneEnvironment.settings.mainLightType"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.shadowStrength.md": {
+      "export_version": "edited",
+      "id": "68c0efc43c825b054d61abe4",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.shadowStrength",
+      "title": "DouyinSceneEnvironment.settings.shadowStrength"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.skyMaterial.md": {
+      "export_version": "edited",
+      "id": "68c0f304e6b0660546a79515",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.skyMaterial",
+      "title": "DouyinSceneEnvironment.settings.skyMaterial"
+    },
+    "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.startFog.md": {
+      "export_version": "edited",
+      "id": "68c0f29fe6b0660546a79336",
+      "path": "API Reference/组件/DouyinSceneEnvironment/DouyinSceneEnvironment.settings.startFog",
+      "title": "DouyinSceneEnvironment.settings.startFog"
+    },
+    "API Reference/组件/DouyinVideoPlayer.md": {
+      "export_version": "edited",
+      "id": "68c268b67dfbcc054a46b19a",
+      "path": "API Reference/组件/DouyinVideoPlayer",
+      "title": "DouyinVideoPlayer"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.PauseVideo.md": {
+      "export_version": "edited",
+      "id": "68c273c28df3d704fc56177d",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.PauseVideo",
+      "title": "DouyinVideoPlayer.PauseVideo"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.PlayNextVideo.md": {
+      "export_version": "edited",
+      "id": "68c27405dc14cd05432712e7",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.PlayNextVideo",
+      "title": "DouyinVideoPlayer.PlayNextVideo"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.PlayVideo.md": {
+      "export_version": "edited",
+      "id": "68c273a4ba5bd00533dd700c",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.PlayVideo",
+      "title": "DouyinVideoPlayer.PlayVideo"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.PlayVideoByIndex.md": {
+      "export_version": "edited",
+      "id": "68c2742aeec778052c5e4849",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.PlayVideoByIndex",
+      "title": "DouyinVideoPlayer.PlayVideoByIndex"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.ResumeVideo.md": {
+      "export_version": "edited",
+      "id": "68c273e08df3d704fc5618a8",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.ResumeVideo",
+      "title": "DouyinVideoPlayer.ResumeVideo"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.SetPlaybackMode.md": {
+      "export_version": "edited",
+      "id": "68c27482dd62470503fc518b",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.SetPlaybackMode",
+      "title": "DouyinVideoPlayer.SetPlaybackMode"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.isSync.md": {
+      "export_version": "edited",
+      "id": "68c269d3ba5bd00533dcffa2",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.isSync",
+      "title": "DouyinVideoPlayer.isSync"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.onAllVideosPlayEnded.md": {
+      "export_version": "edited",
+      "id": "68c2762edc14cd0543272b09",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.onAllVideosPlayEnded",
+      "title": "DouyinVideoPlayer.onAllVideosPlayEnded"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.onVideoPlayEnded.md": {
+      "export_version": "edited",
+      "id": "68c2761adc14cd054327281d",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.onVideoPlayEnded",
+      "title": "DouyinVideoPlayer.onVideoPlayEnded"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.onVideoPlayPaused.md": {
+      "export_version": "edited",
+      "id": "68c275da7dfbcc054a474ef2",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.onVideoPlayPaused",
+      "title": "DouyinVideoPlayer.onVideoPlayPaused"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.onVideoPlayResumed.md": {
+      "export_version": "edited",
+      "id": "68c275f67dfbcc054a4751ee",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.onVideoPlayResumed",
+      "title": "DouyinVideoPlayer.onVideoPlayResumed"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.onVideoPlayStarted.md": {
+      "export_version": "edited",
+      "id": "68c275a2eec778052c5e5a49",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.onVideoPlayStarted",
+      "title": "DouyinVideoPlayer.onVideoPlayStarted"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.playingTime.md": {
+      "export_version": "edited",
+      "id": "68c26addeec778052c5dd600",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.playingTime",
+      "title": "DouyinVideoPlayer.playingTime"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.screenRenderer.md": {
+      "export_version": "edited",
+      "id": "68c26a88ba5bd00533dd107b",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.screenRenderer",
+      "title": "DouyinVideoPlayer.screenRenderer"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.totalTime.md": {
+      "export_version": "edited",
+      "id": "68c26ab37dfbcc054a46ca3b",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.totalTime",
+      "title": "DouyinVideoPlayer.totalTime"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.videoPlaybackMode.md": {
+      "export_version": "edited",
+      "id": "68c26a18ba5bd00533dd06e5",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.videoPlaybackMode",
+      "title": "DouyinVideoPlayer.videoPlaybackMode"
+    },
+    "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.videoUrls.md": {
+      "export_version": "edited",
+      "id": "68c26a68ba5bd00533dd0d54",
+      "path": "API Reference/组件/DouyinVideoPlayer/DouyinVideoPlayer.videoUrls",
+      "title": "DouyinVideoPlayer.videoUrls"
+    },
+    "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.CustomCameraList.md": {
+      "export_version": "edited",
+      "id": "68bfa4780bcacd05aa493a6a",
+      "path": "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.CustomCameraList",
+      "title": "DouyinWorldRoot.CustomCameraList"
+    },
+    "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.GuestSpawn.md": {
+      "export_version": "edited",
+      "id": "68bfa3959ef4ce04f8893cee",
+      "path": "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.GuestSpawn",
+      "title": "DouyinWorldRoot.GuestSpawn"
+    },
+    "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.JumpHeight.md": {
+      "export_version": "edited",
+      "id": "68bfa3fbffddda05a2d12feb",
+      "path": "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.JumpHeight",
+      "title": "DouyinWorldRoot.JumpHeight"
+    },
+    "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.MaxSpeed.md": {
+      "export_version": "edited",
+      "id": "68bfa3c0ffddda05a2d12c0d",
+      "path": "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.MaxSpeed",
+      "title": "DouyinWorldRoot.MaxSpeed"
+    },
+    "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.NetSpawnObjectAseet.md": {
+      "export_version": "edited",
+      "id": "68bfa4ba9ef4ce04f88945c2",
+      "path": "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.NetSpawnObjectAseet",
+      "title": "DouyinWorldRoot.NetSpawnObjectAseet"
+    },
+    "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.ObjectBehaviourAtRespawn.md": {
+      "export_version": "edited",
+      "id": "68bfa27656164e053ec1c85c",
+      "path": "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.ObjectBehaviourAtRespawn",
+      "title": "DouyinWorldRoot.ObjectBehaviourAtRespawn"
+    },
+    "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.PlayerRespawnLogic.md": {
+      "export_version": "edited",
+      "id": "68bfa1d69ef4ce04f889271b",
+      "path": "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.PlayerRespawnLogic",
+      "title": "DouyinWorldRoot.PlayerRespawnLogic"
+    },
+    "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.RespawnHeightY.md": {
+      "export_version": "edited",
+      "id": "68bfa10556164e053ec1b8df",
+      "path": "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.RespawnHeightY",
+      "title": "DouyinWorldRoot.RespawnHeightY"
+    },
+    "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.SpawnOrder.md": {
+      "export_version": "edited",
+      "id": "68bfa01c66f78b05453e90f3",
+      "path": "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.SpawnOrder",
+      "title": "DouyinWorldRoot.SpawnOrder"
+    },
+    "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.Spawns.md": {
+      "export_version": "edited",
+      "id": "68bf9fa1221ecb04ff1f5141",
+      "path": "API Reference/组件/DouyinWorldRoot/DouyinWorldRoot.Spawns",
+      "title": "DouyinWorldRoot.Spawns"
+    },
+    "API Reference/组件/DouyinWorldRoot（暂不支持）.md": {
+      "export_version": "edited",
+      "id": "68bf99ba9ef4ce04f888da72",
+      "path": "API Reference/组件/DouyinWorldRoot（暂不支持）",
+      "title": "DouyinWorldRoot（暂不支持）"
+    },
+    "API白名单.md": {
+      "export_version": "edited",
+      "id": "69e6f171efd6c804f0044b89",
+      "path": "API白名单",
+      "title": "API白名单"
+    },
+    "API黑名单.md": {
+      "export_version": "edited",
+      "id": "6a54a5a811f3210563161907",
+      "path": "API黑名单",
+      "title": "API黑名单"
+    },
+    "Best Practice/DedicatedServer/DedicatedServer-CSharp.md": {
+      "id": "6a59f275c2164f02a643abe0",
+      "path": "Best Practice/DedicatedServer/DedicatedServer-CSharp",
+      "title": "DedicatedServer-CSharp"
+    },
+    "Best Practice/DedicatedServer/DedicatedServer-Lua.md": {
+      "id": "6a4f3c537bc91802befc4cd5",
+      "path": "Best Practice/DedicatedServer/DedicatedServer-Lua",
+      "title": "DedicatedServer-Lua"
+    },
+    "Best Practice/主权/主权-CSharp.md": {
+      "id": "6a59f23bc9e2f802afdc403d",
+      "path": "Best Practice/主权/主权-CSharp",
+      "title": "主权-CSharp"
+    },
+    "Best Practice/主权/主权-Lua.md": {
+      "id": "6a4e0403079b6002b772203c",
+      "path": "Best Practice/主权/主权-Lua",
+      "title": "主权-Lua"
+    },
+    "Best Practice/主权/控制权-Lua.md": {
+      "id": "6a4e17507bc91802befc45ce",
+      "path": "Best Practice/主权/控制权-Lua",
+      "title": "控制权-Lua"
+    },
+    "Best Practice/商业化/交易与发货流程-CSharp.md": {
+      "id": "6a7d6d72196d6a04da980314",
+      "path": "Best Practice/商业化/交易与发货流程-CSharp",
+      "title": "交易与发货流程-CSharp"
+    },
+    "Best Practice/商业化/交易与发货流程-Lua.md": {
+      "id": "6a7d6d73196d6a04da98033d",
+      "path": "Best Practice/商业化/交易与发货流程-Lua",
+      "title": "交易与发货流程-Lua"
+    },
+    "Best Practice/商业化/交易与发货流程.md": {
+      "id": "6a7d6d7465e21905390a2a63",
+      "path": "Best Practice/商业化/交易与发货流程",
+      "title": "交易与发货流程"
+    },
+    "Best Practice/商业化/商品与星光币管理-CSharp.md": {
+      "id": "6a7d6d75d3c3490537f2b4ff",
+      "path": "Best Practice/商业化/商品与星光币管理-CSharp",
+      "title": "商品与星光币管理-CSharp"
+    },
+    "Best Practice/商业化/商品与星光币管理-Lua.md": {
+      "id": "6a7d6d7624a6e80532168dba",
+      "path": "Best Practice/商业化/商品与星光币管理-Lua",
+      "title": "商品与星光币管理-Lua"
+    },
+    "Best Practice/商业化/商品与星光币管理.md": {
+      "id": "6a7d6d77988817050d8a0ffe",
+      "path": "Best Practice/商业化/商品与星光币管理",
+      "title": "商品与星光币管理"
+    },
+    "Best Practice/基础交互/基础交互组件.md": {
+      "id": "6a7db2c0aa9a5804d053724d",
+      "path": "Best Practice/基础交互/基础交互组件",
+      "title": "基础交互组件"
+    },
+    "Best Practice/基础交互/座位系统-AIStudio-临时.md": {
+      "id": "6a7d6d78196d6a04da980385",
+      "path": "Best Practice/基础交互/座位系统-AIStudio-临时",
+      "title": "座位系统-AIStudio-临时"
+    },
+    "Best Practice/基础交互/自定义交互-CSharp.md": {
+      "id": "6a59ee9dc9e2f802afdc3fc1",
+      "path": "Best Practice/基础交互/自定义交互-CSharp",
+      "title": "自定义交互-CSharp"
+    },
+    "Best Practice/基础交互/自定义交互-Lua.md": {
+      "id": "6a4779c57c3e8103d66aa460",
+      "path": "Best Practice/基础交互/自定义交互-Lua",
+      "title": "自定义交互-Lua"
+    },
+    "Best Practice/基础交互/自定义交互-最佳实践.md": {
+      "id": "6a7db2c2513a56ade159311e",
+      "path": "Best Practice/基础交互/自定义交互-最佳实践",
+      "title": "自定义交互-最佳实践"
+    },
+    "Best Practice/基础交互/自定义座位-CSharp.md": {
+      "id": "6a59ee9dc9e2f802afdc3fc4",
+      "path": "Best Practice/基础交互/自定义座位-CSharp",
+      "title": "自定义座位-CSharp"
+    },
+    "Best Practice/基础交互/自定义座位-Lua.md": {
+      "id": "6a477b1bfaf34102abbdcd94",
+      "path": "Best Practice/基础交互/自定义座位-Lua",
+      "title": "自定义座位-Lua"
+    },
+    "Best Practice/基础交互/自定义座位-最佳实践.md": {
+      "id": "6a7db2c4687bd804d7fb8fff",
+      "path": "Best Practice/基础交互/自定义座位-最佳实践",
+      "title": "自定义座位-最佳实践"
+    },
+    "Best Practice/基础交互/自定义拾取-CSharp.md": {
+      "id": "6a59ee9dc9e2f802afdc3fbe",
+      "path": "Best Practice/基础交互/自定义拾取-CSharp",
+      "title": "自定义拾取-CSharp"
+    },
+    "Best Practice/基础交互/自定义拾取-Lua.md": {
+      "id": "6a4773d27c3e8103d66aa380",
+      "path": "Best Practice/基础交互/自定义拾取-Lua",
+      "title": "自定义拾取-Lua"
+    },
+    "Best Practice/基础交互/自定义拾取-最佳实践.md": {
+      "id": "6a7d6d7e0dd4d204e14d16f2",
+      "path": "Best Practice/基础交互/自定义拾取-最佳实践",
+      "title": "自定义拾取-最佳实践"
+    },
+    "Best Practice/基础交互/触发交互-Lua.md": {
+      "id": "6a7d6d7f00e5ae6f29c1c73d",
+      "path": "Best Practice/基础交互/触发交互-Lua",
+      "title": "触发交互-Lua"
+    },
+    "Best Practice/基础交互/触发交互-最佳实践.md": {
+      "id": "6a7db2c76f16d305463fdff2",
+      "path": "Best Practice/基础交互/触发交互-最佳实践",
+      "title": "触发交互-最佳实践"
+    },
+    "Best Practice/平台服务/创作者服务-CSharp.md": {
+      "id": "6a7d6d82988817050d8a108a",
+      "path": "Best Practice/平台服务/创作者服务-CSharp",
+      "title": "创作者服务-CSharp"
+    },
+    "Best Practice/平台服务/创作者服务-Lua.md": {
+      "id": "6a7d729bf4918e053e34ab5b",
+      "path": "Best Practice/平台服务/创作者服务-Lua",
+      "title": "创作者服务-Lua"
+    },
+    "Best Practice/平台服务/创作者服务.md": {
+      "id": "6a7d6d83196d6a04da9803e9",
+      "path": "Best Practice/平台服务/创作者服务",
+      "title": "创作者服务"
+    },
+    "Best Practice/平台服务/图片服务-CSharp.md": {
+      "id": "6a7d6d8424a6e80532168e08",
+      "path": "Best Practice/平台服务/图片服务-CSharp",
+      "title": "图片服务-CSharp"
+    },
+    "Best Practice/平台服务/图片服务-Lua.md": {
+      "id": "6a7d6d84988817050d8a10a9",
+      "path": "Best Practice/平台服务/图片服务-Lua",
+      "title": "图片服务-Lua"
+    },
+    "Best Practice/平台服务/图片服务.md": {
+      "id": "6a7d6d84d3c3490537f2b568",
+      "path": "Best Practice/平台服务/图片服务",
+      "title": "图片服务"
+    },
+    "Best Practice/平台服务/奖励服务-CSharp.md": {
+      "id": "6a7d6d85690baa053e5b6ce7",
+      "path": "Best Practice/平台服务/奖励服务-CSharp",
+      "title": "奖励服务-CSharp"
+    },
+    "Best Practice/平台服务/奖励服务-Lua.md": {
+      "id": "6a7d6d85d3c3490537f2b57b",
+      "path": "Best Practice/平台服务/奖励服务-Lua",
+      "title": "奖励服务-Lua"
+    },
+    "Best Practice/平台服务/奖励服务.md": {
+      "id": "6a7d6d86690baa053e5b6cfa",
+      "path": "Best Practice/平台服务/奖励服务",
+      "title": "奖励服务"
+    },
+    "Best Practice/平台服务/平台工具-CSharp.md": {
+      "id": "6a7d6d86988817050d8a10ca",
+      "path": "Best Practice/平台服务/平台工具-CSharp",
+      "title": "平台工具-CSharp"
+    },
+    "Best Practice/平台服务/平台工具-Lua.md": {
+      "id": "6a72e4cc409da288a58ae73f",
+      "path": "Best Practice/平台服务/平台工具-Lua",
+      "title": "平台工具-Lua"
+    },
+    "Best Practice/平台服务/平台工具.md": {
+      "id": "6a7d6d8700e5ae6f29c1c761",
+      "path": "Best Practice/平台服务/平台工具",
+      "title": "平台工具"
+    },
+    "Best Practice/平台服务/房间服务-CSharp.md": {
+      "id": "6a7d6d8824a6e80532168e3c",
+      "path": "Best Practice/平台服务/房间服务-CSharp",
+      "title": "房间服务-CSharp"
+    },
+    "Best Practice/平台服务/房间服务-Lua.md": {
+      "id": "6a7d6d88988817050d8a10ee",
+      "path": "Best Practice/平台服务/房间服务-Lua",
+      "title": "房间服务-Lua"
+    },
+    "Best Practice/平台服务/房间服务.md": {
+      "id": "6a7d6d8824a6e80532168e54",
+      "path": "Best Practice/平台服务/房间服务",
+      "title": "房间服务"
+    },
+    "Best Practice/平台服务/排行榜服务-CSharp.md": {
+      "id": "6a7d6d88d3c3490537f2b5a4",
+      "path": "Best Practice/平台服务/排行榜服务-CSharp",
+      "title": "排行榜服务-CSharp"
+    },
+    "Best Practice/平台服务/排行榜服务-Lua.md": {
+      "id": "6a7d6d89690baa053e5b6d2f",
+      "path": "Best Practice/平台服务/排行榜服务-Lua",
+      "title": "排行榜服务-Lua"
+    },
+    "Best Practice/平台服务/排行榜服务.md": {
+      "id": "6a7d6d89988817050d8a1111",
+      "path": "Best Practice/平台服务/排行榜服务",
+      "title": "排行榜服务"
+    },
+    "Best Practice/平台服务/服务器日志-CSharp.md": {
+      "id": "6a7d6d8924a6e80532168e74",
+      "path": "Best Practice/平台服务/服务器日志-CSharp",
+      "title": "服务器日志-CSharp"
+    },
+    "Best Practice/平台服务/服务器日志-Lua.md": {
+      "id": "6a7d6d8a196d6a04da980474",
+      "path": "Best Practice/平台服务/服务器日志-Lua",
+      "title": "服务器日志-Lua"
+    },
+    "Best Practice/平台服务/服务器日志.md": {
+      "id": "6a7d6d8b65e21905390a2afc",
+      "path": "Best Practice/平台服务/服务器日志",
+      "title": "服务器日志"
+    },
+    "Best Practice/平台服务/社交服务-CSharp.md": {
+      "id": "6a7d6d8b24a6e80532168ea7",
+      "path": "Best Practice/平台服务/社交服务-CSharp",
+      "title": "社交服务-CSharp"
+    },
+    "Best Practice/平台服务/社交服务-Lua.md": {
+      "id": "6a7d6d8b65e21905390a2b1a",
+      "path": "Best Practice/平台服务/社交服务-Lua",
+      "title": "社交服务-Lua"
+    },
+    "Best Practice/平台服务/社交服务.md": {
+      "id": "6a7d6d8b196d6a04da98048d",
+      "path": "Best Practice/平台服务/社交服务",
+      "title": "社交服务"
+    },
+    "Best Practice/数据库/数据存储DataStore-CSharp.md": {
+      "id": "6a7d72a9daf6e8052ee72426",
+      "path": "Best Practice/数据库/数据存储DataStore-CSharp",
+      "title": "数据存储DataStore-CSharp"
+    },
+    "Best Practice/数据库/数据存储DataStore-Lua.md": {
+      "id": "6a7d72aadaf6e8052ee7244f",
+      "path": "Best Practice/数据库/数据存储DataStore-Lua",
+      "title": "数据存储DataStore-Lua"
+    },
+    "Best Practice/数据库/数据存储DataStore.md": {
+      "id": "6a7d6d8fd3c3490537f2b65d",
+      "path": "Best Practice/数据库/数据存储DataStore",
+      "title": "数据存储DataStore"
+    },
+    "Best Practice/数据库/数据存储OrderedDataStore-CSharp.md": {
+      "id": "6a7d72ab1e86180537c95918",
+      "path": "Best Practice/数据库/数据存储OrderedDataStore-CSharp",
+      "title": "数据存储OrderedDataStore-CSharp"
+    },
+    "Best Practice/数据库/数据存储OrderedDataStore-Lua.md": {
+      "id": "6a7d72ac6f16d305463d09d8",
+      "path": "Best Practice/数据库/数据存储OrderedDataStore-Lua",
+      "title": "数据存储OrderedDataStore-Lua"
+    },
+    "Best Practice/数据库/数据存储OrderedDataStore.md": {
+      "id": "6a7d6d912d357f05067ef976",
+      "path": "Best Practice/数据库/数据存储OrderedDataStore",
+      "title": "数据存储OrderedDataStore"
+    },
+    "Best Practice/数据库/数据存储方式/用户维度数据存储方式-CSharp.md": {
+      "id": "6a7d6d9265e21905390a2b84",
+      "path": "Best Practice/数据库/数据存储方式/用户维度数据存储方式-CSharp",
+      "title": "用户维度数据存储方式-CSharp"
+    },
+    "Best Practice/数据库/数据存储方式/用户维度数据存储方式-Lua.md": {
+      "id": "6a7d6d920dd4d204e14d17b6",
+      "path": "Best Practice/数据库/数据存储方式/用户维度数据存储方式-Lua",
+      "title": "用户维度数据存储方式-Lua"
+    },
+    "Best Practice/数据库/数据存储方式/用户维度数据存储方式.md": {
+      "id": "6a7d6d92196d6a04da980508",
+      "path": "Best Practice/数据库/数据存储方式/用户维度数据存储方式",
+      "title": "用户维度数据存储方式"
+    },
+    "Best Practice/数据库/数据存储方式/精灵维度数据存储方式-CSharp.md": {
+      "id": "6a7d6d93988817050d8a11c1",
+      "path": "Best Practice/数据库/数据存储方式/精灵维度数据存储方式-CSharp",
+      "title": "精灵维度数据存储方式-CSharp"
+    },
+    "Best Practice/数据库/数据存储方式/精灵维度数据存储方式-Lua.md": {
+      "id": "6a7d6d93690baa053e5b6e3d",
+      "path": "Best Practice/数据库/数据存储方式/精灵维度数据存储方式-Lua",
+      "title": "精灵维度数据存储方式-Lua"
+    },
+    "Best Practice/数据库/数据存储方式/精灵维度数据存储方式.md": {
+      "id": "6a7d6d93988817050d8a11dd",
+      "path": "Best Practice/数据库/数据存储方式/精灵维度数据存储方式",
+      "title": "精灵维度数据存储方式"
+    },
+    "Best Practice/数据库/自定义数据库管理系统-CSharp.md": {
+      "id": "6a7d6d93690baa053e5b6e4e",
+      "path": "Best Practice/数据库/自定义数据库管理系统-CSharp",
+      "title": "自定义数据库管理系统-CSharp"
+    },
+    "Best Practice/数据库/自定义数据库管理系统-Lua.md": {
+      "id": "6a7d6d93d3c3490537f2b689",
+      "path": "Best Practice/数据库/自定义数据库管理系统-Lua",
+      "title": "自定义数据库管理系统-Lua"
+    },
+    "Best Practice/数据库/自定义数据库管理系统.md": {
+      "id": "6a7d6d950dd4d204e14d17e6",
+      "path": "Best Practice/数据库/自定义数据库管理系统",
+      "title": "自定义数据库管理系统"
+    },
+    "Best Practice/物理/Collider-Layer与碰撞矩阵-CSharp.md": {
+      "id": "6a7db2db6f16d305463fe0b7",
+      "path": "Best Practice/物理/Collider-Layer与碰撞矩阵-CSharp",
+      "title": "Collider-Layer与碰撞矩阵-CSharp"
+    },
+    "Best Practice/物理/Collider-Layer与碰撞矩阵-Lua.md": {
+      "id": "6a7db2dbfc4c5a05277dac7e",
+      "path": "Best Practice/物理/Collider-Layer与碰撞矩阵-Lua",
+      "title": "Collider-Layer与碰撞矩阵-Lua"
+    },
+    "Best Practice/物理/Collider-Physics碰撞过滤-CSharp.md": {
+      "id": "6a7db2dce95718052da34fbd",
+      "path": "Best Practice/物理/Collider-Physics碰撞过滤-CSharp",
+      "title": "Collider-Physics碰撞过滤-CSharp"
+    },
+    "Best Practice/物理/Collider-Physics碰撞过滤-Lua.md": {
+      "id": "6a7db2dce95718052da34fcb",
+      "path": "Best Practice/物理/Collider-Physics碰撞过滤-Lua",
+      "title": "Collider-Physics碰撞过滤-Lua"
+    },
+    "Best Practice/物理/Collider-规则.md": {
+      "id": "6a7db2dcfc4c5a05277daca1",
+      "path": "Best Practice/物理/Collider-规则",
+      "title": "Collider-规则"
+    },
+    "Best Practice/物理/Layer 与碰撞矩阵-CSharp.md": {
+      "id": "6a7d6d9568202bb5072fab07",
+      "path": "Best Practice/物理/Layer 与碰撞矩阵-CSharp",
+      "title": "Layer 与碰撞矩阵-CSharp"
+    },
+    "Best Practice/物理/Layer 与碰撞矩阵-Lua.md": {
+      "id": "6a7d6d95d3c3490537f2b6a2",
+      "path": "Best Practice/物理/Layer 与碰撞矩阵-Lua",
+      "title": "Layer 与碰撞矩阵-Lua"
+    },
+    "Best Practice/物理/Physics 碰撞过滤-CSharp.md": {
+      "id": "6a7d6d96690baa053e5b6e7b",
+      "path": "Best Practice/物理/Physics 碰撞过滤-CSharp",
+      "title": "Physics 碰撞过滤-CSharp"
+    },
+    "Best Practice/物理/Physics 碰撞过滤-Lua.md": {
+      "id": "6a7d6d96690baa053e5b6e89",
+      "path": "Best Practice/物理/Physics 碰撞过滤-Lua",
+      "title": "Physics 碰撞过滤-Lua"
+    },
+    "Best Practice/物理/Rigidbody 接触施力-CSharp.md": {
+      "id": "6a7d6d9624a6e80532168f3d",
+      "path": "Best Practice/物理/Rigidbody 接触施力-CSharp",
+      "title": "Rigidbody 接触施力-CSharp"
+    },
+    "Best Practice/物理/Rigidbody 接触施力-Lua.md": {
+      "id": "6a7d6d970dd4d204e14d17fe",
+      "path": "Best Practice/物理/Rigidbody 接触施力-Lua",
+      "title": "Rigidbody 接触施力-Lua"
+    },
+    "Best Practice/物理/Rigidbody 驱动-CSharp.md": {
+      "id": "6a7d6d9724a6e80532168f54",
+      "path": "Best Practice/物理/Rigidbody 驱动-CSharp",
+      "title": "Rigidbody 驱动-CSharp"
+    },
+    "Best Practice/物理/Rigidbody 驱动-Lua.md": {
+      "id": "6a7d6d97988817050d8a1231",
+      "path": "Best Practice/物理/Rigidbody 驱动-Lua",
+      "title": "Rigidbody 驱动-Lua"
+    },
+    "Best Practice/物理/Rigidbody-接触施力-CSharp.md": {
+      "id": "6a7db2ddfc4c5a05277dacbd",
+      "path": "Best Practice/物理/Rigidbody-接触施力-CSharp",
+      "title": "Rigidbody-接触施力-CSharp"
+    },
+    "Best Practice/物理/Rigidbody-接触施力-Lua.md": {
+      "id": "6a7db2dde95718052da34ff1",
+      "path": "Best Practice/物理/Rigidbody-接触施力-Lua",
+      "title": "Rigidbody-接触施力-Lua"
+    },
+    "Best Practice/物理/Rigidbody-规则.md": {
+      "id": "6a7db2de513a56ade15932c0",
+      "path": "Best Practice/物理/Rigidbody-规则",
+      "title": "Rigidbody-规则"
+    },
+    "Best Practice/物理/Rigidbody-驱动-CSharp.md": {
+      "id": "6a7db2def4918e053e375e05",
+      "path": "Best Practice/物理/Rigidbody-驱动-CSharp",
+      "title": "Rigidbody-驱动-CSharp"
+    },
+    "Best Practice/物理/Rigidbody-驱动-Lua.md": {
+      "id": "6a7db2defc4c5a05277dacdc",
+      "path": "Best Practice/物理/Rigidbody-驱动-Lua",
+      "title": "Rigidbody-驱动-Lua"
+    },
+    "Best Practice/物理/Trigger 结算去重-CSharp.md": {
+      "id": "6a7d6d980dd4d204e14d180f",
+      "path": "Best Practice/物理/Trigger 结算去重-CSharp",
+      "title": "Trigger 结算去重-CSharp"
+    },
+    "Best Practice/物理/Trigger 结算去重-Lua.md": {
+      "id": "6a7d6d98988817050d8a1243",
+      "path": "Best Practice/物理/Trigger 结算去重-Lua",
+      "title": "Trigger 结算去重-Lua"
+    },
+    "Best Practice/物理/Trigger-结算去重-CSharp.md": {
+      "id": "6a7db2dff4918e053e375e13",
+      "path": "Best Practice/物理/Trigger-结算去重-CSharp",
+      "title": "Trigger-结算去重-CSharp"
+    },
+    "Best Practice/物理/Trigger-结算去重-Lua.md": {
+      "id": "6a7db2dffc4c5a05277daced",
+      "path": "Best Practice/物理/Trigger-结算去重-Lua",
+      "title": "Trigger-结算去重-Lua"
+    },
+    "Best Practice/物理/Trigger-规则.md": {
+      "id": "6a7db2dfaa9a5804d053734b",
+      "path": "Best Practice/物理/Trigger-规则",
+      "title": "Trigger-规则"
+    },
+    "Best Practice/物理/输送带-CSharp.md": {
+      "id": "6a8bb832ade372057ca10705",
+      "path": "Best Practice/物理/输送带-CSharp",
+      "title": "输送带-CSharp"
+    },
+    "Best Practice/物理/输送带-Lua.md": {
+      "id": "6a8bb8328ce5320535f5839a",
+      "path": "Best Practice/物理/输送带-Lua",
+      "title": "输送带-Lua"
+    },
+    "Best Practice/相机/拍照模式-CSharp.md": {
+      "id": "6a7d6d98196d6a04da980551",
+      "path": "Best Practice/相机/拍照模式-CSharp",
+      "title": "拍照模式-CSharp"
+    },
+    "Best Practice/相机/拍照模式-Lua.md": {
+      "id": "6a7d6d98d3c3490537f2b6be",
+      "path": "Best Practice/相机/拍照模式-Lua",
+      "title": "拍照模式-Lua"
+    },
+    "Best Practice/相机/相机回正-CSharp.md": {
+      "id": "6a7d6d9868202bb5072fab22",
+      "path": "Best Practice/相机/相机回正-CSharp",
+      "title": "相机回正-CSharp"
+    },
+    "Best Practice/相机/相机回正-Lua.md": {
+      "id": "6a72e4d374287b05020c0656",
+      "path": "Best Practice/相机/相机回正-Lua",
+      "title": "相机回正-Lua"
+    },
+    "Best Practice/相机/视野角FOV-CSharp.md": {
+      "id": "6a7d6d9ad3c3490537f2b6d6",
+      "path": "Best Practice/相机/视野角FOV-CSharp",
+      "title": "视野角FOV-CSharp"
+    },
+    "Best Practice/相机/视野角FOV-Lua.md": {
+      "id": "6a7d6d9a988817050d8a126e",
+      "path": "Best Practice/相机/视野角FOV-Lua",
+      "title": "视野角FOV-Lua"
+    },
+    "Best Practice/相机/追尾镜头-CSharp.md": {
+      "id": "6a7d6d9a196d6a04da98056b",
+      "path": "Best Practice/相机/追尾镜头-CSharp",
+      "title": "追尾镜头-CSharp"
+    },
+    "Best Practice/相机/追尾镜头-Lua.md": {
+      "id": "6a7d6d9a65e21905390a2bcf",
+      "path": "Best Practice/相机/追尾镜头-Lua",
+      "title": "追尾镜头-Lua"
+    },
+    "Best Practice/移动/基础移动-Lua.md": {
+      "id": "6a72e4d411f3210563e2e105",
+      "path": "Best Practice/移动/基础移动-Lua",
+      "title": "基础移动-Lua"
+    },
+    "Best Practice/移动/基础移动-规则.md": {
+      "id": "6a7d6d9c690baa053e5b6efa",
+      "path": "Best Practice/移动/基础移动-规则",
+      "title": "基础移动-规则"
+    },
+    "Best Practice/移动/游泳-Lua.md": {
+      "id": "6a72e4d47f59777dc857bf36",
+      "path": "Best Practice/移动/游泳-Lua",
+      "title": "游泳-Lua"
+    },
+    "Best Practice/移动/游泳-规则.md": {
+      "id": "6a7d6d9d68202bb5072fab6a",
+      "path": "Best Practice/移动/游泳-规则",
+      "title": "游泳-规则"
+    },
+    "Best Practice/移动/飞行-Lua.md": {
+      "id": "6a72e4d511f3210563e2e113",
+      "path": "Best Practice/移动/飞行-Lua",
+      "title": "飞行-Lua"
+    },
+    "Best Practice/移动/飞行-规则.md": {
+      "id": "6a7d6d9d24a6e80532168fe2",
+      "path": "Best Practice/移动/飞行-规则",
+      "title": "飞行-规则"
+    },
+    "Best Practice/网络对象管理/分布式网络对象管理器.md": {
+      "id": "6a4f438cb8c72805021943b1",
+      "path": "Best Practice/网络对象管理/分布式网络对象管理器",
+      "title": "分布式网络对象管理器"
+    },
+    "Best Practice/网络通信/RPC/DS远程通信-CSharp.md": {
+      "id": "6a59f079c9e2f802afdc3fe4",
+      "path": "Best Practice/网络通信/RPC/DS远程通信-CSharp",
+      "title": "DS远程通信-CSharp"
+    },
+    "Best Practice/网络通信/RPC/DS远程通信-Lua.md": {
+      "id": "6a4cf86332b8f402ca635680",
+      "path": "Best Practice/网络通信/RPC/DS远程通信-Lua",
+      "title": "DS远程通信-Lua"
+    },
+    "Best Practice/网络通信/RPC/基础RPC通信-CSharp.md": {
+      "id": "6a59f079c9e2f802afdc3fea",
+      "path": "Best Practice/网络通信/RPC/基础RPC通信-CSharp",
+      "title": "基础RPC通信-CSharp"
+    },
+    "Best Practice/网络通信/RPC/基础RPC通信-Lua.md": {
+      "id": "6a4cf5ce7bc91802befc3d04",
+      "path": "Best Practice/网络通信/RPC/基础RPC通信-Lua",
+      "title": "基础RPC通信-Lua"
+    },
+    "Best Practice/网络通信/动态创建/DedicatedServer - 房间对象的动态创建 - CSharp.md": {
+      "id": "6a59f2b9c2164f02a643abe8",
+      "path": "Best Practice/网络通信/动态创建/DedicatedServer - 房间对象的动态创建 - CSharp",
+      "title": "DedicatedServer - 房间对象的动态创建 - CSharp"
+    },
+    "Best Practice/网络通信/动态创建/DedicatedServer-房间对象的动态创建 - Lua.md": {
+      "id": "6a475f317c3e8103d66aa114",
+      "path": "Best Practice/网络通信/动态创建/DedicatedServer-房间对象的动态创建 - Lua",
+      "title": "DedicatedServer-房间对象的动态创建 - Lua"
+    },
+    "Best Practice/网络通信/动态创建/ShareMode - 房间对象的动态创建 - CSharp.md": {
+      "id": "6a59f0f304860402c0e82e01",
+      "path": "Best Practice/网络通信/动态创建/ShareMode - 房间对象的动态创建 - CSharp",
+      "title": "ShareMode - 房间对象的动态创建 - CSharp"
+    },
+    "Best Practice/网络通信/动态创建/SharedMode - 房间对象的动态创建 - Lua.md": {
+      "id": "6a45d1497bc75804cb1078f5",
+      "path": "Best Practice/网络通信/动态创建/SharedMode - 房间对象的动态创建 - Lua",
+      "title": "SharedMode - 房间对象的动态创建 - Lua"
+    },
+    "Best Practice/网络通信/动态创建/用户绑定对象的动态创建 - CSharp.md": {
+      "id": "6a59f0f304860402c0e82e07",
+      "path": "Best Practice/网络通信/动态创建/用户绑定对象的动态创建 - CSharp",
+      "title": "用户绑定对象的动态创建 - CSharp"
+    },
+    "Best Practice/网络通信/动态创建/用户绑定对象的动态创建 - Lua.md": {
+      "id": "6a45d194147d7a04d2e2538d",
+      "path": "Best Practice/网络通信/动态创建/用户绑定对象的动态创建 - Lua",
+      "title": "用户绑定对象的动态创建 - Lua"
+    },
+    "Best Practice/网络通信/同步变量/基础同步变量-CSharp.md": {
+      "id": "6a59eec50dcfa002ad6a938d",
+      "path": "Best Practice/网络通信/同步变量/基础同步变量-CSharp",
+      "title": "基础同步变量-CSharp"
+    },
+    "Best Practice/网络通信/同步变量/基础同步变量-Lua.md": {
+      "id": "6a4cca5c12c1fe02d373a376",
+      "path": "Best Practice/网络通信/同步变量/基础同步变量-Lua",
+      "title": "基础同步变量-Lua"
+    },
+    "Best Practice/网络通信/同步变量/集合同步变量-CSharp.md": {
+      "id": "6a59eec50dcfa002ad6a9390",
+      "path": "Best Practice/网络通信/同步变量/集合同步变量-CSharp",
+      "title": "集合同步变量-CSharp"
+    },
+    "Best Practice/网络通信/同步变量/集合同步变量-Lua.md": {
+      "id": "6a4ccc281d63dd02c7931bab",
+      "path": "Best Practice/网络通信/同步变量/集合同步变量-Lua",
+      "title": "集合同步变量-Lua"
+    },
+    "Best Practice/载具/地面载具-Lua.md": {
+      "id": "6a7d6da468202bb5072fabe7",
+      "path": "Best Practice/载具/地面载具-Lua",
+      "title": "地面载具-Lua"
+    },
+    "Best Practice/载具/地面载具-规则.md": {
+      "id": "6a7db2ed513a56ade159334b",
+      "path": "Best Practice/载具/地面载具-规则",
+      "title": "地面载具-规则"
+    },
+    "Best Practice/载具/悬浮载具-Lua.md": {
+      "id": "6a7d6da468202bb5072fabf8",
+      "path": "Best Practice/载具/悬浮载具-Lua",
+      "title": "悬浮载具-Lua"
+    },
+    "Best Practice/载具/悬浮载具-规则.md": {
+      "id": "6a7db2ee10b733054d7889c4",
+      "path": "Best Practice/载具/悬浮载具-规则",
+      "title": "悬浮载具-规则"
+    },
+    "Best Practice/载具/水面载具-Lua.md": {
+      "id": "6a7d6da524a6e805321690ca",
+      "path": "Best Practice/载具/水面载具-Lua",
+      "title": "水面载具-Lua"
+    },
+    "Best Practice/载具/水面载具-规则.md": {
+      "id": "6a7db2ef687bd804d7fb9262",
+      "path": "Best Practice/载具/水面载具-规则",
+      "title": "水面载具-规则"
+    },
+    "Best Practice/载具/载具通用物理-Lua.md": {
+      "id": "6a7d6da5988817050d8a13b8",
+      "path": "Best Practice/载具/载具通用物理-Lua",
+      "title": "载具通用物理-Lua"
+    },
+    "Best Practice/载具/载具通用物理-规则.md": {
+      "id": "6a7db2f0687bd804d7fb9271",
+      "path": "Best Practice/载具/载具通用物理-规则",
+      "title": "载具通用物理-规则"
+    },
+    "Best Practice/载具/飞行载具-Lua.md": {
+      "id": "6a7d6da6988817050d8a13cd",
+      "path": "Best Practice/载具/飞行载具-Lua",
+      "title": "飞行载具-Lua"
+    },
+    "Best Practice/载具/飞行载具-规则.md": {
+      "id": "6a7db2f110b733054d7889ee",
+      "path": "Best Practice/载具/飞行载具-规则",
+      "title": "飞行载具-规则"
+    },
+    "Best Practice/输入/右下角操作按钮-Lua.md": {
+      "id": "6a7d6da600e5ae6f29c1c867",
+      "path": "Best Practice/输入/右下角操作按钮-Lua",
+      "title": "右下角操作按钮-Lua"
+    },
+    "Best Practice/输入/输入监听-Lua.md": {
+      "id": "6a72e4e0f265eb051b53d658",
+      "path": "Best Practice/输入/输入监听-Lua",
+      "title": "输入监听-Lua"
+    },
+    "Code Review/README.md": {
+      "id": "6a7ecabefc4c5a052784d984",
+      "path": "Code-Review-README-bad68a376e",
+      "title": "README"
+    },
+    "Code Review/data-rules.md": {
+      "id": "6a7ecabf513a56ade160a676",
+      "path": "Code-Review-data-rules-d421a38b2b",
+      "title": "data-rules"
+    },
+    "Code Review/ds-rules.md": {
+      "id": "6a7ecabfaa9a5804d05a910b",
+      "path": "Code-Review-ds-rules-9ee280a6ce",
+      "title": "ds-rules"
+    },
+    "Code Review/interact-rules.md": {
+      "id": "6a7ecabf687bd804d7031632",
+      "path": "Code-Review-interact-rules-3430ff212c",
+      "title": "interact-rules"
+    },
+    "Code Review/mall-rules.md": {
+      "id": "6a7ecac010b733054d7fea94",
+      "path": "Code-Review-mall-rules-4bd3487319",
+      "title": "mall-rules"
+    },
+    "Code Review/net-rules.md": {
+      "id": "6a7ecac0daf6e8052ef12707",
+      "path": "Code-Review-net-rules-ad59f9e37f",
+      "title": "net-rules"
+    },
+    "Code Review/shr-rules.md": {
+      "id": "6a7ecac1513a56ade160a6a3",
+      "path": "Code-Review-shr-rules-f64288956a",
+      "title": "shr-rules"
+    },
+    "Enum/ActorStateType.md": {
+      "export_version": "edited",
+      "id": "69688dc8f183af06049352f1",
+      "path": "Enum/ActorStateType",
+      "title": "ActorStateType"
+    },
+    "Enum/AvatarHoldHandStateType.md": {
+      "export_version": "edited",
+      "id": "690c601c18470804fad58a6a",
+      "path": "Enum/AvatarHoldHandStateType",
+      "title": "AvatarHoldHandStateType"
+    },
+    "Enum/DouyinActor.ActorInteractionType.md": {
+      "export_version": "edited",
+      "id": "690c4fa222fed105426a6dd8",
+      "path": "Enum/DouyinActor.ActorInteractionType",
+      "title": "DouyinActor.ActorInteractionType"
+    },
+    "Enum/DouyinOrderStatus.md": {
+      "export_version": "edited",
+      "id": "69720e15c93dbb05479dbbca",
+      "path": "Enum/DouyinOrderStatus",
+      "title": "DouyinOrderStatus"
+    },
+    "Enum/DouyinProductStatus.md": {
+      "export_version": "edited",
+      "id": "69720cdc2b19f8053f88e838",
+      "path": "Enum/DouyinProductStatus",
+      "title": "DouyinProductStatus"
+    },
+    "Enum/DouyinTaskEvent.md": {
+      "export_version": "edited",
+      "id": "6a06c56db78955052ac60fed",
+      "path": "Enum/DouyinTaskEvent",
+      "title": "DouyinTaskEvent"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/交互/基础交互.md": {
+      "id": "6a7d4136ade372057c44cfa0",
+      "path": "Manual/Ⅰ. 核心系统(Core)/交互/基础交互",
+      "title": "基础交互"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/交互/基础交互组件.md": {
+      "id": "6a7be01565e2190539fd925a",
+      "path": "Manual/Ⅰ. 核心系统(Core)/交互/基础交互组件",
+      "title": "基础交互组件"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/交互/自定义交互.md": {
+      "id": "6a793ff8d3c3490537d2872b",
+      "path": "Manual/Ⅰ. 核心系统(Core)/交互/自定义交互",
+      "title": "自定义交互"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/交互/触发交互.md": {
+      "id": "6a7d413811f3210563290ff3",
+      "path": "Manual/Ⅰ. 核心系统(Core)/交互/触发交互",
+      "title": "触发交互"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/应用程序.md": {
+      "id": "6a793ff665e2190539ea43d3",
+      "path": "Manual/Ⅰ. 核心系统(Core)/应用程序",
+      "title": "应用程序"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/游戏对象/游戏对象的属性.md": {
+      "id": "6a793ff60dd4d204e12ce157",
+      "path": "Manual/Ⅰ. 核心系统(Core)/游戏对象/游戏对象的属性",
+      "title": "游戏对象的属性"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/游戏对象/游戏对象的概述.md": {
+      "id": "6a793ff7690baa053e3aeaeb",
+      "path": "Manual/Ⅰ. 核心系统(Core)/游戏对象/游戏对象的概述",
+      "title": "游戏对象的概述"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/游戏对象/游戏对象的生命周期.md": {
+      "id": "6a793ff7690baa053e3aeafe",
+      "path": "Manual/Ⅰ. 核心系统(Core)/游戏对象/游戏对象的生命周期",
+      "title": "游戏对象的生命周期"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/物理/Collider-规则.md": {
+      "id": "6a7ecbc76f16d30546475d9b",
+      "path": "Manual-Core-Collider-9bf4dfd2d8",
+      "title": "Collider-规则"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/物理/Collider与碰撞过滤.md": {
+      "id": "6a7d4130ade372057c44cf34",
+      "path": "Manual/Ⅰ. 核心系统(Core)/物理/Collider与碰撞过滤",
+      "title": "Collider与碰撞过滤"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/物理/Rigidbody-规则.md": {
+      "id": "6a7ecbc8aa9a5804d05a9f8e",
+      "path": "Manual-Core-Rigidbody-2833e01257",
+      "title": "Rigidbody-规则"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/物理/Rigidbody与运动.md": {
+      "id": "6a7d41317f59777dc89da8c0",
+      "path": "Manual/Ⅰ. 核心系统(Core)/物理/Rigidbody与运动",
+      "title": "Rigidbody与运动"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/物理/Trigger-规则.md": {
+      "id": "6a7ecbc8f4918e053e3eb82b",
+      "path": "Manual-Core-Trigger-040571cb02",
+      "title": "Trigger-规则"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/物理/刚体与运动模型.md": {
+      "id": "6a8bb73864059a058947c561",
+      "path": "Manual/Ⅰ. 核心系统(Core)/物理/刚体与运动模型",
+      "title": "刚体与运动模型"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/物理/物理系统概述.md": {
+      "id": "6a7d413339a7cd3724b61a57",
+      "path": "Manual/Ⅰ. 核心系统(Core)/物理/物理系统概述",
+      "title": "物理系统概述"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/物理/碰撞体与触发器.md": {
+      "id": "6a8bb7391222100509139b34",
+      "path": "Manual/Ⅰ. 核心系统(Core)/物理/碰撞体与触发器",
+      "title": "碰撞体与触发器"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/物理/触发与判定.md": {
+      "id": "6a7d6cbe196d6a04da97f782",
+      "path": "Manual-Core-10af0f89b5",
+      "title": "触发与判定"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/Actor模式/Actor模式概述.md": {
+      "id": "6a797d631e86180537aaa8bf",
+      "path": "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/Actor模式/Actor模式概述",
+      "title": "Actor模式概述"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/Actor模式/合养精灵Pet模式.md": {
+      "id": "6a793ff7690baa053e3aeb10",
+      "path": "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/Actor模式/合养精灵Pet模式",
+      "title": "合养精灵Pet模式"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/Actor模式/虚拟形象Avatar模式.md": {
+      "id": "6a793ff8196d6a04da77aa1a",
+      "path": "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/Actor模式/虚拟形象Avatar模式",
+      "title": "虚拟形象Avatar模式"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/玩家网络对象概述.md": {
+      "id": "6a793ff868202bb5070fc53f",
+      "path": "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/玩家网络对象概述",
+      "title": "玩家网络对象概述"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/相机控制/相机视角控制.md": {
+      "id": "6a793ff9d3c3490537d2873d",
+      "path": "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/相机控制/相机视角控制",
+      "title": "相机视角控制"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/角色控制/角色移动、飞行与游泳.md": {
+      "id": "6a7d413ab59ed0056a543d1a",
+      "path": "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/角色控制/角色移动、飞行与游泳",
+      "title": "角色移动、飞行与游泳"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/输入控制/遥控状态与角色锁定.md": {
+      "id": "6a8bb73d7fa89504dc1e60b1",
+      "path": "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/输入控制/遥控状态与角色锁定",
+      "title": "遥控状态与角色锁定"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/输入控制/多输入源协同处理.md": {
+      "id": "6a7d413a11f321056329100c",
+      "path": "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/输入控制/多输入源协同处理",
+      "title": "多输入源协同处理"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/输入控制/输入事件与监听机制.md": {
+      "id": "6a793ff9690baa053e3aeb25",
+      "path": "Manual/Ⅰ. 核心系统(Core)/玩家网络对象/输入控制/输入事件与监听机制",
+      "title": "输入事件与监听机制" 
+    },
+    "Manual/Ⅰ. 核心系统(Core)/载具/载具介质差异.md": {
+      "id": "6a7d413bb59ed0056a543d2a",
+      "path": "Manual/Ⅰ. 核心系统(Core)/载具/载具介质差异",
+      "title": "载具介质差异"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/载具/载具系统概述.md": {
+      "id": "6a7db0966f16d305463fc944",
+      "path": "Manual/Ⅰ. 核心系统(Core)/载具/载具系统概述",
+      "title": "载具系统概述"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/载具/载具通用手感.md": {
+      "id": "6a7d413c39a7cd3724b61a96",
+      "path": "Manual/Ⅰ. 核心系统(Core)/载具/载具通用手感",
+      "title": "载具通用手感"
+    },
+    "Manual/Ⅰ. 核心系统(Core)/通用工具集.md": {
+      "id": "6a8bb73eade372057ca0f56e",
+      "path": "Manual/Ⅰ. 核心系统(Core)/通用工具集",
+      "title": "通用工具集"
+    },
+    "Manual/Ⅱ. 界面与交互(UI)/Unity uGUI.md": {
+      "id": "6a793ffa2d357f05065f0afe",
+      "path": "Manual/Ⅱ. 界面与交互(UI)/Unity uGUI",
+      "title": "Unity uGUI"
+    },
+    "Manual/Ⅱ. 界面与交互(UI)/界面开发概述与规范.md": {
+      "id": "6a793ffa65e2190539ea4449",
+      "path": "Manual/Ⅱ. 界面与交互(UI)/界面开发概述与规范",
+      "title": "界面开发概述与规范"
+    },
+    "Manual/Ⅱ. 界面与交互(UI)/系统交互按钮/交互按钮分类与使用规范.md": {
+      "id": "6a8bb735486265053c6cc286",
+      "path": "Manual/Ⅱ. 界面与交互(UI)/系统交互按钮/交互按钮分类与使用规范",
+      "title": "交互按钮分类与使用规范"
+    },
+    "Manual/Ⅱ. 界面与交互(UI)/系统交互按钮/基础交互按钮.md": {
+      "id": "6a7db08c1e86180537cc06dd",
+      "path": "Manual/Ⅱ. 界面与交互(UI)/系统交互按钮/基础交互按钮",
+      "title": "基础交互按钮"
+    },
+    "Manual/Ⅱ. 界面与交互(UI)/系统交互按钮/操作按钮.md": {
+      "id": "6a7c23b910b733054d6c2985",
+      "path": "Manual/Ⅱ. 界面与交互(UI)/系统交互按钮/操作按钮",
+      "title": "操作按钮"
+    },
+    "Manual/Ⅱ. 界面与交互(UI)/系统界面.md": {
+      "id": "6a793ffa00e5ae6f29a16e57",
+      "path": "Manual/Ⅱ. 界面与交互(UI)/系统界面",
+      "title": "系统界面"
+    },
+    "Manual/Ⅱ. 界面与交互(UI)/自定义界面.md": {
+      "id": "6a793ffb690baa053e3aeb34",
+      "path": "Manual/Ⅱ. 界面与交互(UI)/自定义界面",
+      "title": "自定义界面"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/事件驱动(ECA)/Action.md": {
+      "id": "6a793ffb65e2190539ea445f",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/事件驱动(ECA)/Action",
+      "title": "Action"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/事件驱动(ECA)/Condition.md": {
+      "id": "6a793ffb988817050d69458f",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/事件驱动(ECA)/Condition",
+      "title": "Condition"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/事件驱动(ECA)/ECA 概述.md": {
+      "id": "6a793ffcd3c3490537d2876e",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/事件驱动(ECA)/ECA 概述",
+      "title": "ECA 概述"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/事件驱动(ECA)/Event.md": {
+      "id": "6a793ffc988817050d6945a7",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/事件驱动(ECA)/Event",
+      "title": "Event"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范.md": {
+      "id": "6a7c1a1368202bb50725f400",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范",
+      "title": "编码约束与开发规范"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/Actor模式开发约束.md": {
+      "id": "6a7c1a10690baa053e516216",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/Actor模式开发约束",
+      "title": "Actor模式开发约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/刚体运动控制约束.md": {
+      "id": "6a8bb7427fa89504dc1e60cf",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/刚体运动控制约束",
+      "title": "刚体运动控制约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/四轮载具开发约束.md": {
+      "id": "6a7c1a102d357f05067548bf",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/四轮载具开发约束",
+      "title": "四轮载具开发约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/多输入源与UI协作约束.md": {
+      "id": "6a7c1a11690baa053e516228",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/多输入源与UI协作约束",
+      "title": "多输入源与UI协作约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/数据库开发约束.md": {
+      "id": "6a7c1a1224a6e805320cba9c",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/数据库开发约束",
+      "title": "数据库开发约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/物理对象层级约束.md": {
+      "id": "6a7c1a120dd4d204e143588e",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/物理对象层级约束",
+      "title": "物理对象层级约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/物理结算与实体去重约束.md": {
+      "id": "6a7c1a12690baa053e51623c",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/物理结算与实体去重约束",
+      "title": "物理结算与实体去重约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/相机服务开发约束.md": {
+      "id": "6a7c1a1268202bb50725f3e3",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/相机服务开发约束",
+      "title": "相机服务开发约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/碰撞与触发器规范.md": {
+      "id": "6a8bb7448ce5320535f5775b",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/碰撞与触发器规范",
+      "title": "碰撞与触发器规范"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/网络开发约束.md": {
+      "id": "6a7c1a1268202bb50725f3f1",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/网络开发约束",
+      "title": "网络开发约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/脚本开发约束.md": {
+      "id": "6a7c1a12196d6a04da8e1d32",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/脚本开发约束",
+      "title": "脚本开发约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/角色控制开发约束.md": {
+      "id": "6a7ecbd810b733054d7ffaae",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/角色控制开发约束",
+      "title": "角色控制开发约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/触发器生命周期约束.md": {
+      "id": "6a7c1a13d3c3490537e8c698",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/编码约束与开发规范/触发器生命周期约束",
+      "title": "触发器生命周期约束"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/脚本开发/CSharp脚本/CSharp脚本开发.md": {
+      "id": "6a793ffd65e2190539ea4481",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/脚本开发/CSharp脚本/CSharp脚本开发",
+      "title": "CSharp脚本开发"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/脚本开发/Lua脚本/Lua脚本开发.md": {
+      "id": "6a793ffd65e2190539ea448f",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/脚本开发/Lua脚本/Lua脚本开发",
+      "title": "Lua脚本开发"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/脚本开发/Lua脚本/Lua脚本开发环境与调试配置.md": {
+      "id": "6a793ffd196d6a04da77aa7a",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/脚本开发/Lua脚本/Lua脚本开发环境与调试配置",
+      "title": "Lua脚本开发环境与调试配置"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/脚本开发/Lua脚本/ModuleScript.md": {
+      "id": "6a793ffd196d6a04da77aa88",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/脚本开发/Lua脚本/ModuleScript",
+      "title": "ModuleScript"
+    },
+    "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/脚本开发/脚本概述.md": {
+      "id": "6a793ffe68202bb5070fc566",
+      "path": "Manual/Ⅲ. 逻辑与脚本(Logic&Scripting)/脚本开发/脚本概述",
+      "title": "脚本概述"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/数据与通信/RPC/RPC 概述.md": {
+      "id": "6a793ffe68202bb5070fc574",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/数据与通信/RPC/RPC 概述",
+      "title": "RPC 概述"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/数据与通信/RPC/RemoteEvent.md": {
+      "id": "6a793ffe65e2190539ea44a3",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/数据与通信/RPC/RemoteEvent",
+      "title": "RemoteEvent"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/数据与通信/RPC/RemoteFunction.md": {
+      "id": "6a793fff690baa053e3aeb5c",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/数据与通信/RPC/RemoteFunction",
+      "title": "RemoteFunction"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/数据与通信/RPC/SendMessage.md": {
+      "id": "6a793fff196d6a04da77aa9e",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/数据与通信/RPC/SendMessage",
+      "title": "SendMessage"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/数据与通信/同步变量.md": {
+      "id": "6a793fff196d6a04da77aaad",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/数据与通信/同步变量",
+      "title": "同步变量"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络基础/主权与控制权.md": {
+      "id": "6a793fff690baa053e3aeb70",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络基础/主权与控制权",
+      "title": "主权与控制权"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络基础/断线重连机制.md": {
+      "id": "6a794000988817050d6945d2",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络基础/断线重连机制",
+      "title": "断线重连机制"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络基础/网络对象的动态创建.md": {
+      "id": "6a794000196d6a04da77aabf",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络基础/网络对象的动态创建",
+      "title": "网络对象的动态创建"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络概述.md": {
+      "id": "6a79400000e5ae6f29a16e7c",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络概述",
+      "title": "网络概述"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络模型/SharedMode 模式升级到Dedicated Server模式.md": {
+      "id": "6a7988b3f265eb051b7e341e",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络模型/SharedMode 模式升级到Dedicated Server模式",
+      "title": "SharedMode 模式升级到Dedicated Server模式"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络模型/网络模型-Dedicated Server.md": {
+      "id": "6a794000988817050d6945e0",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络模型/网络模型-Dedicated Server",
+      "title": "网络模型-Dedicated Server"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络模型/网络模型-Shared Mode.md": {
+      "id": "6a79400065e2190539ea44c9",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络模型/网络模型-Shared Mode",
+      "title": "网络模型-Shared Mode"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络模型/网络模型-Single Player.md": {
+      "id": "6a79400068202bb5070fc583",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络模型/网络模型-Single Player",
+      "title": "网络模型-Single Player"
+    },
+    "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络模型/网络模型概述.md": {
+      "id": "6a79842100e5ae6f29a392c8",
+      "path": "Manual/Ⅳ. 多人游戏与网络(Multiplayer)/网络模型/网络模型概述",
+      "title": "网络模型概述"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/商业化/交易与发货流程.md": {
+      "id": "6a794001d3c3490537d287a7",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/商业化/交易与发货流程",
+      "title": "交易与发货流程"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/商业化/商业化概述.md": {
+      "id": "6a79400100e5ae6f29a16e8a",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/商业化/商业化概述",
+      "title": "商业化概述"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/商业化/商品与星光币管理.md": {
+      "id": "6a79400165e2190539ea44d8",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/商业化/商品与星光币管理",
+      "title": "商品与星光币管理"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/商业化/数据结构参考.md": {
+      "id": "6a794001988817050d6945f1",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/商业化/数据结构参考",
+      "title": "数据结构参考"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/创作者服务.md": {
+      "id": "6a794001d3c3490537d287b5",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/创作者服务",
+      "title": "创作者服务"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/图片服务.md": {
+      "id": "6a79400265e2190539ea44eb",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/图片服务",
+      "title": "图片服务"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/奖励服务.md": {
+      "id": "6a794002196d6a04da77aad3",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/奖励服务",
+      "title": "奖励服务"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/平台工具.md": {
+      "id": "6a7ecbe71e86180537d3366c",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/平台工具",
+      "title": "平台工具"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/房间服务.md": {
+      "id": "6a794002988817050d694600",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/房间服务",
+      "title": "房间服务"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/排行榜服务.md": {
+      "id": "6a794002690baa053e3aeb83",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/排行榜服务",
+      "title": "排行榜服务"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/服务器日志.md": {
+      "id": "6a794002196d6a04da77aae2",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/服务器日志",
+      "title": "服务器日志"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/社交服务.md": {
+      "id": "6a7d4157b59ed0056a543f18",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/平台业务服务/社交服务",
+      "title": "社交服务"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/平台服务概述.md": {
+      "id": "6a79436b65e2190539ea5fc6",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/平台服务概述",
+      "title": "平台服务概述"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/数据库/数据存储DataStore.md": {
+      "id": "6a79400365e2190539ea4500",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/数据库/数据存储DataStore",
+      "title": "数据存储DataStore"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/数据库/数据存储OrderedDataStore.md": {
+      "id": "6a7940030dd4d204e12ce191",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/数据库/数据存储OrderedDataStore",
+      "title": "数据存储OrderedDataStore"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/数据库/数据存储方式/用户维度数据存储方式.md": {
+      "id": "6a7db0b41e86180537cc08e2",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/数据库/数据存储方式/用户维度数据存储方式",
+      "title": "用户维度数据存储方式"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/数据库/数据存储方式/精灵维度数据存储方式.md": {
+      "id": "6a7db0b41e86180537cc08f6",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/数据库/数据存储方式/精灵维度数据存储方式",
+      "title": "精灵维度数据存储方式"
+    },
+    "Manual/Ⅴ. 平台服务(Cloud Services)/数据库/数据库概述.md": {
+      "id": "6a794003d3c3490537d287c8",
+      "path": "Manual/Ⅴ. 平台服务(Cloud Services)/数据库/数据库概述",
+      "title": "数据库概述"
+    },
+    "README.md": {
+      "id": "6a7a970465e2190539f40b35",
+      "path": "README",
+      "title": "README"
+    },
+    "欢迎来到虚拟世界API参考手册！.md": {
+      "export_version": "edited",
+      "id": "6923f91eb14fa40511b10f3b",
+      "path": "欢迎来到虚拟世界API参考手册！",
+      "title": "欢迎来到虚拟世界API参考手册！"
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,9 @@
+function OnUILongPress(UIType ui)
+# 参数
+| 参数 | 参数描述 |
+| --- | --- |
+| ui | 玩家按下的按钮类型 |
+# 描述
+当UI按钮被长按时触发。
+详情见此
+
