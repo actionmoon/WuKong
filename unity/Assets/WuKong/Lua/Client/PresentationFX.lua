@@ -211,7 +211,7 @@ function OnDestroy()
     for _,trail in pairs(trails) do UE.Object.Destroy(trail.go) end
     for _,entries in pairs(materialStates) do
         for _,entry in ipairs(entries) do
-            if entry.renderer then entry.renderer.sharedMaterials=entry.original end
+            if entry.renderer and not entry.renderer:IsNull() then entry.renderer.sharedMaterials=entry.original end
             if entry.ghost then for i=0,entry.ghost.Length-1 do UE.Object.Destroy(entry.ghost[i]) end end
         end
     end

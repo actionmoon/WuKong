@@ -2,7 +2,6 @@ local UE = UnityEngine
 local json = WKJson
 local C,K=WKCombatConfig,WKCombatClock
 local actor,state,arena,boss=nil,nil,nil,nil
-local savedSpeed,savedJump=nil,nil
 local stick=UE.Vector2.zero
 local moveStart,movePerform,moveCancel=nil,nil,nil
 local pending,sequence={},0
@@ -94,12 +93,18 @@ function Start()
 end
 local function initialize(value)
     if actor then return end
-    actor=value;savedSpeed=actor.speed;savedJump=actor.jumpHeight
+    actor=value
     actor.jumpHeight=0;actor:Immobilize(false)
     print("[WK-COMBAT] input-ready actor="..tostring(actor.actorID))
 end
 function OnActorSpawned(value)
     if not DouyinApplication.isServer and value and value.isLocal then initialize(value) end
+end
+function OnActorDespawned(value)
+    if value==actor then
+        actor=nil;pose=nil;stick=UE.Vector2.zero
+        uiHeld={};uiPressed={};pending={};sprintToggle=false
+    end
 end
 function GetPose(actorID)
     if actor and actor.actorID==actorID then return pose end
@@ -427,7 +432,10 @@ function OnDestroy()
     if movePerform then DouyinInputService.onMoveInputPerform:RemoveListener(movePerform) end
     if moveCancel then DouyinInputService.onMoveInputCancel:RemoveListener(moveCancel) end
     if onTouch then DouyinInputService.onTouchEvent:RemoveListener(onTouch) end
-    for _,b in ipairs(uiBindings) do b.button.onClick:RemoveListener(b.click) end
-    if actor and actor.isLocal then actor:StopMove();actor:Immobilize(false);actor.speed=savedSpeed;actor.jumpHeight=savedJump end
+    for _,b in ipairs(uiBindings) do
+        if b.button and not b.button:IsNull() then b.button.onClick:RemoveListener(b.click) end
+    end
+    -- World disposal has already invalidated Actor services before this callback.
+    -- Actor settings disappear with the Actor; do not access them during teardown.
     actor=nil;uiHeld={};pending={}
 end

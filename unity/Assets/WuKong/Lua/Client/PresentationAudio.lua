@@ -32,8 +32,11 @@ function GetStats()
     return stats
 end
 local function clear()
-    for _,voice in ipairs(voices) do voice.source:Stop();voice.name=nil end
-    for _,s in ipairs(music) do s:Stop() end
+    for _,voice in ipairs(voices) do
+        if voice.source and not voice.source:IsNull() then voice.source:Stop() end
+        voice.name=nil
+    end
+    for _,s in ipairs(music) do if s and not s:IsNull() then s:Stop() end end
     tracks={};bgmState="off";bgmPiece=nil
 end
 local function attenuation(curve,distance)
@@ -153,6 +156,8 @@ function Update()
 end
 function OnDestroy()
     clear()
-    for _,voice in ipairs(voices) do UE.Object.Destroy(voice.source.gameObject) end
-    for _,s in ipairs(music) do UE.Object.Destroy(s.gameObject) end
+    for _,voice in ipairs(voices) do
+        if voice.source and not voice.source:IsNull() then UE.Object.Destroy(voice.source.gameObject) end
+    end
+    for _,s in ipairs(music) do if s and not s:IsNull() then UE.Object.Destroy(s.gameObject) end end
 end

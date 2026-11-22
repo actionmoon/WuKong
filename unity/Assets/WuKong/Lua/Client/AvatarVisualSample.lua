@@ -166,7 +166,6 @@ end
 
 function OnDestroy()
     for _, visual in pairs(visuals) do
-        visual.actor:SetVisible(true)
         UnityEngine.Object.Destroy(visual.model)
         for _,v in pairs(visual.forms) do UnityEngine.Object.Destroy(v.model) end
     end

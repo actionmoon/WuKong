@@ -176,7 +176,9 @@ function Update()
     end
 end
 function OnDestroy()
-    for _,listener in ipairs(listeners) do listener.button.onClick:RemoveListener(listener.callback) end
+    for _,listener in ipairs(listeners) do
+        if listener.button and not listener.button:IsNull() then listener.button.onClick:RemoveListener(listener.callback) end
+    end
     listeners={}
     for go in pairs(hiddenSystem) do if go and not go:IsNull() then go:SetActive(true) end end
     hiddenSystem={}
