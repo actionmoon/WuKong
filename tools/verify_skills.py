@@ -1,4 +1,5 @@
 """Run step-6 production modules and affected suites under Lua 5.3."""
+import argparse
 import json
 from pathlib import Path
 from lupa.lua53 import LuaRuntime
@@ -7,6 +8,9 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="step6-fixed-evidence.json")
+    options = parser.parse_args()
     lua = LuaRuntime(unpack_returned_tuples=True)
     scripts = ROOT / "unity/Assets/WuKong/Lua"
     modules = {}
@@ -36,7 +40,7 @@ def main():
     lua.execute((scripts / "Shared/CombatState.lua").read_text())
     lua.globals().RunFixedSuite(lua.table(actorID=1))
     result = {"lua": "5.3", "tests": reports}
-    path = ROOT / "docs/reference/step6-fixed-evidence.json"
+    path = ROOT / "docs/reference" / options.output
     path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if reports and all(t["pass"] for t in reports) else 1
