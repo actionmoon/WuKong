@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WuKongTiger
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 211feea29a4364d27bca96926245669d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 3d6786e1e188e36439267e61334e486e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: b9d29dfa1474148e792ac720cbd45122,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 4
+      - keywords: _OCCLUSION _TEXTURE_TRANSFORM
+        passType: 4
+      - keywords: _TEXTURE_TRANSFORM
+        passType: 4
+      - keywords: 
+        passType: 5
+      - keywords: _OCCLUSION _TEXTURE_TRANSFORM
+        passType: 5
+      - keywords: _TEXTURE_TRANSFORM
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _OCCLUSION _TEXTURE_TRANSFORM
+        passType: 8
+      - keywords: _ALPHATEST_ON _TEXTURE_TRANSFORM
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: _OCCLUSION _TEXTURE_TRANSFORM
+        passType: 10
+      - keywords: _TEXTURE_TRANSFORM
+        passType: 10
+      - keywords: 
+        passType: 11
+      - keywords: _ALPHATEST_ON _OCCLUSION _TEXTURE_TRANSFORM
+        passType: 11
+      - keywords: _ALPHATEST_ON _TEXTURE_TRANSFORM
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: _ALPHATEST_ON _OCCLUSION _TEXTURE_TRANSFORM
+        passType: 13
+      - keywords: _ALPHATEST_ON _TEXTURE_TRANSFORM
+        passType: 13
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 13

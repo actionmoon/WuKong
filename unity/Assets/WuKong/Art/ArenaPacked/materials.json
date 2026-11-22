@@ -1,0 +1,9756 @@
+{
+  "materials": [
+    {
+      "name": "MF_HFM_ChanZhang_01a",
+      "packed": "Packed_000.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.046154,
+        16.1359558
+      ],
+      "offset": [
+        0.0061340332,
+        -0.00436019897
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_CaveDoor_a04",
+      "packed": "Packed_001.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        21.9765873,
+        16.0002327
+      ],
+      "offset": [
+        -0.0109176636,
+        -0.000273942947
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_CaveDoor_a05",
+      "packed": "Packed_002.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        13.7662582,
+        7.82601023
+      ],
+      "offset": [
+        0.00162220001,
+        0.376708984
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_CaveDoor_a06",
+      "packed": "Packed_003.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9161186,
+        15.9040308
+      ],
+      "offset": [
+        0.00351715088,
+        0.00622558594
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_FoQiang_01",
+      "packed": "Packed_004.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9206972,
+        15.9813185
+      ],
+      "offset": [
+        0.00274276733,
+        -0.0025100708
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_03_a04",
+      "packed": "Packed_005.png",
+      "baseColor": [
+        1.04581654,
+        1.09349096,
+        1.10937452,
+        1
+      ],
+      "scale": [
+        16.6441898,
+        15.8179512
+      ],
+      "offset": [
+        -0.0263519287,
+        0.0101394653
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_03_a03",
+      "packed": "Packed_006.png",
+      "baseColor": [
+        0.697211027,
+        0.728994012,
+        0.739583015,
+        1
+      ],
+      "scale": [
+        16.3134251,
+        16.5496864
+      ],
+      "offset": [
+        -0.0125198364,
+        -0.0136108398
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_03_a01",
+      "packed": "Packed_007.png",
+      "baseColor": [
+        0.697211027,
+        0.728994012,
+        0.739583015,
+        1
+      ],
+      "scale": [
+        16.1905937,
+        16.154211
+      ],
+      "offset": [
+        -0.00972747803,
+        -0.00354766846
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_CaveDoor_01_03",
+      "packed": "Packed_008.png",
+      "baseColor": [
+        0.854605973,
+        0.854605973,
+        0.854605973,
+        1
+      ],
+      "scale": [
+        16.3910809,
+        15.9361429
+      ],
+      "offset": [
+        -0.0154190063,
+        0.00226593018
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_FoKan_02_02",
+      "packed": "Packed_009.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.2775307,
+        17.3311138
+      ],
+      "offset": [
+        -0.0112533569,
+        -0.0556030273
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_FoKan_02_01",
+      "packed": "Packed_010.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.7592449,
+        16.0857735
+      ],
+      "offset": [
+        -0.000338077545,
+        0.00365829468
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_ShiBei_06_04",
+      "packed": "Packed_011.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.7401028,
+        16.3748417
+      ],
+      "offset": [
+        0.000355482101,
+        -0.0163574219
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_ShiBei_06_05",
+      "packed": "Packed_012.png",
+      "baseColor": [
+        0.734375,
+        0.716206014,
+        0.661702991,
+        1
+      ],
+      "scale": [
+        16.0357151,
+        15.695487
+      ],
+      "offset": [
+        -0.00444412231,
+        0.0133972168
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_ShiBei_06_01",
+      "packed": "Packed_013.png",
+      "baseColor": [
+        0.734375,
+        0.695169985,
+        0.577555001,
+        1
+      ],
+      "scale": [
+        16.0163269,
+        16.2086658
+      ],
+      "offset": [
+        0.000185251236,
+        -0.00792694092
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_ShiBei_06_02",
+      "packed": "Packed_014.png",
+      "baseColor": [
+        0.734375,
+        0.695169985,
+        0.577555001,
+        1
+      ],
+      "scale": [
+        15.9254894,
+        15.7879763
+      ],
+      "offset": [
+        0.0024433136,
+        0.00468826294
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_ShiBei_06_06",
+      "packed": "Packed_015.png",
+      "baseColor": [
+        0.734375,
+        0.716206014,
+        0.661702991,
+        1
+      ],
+      "scale": [
+        16.1023178,
+        18.0428734
+      ],
+      "offset": [
+        -0.00518798828,
+        0.00148487091
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_ShiBei_06_07",
+      "packed": "Packed_016.png",
+      "baseColor": [
+        0.734375,
+        0.716206014,
+        0.661702991,
+        1
+      ],
+      "scale": [
+        15.9113407,
+        15.9356928
+      ],
+      "offset": [
+        0.00088596344,
+        0.000829219818
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_ue5_01",
+      "packed": "Packed_017.png",
+      "baseColor": [
+        0.934556663,
+        0.744459212,
+        0.518679202,
+        1
+      ],
+      "scale": [
+        16.216114,
+        16.2609844
+      ],
+      "offset": [
+        -0.0147399902,
+        -0.00728988647
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_100_ZS",
+      "packed": "Packed_018.png",
+      "baseColor": [
+        0.496933013,
+        0.434154004,
+        0.323143005,
+        1
+      ],
+      "scale": [
+        16.0223446,
+        14.5335999
+      ],
+      "offset": [
+        -0.00409698486,
+        0.0874633789
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Thai_Beach_Corals_Pack_uf3kbggfa_8K",
+      "packed": "Packed_019.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.3345652,
+        14.8444614
+      ],
+      "offset": [
+        0.0408325195,
+        0.0187225342
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_92_ZS",
+      "packed": "Packed_020.png",
+      "baseColor": [
+        0.496933013,
+        0.492698997,
+        0.338905007,
+        1
+      ],
+      "scale": [
+        15.9390726,
+        15.9453001
+      ],
+      "offset": [
+        -0.00279998779,
+        0.00559997559
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Icelandic_Lava_Outcrop_slumo_8K",
+      "packed": "Packed_021.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0539684,
+        16.1257153
+      ],
+      "offset": [
+        -0.0046081543,
+        -0.00176715851
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_101",
+      "packed": "Packed_022.png",
+      "baseColor": [
+        0.515625,
+        0.476514995,
+        0.344675988,
+        1
+      ],
+      "scale": [
+        15.9405994,
+        14.8549623
+      ],
+      "offset": [
+        0.00149917603,
+        0.0737304688
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_92",
+      "packed": "Packed_023.png",
+      "baseColor": [
+        0.496933013,
+        0.42326799,
+        0.296137989,
+        1
+      ],
+      "scale": [
+        15.9390726,
+        15.9453001
+      ],
+      "offset": [
+        -0.00279998779,
+        0.00559997559
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_88",
+      "packed": "Packed_024.png",
+      "baseColor": [
+        0.850457013,
+        0.850457013,
+        0.850457013,
+        1
+      ],
+      "scale": [
+        16.2854061,
+        16.2670898
+      ],
+      "offset": [
+        -0.00686264038,
+        -0.0057182312
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HYS_Rock_18",
+      "packed": "Packed_025.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9573879,
+        15.8550081
+      ],
+      "offset": [
+        0.00679779053,
+        0.00440597534
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Huge_Icelandic_Volcanic_Cliff_sjjnR_8K",
+      "packed": "Packed_026.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.7638626,
+        15.9301596
+      ],
+      "offset": [
+        0.00668334961,
+        0.00849914551
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_64",
+      "packed": "Packed_027.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9270458,
+        15.9617834
+      ],
+      "offset": [
+        0.00576400757,
+        0.00261688232
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_T_Mujia_07",
+      "packed": "Packed_028.png",
+      "baseColor": [
+        0.820155025,
+        0.84375,
+        0.762718976,
+        1
+      ],
+      "scale": [
+        16.3920574,
+        16.6833858
+      ],
+      "offset": [
+        -0.0135269165,
+        -0.0121994019
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Massive_Nordic_Coastal_Cliff_vdssailfa_8K",
+      "packed": "Packed_029.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.6487312,
+        16.9587154
+      ],
+      "offset": [
+        0.00070810318,
+        0.0135650635
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_59",
+      "packed": "Packed_030.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.11343,
+        16.0254879
+      ],
+      "offset": [
+        -0.0122299194,
+        0.00254249573
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Limestone_Rocks_ubqwdheda_8K",
+      "packed": "Packed_031.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0129547,
+        15.6166115
+      ],
+      "offset": [
+        0.00039601326,
+        0.0241851807
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_Fbx_Mujia_02_01",
+      "packed": "Packed_032.png",
+      "baseColor": [
+        0.820155025,
+        0.84375,
+        0.762718976,
+        1
+      ],
+      "scale": [
+        15.713192,
+        15.8026896
+      ],
+      "offset": [
+        0.00838470459,
+        0.00523376465
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HYS_Rock_43",
+      "packed": "Packed_033.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.7587337,
+        15.7577572
+      ],
+      "offset": [
+        0.00456237793,
+        0.0119476318
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_63",
+      "packed": "Packed_034.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.2721577,
+        16.2028351
+      ],
+      "offset": [
+        -0.00798797607,
+        -0.00365638733
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_ShiBei_06_03",
+      "packed": "Packed_035.png",
+      "baseColor": [
+        0.734375,
+        0.714294016,
+        0.654052973,
+        1
+      ],
+      "scale": [
+        15.656415,
+        16.1224041
+      ],
+      "offset": [
+        0.0129089355,
+        -0.00351333618
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_26",
+      "packed": "Packed_036.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.2172737,
+        16.0067463
+      ],
+      "offset": [
+        -0.00358200073,
+        -0.00312232971
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Limestone_Rocks_ub5tabnda_8K",
+      "packed": "Packed_037.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.884984,
+        15.9500313
+      ],
+      "offset": [
+        0.00936889648,
+        -0.00250816345
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_89",
+      "packed": "Packed_038.png",
+      "baseColor": [
+        0.774230063,
+        1.00402617,
+        1.03499222,
+        1
+      ],
+      "scale": [
+        14.2498436,
+        15.9752598
+      ],
+      "offset": [
+        0.0480651855,
+        0.0017747879
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_96",
+      "packed": "Packed_039.png",
+      "baseColor": [
+        1.24019206,
+        1.21060848,
+        0.981819093,
+        1
+      ],
+      "scale": [
+        16.0049458,
+        16.0115089
+      ],
+      "offset": [
+        -0.00691604614,
+        0.0024394989
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HYS_Rock_16",
+      "packed": "Packed_040.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        14.9569149,
+        15.5733891
+      ],
+      "offset": [
+        0.0102310181,
+        0.0156555176
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_86",
+      "packed": "Packed_041.png",
+      "baseColor": [
+        1.47591305,
+        1.44089997,
+        1.37747109,
+        1
+      ],
+      "scale": [
+        16.2189217,
+        15.9859581
+      ],
+      "offset": [
+        -0.00954437256,
+        0.000617980957
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFS_Plants_Forest_35_Trunk_Branch",
+      "packed": "Packed_042.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        32.0024147,
+        32.1323547
+      ],
+      "offset": [
+        0.000306844711,
+        -1.00390625
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFS_Plants_Forest_35_Trunk_Branch1",
+      "packed": "Packed_043.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        37.0709877,
+        179.166016
+      ],
+      "offset": [
+        -1.04394531,
+        -9.1171875
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_01a_Branch",
+      "packed": "Packed_044.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8771696,
+        57.2787361
+      ],
+      "offset": [
+        0.00595092773,
+        -1.62304688
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_24",
+      "packed": "Packed_045.png",
+      "baseColor": [
+        0.600396574,
+        0.600396574,
+        0.600396574,
+        1
+      ],
+      "scale": [
+        16.0110645,
+        15.9049473
+      ],
+      "offset": [
+        -0.000950813293,
+        0.00470352173
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_85",
+      "packed": "Packed_046.png",
+      "baseColor": [
+        0.838541985,
+        0.784981012,
+        0.695280015,
+        1
+      ],
+      "scale": [
+        16.1122074,
+        15.7338867
+      ],
+      "offset": [
+        -0.015083313,
+        0.00660324097
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_03_a02",
+      "packed": "Packed_047.png",
+      "baseColor": [
+        0.697211027,
+        0.728994012,
+        0.739583015,
+        1
+      ],
+      "scale": [
+        16.4009705,
+        16.3955994
+      ],
+      "offset": [
+        -0.0043182373,
+        -0.0244903564
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_ShiBei_06_08",
+      "packed": "Packed_048.png",
+      "baseColor": [
+        0.520995975,
+        0.603828013,
+        0.533276975,
+        1
+      ],
+      "scale": [
+        6.02872372,
+        15.7669144
+      ],
+      "offset": [
+        0.415771484,
+        0.0118637085
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFM_build_lajiao_01",
+      "packed": "Packed_049.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1383991,
+        15.8907833
+      ],
+      "offset": [
+        -0.00744247437,
+        0.00558853149
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Massive_Sandstone_Cliff_vminaig_8K",
+      "packed": "Packed_050.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        17.5020523,
+        17.5880089
+      ],
+      "offset": [
+        -0.0321044922,
+        -0.0784912109
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_62",
+      "packed": "Packed_051.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.2225857,
+        16.217701
+      ],
+      "offset": [
+        -0.0127029419,
+        -0.0138626099
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Leaf_Pile_02PY1",
+      "packed": "Packed_052.png",
+      "baseColor": [
+        0.489582986,
+        0.489582986,
+        0.489582986,
+        1
+      ],
+      "scale": [
+        14.562171,
+        12.1590328
+      ],
+      "offset": [
+        0.0217132568,
+        0.229492188
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true
+    },
+    {
+      "name": "SM_HFL_Plant_01b_Frond_PP01b",
+      "packed": "Packed_053.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.4899645,
+        48.7299042
+      ],
+      "offset": [
+        0.00182533264,
+        -1.14257812
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true
+    },
+    {
+      "name": "MF_HFM_Cliff_01_ZS",
+      "packed": "Packed_054.png",
+      "baseColor": [
+        1.40871584,
+        1.55999994,
+        1.38937497,
+        1
+      ],
+      "scale": [
+        15.9662704,
+        16.0886421
+      ],
+      "offset": [
+        0.00233650208,
+        -0.00433349609
+      ],
+      "normalScale": 1.60000002,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_94",
+      "packed": "Packed_055.png",
+      "baseColor": [
+        0.56784302,
+        0.515347064,
+        0.357859194,
+        1
+      ],
+      "scale": [
+        16.1854687,
+        16.2436466
+      ],
+      "offset": [
+        -0.00940704346,
+        -0.00425338745
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_ue5_07",
+      "packed": "Packed_056.png",
+      "baseColor": [
+        1.29999995,
+        1.28972614,
+        1.07462156,
+        1
+      ],
+      "scale": [
+        15.9666071,
+        15.924696
+      ],
+      "offset": [
+        -0.00354385376,
+        0.00346946716
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_24",
+      "packed": "Packed_057.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.5978842,
+        16.0336685
+      ],
+      "offset": [
+        0.00191783905,
+        -0.00187492371
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_28",
+      "packed": "Packed_058.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.3013401,
+        16.322216
+      ],
+      "offset": [
+        -0.00981140137,
+        -0.0120925903
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_65",
+      "packed": "Packed_059.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.039362,
+        16.0792942
+      ],
+      "offset": [
+        -0.00125408173,
+        -0.000819683075
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Massive_Canyon_Sandstone_Hoodoo_vjqiaa2qx_8K",
+      "packed": "Packed_060.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1169701,
+        15.8951788
+      ],
+      "offset": [
+        -0.00854492188,
+        0.00677871704
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_52",
+      "packed": "Packed_061.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        58.8865242,
+        18.4519768
+      ],
+      "offset": [
+        -0.0487060547,
+        -0.0621643066
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_41",
+      "packed": "Packed_062.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9650269,
+        15.9513445
+      ],
+      "offset": [
+        -2.7179718e-05,
+        0.00229263306
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_build_Weilan_05_b",
+      "packed": "Packed_063.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.2759581,
+        15.5373697
+      ],
+      "offset": [
+        0.0181274414,
+        0.00569915771
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_build_Weilan_05_a",
+      "packed": "Packed_064.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.6940222,
+        15.6087971
+      ],
+      "offset": [
+        0.00909423828,
+        0.0124664307
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_build_Weilan_05_c",
+      "packed": "Packed_065.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.2876787,
+        16.1430683
+      ],
+      "offset": [
+        0.026184082,
+        -0.00187492371
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_05_Stitch_Branch",
+      "packed": "Packed_066.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.4908352,
+        16.74016
+      ],
+      "offset": [
+        -0.00602722168,
+        -0.0313720703
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_05_Trunk_Branch",
+      "packed": "Packed_067.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.4366388,
+        13.1612148
+      ],
+      "offset": [
+        0.0168762207,
+        0.147338867
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_05_Branch_Branch",
+      "packed": "Packed_068.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        42.0877609,
+        296.489746
+      ],
+      "offset": [
+        -0.98828125,
+        -16.546875
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_06a_Branch",
+      "packed": "Packed_069.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0980453,
+        16.6200142
+      ],
+      "offset": [
+        -0.0146865845,
+        -0.0365600586
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFS_Plants_Forest_34_Trunk_Branch",
+      "packed": "Packed_070.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        52.340107,
+        256.621246
+      ],
+      "offset": [
+        -1.15136719,
+        -13.953125
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFS_Plants_Forest_34_Branch_Branch",
+      "packed": "Packed_071.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        31.8116646,
+        31.929184
+      ],
+      "offset": [
+        0.00246047974,
+        -0.997070312
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_01_leaf_Leaf",
+      "packed": "Packed_072.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        14.0637655,
+        11.3541613
+      ],
+      "offset": [
+        0.12121582,
+        0.255371094
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_03a_Branch",
+      "packed": "Packed_073.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.966362,
+        147.189941
+      ],
+      "offset": [
+        -0.00499343872,
+        -7.3359375
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_08a_Branch",
+      "packed": "Packed_074.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.7528734,
+        16.5379658
+      ],
+      "offset": [
+        -0.00239562988,
+        -0.0387573242
+      ],
+      "normalScale": 3,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_shrub_01_trunk_PP01b",
+      "packed": "Packed_075.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        33.874939,
+        85.0663452
+      ],
+      "offset": [
+        -0.835449219,
+        -3.36328125
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_shrub_01_leaf_PP01b",
+      "packed": "Packed_076.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        10.6056986,
+        12.531188
+      ],
+      "offset": [
+        0.0169830322,
+        0.100280762
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true
+    },
+    {
+      "name": "MF_HFS_NewTree_03_A_material1",
+      "packed": "Packed_077.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.858305,
+        15.7885256
+      ],
+      "offset": [
+        -0.000682830811,
+        0.00611877441
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFS_NewTree_03_B_material",
+      "packed": "Packed_078.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8830757,
+        15.8236904
+      ],
+      "offset": [
+        -0.000277519226,
+        0.00880432129
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFS_NewTree_03_C_material",
+      "packed": "Packed_079.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.6749744,
+        15.9127645
+      ],
+      "offset": [
+        0.0141906738,
+        0.00030875206
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFS_NewTree_03_D_material",
+      "packed": "Packed_080.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        76.4550018,
+        282.533417
+      ],
+      "offset": [
+        -1.31835938,
+        -15.1328125
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFS_NewTree_03_Cap",
+      "packed": "Packed_081.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        18.0510082,
+        18.9310913
+      ],
+      "offset": [
+        -0.2578125,
+        -0.0901489258
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFS_NewTree_03_twig_Leaf",
+      "packed": "Packed_082.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        14.9067316,
+        14.8039255
+      ],
+      "offset": [
+        0.0368041992,
+        0.0158843994
+      ],
+      "normalScale": 8,
+      "metallic": 0,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true
+    },
+    {
+      "name": "MF_HFS_NewTree_04_trunk_Low",
+      "packed": "Packed_083.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8127623,
+        15.5788832
+      ],
+      "offset": [
+        0.0065574646,
+        0.00603485107
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFS_NewTree_04_trunk_Small",
+      "packed": "Packed_084.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        61.1546211,
+        107.993469
+      ],
+      "offset": [
+        -1.28417969,
+        -4.3671875
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_02a_Branch",
+      "packed": "Packed_085.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        14.4769459,
+        46.2996597
+      ],
+      "offset": [
+        0.0919799805,
+        -0.924316406
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_07a_Branch",
+      "packed": "Packed_086.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        19.7564754,
+        16.113308
+      ],
+      "offset": [
+        -0.246704102,
+        -0.0268707275
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_03_a07",
+      "packed": "Packed_087.png",
+      "baseColor": [
+        0.697211027,
+        0.728994012,
+        0.739583015,
+        1
+      ],
+      "scale": [
+        15.8951178,
+        15.8962164
+      ],
+      "offset": [
+        0.00482940674,
+        0.00573730469
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_03_a05",
+      "packed": "Packed_088.png",
+      "baseColor": [
+        0.697211027,
+        0.728994012,
+        0.739583015,
+        1
+      ],
+      "scale": [
+        16.5399189,
+        16.0233517
+      ],
+      "offset": [
+        -0.0247192383,
+        -0.00367164612
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_03_a06",
+      "packed": "Packed_089.png",
+      "baseColor": [
+        0.697211027,
+        0.728994012,
+        0.739583015,
+        1
+      ],
+      "scale": [
+        16.0726776,
+        16.465683
+      ],
+      "offset": [
+        -0.000406265259,
+        -0.0161743164
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_bone_02_01",
+      "packed": "Packed_090.png",
+      "baseColor": [
+        0.1041665,
+        0.1041665,
+        0.1041665,
+        1
+      ],
+      "scale": [
+        14.905756,
+        14.0760984
+      ],
+      "offset": [
+        0.0437011719,
+        0.00960540771
+      ],
+      "normalScale": -0.437278003,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_Obj_ShiGu_02",
+      "packed": "Packed_091.png",
+      "baseColor": [
+        0.754732013,
+        0.757031262,
+        0.6111449,
+        1
+      ],
+      "scale": [
+        15.8331528,
+        14.6813383
+      ],
+      "offset": [
+        0.00625991821,
+        0.0254974365
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_HuDiaoXiang_01",
+      "packed": "Packed_092.png",
+      "baseColor": [
+        1.5,
+        1.5,
+        1.5,
+        1
+      ],
+      "scale": [
+        16.0464134,
+        15.9718866
+      ],
+      "offset": [
+        -0.00169467926,
+        -0.00143241882
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_HuDiaoXiang_02",
+      "packed": "Packed_093.png",
+      "baseColor": [
+        1.5,
+        1.5,
+        1.5,
+        1
+      ],
+      "scale": [
+        11.603364,
+        15.7730198
+      ],
+      "offset": [
+        0.00981903076,
+        0.00562286377
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_shitai_02_01",
+      "packed": "Packed_094.png",
+      "baseColor": [
+        0.492679447,
+        0.675370097,
+        0.750750244,
+        1
+      ],
+      "scale": [
+        15.6796141,
+        15.9341736
+      ],
+      "offset": [
+        0.00901794434,
+        0.000924110413
+      ],
+      "normalScale": 1.29999995,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_shitai_02_02",
+      "packed": "Packed_095.png",
+      "baseColor": [
+        0.644320786,
+        0.800000012,
+        0.759720027,
+        1
+      ],
+      "scale": [
+        15.7570248,
+        13.9133406
+      ],
+      "offset": [
+        0.00857543945,
+        0.119384766
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_shitai_02_04",
+      "packed": "Packed_096.png",
+      "baseColor": [
+        0.840996981,
+        0.91623801,
+        1,
+        1
+      ],
+      "scale": [
+        15.9470863,
+        15.9345398
+      ],
+      "offset": [
+        0.00109386444,
+        0.00187778473
+      ],
+      "normalScale": 1.29999995,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_shitai_02_03",
+      "packed": "Packed_097.png",
+      "baseColor": [
+        0.764298022,
+        0.823222995,
+        1,
+        1
+      ],
+      "scale": [
+        15.6598339,
+        15.8950262
+      ],
+      "offset": [
+        0.017578125,
+        0.00385856628
+      ],
+      "normalScale": 1.29999995,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_CaveDoor_01_05",
+      "packed": "Packed_098.png",
+      "baseColor": [
+        1,
+        0.77727598,
+        0.696662009,
+        1
+      ],
+      "scale": [
+        16.1846142,
+        15.988843
+      ],
+      "offset": [
+        -0.0157012939,
+        0.000926017761
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a01",
+      "packed": "Packed_099.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.2012177,
+        16.3976746
+      ],
+      "offset": [
+        0.00425720215,
+        -0.0138778687
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a02",
+      "packed": "Packed_100.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.4575787,
+        16.1024399
+      ],
+      "offset": [
+        0.00191020966,
+        -0.00421905518
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a03",
+      "packed": "Packed_101.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.8566418,
+        13.8422194
+      ],
+      "offset": [
+        -0.0044708252,
+        -0.00263595581
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a09",
+      "packed": "Packed_102.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8802519,
+        15.9878817
+      ],
+      "offset": [
+        -0.00303077698,
+        0.000986099243
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a13",
+      "packed": "Packed_103.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        17.1289215,
+        15.8719187
+      ],
+      "offset": [
+        -0.0693359375,
+        -0.00202178955
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a14",
+      "packed": "Packed_104.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9153242,
+        15.6549511
+      ],
+      "offset": [
+        0.00259017944,
+        0.00665283203
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a10",
+      "packed": "Packed_105.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8509026,
+        15.532546
+      ],
+      "offset": [
+        0.00124454498,
+        0.00453567505
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a11",
+      "packed": "Packed_106.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9567928,
+        15.6733866
+      ],
+      "offset": [
+        -0.000977516174,
+        0.0138015747
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a12",
+      "packed": "Packed_107.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0459099,
+        15.9166069
+      ],
+      "offset": [
+        -0.00361633301,
+        0.0083694458
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_FoQiang_02",
+      "packed": "Packed_108.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0941525,
+        15.9622259
+      ],
+      "offset": [
+        0.00118160248,
+        0.00112438202
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_SheLiTa_02",
+      "packed": "Packed_109.png",
+      "baseColor": [
+        1.5,
+        1.5,
+        1.5,
+        1
+      ],
+      "scale": [
+        15.9516344,
+        15.9449492
+      ],
+      "offset": [
+        0.000321388245,
+        -0.0012140274
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_SheLiTa_01",
+      "packed": "Packed_110.png",
+      "baseColor": [
+        1.5,
+        1.5,
+        1.5,
+        1
+      ],
+      "scale": [
+        15.9161186,
+        16.0138588
+      ],
+      "offset": [
+        0.00547027588,
+        -0.00259017944
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_51",
+      "packed": "Packed_111.png",
+      "baseColor": [
+        0.552083015,
+        0.552083015,
+        0.552083015,
+        1
+      ],
+      "scale": [
+        16.1650772,
+        16.0978622
+      ],
+      "offset": [
+        -0.00520324707,
+        -0.00295639038
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_98",
+      "packed": "Packed_112.png",
+      "baseColor": [
+        1.04694796,
+        1.04694796,
+        1.04694796,
+        1
+      ],
+      "scale": [
+        16.078722,
+        16.2872982
+      ],
+      "offset": [
+        -0.00371360779,
+        -0.008934021
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_yangtou",
+      "packed": "Packed_113.png",
+      "baseColor": [
+        0.699999988,
+        0.699999988,
+        0.699999988,
+        1
+      ],
+      "scale": [
+        15.9944754,
+        16.1025009
+      ],
+      "offset": [
+        -0.00333213806,
+        -0.00324630737
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_31",
+      "packed": "Packed_114.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.5816917,
+        15.4158821
+      ],
+      "offset": [
+        0.0141601562,
+        0.0181732178
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_97",
+      "packed": "Packed_115.png",
+      "baseColor": [
+        0.950312912,
+        1.14350855,
+        1.19124901,
+        1
+      ],
+      "scale": [
+        16.1140404,
+        16.1615372
+      ],
+      "offset": [
+        -0.00299072266,
+        -0.00107574463
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HYS_Rock_25",
+      "packed": "Packed_116.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.152441,
+        15.9328461
+      ],
+      "offset": [
+        -0.00343704224,
+        0.00637817383
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_03",
+      "packed": "Packed_117.png",
+      "baseColor": [
+        2.1408124,
+        2.29999995,
+        1.88989854,
+        1
+      ],
+      "scale": [
+        16.0051289,
+        16.037302
+      ],
+      "offset": [
+        -0.00253295898,
+        -0.00307846069
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_ue5_06",
+      "packed": "Packed_118.png",
+      "baseColor": [
+        1.38920498,
+        1.31031477,
+        1.11273932,
+        1
+      ],
+      "scale": [
+        16.0830879,
+        16.0134773
+      ],
+      "offset": [
+        -0.00593948364,
+        -0.000613212585
+      ],
+      "normalScale": 1.29999995,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_08",
+      "packed": "Packed_119.png",
+      "baseColor": [
+        0.443857014,
+        0.522507012,
+        0.5625,
+        1
+      ],
+      "scale": [
+        15.8213091,
+        15.645915
+      ],
+      "offset": [
+        0.00553512573,
+        0.0130767822
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_29",
+      "packed": "Packed_120.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1196861,
+        16.2004242
+      ],
+      "offset": [
+        -0.00139045715,
+        -0.00643539429
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_DaDian_a02",
+      "packed": "Packed_121.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.4256363,
+        12.6465111
+      ],
+      "offset": [
+        0.997070312,
+        0.00567245483
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_DaDian_a03",
+      "packed": "Packed_122.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        10.5219402,
+        15.8560762
+      ],
+      "offset": [
+        0.366943359,
+        0.00238609314
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_DaDian_a06",
+      "packed": "Packed_123.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        14.3162651,
+        16.1129398
+      ],
+      "offset": [
+        -0.0263977051,
+        -0.0121994019
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_DaDian_a08",
+      "packed": "Packed_124.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        5.8879447,
+        3.28981543
+      ],
+      "offset": [
+        0.00342559814,
+        0.789550781
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_Obj_Muban_02",
+      "packed": "Packed_125.png",
+      "baseColor": [
+        0.551757634,
+        0.567631125,
+        0.513117671,
+        1
+      ],
+      "scale": [
+        15.950367,
+        16.0310745
+      ],
+      "offset": [
+        0.00430679321,
+        0.00121688843
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_Obj_Muban_03",
+      "packed": "Packed_126.png",
+      "baseColor": [
+        0.562804282,
+        0.578995585,
+        0.52339077,
+        1
+      ],
+      "scale": [
+        15.9828453,
+        16.0644207
+      ],
+      "offset": [
+        -0.00211715698,
+        -0.00184345245
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_Obj_Muban_01",
+      "packed": "Packed_127.png",
+      "baseColor": [
+        0.726886988,
+        0.747798741,
+        0.675982594,
+        1
+      ],
+      "scale": [
+        15.941637,
+        16.1573849
+      ],
+      "offset": [
+        0.000946044922,
+        -0.00472259521
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_CaveDoor_a10",
+      "packed": "Packed_128.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9575558,
+        17.0346603
+      ],
+      "offset": [
+        0.00141620636,
+        -0.0204772949
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_CaveDoor_a12",
+      "packed": "Packed_129.png",
+      "baseColor": [
+        0.699999988,
+        0.699999988,
+        0.699999988,
+        1
+      ],
+      "scale": [
+        13.1145735,
+        64.7023163
+      ],
+      "offset": [
+        0.0179290771,
+        -2.28710938
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_HFM_Build_Bungalow_03_a03_BloodTemple",
+      "packed": "Packed_130.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        8.00964642,
+        8.15421104
+      ],
+      "offset": [
+        0.502441406,
+        0.497314453
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_CeBi_01",
+      "packed": "Packed_131.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.5230694,
+        16.0664291
+      ],
+      "offset": [
+        -0.0207366943,
+        0.000960826874
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Building_Step_01",
+      "packed": "Packed_132.png",
+      "baseColor": [
+        0.697211027,
+        0.728994012,
+        0.739583015,
+        1
+      ],
+      "scale": [
+        15.4713144,
+        15.8025675
+      ],
+      "offset": [
+        0.0254516602,
+        0.00279998779
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_99",
+      "packed": "Packed_133.png",
+      "baseColor": [
+        0.515625,
+        0.476514995,
+        0.344675988,
+        1
+      ],
+      "scale": [
+        15.9750462,
+        15.1196718
+      ],
+      "offset": [
+        0.00129985809,
+        0.0630493164
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_79",
+      "packed": "Packed_134.png",
+      "baseColor": [
+        0.190753922,
+        0.255000085,
+        0.223150179,
+        1
+      ],
+      "scale": [
+        16.2194099,
+        16.163002
+      ],
+      "offset": [
+        -0.0105514526,
+        -0.00409698486
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_46",
+      "packed": "Packed_135.png",
+      "baseColor": [
+        0.811896384,
+        0.811896384,
+        0.811896384,
+        1
+      ],
+      "scale": [
+        16.0638561,
+        16.2874203
+      ],
+      "offset": [
+        -0.0018081665,
+        -0.0108947754
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Nordic_Beach_Rocks_vckqccbga_8K",
+      "packed": "Packed_136.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.831871,
+        16.0491905
+      ],
+      "offset": [
+        0.00585174561,
+        0.00106143951
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Canyon_Sandstone_Terrain_uk5ebcp_8K",
+      "packed": "Packed_137.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1713047,
+        16.2204475
+      ],
+      "offset": [
+        -0.0134048462,
+        -0.00671005249
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_Obj_ShuiGang_01",
+      "packed": "Packed_138.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.936945,
+        15.9157667
+      ],
+      "offset": [
+        -0.000699520111,
+        0.00109767914
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_Obj_huopen_01",
+      "packed": "Packed_139.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9653015,
+        15.9493294
+      ],
+      "offset": [
+        0.000443935394,
+        0.00241851807
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_Obj_mujia_08",
+      "packed": "Packed_140.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8650818,
+        13.8684082
+      ],
+      "offset": [
+        -0.00452423096,
+        0.130004883
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_04_a05",
+      "packed": "Packed_141.png",
+      "baseColor": [
+        1.6406244,
+        1.58722556,
+        1.28830862,
+        1
+      ],
+      "scale": [
+        16.0755634,
+        16.9057255
+      ],
+      "offset": [
+        -0.0015630722,
+        -0.0456237793
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_04_a04",
+      "packed": "Packed_142.png",
+      "baseColor": [
+        1.6406244,
+        1.58722556,
+        1.28830862,
+        1
+      ],
+      "scale": [
+        16.1398029,
+        16.0219784
+      ],
+      "offset": [
+        -0.0148544312,
+        -0.00260925293
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_04_a03",
+      "packed": "Packed_143.png",
+      "baseColor": [
+        1.6406244,
+        1.58722556,
+        1.28830862,
+        1
+      ],
+      "scale": [
+        16.8759327,
+        15.8955755
+      ],
+      "offset": [
+        -0.00469970703,
+        -0.000570297241
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_04_a02",
+      "packed": "Packed_144.png",
+      "baseColor": [
+        1.6406244,
+        1.58722556,
+        1.28830862,
+        1
+      ],
+      "scale": [
+        16.2046967,
+        16.1286926
+      ],
+      "offset": [
+        -0.0047492981,
+        -0.0078125
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_04_a01",
+      "packed": "Packed_145.png",
+      "baseColor": [
+        1.36718702,
+        1.32268798,
+        1.07359052,
+        1
+      ],
+      "scale": [
+        16.2544537,
+        16.1252728
+      ],
+      "offset": [
+        -0.0137176514,
+        -0.0124816895
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_CaveDoor_01_06",
+      "packed": "Packed_146.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        13.9256725,
+        2.9166832
+      ],
+      "offset": [
+        0.0102157593,
+        0.220336914
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Jiugang_03",
+      "packed": "Packed_147.png",
+      "baseColor": [
+        0.869791985,
+        0.869791985,
+        0.869791985,
+        1
+      ],
+      "scale": [
+        16.06987,
+        16.3350372
+      ],
+      "offset": [
+        0.00367546082,
+        0.00370788574
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true
+    },
+    {
+      "name": "MF_HFM_Build_wugong_01",
+      "packed": "Packed_148.png",
+      "baseColor": [
+        0.869791985,
+        0.869791985,
+        0.869791985,
+        1
+      ],
+      "scale": [
+        15.8588543,
+        14.2944698
+      ],
+      "offset": [
+        0.00807189941,
+        -0.0030632019
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_wugong_02",
+      "packed": "Packed_149.png",
+      "baseColor": [
+        0.869791985,
+        0.869791985,
+        0.869791985,
+        1
+      ],
+      "scale": [
+        9.46701145,
+        14.2585583
+      ],
+      "offset": [
+        0.406982422,
+        -0.00179576874
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_LiShiXiang_03",
+      "packed": "Packed_150.png",
+      "baseColor": [
+        0.869791985,
+        0.869791985,
+        0.869791985,
+        1
+      ],
+      "scale": [
+        16.0503044,
+        16.4903965
+      ],
+      "offset": [
+        -0.00486755371,
+        -0.000140428543
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_posui",
+      "packed": "Packed_151.png",
+      "baseColor": [
+        0.449999988,
+        0.449999988,
+        0.449999988,
+        1
+      ],
+      "scale": [
+        4.88197708,
+        14.6459303
+      ],
+      "offset": [
+        0.213012695,
+        0.221557617
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_77",
+      "packed": "Packed_152.png",
+      "baseColor": [
+        0.330163985,
+        0.275788963,
+        0.206161663,
+        1
+      ],
+      "scale": [
+        16.4844856,
+        16.2147255
+      ],
+      "offset": [
+        -0.0173492432,
+        -0.00146961212
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_03",
+      "packed": "Packed_153.png",
+      "baseColor": [
+        0.862307012,
+        0.862307012,
+        0.862307012,
+        1
+      ],
+      "scale": [
+        15.9909344,
+        15.8394413
+      ],
+      "offset": [
+        -0.00066947937,
+        0.00537872314
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_92",
+      "packed": "Packed_154.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1369953,
+        16.0695343
+      ],
+      "offset": [
+        -0.0122375488,
+        -0.00216293335
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_02",
+      "packed": "Packed_155.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        3.21948695,
+        7.36279964
+      ],
+      "offset": [
+        0.80078125,
+        -0.00303840637
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_11",
+      "packed": "Packed_156.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.8969345,
+        11.9988403
+      ],
+      "offset": [
+        -0.0587463379,
+        0.252197266
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_Fbx_Zhong_01",
+      "packed": "Packed_157.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.6979294,
+        13.9768314
+      ],
+      "offset": [
+        0.00787353516,
+        0.119812012
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a04",
+      "packed": "Packed_158.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        26.2872677,
+        16.823307
+      ],
+      "offset": [
+        -0.0087890625,
+        -0.011177063
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a07",
+      "packed": "Packed_159.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        61.2267113,
+        41.6814156
+      ],
+      "offset": [
+        0.000378370285,
+        -1.60449219
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a08",
+      "packed": "Packed_160.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9993248,
+        16.0644894
+      ],
+      "offset": [
+        -0.000217199326,
+        -0.000871181488
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a06",
+      "packed": "Packed_161.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        31.5511684,
+        15.8192949
+      ],
+      "offset": [
+        0.00311279297,
+        0.00810241699
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Door_02_a05",
+      "packed": "Packed_162.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.2581158,
+        16.1229534
+      ],
+      "offset": [
+        -0.0110168457,
+        -0.00940704346
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_DaDian_qiang1",
+      "packed": "Packed_163.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9625769,
+        15.9874096
+      ],
+      "offset": [
+        0.00549697876,
+        3.90410423e-05
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_DaDian_qiang2",
+      "packed": "Packed_164.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.6887712,
+        13.2891741
+      ],
+      "offset": [
+        0.008934021,
+        0.0490112305
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_DaDian_a05",
+      "packed": "Packed_165.png",
+      "baseColor": [
+        0.640625,
+        0.557608008,
+        0.398820013,
+        1
+      ],
+      "scale": [
+        10.7849388,
+        4.81360197
+      ],
+      "offset": [
+        0.0175018311,
+        0.523925781
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_DaDian_qiang3",
+      "packed": "Packed_166.png",
+      "baseColor": [
+        1.75781095,
+        1.44930995,
+        1.20849502,
+        1
+      ],
+      "scale": [
+        15.9625769,
+        15.7457914
+      ],
+      "offset": [
+        0.00549697876,
+        0.00927734375
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_DaDian_a01",
+      "packed": "Packed_167.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        24.6697102,
+        8.32612514
+      ],
+      "offset": [
+        0.450683594,
+        0.473876953
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_CaveDoor_a11",
+      "packed": "Packed_168.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8712549,
+        12.3465757
+      ],
+      "offset": [
+        -0.000515460968,
+        0.153320312
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_CaveDoor_a09",
+      "packed": "Packed_169.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.5494118,
+        16.1489601
+      ],
+      "offset": [
+        -0.00285148621,
+        -0.012008667
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_CaveDoor_a16",
+      "packed": "Packed_170.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        8.81451797,
+        3.6690526
+      ],
+      "offset": [
+        0.385253906,
+        0.0120697021
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_FoQiang_03",
+      "packed": "Packed_171.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        14.6420231,
+        15.5479918
+      ],
+      "offset": [
+        0.0836181641,
+        0.0270080566
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_LiShiXiang_01",
+      "packed": "Packed_172.png",
+      "baseColor": [
+        0.869791985,
+        0.869791985,
+        0.869791985,
+        1
+      ],
+      "scale": [
+        15.997366,
+        16.0438499
+      ],
+      "offset": [
+        -9.48309898e-05,
+        -0.00153446198
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_LiShiXiang_02",
+      "packed": "Packed_173.png",
+      "baseColor": [
+        0.869791985,
+        0.869791985,
+        0.869791985,
+        1
+      ],
+      "scale": [
+        16.1258526,
+        16.1777763
+      ],
+      "offset": [
+        -0.00372886658,
+        -0.0123443604
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_MuZhu_01",
+      "packed": "Packed_174.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.2322464,
+        15.8005524
+      ],
+      "offset": [
+        0.0233001709,
+        0.00634384155
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_RedWall_01_02",
+      "packed": "Packed_175.png",
+      "baseColor": [
+        0.734375,
+        0.695169985,
+        0.577555001,
+        1
+      ],
+      "scale": [
+        16.0093708,
+        15.8791227
+      ],
+      "offset": [
+        0.00354957581,
+        0.00729370117
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_95",
+      "packed": "Packed_176.png",
+      "baseColor": [
+        0.496933013,
+        0.437112987,
+        0.333876997,
+        1
+      ],
+      "scale": [
+        16.0329514,
+        15.8068409
+      ],
+      "offset": [
+        0.00109958649,
+        0.00985717773
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_97",
+      "packed": "Packed_177.png",
+      "baseColor": [
+        0.496933013,
+        0.433315009,
+        0.323523998,
+        1
+      ],
+      "scale": [
+        15.9497871,
+        16.2251492
+      ],
+      "offset": [
+        0.00141334534,
+        -0.00798034668
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_93",
+      "packed": "Packed_178.png",
+      "baseColor": [
+        0.496933013,
+        0.435214013,
+        0.328700989,
+        1
+      ],
+      "scale": [
+        15.9251537,
+        13.9875765
+      ],
+      "offset": [
+        0.000999450684,
+        0.119628906
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_46_ZS",
+      "packed": "Packed_179.png",
+      "baseColor": [
+        0.841338992,
+        0.938655019,
+        1,
+        1
+      ],
+      "scale": [
+        16.0638561,
+        16.2874203
+      ],
+      "offset": [
+        -0.0018081665,
+        -0.0108947754
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_92_ZS",
+      "packed": "Packed_180.png",
+      "baseColor": [
+        1,
+        0.930428028,
+        0.703125,
+        1
+      ],
+      "scale": [
+        16.1369953,
+        16.0695343
+      ],
+      "offset": [
+        -0.0122375488,
+        -0.00216293335
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_84",
+      "packed": "Packed_181.png",
+      "baseColor": [
+        0.51363802,
+        0.484875798,
+        0.369673491,
+        1
+      ],
+      "scale": [
+        16.2009735,
+        16.2982864
+      ],
+      "offset": [
+        -0.00939941406,
+        -0.008644104
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_78",
+      "packed": "Packed_182.png",
+      "baseColor": [
+        0.5625,
+        0.666666985,
+        0.568904996,
+        1
+      ],
+      "scale": [
+        16.3269787,
+        16.1874809
+      ],
+      "offset": [
+        -0.0182495117,
+        -0.00757980347
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_09_a01",
+      "packed": "Packed_183.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        9.28337479,
+        14.3421507
+      ],
+      "offset": [
+        1.41210938,
+        0.098449707
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_build_jinshudeng_b",
+      "packed": "Packed_184.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1546993,
+        16.1173363
+      ],
+      "offset": [
+        -0.00748443604,
+        -0.00514984131
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_build_Weilan_07_a",
+      "packed": "Packed_185.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9905071,
+        15.8697214
+      ],
+      "offset": [
+        0.00179862976,
+        0.00495147705
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_build_Weilan_07_b",
+      "packed": "Packed_186.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.4832802,
+        15.4667978
+      ],
+      "offset": [
+        0.027633667,
+        0.00913238525
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_06",
+      "packed": "Packed_187.png",
+      "baseColor": [
+        1.113626,
+        1.26041603,
+        1.19542396,
+        1
+      ],
+      "scale": [
+        16.180706,
+        16.1372395
+      ],
+      "offset": [
+        -0.00227355957,
+        -0.00834655762
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_67",
+      "packed": "Packed_188.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.827445,
+        15.9610815
+      ],
+      "offset": [
+        -0.00217247009,
+        0.00217247009
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_05",
+      "packed": "Packed_189.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9802198,
+        8.62697506
+      ],
+      "offset": [
+        -0.0068359375,
+        0.461914062
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_06",
+      "packed": "Packed_190.png",
+      "baseColor": [
+        0.686996996,
+        0.783951998,
+        0.854166985,
+        1
+      ],
+      "scale": [
+        19.1157036,
+        16.1076603
+      ],
+      "offset": [
+        -0.180786133,
+        0.00131416321
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_12",
+      "packed": "Packed_191.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.6571474,
+        13.3077335
+      ],
+      "offset": [
+        0.0216522217,
+        0.170410156
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_10",
+      "packed": "Packed_192.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1975231,
+        17.4637127
+      ],
+      "offset": [
+        -0.00332450867,
+        -0.0170135498
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_08",
+      "packed": "Packed_193.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.4007263,
+        17.2847176
+      ],
+      "offset": [
+        -0.0179748535,
+        -0.0321960449
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_01",
+      "packed": "Packed_194.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.4368687,
+        17.0460167
+      ],
+      "offset": [
+        -0.0094909668,
+        0.00908660889
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_02_a",
+      "packed": "Packed_195.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        1.98482931,
+        4.30567312
+      ],
+      "offset": [
+        0.428222656,
+        0.407714844
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_03",
+      "packed": "Packed_196.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1977062,
+        16.4830208
+      ],
+      "offset": [
+        0.00349998474,
+        -0.0162811279
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_04",
+      "packed": "Packed_197.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.9538307,
+        16.256712
+      ],
+      "offset": [
+        -0.00859069824,
+        0.00664901733
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_wa",
+      "packed": "Packed_198.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        39.4729004,
+        25.177639
+      ],
+      "offset": [
+        -0.0172729492,
+        -0.255859375
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_CaveDoor_buliao",
+      "packed": "Packed_199.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        20.9002914,
+        4.57917309
+      ],
+      "offset": [
+        0.0563354492,
+        0.706542969
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_09_a",
+      "packed": "Packed_200.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.1815758,
+        14.4749928
+      ],
+      "offset": [
+        -0.0135726929,
+        0.0784301758
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_LiShiXiang_03_01",
+      "packed": "Packed_201.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8959417,
+        16.0031738
+      ],
+      "offset": [
+        0.00380134583,
+        0.00393676758
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_LiShiXiang_03_03",
+      "packed": "Packed_202.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.3676376,
+        16.4098148
+      ],
+      "offset": [
+        0.0065536499,
+        -0.000964641571
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_LiShiXiang_03_02",
+      "packed": "Packed_203.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1533108,
+        16.0981674
+      ],
+      "offset": [
+        0.00139141083,
+        -0.00102233887
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_49",
+      "packed": "Packed_204.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9601355,
+        15.8294897
+      ],
+      "offset": [
+        -0.0065574646,
+        0.0069770813
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_23",
+      "packed": "Packed_205.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.2109852,
+        16.1547604
+      ],
+      "offset": [
+        -0.00416564941,
+        -0.00651168823
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_zhulian_01",
+      "packed": "Packed_206.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9541521,
+        15.8655701
+      ],
+      "offset": [
+        0.00407028198,
+        0.00618743896
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true
+    },
+    {
+      "name": "MF_HFM_Building_Step_02",
+      "packed": "Packed_207.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.750248,
+        14.9989166
+      ],
+      "offset": [
+        0.00606918335,
+        0.0110244751
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFM_build_Fbx_kaohongshu_01",
+      "packed": "Packed_208.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.382412,
+        16.2546978
+      ],
+      "offset": [
+        -0.0119476318,
+        -0.00592041016
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_ZaWuDiaoXiang_Upper",
+      "packed": "Packed_209.png",
+      "baseColor": [
+        0.890625,
+        0.817462027,
+        0.67325002,
+        1
+      ],
+      "scale": [
+        15.5721684,
+        15.5808372
+      ],
+      "offset": [
+        0.0162200928,
+        0.0107955933
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_ZaWuDiaoXiang_Lower",
+      "packed": "Packed_210.png",
+      "baseColor": [
+        0.890196025,
+        0.819607973,
+        0.674510002,
+        1
+      ],
+      "scale": [
+        15.9682398,
+        15.8296728
+      ],
+      "offset": [
+        -0.00169277191,
+        0.00598907471
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_ue5_03_ZS",
+      "packed": "Packed_211.png",
+      "baseColor": [
+        1.39731097,
+        1.27540958,
+        0.909708142,
+        1
+      ],
+      "scale": [
+        16.2735004,
+        15.9465513
+      ],
+      "offset": [
+        -0.0129547119,
+        0.00356864929
+      ],
+      "normalScale": 1.29999995,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_96",
+      "packed": "Packed_212.png",
+      "baseColor": [
+        0.496933013,
+        0.438062996,
+        0.336465001,
+        1
+      ],
+      "scale": [
+        15.8522186,
+        15.7687464
+      ],
+      "offset": [
+        0.000185728073,
+        0.0112609863
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_102",
+      "packed": "Packed_213.png",
+      "baseColor": [
+        0.496933013,
+        0.449896991,
+        0.370112002,
+        1
+      ],
+      "scale": [
+        15.8291998,
+        15.8517723
+      ],
+      "offset": [
+        0.00162410736,
+        0.0046081543
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Massive_Canyon_Sandstone_Cliff_venuafk_8K",
+      "packed": "Packed_214.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.7924328,
+        15.7217379
+      ],
+      "offset": [
+        0.0107574463,
+        0.0112686157
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_07",
+      "packed": "Packed_215.png",
+      "baseColor": [
+        0.643040717,
+        0.636473596,
+        0.50740993,
+        1
+      ],
+      "scale": [
+        16.108057,
+        16.0258083
+      ],
+      "offset": [
+        -0.00359344482,
+        0.00154590607
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_bone_04_01",
+      "packed": "Packed_216.png",
+      "baseColor": [
+        0.118749902,
+        0.118749902,
+        0.118749902,
+        1
+      ],
+      "scale": [
+        14.7992859,
+        3.64096999
+      ],
+      "offset": [
+        0.0396118164,
+        0.0454406738
+      ],
+      "normalScale": 0.29361999,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_bone_05_01",
+      "packed": "Packed_217.png",
+      "baseColor": [
+        0.1197915,
+        0.1197915,
+        0.1197915,
+        1
+      ],
+      "scale": [
+        8.59156609,
+        9.81474686
+      ],
+      "offset": [
+        0.0134429932,
+        0.361816406
+      ],
+      "normalScale": 0.826952994,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_bone_06_01",
+      "packed": "Packed_218.png",
+      "baseColor": [
+        0.0593749508,
+        0.0593749508,
+        0.0593749508,
+        1
+      ],
+      "scale": [
+        1.30889332,
+        15.4124632
+      ],
+      "offset": [
+        0.0434570312,
+        0.0169219971
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_bone_08_01",
+      "packed": "Packed_219.png",
+      "baseColor": [
+        0.197916493,
+        0.197916493,
+        0.197916493,
+        1
+      ],
+      "scale": [
+        13.2989426,
+        14.4356775
+      ],
+      "offset": [
+        0.106506348,
+        0.0291290283
+      ],
+      "normalScale": 0.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cement_01",
+      "packed": "Packed_220.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8088551,
+        15.9037867
+      ],
+      "offset": [
+        0.00240707397,
+        0.0111236572
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cement_02",
+      "packed": "Packed_221.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9642715,
+        15.934185
+      ],
+      "offset": [
+        0.000508308411,
+        0.000435113907
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_CaveDoor_a15_03",
+      "packed": "Packed_222.png",
+      "baseColor": [
+        0.628571987,
+        0.496547997,
+        0.452271998,
+        1
+      ],
+      "scale": [
+        7.19695997,
+        2.80304027
+      ],
+      "offset": [
+        0.190429688,
+        0.00234031677
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_Bungalow_04_a06",
+      "packed": "Packed_223.png",
+      "baseColor": [
+        1.11553764,
+        1.16639042,
+        1.1833328,
+        1
+      ],
+      "scale": [
+        15.9974813,
+        16.2065887
+      ],
+      "offset": [
+        0.000386238098,
+        -0.0141448975
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_09",
+      "packed": "Packed_224.png",
+      "baseColor": [
+        0.82856518,
+        0.837500393,
+        0.681441605,
+        1
+      ],
+      "scale": [
+        15.9776554,
+        15.7062321
+      ],
+      "offset": [
+        0.00650787354,
+        0.0171203613
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_ue5_95",
+      "packed": "Packed_225.png",
+      "baseColor": [
+        0.842652023,
+        0.791698515,
+        0.66255033,
+        1
+      ],
+      "scale": [
+        15.789258,
+        16.0942287
+      ],
+      "offset": [
+        0.0212097168,
+        -0.00370597839
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_53",
+      "packed": "Packed_226.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8587627,
+        16.1630325
+      ],
+      "offset": [
+        0.00368309021,
+        -0.00214576721
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "HFS_HFM_Rock_52",
+      "packed": "Packed_227.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        40.3764267,
+        40.384243
+      ],
+      "offset": [
+        -0.761230469,
+        -0.760742188
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_psd_zhongrushi_01",
+      "packed": "Packed_228.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8860521,
+        15.2691202
+      ],
+      "offset": [
+        0.00344276428,
+        0.0439453125
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_psd_zhongrushi_04_b",
+      "packed": "Packed_229.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.7848625,
+        15.8908443
+      ],
+      "offset": [
+        1,
+        0.00411987305
+      ],
+      "normalScale": 2,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_psd_zhongrushi_04_a",
+      "packed": "Packed_230.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8603802,
+        15.9650345
+      ],
+      "offset": [
+        0.00114059448,
+        0.00192546844
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_psd_zhongrushi_05",
+      "packed": "Packed_231.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9180717,
+        15.8578167
+      ],
+      "offset": [
+        0.00193023682,
+        0.00618362427
+      ],
+      "normalScale": 2,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MFd_zhongrushi_06",
+      "packed": "Packed_232.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8059244,
+        15.8860216
+      ],
+      "offset": [
+        0.00210189819,
+        0.00442123413
+      ],
+      "normalScale": 2,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HYS_Rock_12",
+      "packed": "Packed_233.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.6899929,
+        15.898262
+      ],
+      "offset": [
+        0.0083694458,
+        0.00365638733
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HYS_Rock_05",
+      "packed": "Packed_234.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.3296032,
+        16.1771049
+      ],
+      "offset": [
+        -0.0047416687,
+        -0.00497817993
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_psd_zhongrushi_03",
+      "packed": "Packed_235.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8367243,
+        15.909586
+      ],
+      "offset": [
+        0.00115394592,
+        0.00343704224
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Icelandic_Lava_Outcrop_shCjg_8K",
+      "packed": "Packed_236.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1462746,
+        15.9552212
+      ],
+      "offset": [
+        -0.00207519531,
+        0.00302696228
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Obj_MuJia_01",
+      "packed": "Packed_237.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9715509,
+        15.9943762
+      ],
+      "offset": [
+        0.00200653076,
+        -0.000884532928
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Obj_ZhuTai_01",
+      "packed": "Packed_238.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.4112415,
+        12.1761265
+      ],
+      "offset": [
+        0.0277404785,
+        0.00772094727
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_Build_Obj_PaiBian_01",
+      "packed": "Packed_239.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0423374,
+        15.9373178
+      ],
+      "offset": [
+        0.00246620178,
+        0.001704216
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_ZhongLou_a06",
+      "packed": "Packed_240.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        28.0785694,
+        3.6336441
+      ],
+      "offset": [
+        0.00916290283,
+        0.685546875
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_ZhongLou_a03",
+      "packed": "Packed_241.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.903718,
+        8.12148762
+      ],
+      "offset": [
+        0.000874042511,
+        0.00473022461
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_GYCY_ZhongLou_a07",
+      "packed": "Packed_242.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        9.13246155,
+        12.8438816
+      ],
+      "offset": [
+        0.0548400879,
+        -0.00421905518
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MIL_HFM_Build_Bungalow_03_a08",
+      "packed": "Packed_243.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        7.92368841,
+        7.92368841
+      ],
+      "offset": [
+        0.501464844,
+        0.501953125
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_CaveDoor_01_04",
+      "packed": "Packed_244.png",
+      "baseColor": [
+        1.407601,
+        1.407601,
+        1.407601,
+        1
+      ],
+      "scale": [
+        16.0672455,
+        16.0050678
+      ],
+      "offset": [
+        0.0028629303,
+        -0.00204086304
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_CeBi_02_bloody",
+      "packed": "Packed_245.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8598309,
+        15.8251553
+      ],
+      "offset": [
+        0.00459289551,
+        0.0052947998
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_CeBi_02",
+      "packed": "Packed_246.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8598309,
+        15.8251553
+      ],
+      "offset": [
+        0.00459289551,
+        0.0052947998
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_HuXianFengZuoXiang_01_c",
+      "packed": "Packed_247.png",
+      "baseColor": [
+        0.869791985,
+        0.869791985,
+        0.869791985,
+        1
+      ],
+      "scale": [
+        15.7932262,
+        15.8180504
+      ],
+      "offset": [
+        0.00728988647,
+        0.000855922699
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_HuXianFengZuoXiang_01_b",
+      "packed": "Packed_248.png",
+      "baseColor": [
+        0.869791985,
+        0.869791985,
+        0.869791985,
+        1
+      ],
+      "scale": [
+        15.9763584,
+        16.0102749
+      ],
+      "offset": [
+        -0.00122356415,
+        -0.000413179398
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_HuXianFengZuoXiang_01_a",
+      "packed": "Packed_249.png",
+      "baseColor": [
+        0.869791985,
+        0.869791985,
+        0.869791985,
+        1
+      ],
+      "scale": [
+        15.8862658,
+        15.651288
+      ],
+      "offset": [
+        0.00245285034,
+        0.0239715576
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_FoTou_02",
+      "packed": "Packed_250.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.4517632,
+        16.6229458
+      ],
+      "offset": [
+        -0.0162811279,
+        -0.0386962891
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "M_GodRay_Inst2_ZS",
+      "packed": "Packed_251.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "BLEND",
+      "alphaCutoff": 0.5,
+      "doubleSided": true
+    },
+    {
+      "name": "MF_LYS_Rock_32",
+      "packed": "Packed_252.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.9081669,
+        16.3479805
+      ],
+      "offset": [
+        0.0469970703,
+        -0.0195617676
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_04_Trunk_Branch",
+      "packed": "Packed_253.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.4689941,
+        15.9424915
+      ],
+      "offset": [
+        -0.00174713135,
+        0.00479888916
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_04_Branch_Branch",
+      "packed": "Packed_254.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        62.0767097,
+        257.418274
+      ],
+      "offset": [
+        -1.1171875,
+        -14.09375
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_HFL_Plant_Tree_04_Stitch_01_Branch",
+      "packed": "Packed_255.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        17.0273361,
+        17.1845989
+      ],
+      "offset": [
+        0.0629882812,
+        -0.0718383789
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_02",
+      "packed": "Packed_256.png",
+      "baseColor": [
+        0.356457114,
+        0.325574458,
+        0.289621443,
+        1
+      ],
+      "scale": [
+        16.1066227,
+        16.3001175
+      ],
+      "offset": [
+        0.00137901306,
+        -0.0199890137
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_ShuGen_02",
+      "packed": "Packed_257.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        17.5860558,
+        20.9989471
+      ],
+      "offset": [
+        -1.046875,
+        -0.184204102
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_ShuGen_01",
+      "packed": "Packed_258.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        17.3008366,
+        21.081974
+      ],
+      "offset": [
+        -2.00976562,
+        -0.106384277
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_ShuGen_03",
+      "packed": "Packed_259.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        18.633049,
+        17.742342
+      ],
+      "offset": [
+        -0.00707244873,
+        -0.0715332031
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_ShuGen_04",
+      "packed": "Packed_260.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        8.00183201,
+        24.136385
+      ],
+      "offset": [
+        0.262695312,
+        -0.131225586
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Build_ShuGen_05",
+      "packed": "Packed_261.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        18.0334244,
+        27.7490273
+      ],
+      "offset": [
+        -0.12487793,
+        -0.0376281738
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Icelandic_Lava_Spire_siExJ_8K",
+      "packed": "Packed_262.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9997101,
+        15.9825706
+      ],
+      "offset": [
+        0.00122356415,
+        0.00131797791
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_47",
+      "packed": "Packed_263.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0121956,
+        16.0163612
+      ],
+      "offset": [
+        -0.000533103943,
+        0.00115966797
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_63",
+      "packed": "Packed_264.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.2841225,
+        16.2136707
+      ],
+      "offset": [
+        -0.00971221924,
+        -0.0101928711
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_10",
+      "packed": "Packed_265.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.831871,
+        16.0491905
+      ],
+      "offset": [
+        0.00585174561,
+        0.00106143951
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Tree_H_branch",
+      "packed": "Packed_266.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        50.5740776,
+        132.139618
+      ],
+      "offset": [
+        -1.02929688,
+        -6.265625
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Tree_H_SHUGAN2",
+      "packed": "Packed_267.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0117607,
+        16.0279617
+      ],
+      "offset": [
+        -0.000505924225,
+        0.000434875488
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Massive_Canyon_Sandstone_Cliff_vjrmfb1ab_8K",
+      "packed": "Packed_268.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0438347,
+        16.0625896
+      ],
+      "offset": [
+        -0.00299835205,
+        0.00120067596
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_Rock_27",
+      "packed": "Packed_269.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8602428,
+        15.7689905
+      ],
+      "offset": [
+        -0.0012922287,
+        0.0195465088
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_02_ZS",
+      "packed": "Packed_270.png",
+      "baseColor": [
+        0.997274995,
+        1.078125,
+        0.982171476,
+        1
+      ],
+      "scale": [
+        16.1066227,
+        16.3001175
+      ],
+      "offset": [
+        0.00137901306,
+        -0.0199890137
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_54",
+      "packed": "Packed_271.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0514526,
+        15.9973745
+      ],
+      "offset": [
+        -5.6385994e-05,
+        0.00332260132
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Forest_Roots_ti1lejbfa_8K",
+      "packed": "Packed_272.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.6641073,
+        15.9995422
+      ],
+      "offset": [
+        0.0138931274,
+        -0.00267219543
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_119_02",
+      "packed": "Packed_273.png",
+      "baseColor": [
+        0.676190019,
+        0.676190019,
+        0.676190019,
+        1
+      ],
+      "scale": [
+        16.3334808,
+        16.1872387
+      ],
+      "offset": [
+        -0.00205421448,
+        -0.00561141968
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Volcanic_Dolerite_Rocks_qjfdg_8K",
+      "packed": "Packed_274.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8701639,
+        15.8586102
+      ],
+      "offset": [
+        -0.000935554504,
+        0.0100402832
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_hfs_tree_gycy_01_trunk",
+      "packed": "Packed_275.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        31.9359303,
+        32.0385857
+      ],
+      "offset": [
+        -0.00237464905,
+        -0.997070312
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_hfs_tree_gycy_01_branch",
+      "packed": "Packed_276.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        20.7410755,
+        92.3023758
+      ],
+      "offset": [
+        -0.165161133,
+        -3.75
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "SM_hfs_tree_gycy_01_stitch",
+      "packed": "Packed_277.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.221241,
+        18.7034988
+      ],
+      "offset": [
+        -0.00773620605,
+        -0.105224609
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "HFS_Tree_G_Branch_material",
+      "packed": "Packed_278.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        57.4819069,
+        439.538086
+      ],
+      "offset": [
+        -1.2109375,
+        -25.234375
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Tree_G_SHUGAN",
+      "packed": "Packed_279.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0389194,
+        16.0221004
+      ],
+      "offset": [
+        -0.00122642517,
+        -0.00115203857
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFS_NewTree_02_small_tree1",
+      "packed": "Packed_280.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8296118,
+        15.6294317
+      ],
+      "offset": [
+        0.00745773315,
+        0.00238800049
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFS_NewTree_02_Big_tree",
+      "packed": "Packed_281.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.9169884,
+        15.8716135
+      ],
+      "offset": [
+        0.00150966644,
+        0.00629806519
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFS_NewTree_JYXS",
+      "packed": "Packed_282.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        82.6439209,
+        57.0443077
+      ],
+      "offset": [
+        -1.90234375,
+        -1.51171875
+      ],
+      "normalScale": 1.5,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Mossy_Embankment_tkkodbhfa_8K",
+      "packed": "Packed_283.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.1782789,
+        15.8362665
+      ],
+      "offset": [
+        0.0545043945,
+        0.00606536865
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_FoTou_01",
+      "packed": "Packed_284.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.7909679,
+        15.8645468
+      ],
+      "offset": [
+        0.00840759277,
+        0.00185680389
+      ],
+      "normalScale": 1.20000005,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MI_Red_Sandstone_Rock_Assembly_shbxJ_8K",
+      "packed": "Packed_285.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0851936,
+        16.4463902
+      ],
+      "offset": [
+        -0.0021648407,
+        -0.0139923096
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Rock_61",
+      "packed": "Packed_286.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.1104374,
+        16.0314255
+      ],
+      "offset": [
+        -0.00569534302,
+        0.00119495392
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_Cliff_05",
+      "packed": "Packed_287.png",
+      "baseColor": [
+        1.29721797,
+        1.30208397,
+        0.913452029,
+        1
+      ],
+      "scale": [
+        15.4256496,
+        15.8577557
+      ],
+      "offset": [
+        0.0253753662,
+        0.00911712646
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MLI_HFM_JiGuan_02",
+      "packed": "Packed_288.png",
+      "baseColor": [
+        0.699999988,
+        0.477508485,
+        0.328125,
+        1
+      ],
+      "scale": [
+        32.1517677,
+        16.0055408
+      ],
+      "offset": [
+        -0.0119552612,
+        -0.00158214569
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HYS_Rock_10",
+      "packed": "Packed_289.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8634481,
+        15.985157
+      ],
+      "offset": [
+        0.000460624695,
+        -0.000796794891
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_JiGuan_01_item01",
+      "packed": "Packed_290.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0117226,
+        15.8677673
+      ],
+      "offset": [
+        -0.00343322754,
+        0.0104446411
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HFM_JiGuan_01_item02",
+      "packed": "Packed_291.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.0703888,
+        15.969902
+      ],
+      "offset": [
+        -0.00465774536,
+        0.00503921509
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_LYS_PuTuan_02",
+      "packed": "Packed_292.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        17.7862988,
+        17.9922466
+      ],
+      "offset": [
+        -0.113830566,
+        0.00171852112
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HYS_LSG_01_DiaoXiang_m",
+      "packed": "Packed_293.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        32.0776558,
+        16.5162315
+      ],
+      "offset": [
+        -0.990722656,
+        -0.0183563232
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "MF_HYS_LSG_01_TiePan_m",
+      "packed": "Packed_294.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        15.8518944,
+        16.0251522
+      ],
+      "offset": [
+        0.00704193115,
+        -0.00280761719
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_224",
+      "packed": "Packed_295.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_225",
+      "packed": "Packed_296.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_226",
+      "packed": "Packed_297.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_227",
+      "packed": "Packed_298.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_228",
+      "packed": "Packed_299.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_229",
+      "packed": "Packed_300.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_230",
+      "packed": "Packed_301.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_231",
+      "packed": "Packed_302.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_232",
+      "packed": "Packed_303.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_233",
+      "packed": "Packed_304.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_234",
+      "packed": "Packed_305.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_235",
+      "packed": "Packed_306.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_236",
+      "packed": "Packed_307.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_237",
+      "packed": "Packed_308.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_238",
+      "packed": "Packed_309.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_239",
+      "packed": "Packed_310.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_240",
+      "packed": "Packed_311.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_241",
+      "packed": "Packed_312.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_242",
+      "packed": "Packed_313.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_243",
+      "packed": "Packed_314.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_244",
+      "packed": "Packed_315.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_245",
+      "packed": "Packed_316.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_246",
+      "packed": "Packed_317.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_247",
+      "packed": "Packed_318.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_248",
+      "packed": "Packed_319.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_249",
+      "packed": "Packed_320.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_250",
+      "packed": "Packed_321.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Temple_Map_251",
+      "packed": "Packed_322.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_74",
+      "packed": "Packed_323.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_75",
+      "packed": "Packed_324.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_76",
+      "packed": "Packed_325.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_77",
+      "packed": "Packed_326.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_79",
+      "packed": "Packed_327.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_80",
+      "packed": "Packed_328.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_81",
+      "packed": "Packed_329.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_82",
+      "packed": "Packed_330.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_83",
+      "packed": "Packed_331.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_85",
+      "packed": "Packed_332.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_86",
+      "packed": "Packed_333.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_87",
+      "packed": "Packed_334.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Cave_Map_91",
+      "packed": "Packed_335.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_17",
+      "packed": "Packed_336.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_18",
+      "packed": "Packed_337.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_19",
+      "packed": "Packed_338.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_20",
+      "packed": "Packed_339.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_21",
+      "packed": "Packed_340.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_22",
+      "packed": "Packed_341.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_23",
+      "packed": "Packed_342.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_24",
+      "packed": "Packed_343.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_25",
+      "packed": "Packed_344.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_26",
+      "packed": "Packed_345.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_27",
+      "packed": "Packed_346.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_28",
+      "packed": "Packed_347.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_29",
+      "packed": "Packed_348.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_30",
+      "packed": "Packed_349.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_31",
+      "packed": "Packed_350.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_32",
+      "packed": "Packed_351.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_33",
+      "packed": "Packed_352.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_34",
+      "packed": "Packed_353.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_35",
+      "packed": "Packed_354.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_36",
+      "packed": "Packed_355.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_37",
+      "packed": "Packed_356.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_38",
+      "packed": "Packed_357.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_39",
+      "packed": "Packed_358.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_40",
+      "packed": "Packed_359.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_41",
+      "packed": "Packed_360.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_42",
+      "packed": "Packed_361.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_43",
+      "packed": "Packed_362.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_44",
+      "packed": "Packed_363.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_45",
+      "packed": "Packed_364.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_46",
+      "packed": "Packed_365.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_47",
+      "packed": "Packed_366.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_48",
+      "packed": "Packed_367.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_49",
+      "packed": "Packed_368.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_50",
+      "packed": "Packed_369.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_51",
+      "packed": "Packed_370.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_52",
+      "packed": "Packed_371.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_53",
+      "packed": "Packed_372.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_54",
+      "packed": "Packed_373.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_55",
+      "packed": "Packed_374.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_56",
+      "packed": "Packed_375.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_57",
+      "packed": "Packed_376.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_58",
+      "packed": "Packed_377.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_59",
+      "packed": "Packed_378.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_60",
+      "packed": "Packed_379.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_62",
+      "packed": "Packed_380.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_63",
+      "packed": "Packed_381.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_64",
+      "packed": "Packed_382.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_65",
+      "packed": "Packed_383.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_66",
+      "packed": "Packed_384.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_67",
+      "packed": "Packed_385.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_70",
+      "packed": "Packed_386.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_71",
+      "packed": "Packed_387.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_72",
+      "packed": "Packed_388.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_73",
+      "packed": "Packed_389.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_76",
+      "packed": "Packed_390.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_77",
+      "packed": "Packed_391.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_78",
+      "packed": "Packed_392.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_79",
+      "packed": "Packed_393.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_80",
+      "packed": "Packed_394.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_81",
+      "packed": "Packed_395.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_82",
+      "packed": "Packed_396.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_83",
+      "packed": "Packed_397.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_84",
+      "packed": "Packed_398.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_85",
+      "packed": "Packed_399.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_86",
+      "packed": "Packed_400.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_87",
+      "packed": "Packed_401.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_88",
+      "packed": "Packed_402.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_89",
+      "packed": "Packed_403.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_90",
+      "packed": "Packed_404.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_91",
+      "packed": "Packed_405.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_92",
+      "packed": "Packed_406.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_93",
+      "packed": "Packed_407.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_94",
+      "packed": "Packed_408.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_95",
+      "packed": "Packed_409.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_96",
+      "packed": "Packed_410.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_97",
+      "packed": "Packed_411.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_98",
+      "packed": "Packed_412.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_99",
+      "packed": "Packed_413.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_100",
+      "packed": "Packed_414.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_Desert_Map_101",
+      "packed": "Packed_415.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_SandSkiing_Map_195",
+      "packed": "Packed_416.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_SandSkiing_Map_203",
+      "packed": "Packed_417.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_SandSkiing_Map_217",
+      "packed": "Packed_418.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_SandSkiing_Map_218",
+      "packed": "Packed_419.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_SandSkiing_Map_222",
+      "packed": "Packed_420.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_SandSkiing_Map_231",
+      "packed": "Packed_421.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_SandSkiing_Map_233",
+      "packed": "Packed_422.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    },
+    {
+      "name": "landscape_HFM02_SandSkiing_Map_240",
+      "packed": "Packed_423.png",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "normalScale": 1,
+      "metallic": 0,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false
+    }
+  ]
+}
