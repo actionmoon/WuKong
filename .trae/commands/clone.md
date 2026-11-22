@@ -3,7 +3,7 @@ name: "clone"
 description: "使用Unity完成REA项目克隆"
 ---
 
-1. 使用 `agent-browser` 访问项目 [saltiline](https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp)，并提取静态与动态资源和脚本。
+1. 使用 `agent-browser` 访问项目 [wukong](https://www.anxiangsir.com/wukong-tiger-engine/)，并提取静态与动态资源和脚本。
 2. 分析页面的脚本实现和资源引用。
 3. 基于分析结果，使用下面的工具，生成项目克隆的规划文档，保存到`docs/plan.md`文件中。
 - 调用`unity-mcp` 操作Unity工程
