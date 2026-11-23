@@ -1,5 +1,6 @@
 """Run the Hamlet sample using the Editor's existing SDK login, without storing credentials."""
 
+import argparse
 import os
 from pathlib import Path
 import subprocess
@@ -12,6 +13,10 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def main():
+    parser = argparse.ArgumentParser(add_help=False)
+    parser.add_argument("--client-a", type=Path, default=ROOT / "unity/DouyinWorldDebuggerEditor/ClientA.app/Contents/MacOS/DouyinWorldDebugger")
+    parser.add_argument("--client-b", type=Path, default=ROOT / "unity/DouyinWorldDebuggerEditor/ClientB.app/Contents/MacOS/DouyinWorldDebugger")
+    options, simulator_args = parser.parse_known_args()
     client = UnityMcp()
     client.select("unity@fff213c1fca70370")
     result = client.call("execute_code", {
@@ -36,9 +41,9 @@ def main():
         "--room", "0", "--network", "new", "--data-store", "off",
         "--pawn-actor-type", "avatar", "--windowless",
         "--executable", str(ROOT / "unity/DouyinWorldDebuggerEditor/DouyinWorldDebugger.app"),
-        "--instance-executable", "client-1=" + str(ROOT / "unity/DouyinWorldDebuggerEditor/ClientA.app/Contents/MacOS/DouyinWorldDebugger"),
-        "--instance-executable", "client-2=" + str(ROOT / "unity/DouyinWorldDebuggerEditor/ClientB.app/Contents/MacOS/DouyinWorldDebugger"),
-        *sys.argv[1:],
+        "--instance-executable", "client-1=" + str(options.client_a),
+        "--instance-executable", "client-2=" + str(options.client_b),
+        *simulator_args,
     ]
     raise SystemExit(subprocess.run(command, cwd=ROOT, env=env).returncode)
 

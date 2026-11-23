@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "verifiedMaterials": 462,
+  "assets": [
+    {
+      "asset": "Arena",
+      "verifiedMaterials": 424,
+      "pass": true
+    },
+    {
+      "asset": "Wukong",
+      "verifiedMaterials": 13,
+      "pass": true
+    },
+    {
+      "asset": "Tiger",
+      "verifiedMaterials": 5,
+      "pass": true
+    },
+    {
+      "asset": "Guangzhi",
+      "verifiedMaterials": 9,
+      "pass": true
+    },
+    {
+      "asset": "Guangmou",
+      "verifiedMaterials": 7,
+      "pass": true
+    },
+    {
+      "asset": "SpiritSnake",
+      "verifiedMaterials": 2,
+      "pass": true
+    },
+    {
+      "asset": "StoneDecoy",
+      "verifiedMaterials": 2,
+      "pass": true
+    }
+  ],
+  "scope": "Full image pixels: source colour/normal/emission unchanged; MR <= 1/255 error, AO R->G; source Alpha and culling metadata."
+}

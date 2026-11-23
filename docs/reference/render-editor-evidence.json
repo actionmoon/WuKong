@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "message": "Code executed successfully.",
+  "data": {
+    "result": {
+      "scene": "Assets/WuKong/Scenes/WuKongTiger.unity",
+      "dirty": false,
+      "activePipeline": "URP-HighFidelity",
+      "materialCount": 462,
+      "sourceShaderCount": 462,
+      "shaderMessages": [],
+      "aces": true,
+      "ambientMode": "Trilight",
+      "ambientL0": [
+        0.353336751,
+        0.387994379,
+        0.4406819
+      ],
+      "sunIntensity": 3.18309879,
+      "reflectionIntensity": 0.6,
+      "skyMipCount": 8,
+      "factorChecks": 462,
+      "factorFailures": [],
+      "pipelines": [
+        {
+          "path": "Assets/Settings/URP-HighFidelity.asset",
+          "shadowDistance": 50.0,
+          "shadowCascadeCount": 2,
+          "msaaSampleCount": 4,
+          "mainLightShadowmapResolution": 2048,
+          "supportsHDR": true
+        },
+        {
+          "path": "Assets/Settings/URP-Balanced.asset",
+          "shadowDistance": 35.0,
+          "shadowCascadeCount": 2,
+          "msaaSampleCount": 2,
+          "mainLightShadowmapResolution": 1024,
+          "supportsHDR": true
+        }
+      ]
+    },
+    "compiler": "codedom"
+  }
+}
