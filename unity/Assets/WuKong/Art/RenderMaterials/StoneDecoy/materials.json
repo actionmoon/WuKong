@@ -1,0 +1,77 @@
+{
+  "asset": "StoneDecoy",
+  "sourceSha256": "8c088a00f5df692451efcdf78a5d9f927089a3012d035bf5bb23aa4852c8baf7",
+  "textures": [],
+  "materials": [
+    {
+      "index": 0,
+      "name": "MF_HFM_HuStone_Rock_Body",
+      "base": "",
+      "normal": "",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.10000002399999997,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 1,
+      "name": "MF_HFM_HuStone_Rock_Weapon",
+      "base": "",
+      "normal": "",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.10000002399999997,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    }
+  ]
+}

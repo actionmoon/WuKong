@@ -52,6 +52,8 @@ public static class WuKongSkillsBuilder
                 return material;
             }).ToArray();
         }
+        if(System.IO.File.Exists(Root+"/Art/RenderMaterials/"+asset+"/materials.json"))
+            WuKongRenderBuilder.RestoreModel(go,asset);
         go.SetActive(false);return go;
     }
     static void AddClips(Animation animation,string asset)

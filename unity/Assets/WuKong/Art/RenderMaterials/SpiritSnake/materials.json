@@ -1,0 +1,86 @@
+{
+  "asset": "SpiritSnake",
+  "sourceSha256": "296c925ae9f7f20faf548e217d8550dadd8fb3f31cc7f34d1e9282db04d62612",
+  "textures": [
+    {
+      "file": "base_4e5071bc9f2df9366434.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_045ddffc933d8966fd0b.png",
+      "kind": "normal"
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "name": "M_GYCY_SheBang_Eye_Inst",
+      "base": "",
+      "normal": "",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 1,
+      "name": "M_GYCY_SheBang_Body",
+      "base": "base_4e5071bc9f2df9366434.png",
+      "normal": "normal_045ddffc933d8966fd0b.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        13.5021143,
+        15.3575191
+      ],
+      "offset": [
+        0.0947875977,
+        -14.3871516684
+      ]
+    }
+  ]
+}

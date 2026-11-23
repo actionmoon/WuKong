@@ -1,0 +1,305 @@
+{
+  "asset": "Guangmou",
+  "sourceSha256": "1140677e8e7c571a34295c59109c56c840891d3b9c8e8f8b0726e29481109852",
+  "textures": [
+    {
+      "file": "base_358791b6efa6500f087d.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_de375366c6e079e0294e.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_2f60864a9a8ca2fc2aa3.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_bef0008a26fefad2a4ea.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_d66f4d4152c73fc80ee8.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_4163dcfbbf596efed3f5.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_46069fac92913738a274.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_0dc8f33a398be17c6c87.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_865926432b68a98a30cd.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_11f1c671dfea29ce2a6d.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_914bc47a2f268bd24dcb.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_90fa68fa5d9351bcbe32.png",
+      "kind": "normal"
+    },
+    {
+      "file": "normal_d127f73303b24472c2de.png",
+      "kind": "normal"
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "name": "MF_GYCY_SheShuJi_Cloth_02",
+      "base": "base_358791b6efa6500f087d.png",
+      "normal": "normal_de375366c6e079e0294e.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "scale": [
+        15.9593725,
+        15.909708
+      ],
+      "offset": [
+        0.00227928162,
+        -14.91362569409
+      ]
+    },
+    {
+      "index": 1,
+      "name": "MF_GYCY_SheShuJi_Body",
+      "base": "base_2f60864a9a8ca2fc2aa3.png",
+      "normal": "normal_bef0008a26fefad2a4ea.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.6163673,
+        15.5379801
+      ],
+      "offset": [
+        0.00173950195,
+        -14.559754392
+      ]
+    },
+    {
+      "index": 2,
+      "name": "MF_GYCY_SheShuJi_She_01",
+      "base": "base_d66f4d4152c73fc80ee8.png",
+      "normal": "normal_4163dcfbbf596efed3f5.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.2287054,
+        15.661665
+      ],
+      "offset": [
+        0.00594329834,
+        -14.670827902829998
+      ]
+    },
+    {
+      "index": 3,
+      "name": "M_GYCY_HuYao_01_eyeballs_Layers",
+      "base": "base_46069fac92913738a274.png",
+      "normal": "normal_0dc8f33a398be17c6c87.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        11.7741795,
+        13.4469252
+      ],
+      "offset": [
+        0.131958008,
+        -12.474360502700002
+      ]
+    },
+    {
+      "index": 4,
+      "name": "MF_GYCY_SheShuJi_Cloth_01",
+      "base": "base_865926432b68a98a30cd.png",
+      "normal": "normal_11f1c671dfea29ce2a6d.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "scale": [
+        15.9187737,
+        15.906167
+      ],
+      "offset": [
+        0.00237464905,
+        -14.91079422778
+      ]
+    },
+    {
+      "index": 5,
+      "name": "MF_GYCY_SheShuJi_ShanZi_01",
+      "base": "base_914bc47a2f268bd24dcb.png",
+      "normal": "normal_90fa68fa5d9351bcbe32.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.6382227,
+        14.7270031
+      ],
+      "offset": [
+        0.00574493408,
+        -13.791639330499999
+      ]
+    },
+    {
+      "index": 6,
+      "name": "M_Eye_Lacrimal_Fluid_Layers",
+      "base": "",
+      "normal": "normal_d127f73303b24472c2de.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        1.60192919,
+        15.7736301
+      ],
+      "offset": [
+        0.3828125,
+        -14.7831210668
+      ]
+    }
+  ]
+}

@@ -87,6 +87,11 @@ public static class WuKongArenaBuilder
 
     static void ConvertMaterials(GameObject arena)
     {
+        if (File.Exists(Root + "/Art/RenderMaterials/Arena/materials.json"))
+        {
+            WuKongRenderBuilder.RestoreModel(arena, "Arena");
+            return;
+        }
         var entries = JsonUtility.FromJson<MaterialList>(File.ReadAllText(Root + "/Art/ArenaPacked/materials.json")).materials;
         var byName = entries.ToDictionary(e => e.name);
         var converted = new Dictionary<Material, Material>();
@@ -239,58 +244,7 @@ public static class WuKongArenaBuilder
 
     static void BuildEnvironment()
     {
-        var light = GameObject.Find("Directional Light").GetComponent<Light>();
-        light.transform.rotation = Quaternion.LookRotation(new Vector3(-0.77028f, -0.63631f, -0.0421f));
-        light.color = Color.white; light.intensity = 3; light.shadows = LightShadows.Soft;
-        RenderSettings.ambientMode = AmbientMode.Trilight;
-        RenderSettings.ambientSkyColor = new Color(0.7451f, 0.851f, 1);
-        RenderSettings.ambientEquatorColor = new Color(0.3608f, 0.3255f, 0.2863f);
-        RenderSettings.ambientGroundColor = RenderSettings.ambientEquatorColor * 0.35f;
-        RenderSettings.ambientIntensity = 0.6f;
-        RenderSettings.fog = true; RenderSettings.fogMode = FogMode.ExponentialSquared;
-        RenderSettings.fogDensity = 0.005813f; RenderSettings.fogColor = new Color(0.3608f, 0.3255f, 0.2863f);
-        var cubemap = new Cubemap(32, TextureFormat.RGBAHalf, false);
-        foreach (CubemapFace face in Enum.GetValues(typeof(CubemapFace)))
-        {
-            if ((int)face < 0 || (int)face > 5) continue;
-            var pixels = new Color[32 * 32];
-            for (var y = 0; y < 32; y++) for (var x = 0; x < 32; x++)
-            {
-                var u = 2f * (x + 0.5f) / 32 - 1; var v = 2f * (y + 0.5f) / 32 - 1;
-                Vector3 d;
-                switch (face) {
-                    case CubemapFace.PositiveX: d = new Vector3(1, -v, -u); break;
-                    case CubemapFace.NegativeX: d = new Vector3(-1, -v, u); break;
-                    case CubemapFace.PositiveY: d = new Vector3(u, 1, v); break;
-                    case CubemapFace.NegativeY: d = new Vector3(u, -1, -v); break;
-                    case CubemapFace.PositiveZ: d = new Vector3(u, -v, 1); break;
-                    default: d = new Vector3(-u, -v, -1); break;
-                }
-                var h = d.normalized.y;
-                pixels[y * 32 + x] = Color.Lerp(RenderSettings.ambientEquatorColor.linear,
-                    h >= 0 ? RenderSettings.ambientSkyColor : RenderSettings.ambientGroundColor.linear,
-                    Mathf.Pow(Mathf.Abs(h), h >= 0 ? 0.6f : 0.5f));
-            }
-            cubemap.SetPixels(pixels, face);
-        }
-        cubemap.Apply(); Save(cubemap, Root + "/Materials/ArenaSky.asset");
-        var sky = new Material(Shader.Find("Douyin/World/ENV/World_Skybox"));
-        sky.SetTexture("_Tex", AssetDatabase.LoadAssetAtPath<Cubemap>(Root + "/Materials/ArenaSky.asset"));
-        sky.SetColor("_Tint", Color.gray); Save(sky, Root + "/Materials/ArenaSky.mat");
-        RenderSettings.skybox = AssetDatabase.LoadAssetAtPath<Material>(Root + "/Materials/ArenaSky.mat");
-        var volume = GameObject.Find("Global Volume").GetComponent<Volume>();
-        var profile = AssetDatabase.LoadAssetAtPath<VolumeProfile>(Root + "/Materials/ArenaPost.asset");
-        if (profile == null) profile = Save(new VolumeProfile(), Root + "/Materials/ArenaPost.asset");
-        Tonemapping tone;
-        if (!profile.TryGet(out tone))
-        {
-            tone = profile.Add<Tonemapping>();
-            AssetDatabase.AddObjectToAsset(tone, profile);
-        }
-        tone.mode.Override(TonemappingMode.ACES);
-        EditorUtility.SetDirty(tone); EditorUtility.SetDirty(profile);
-        volume.sharedProfile = profile;
-        DynamicGI.UpdateEnvironment();
+        WuKongRenderBuilder.RestoreEnvironment();
     }
 
     static RectTransform Rect(string name, Transform parent, Vector2 anchor, Vector2 pos, Vector2 size)

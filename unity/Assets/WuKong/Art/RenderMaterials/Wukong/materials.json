@@ -1,0 +1,647 @@
+{
+  "asset": "Wukong",
+  "sourceSha256": "a5fde2e9b449f64039ac2e9de11cbd53e71eea64a06ab026ce9e835664d1a3ce",
+  "textures": [
+    {
+      "file": "base_5370fc61b00c875140e6.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_c51090fce8fad2e65e3f.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_4029318838ee337709d0.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_e4ec6440e5ea09e5caca.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_f86b2791839e04d0f1d3.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_1f50f8ec9ffb05908807.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_227573d3d5e642dbcd36.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_ae20cb1c8901a32120f4.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_0498b7d78e4dc48d31f9.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_88e4c4abb3c6b71740bb.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_979e411f0e31dde4b33f.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_a514ad29d865fc37c7dd.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_868bcf7df068cca1ce23.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_0144707ef7baee4fe8c5.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_ea2789c8d61ad9ae0983.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_20b369a608acb17fefc9.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_d5eddd0203d257585766.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_dd2df2bfa37f6742733e.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_d27e6e0c07d708b2d2c6.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_3377c9cf93581df41379.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_17a6aee32134be1ce6d1.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_7695ca9c0624304c1255.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_4c194987ed22af1e03ef.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_f88430a6869dc4aab4ec.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_f0349f01990a7a2177c7.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_c125b5f5764769f419b6.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_1a5872e19fd2881d04b0.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_5ae9865ec1071cb08526.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_51a7866f868fc7c76398.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_170404ac882b118168e5.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_9b363d3718e67b662aee.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_6730f072653dc1756d5e.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_f6b78f546497b6b9d978.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_20effe93e723311b0766.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_e1435e02ef91c7cc305b.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_34185f57e62dd817868a.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_778aa7258a15cabbc79b.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_281127abba71b9f93d6c.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_d4d7d85f585449f6fde1.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_526e56360de4dbc17e98.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_2471f089c16f485f9502.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_e0c4a5e1d2a9cf520817.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_035c3c4bf98479416d50.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_da60e9a7b635fffc7575.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_d1866dc203dfbfff92c5.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_78a6d283260dac0b4a75.png",
+      "kind": "occlusion"
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "name": "MF_STC_LaoYing_01_Body",
+      "base": "base_5370fc61b00c875140e6.png",
+      "normal": "normal_c51090fce8fad2e65e3f.png",
+      "metallic": "metallic_4029318838ee337709d0.png",
+      "occlusion": "occlusion_e4ec6440e5ea09e5caca.png",
+      "emission": "",
+      "baseColor": [
+        0.947916985,
+        0.848873973,
+        0.770182014,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.8523827,
+        15.9701653
+      ],
+      "offset": [
+        0.00505828857,
+        -14.970305251706
+      ]
+    },
+    {
+      "index": 1,
+      "name": "MF_WuKong_Eye_01",
+      "base": "base_f86b2791839e04d0f1d3.png",
+      "normal": "normal_1f50f8ec9ffb05908807.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.6948767,
+        15.6948767
+      ],
+      "offset": [
+        0.00952911377,
+        -14.70440581377
+      ]
+    },
+    {
+      "index": 2,
+      "name": "M_Wukong_Haircard_Inst",
+      "base": "base_227573d3d5e642dbcd36.png",
+      "normal": "normal_ae20cb1c8901a32120f4.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true,
+      "scale": [
+        16.003664,
+        14.4022226
+      ],
+      "offset": [
+        0,
+        -13.4539498949
+      ]
+    },
+    {
+      "index": 3,
+      "name": "M_wukong_mouth",
+      "base": "base_0498b7d78e4dc48d31f9.png",
+      "normal": "normal_88e4c4abb3c6b71740bb.png",
+      "metallic": "metallic_979e411f0e31dde4b33f.png",
+      "occlusion": "occlusion_a514ad29d865fc37c7dd.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.7806511,
+        15.4693604
+      ],
+      "offset": [
+        0.00709915161,
+        -14.4807739742
+      ]
+    },
+    {
+      "index": 4,
+      "name": "M_WuKong_HuPi_Cloth_Ring_Layers",
+      "base": "base_868bcf7df068cca1ce23.png",
+      "normal": "normal_0144707ef7baee4fe8c5.png",
+      "metallic": "metallic_ea2789c8d61ad9ae0983.png",
+      "occlusion": "occlusion_20b369a608acb17fefc9.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 1,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true,
+      "scale": [
+        15.3925619,
+        11.6178932
+      ],
+      "offset": [
+        0.0137710571,
+        -10.651218395299999
+      ]
+    },
+    {
+      "index": 5,
+      "name": "M_WuKong_HuPi_Cloth_01_Layers",
+      "base": "base_d5eddd0203d257585766.png",
+      "normal": "normal_dd2df2bfa37f6742733e.png",
+      "metallic": "metallic_d27e6e0c07d708b2d2c6.png",
+      "occlusion": "occlusion_3377c9cf93581df41379.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 1,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true,
+      "scale": [
+        15.9180107,
+        15.8025064
+      ],
+      "offset": [
+        0.00339889526,
+        -14.80970473374
+      ]
+    },
+    {
+      "index": 6,
+      "name": "M_WuKong_HuPi_hair_headcards",
+      "base": "base_17a6aee32134be1ce6d1.png",
+      "normal": "normal_7695ca9c0624304c1255.png",
+      "metallic": "metallic_4c194987ed22af1e03ef.png",
+      "occlusion": "occlusion_f88430a6869dc4aab4ec.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 1,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true,
+      "scale": [
+        15.5965872,
+        15.6906033
+      ],
+      "offset": [
+        0.0200653076,
+        -14.7067470988
+      ]
+    },
+    {
+      "index": 7,
+      "name": "MF_GYCY_WuKong_02_Body02",
+      "base": "base_f0349f01990a7a2177c7.png",
+      "normal": "normal_c125b5f5764769f419b6.png",
+      "metallic": "metallic_1a5872e19fd2881d04b0.png",
+      "occlusion": "occlusion_5ae9865ec1071cb08526.png",
+      "emission": "",
+      "baseColor": [
+        0.947916985,
+        0.848873973,
+        0.770182014,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        14.4466658,
+        15.8775358
+      ],
+      "offset": [
+        0.0914306641,
+        -14.88053415205
+      ]
+    },
+    {
+      "index": 8,
+      "name": "M_WuKong_HuPi_Cloth_02_Layers",
+      "base": "base_51a7866f868fc7c76398.png",
+      "normal": "normal_170404ac882b118168e5.png",
+      "metallic": "metallic_9b363d3718e67b662aee.png",
+      "occlusion": "occlusion_6730f072653dc1756d5e.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 1,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true,
+      "scale": [
+        15.8487196,
+        15.8741474
+      ],
+      "offset": [
+        0.00479888916,
+        -14.877845749
+      ]
+    },
+    {
+      "index": 9,
+      "name": "MF_HGS_WuKong_JGB_01",
+      "base": "base_f6b78f546497b6b9d978.png",
+      "normal": "normal_20effe93e723311b0766.png",
+      "metallic": "metallic_e1435e02ef91c7cc305b.png",
+      "occlusion": "occlusion_34185f57e62dd817868a.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 1,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true,
+      "scale": [
+        15.7957296,
+        15.9023676
+      ],
+      "offset": [
+        0.00811004639,
+        -14.90381432394
+      ]
+    },
+    {
+      "index": 10,
+      "name": "M_Hair_KajiyaKai_Inst",
+      "base": "base_778aa7258a15cabbc79b.png",
+      "normal": "normal_281127abba71b9f93d6c.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "scale": [
+        16.003664,
+        16.003664
+      ],
+      "offset": [
+        0,
+        -15.003664
+      ]
+    },
+    {
+      "index": 11,
+      "name": "MF_WuKong_Object_01",
+      "base": "base_d4d7d85f585449f6fde1.png",
+      "normal": "normal_526e56360de4dbc17e98.png",
+      "metallic": "metallic_2471f089c16f485f9502.png",
+      "occlusion": "occlusion_e0c4a5e1d2a9cf520817.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 1,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": false,
+      "scale": [
+        15.7536058,
+        15.7129478
+      ],
+      "offset": [
+        4.0078125,
+        -14.7257422946
+      ]
+    },
+    {
+      "index": 12,
+      "name": "MF_WuKong_weiba",
+      "base": "base_035c3c4bf98479416d50.png",
+      "normal": "normal_da60e9a7b635fffc7575.png",
+      "metallic": "metallic_d1866dc203dfbfff92c5.png",
+      "occlusion": "occlusion_78a6d283260dac0b4a75.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        1.31566989,
+        10.3109541
+      ],
+      "offset": [
+        0.00281143188,
+        -9.661784178
+      ]
+    }
+  ]
+}

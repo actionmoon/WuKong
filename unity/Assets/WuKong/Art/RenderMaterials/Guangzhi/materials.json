@@ -1,0 +1,379 @@
+{
+  "asset": "Guangzhi",
+  "sourceSha256": "5297962f46981a40fe54e829430ca0a43a95d0cab90fdc4a548b7e38d573b847",
+  "textures": [
+    {
+      "file": "base_5a29ea8709ca87ad9aad.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_eb1845509381e8f3da6c.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_5d57ca30e5945b7ea30d.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_3ad7c442e37cf443154d.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_8904d36cd1400ad36c8f.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_5f60076dff592481d045.png",
+      "kind": "normal"
+    },
+    {
+      "file": "normal_7382e818d8ede3a93466.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_52b5dd44d08e7a732ee5.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_bef0008a26fefad2a4ea.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_fcdbc91f2d51dc3bb62c.png",
+      "kind": "base"
+    },
+    {
+      "file": "base_b55328fb661042011664.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_2b67255da1ce77455ee9.png",
+      "kind": "normal"
+    },
+    {
+      "file": "base_88dc42904f1af11ffab6.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_cb0d5d8250a9b4c9a4a4.png",
+      "kind": "normal"
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "name": "MF_GYCY_LangJingYing_Cloth_02",
+      "base": "base_5a29ea8709ca87ad9aad.png",
+      "normal": "normal_eb1845509381e8f3da6c.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "scale": [
+        15.9802198,
+        15.9177055
+      ],
+      "offset": [
+        0,
+        -14.9177055
+      ]
+    },
+    {
+      "index": 1,
+      "name": "MF_GYCY_LangJingYing_Cloth_01",
+      "base": "base_5d57ca30e5945b7ea30d.png",
+      "normal": "normal_3ad7c442e37cf443154d.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "scale": [
+        15.8791227,
+        15.8816566
+      ],
+      "offset": [
+        0.00289916992,
+        -14.88439745999
+      ]
+    },
+    {
+      "index": 2,
+      "name": "MF_GYCY_LangJingYing_Eye",
+      "base": "base_8904d36cd1400ad36c8f.png",
+      "normal": "normal_5f60076dff592481d045.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.6206408,
+        15.6518984
+      ],
+      "offset": [
+        0.0102615356,
+        -14.66069509189
+      ]
+    },
+    {
+      "index": 3,
+      "name": "MF_GYCY_LangJingYing_fluid_01",
+      "base": "",
+      "normal": "normal_7382e818d8ede3a93466.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.6186867,
+        15.6479912
+      ],
+      "offset": [
+        0.012336731,
+        -14.6589851575
+      ]
+    },
+    {
+      "index": 4,
+      "name": "MF_GYCY_LangJingYing_Head_01",
+      "base": "base_52b5dd44d08e7a732ee5.png",
+      "normal": "normal_bef0008a26fefad2a4ea.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.8971329,
+        15.7429523
+      ],
+      "offset": [
+        0.00421524048,
+        -14.746547652170001
+      ]
+    },
+    {
+      "index": 5,
+      "name": "MF_GYCY_LangJingYing_Body_01",
+      "base": "base_fcdbc91f2d51dc3bb62c.png",
+      "normal": "normal_bef0008a26fefad2a4ea.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.8365107,
+        15.807024
+      ],
+      "offset": [
+        0.00409698486,
+        -14.81345176489
+      ]
+    },
+    {
+      "index": 6,
+      "name": "MF_GYCY_LangJingYing_Rope_01",
+      "base": "base_b55328fb661042011664.png",
+      "normal": "normal_2b67255da1ce77455ee9.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        16.0663853,
+        273.687653
+      ],
+      "offset": [
+        -1.29938126e-05,
+        -264.5860905
+      ]
+    },
+    {
+      "index": 7,
+      "name": "MF_GYCY_LangJingYing_fluid",
+      "base": "",
+      "normal": "normal_7382e818d8ede3a93466.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.4688721,
+        15.1851158
+      ],
+      "offset": [
+        0.017791748,
+        -14.2186851359
+      ]
+    },
+    {
+      "index": 8,
+      "name": "MF_GYCY_LangJingYing_WQ_01",
+      "base": "base_88dc42904f1af11ffab6.png",
+      "normal": "normal_cb0d5d8250a9b4c9a4a4.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.19999998799999996,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.9524431,
+        15.9654922
+      ],
+      "offset": [
+        0.00173568726,
+        -14.96738905822
+      ]
+    }
+  ]
+}

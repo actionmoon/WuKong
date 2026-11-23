@@ -1,0 +1,255 @@
+{
+  "asset": "Tiger",
+  "sourceSha256": "fd8b1d022cf2532d5c99abbd38e5975b60ed5225bb3f30e5e9935e81c905dbb8",
+  "textures": [
+    {
+      "file": "base_a3373e9efcb5b720eef4.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_0bdebf8b4abc1e77384a.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_5236fcfc6d32b67fcf1b.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_b9f20d6d6280a8b4c268.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_5099496251d098cd53a8.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_f2b32e7a25f9cef34690.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_8e56f83f3f9996ff03d5.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_4a86eba063ddaec6ef27.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_90adec0891cacf8d9e1c.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_764c64149229a9627fc9.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_78994548203f28c037ff.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_d78ee971473288c86edb.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_b3d571fb9e9d0fbecbd7.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_79a2bd018d3db02bd72f.png",
+      "kind": "normal"
+    },
+    {
+      "file": "metallic_846ceac890ed4e02be5d.png",
+      "kind": "metallic"
+    },
+    {
+      "file": "occlusion_d9221c325717b32853c6.png",
+      "kind": "occlusion"
+    },
+    {
+      "file": "base_ab5f57f2b6510bf0fa2d.png",
+      "kind": "base"
+    },
+    {
+      "file": "normal_321d78a92d1ce1492d08.png",
+      "kind": "normal"
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "name": "MF_HFM_HuXianFeng_Yi_FangsEyes",
+      "base": "base_a3373e9efcb5b720eef4.png",
+      "normal": "normal_0bdebf8b4abc1e77384a.png",
+      "metallic": "metallic_5236fcfc6d32b67fcf1b.png",
+      "occlusion": "occlusion_b9f20d6d6280a8b4c268.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        15.8620291,
+        15.8901119
+      ],
+      "offset": [
+        0.00347900391,
+        -14.89330098691
+      ]
+    },
+    {
+      "index": 1,
+      "name": "MF_HFM_HuXianFeng_Yi_Body",
+      "base": "base_5099496251d098cd53a8.png",
+      "normal": "normal_f2b32e7a25f9cef34690.png",
+      "metallic": "metallic_8e56f83f3f9996ff03d5.png",
+      "occlusion": "occlusion_4a86eba063ddaec6ef27.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        0.854902029,
+        0.698038995,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "scale": [
+        15.890173,
+        15.950428
+      ],
+      "offset": [
+        0.00465011597,
+        -14.951313009766
+      ]
+    },
+    {
+      "index": 2,
+      "name": "MF_HFM_HuXianFeng_Yi_Weapon",
+      "base": "base_90adec0891cacf8d9e1c.png",
+      "normal": "normal_764c64149229a9627fc9.png",
+      "metallic": "metallic_78994548203f28c037ff.png",
+      "occlusion": "occlusion_d78ee971473288c86edb.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 1,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true,
+      "scale": [
+        15.9451475,
+        15.895606
+      ],
+      "offset": [
+        0.00219154358,
+        -14.89894004541
+      ]
+    },
+    {
+      "index": 3,
+      "name": "MF_GYCY_MangSeng_03_KouQiang",
+      "base": "base_b3d571fb9e9d0fbecbd7.png",
+      "normal": "normal_79a2bd018d3db02bd72f.png",
+      "metallic": "metallic_846ceac890ed4e02be5d.png",
+      "occlusion": "occlusion_d9221c325717b32853c6.png",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0,
+      "normalScale": 1,
+      "occlusionStrength": 0.5,
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "scale": [
+        9.85271835,
+        13.4386225
+      ],
+      "offset": [
+        0.0122756958,
+        -12.586693789
+      ]
+    },
+    {
+      "index": 4,
+      "name": "M_hfm_huxianfeng_yi_hair_headcards",
+      "base": "base_ab5f57f2b6510bf0fa2d.png",
+      "normal": "normal_321d78a92d1ce1492d08.png",
+      "metallic": "",
+      "occlusion": "",
+      "emission": "",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissionColor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "smoothness": 0.39999997600000003,
+      "normalScale": 1,
+      "occlusionStrength": 1,
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.3333,
+      "doubleSided": true,
+      "scale": [
+        14.5731602,
+        12.644496
+      ],
+      "offset": [
+        0.0366516113,
+        -11.7406263711
+      ]
+    }
+  ]
+}
