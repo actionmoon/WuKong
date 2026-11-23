@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>悟空移动端四层扇形操作布局</title>
+  <desc>四层扇形关于45度对称，第一层仅闪避，第二层轻棍重棍，第三层四技能，第四层辅助操作。同层按钮等大，直径依次92、84、76、68，相邻层径向净间隙24。整个右下区域限于屏幕宽度40%、高度60%。设计示意，非运行截图。</desc>
+  <defs>
+    <style>
+      text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#eddfc8;text-anchor:middle}
+      .small{font-size:14px;fill:#bdb19e}.label{font-size:18px}.main{font-size:23px}
+      .button{fill:#2d261e;stroke:#ae9872;stroke-width:2}
+      .inner{fill:#524b32;stroke:#ebd49d;stroke-width:2}
+      .attack{fill:#493d2d;stroke:#ccb387;stroke-width:2}
+      .skill{fill:#282e2c;stroke:#829c91;stroke-width:2}
+      .arc{fill:none;stroke-width:1.5;stroke-dasharray:4 6;opacity:.5}
+      .note{font-size:17px;fill:#cec5b7}
+    </style>
+  </defs>
+  <rect width="1280" height="720" fill="#181b1a"/>
+  <rect x="24" y="24" width="1232" height="672" rx="16" fill="none" stroke="#555c56" stroke-dasharray="7 7"/>
+  <text x="640" y="60" font-size="26">悟空 · 右下角四层扇形布局</text>
+  <text x="640" y="88" class="small">1280 × 720 参考画布 · 对称排列，同层等大 · 设计示意，非运行截图</text>
+  <text x="174" y="157" class="label">天命人</text>
+  <rect x="60" y="176" width="270" height="9" rx="4" fill="#926c5b"/>
+  <rect x="60" y="194" width="220" height="7" rx="3" fill="#648990"/>
+  <text x="174" y="232" class="small">生命 · 法力 · 体力 · 棍势</text>
+  <rect x="74" y="256" width="76" height="38" rx="10" class="button"/>
+  <text x="112" y="281" class="small">帮助</text>
+  <rect x="170" y="256" width="76" height="38" rx="10" class="button"/>
+  <text x="208" y="281" class="small">声音</text>
+  <text x="600" y="221" class="note">保留中央战斗视野</text>
+  <text x="600" y="251" class="small">空白区域拖动转动镜头</text>
+  <g transform="translate(432 332)">
+    <circle r="11" class="inner"/><text x="162" y="6" class="note">第一层 · 闪避 · 92</text>
+    <circle cy="42" r="10" class="attack"/><text x="162" y="48" class="note">第二层 · 轻棍／重棍 · 84</text>
+    <circle cy="84" r="9" class="skill"/><text x="162" y="90" class="note">第三层 · 四技能 · 76</text>
+    <circle cy="126" r="8" class="button"/><text x="162" y="132" class="note">第四层 · 辅助操作 · 68</text>
+    <text x="162" y="174" class="small">每层直径减少 8 · 层间净间隙统一为 24</text>
+  </g>
+  <circle cx="167" cy="581" r="81" fill="#262e2a" stroke="#69786d" stroke-width="2"/>
+  <circle cx="167" cy="581" r="32" fill="#48574c"/>
+  <text x="167" y="689" class="small">官方摇杆 · 支持边移动边蓄力</text>
+  <path d="M768 720 V288 H1280" fill="none" stroke="#a6bda9" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="1024" y="270" class="note">宽度上限 40% · 高度上限 60%</text>
+  <g id="operation-panel" data-x="848" data-y="288" data-width="408" data-height="408">
+    <rect x="848" y="288" width="408" height="408" fill="#232a25" fill-opacity=".3"/>
+    <text x="982" y="310" class="small">状态提示 · 容器内显示</text>
+    <path d="M1194.15 662.40 A44 44 0 0 1 1222.40 634.15" class="arc" stroke="#ebd49d"/>
+    <path d="M1089.41 622.64 A156 156 0 0 1 1182.64 529.41" class="arc" stroke="#ccb387"/>
+    <path d="M978.53 639.81 A260 260 0 0 1 1199.81 418.53" class="arc" stroke="#829c91"/>
+    <path d="M883.46 626.45 A356 356 0 0 1 1186.45 323.46" class="arc" stroke="#ae9872"/>
+    <g id="first-layer" data-size="92" data-radius="44">
+      <g transform="translate(1204.89 644.89)" data-action="dodge" data-angle="45"><circle r="45" class="inner"/><text y="8" class="main">闪避</text></g>
+    </g>
+    <g id="second-layer" data-size="84" data-radius="156">
+      <g transform="translate(1089.41 622.64)" data-action="light" data-angle="20"><circle r="41" class="attack"/><text y="8" class="main">轻棍</text></g>
+      <g transform="translate(1182.64 529.41)" data-action="heavy" data-angle="70"><circle r="41" class="attack"/><text y="-2" class="main">重棍</text><text y="20" class="small">按住蓄力</text></g>
+    </g>
+    <g id="third-layer" data-size="76" data-radius="260">
+      <g transform="translate(978.53 639.81)" data-action="immobilize" data-angle="8"><circle r="37" class="skill"/><text y="-2" class="label">定身</text><text y="19" class="small">可用</text></g>
+      <g transform="translate(1017.13 535.66)" data-action="cloud" data-angle="32.6666666667"><circle r="37" class="skill"/><path d="M0 -36 A36 36 0 0 1 36 0" fill="none" stroke="#ded0a6" stroke-width="2"/><text y="-2" class="label">散气</text><text y="19" class="small">8s</text></g>
+      <g transform="translate(1095.66 457.13)" data-action="transform" data-angle="57.3333333333"><circle r="37" class="skill"/><text y="-2" class="label">赤潮</text><text y="19" class="small">100%</text></g>
+      <g transform="translate(1199.81 418.53)" data-action="spirit" data-angle="82"><circle r="37" class="skill"/><text y="-2" class="label">广谋</text><text y="19" class="small">82%</text></g>
+    </g>
+    <g id="fourth-layer" data-size="68" data-radius="356">
+      <g transform="translate(883.46 626.45)" data-action="gourd" data-angle="8"><circle r="33" class="button"/><text y="-2" class="label">葫芦</text><text y="18" class="small">6 次</text></g>
+      <g transform="translate(917.40 517.15)" data-action="sprint" data-angle="26.5"><circle r="33" class="button"/><text y="7" class="label">疾跑</text></g>
+      <g transform="translate(984.27 424.27)" data-action="stanceCycle" data-angle="45"><circle r="33" class="button"/><text y="-2" class="label">劈棍</text><text y="18" class="small">切换</text></g>
+      <g transform="translate(1077.15 357.40)" data-action="spin" data-angle="63.5"><circle r="33" class="button"/><text y="-2" class="label">棍花</text><text y="18" class="small">按住</text></g>
+      <g transform="translate(1186.45 323.46)" data-action="lock" data-angle="82"><circle r="33" class="button"/><text y="7" class="label">锁定</text></g>
+    </g>
+  </g>
+  <text x="586" y="575" class="note">闪避在内 · 攻击在第二层</text>
+  <text x="586" y="604" class="small">直接点击 · 长按持续 · 松开结束</text>
+  <text x="586" y="633" class="small">按钮与状态提示均收在规定区域内</text>
+  <text x="780" y="713" class="small">虚线为区域上限；按钮状态为示例，实际结果以 DS 快照为准</text>
+</svg>

@@ -87,8 +87,39 @@ public static class WuKongPresentationBuilder
         Label("CameraHint",root,new Vector2(.5f,0),new Vector2(0,48),new Vector2(340,24),"",15);
         string[] names={"light","heavy","dodge","gourd","lock","sprint","stanceCycle","spin","immobilize","cloud","transform","spirit"};
         string[] labels={"轻棍","重棍·按住","闪避","葫芦","锁定","疾跑","棍势","棍花·按住","定身","散气","赤潮","广谋"};
-        for(int i=0;i<names.Length;i++)
-            Button(names[i],root,new Vector2(1,0),new Vector2(-22-(i%3)*92,118+(i/3)*64),new Vector2(84,56),labels[i]);
+        var controls=Rect("CombatControls",root,new Vector2(1,0),Vector2.zero,new Vector2(408,408));
+        string[][] layers={new[]{"dodge"},new[]{"light","heavy"},new[]{"immobilize","cloud","transform","spirit"},new[]{"gourd","sprint","stanceCycle","spin","lock"}};
+        float[] radii={44,156,260,356},diameters={92,84,76,68},starts={45,20,8,8},ends={45,70,82,82};
+        // A persisted round sprite keeps visuals circular while the rectangular
+        // raycast target retains the full touch area.
+        const string circlePath=Root+"/Presentation/ControlCircle.png";
+        Directory.CreateDirectory(Path.GetDirectoryName(circlePath));
+        var texture=new Texture2D(128,128,TextureFormat.RGBA32,false);
+        for(int y=0;y<128;y++)for(int x=0;x<128;x++)
+            texture.SetPixel(x,y,new Color(1,1,1,Mathf.Clamp01(64-Vector2.Distance(new Vector2(x+.5f,y+.5f),new Vector2(64,64)))));
+        texture.Apply();File.WriteAllBytes(circlePath,texture.EncodeToPNG());UnityEngine.Object.DestroyImmediate(texture);
+        AssetDatabase.ImportAsset(circlePath);
+        var importer=(TextureImporter)AssetImporter.GetAtPath(circlePath);
+        importer.textureType=TextureImporterType.Sprite;importer.mipmapEnabled=false;importer.SaveAndReimport();
+        var circle=AssetDatabase.LoadAssetAtPath<Sprite>(circlePath);
+        for(int layer=0;layer<layers.Length;layer++)for(int i=0;i<layers[layer].Length;i++)
+        {
+            var name=layers[layer][i];var old=root.Find("CombatButton_"+name);
+            if(old)UnityEngine.Object.DestroyImmediate(old.gameObject);
+            var angle=Mathf.Lerp(starts[layer],ends[layer],layers[layer].Length==1?0:(float)i/(layers[layer].Length-1))*Mathf.Deg2Rad;
+            var pos=new Vector2(-20-radii[layer]*Mathf.Cos(angle),20+radii[layer]*Mathf.Sin(angle));
+            var size=Vector2.one*diameters[layer];
+            Button(name,controls,new Vector2(1,0),pos,size,labels[Array.IndexOf(names,name)]);
+            var r=controls.Find("CombatButton_"+name).GetComponent<RectTransform>();r.pivot=Vector2.one*.5f;
+            r.GetComponent<Image>().sprite=circle;
+            var progress=Rect("ActionProgress_"+name,r,Vector2.one*.5f,Vector2.zero,size-Vector2.one*6);
+            var fill=progress.gameObject.GetComponent<Image>()??progress.gameObject.AddComponent<Image>();
+            fill.sprite=circle;fill.type=Image.Type.Filled;fill.fillMethod=Image.FillMethod.Radial360;
+            fill.fillOrigin=2;fill.fillClockwise=true;fill.fillAmount=0;fill.color=new Color(.82f,.64f,.28f,.3f);fill.raycastTarget=false;
+            progress.SetAsFirstSibling();
+            r.GetComponentInChildren<Text>().fontSize=layer<2?19:16;
+        }
+        Label("CombatToast",controls,new Vector2(.5f,1),new Vector2(0,-8),new Vector2(180,24),"",16);
         Button("mute",root,new Vector2(0,1),new Vector2(124,-246),new Vector2(78,36),"声音");
         Button("help",root,new Vector2(0,1),new Vector2(32,-246),new Vector2(78,36),"帮助");
         var result=Rect("ChallengeResultPanel",root,Vector2.one*.5f,Vector2.zero,new Vector2(510,220));
@@ -101,7 +132,7 @@ public static class WuKongPresentationBuilder
         var help=Rect("HelpPanel",root,Vector2.one*.5f,new Vector2(0,60),new Vector2(740,360));
         var back=help.GetComponent<Image>()??help.gameObject.AddComponent<Image>();back.color=new Color(.025f,.018f,.012f,.97f);back.raycastTarget=false;
         Label("HelpText",help,Vector2.one*.5f,Vector2.zero,new Vector2(710,320),
-            "操作指引\n\nWASD / 摇杆移动    Shift 疾跑    Ctrl / Alt 慢走\n左键轻棍    右键 / 重棍按钮按住蓄力    Space 闪避\nZ / X / C 劈棍·立棍·戳棍    V / 棍花按钮按住棍花\n1 定身    2 聚形散气    4 赤潮与退出    F 广谋精魄\nR 葫芦    Q / 中键锁定    拖动屏幕转动视角\nM 声音开关    H 帮助开关    Enter 开始 / 重新挑战\n\n触屏：左侧摇杆移动，右侧按钮施放，可同时移动和蓄力。",20);
+            "触屏操作\n\n左侧摇杆移动；右侧四层按钮直接操作\n闪避 → 轻棍 / 按住重棍蓄力 → 定身 / 聚形散气 / 赤潮 / 广谋\n外层：葫芦、疾跑切换、棍势切换、按住棍花、锁定\n移动时可同时蓄力；松开或滑出结束按住\n空白处拖动视角；点击帮助关闭；中央按钮开始 / 重新挑战\n\n键鼠兼容\nWASD 移动 · Shift 疾跑 · Ctrl / Alt 慢走\n左键轻棍 · 右键蓄力 · Space 闪避 · V 棍花\nZ / X / C 棍势 · 1 定身 · 2 散气 · 4 赤潮 · F 广谋\nR 葫芦 · Q / 中键锁定 · H 帮助 · M 声音 · Enter 挑战",20);
         // Runtime caches these objects before hiding them.
         help.gameObject.SetActive(true);result.gameObject.SetActive(true);
         Script("PresentationHUD");

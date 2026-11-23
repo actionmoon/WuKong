@@ -14,8 +14,10 @@ local logCache={}
 local velocityX,velocityZ=0,0
 local replay=nil
 local onTouch=nil
-local lastPress={}
-local pointerConsumed={}
+local pointers={}
+local lastPhysicalFrame=-10
+local focused=true
+local wasBlocked=false
 local epoch=nil
 local bossReplay=nil
 local autoProbeStarted=false
@@ -26,44 +28,95 @@ local function enqueue(name)
     sequence=sequence+1;pending[#pending+1]={id=sequence,name=name}
 end
 function Press(name)
-    local now=UE.Time.time
-    if lastPress[name] and now-lastPress[name]<0.12 then return end
-    lastPress[name]=now;uiPressed[name]=true
+    if not focused or hud and hud.IsModal() then return end
+    if hud and not hud.CanPress(name,true) then return end
+    uiPressed[#uiPressed+1]=name
 end
 function SetHeld(name,value)
-    if value and not uiHeld[name] then Press(name);pointerConsumed[name]=true end
+    if value and not uiHeld[name] then Press(name) end
     uiHeld[name]=value
 end
+local function contains(b,position)
+    return b.button.gameObject.activeInHierarchy and
+        UE.RectTransformUtility.RectangleContainsScreenPoint(b.rect,UE.Vector2(position.x,position.y),nil)
+end
+local function aggregate()
+    uiHeld={}
+    for _,p in pairs(pointers) do
+        if p.active and (p.name=="heavy" or p.name=="spin") then uiHeld[p.name]=true end
+    end
+end
+local function pointerDown(id,position)
+    lastPhysicalFrame=UE.Time.frameCount
+    if pointers[id] then return end
+    local p={active=false};pointers[id]=p
+    if not focused or hud and hud.IsModal() then return end
+    for _,b in ipairs(uiBindings) do
+        if contains(b,position) then
+            p.name=b.name;p.binding=b
+            p.active=not hud or hud.CanPress(b.name,true)
+            if p.active then Press(b.name) end
+            break
+        end
+    end
+    aggregate()
+end
+local function pointerMove(id,position)
+    local p=pointers[id]
+    if p and p.active and not contains(p.binding,position) then p.active=false;aggregate() end
+end
+local function pointerUp(id)
+    lastPhysicalFrame=UE.Time.frameCount
+    pointers[id]=nil;aggregate()
+end
+function ClearControls()
+    pointers={};uiHeld={};uiPressed={};pending={};sprintToggle=false
+    lastPhysicalFrame=UE.Time.frameCount
+end
+function IsHeld(name) return uiHeld[name]==true end
+function IsSprinting() return sprintToggle end
 local function bind(name)
     local go=UE.GameObject.Find("CombatButton_"..name)
     if not go then return end
     local button=go:GetComponent(typeof(UE.UI.Button))
     local click=function()
-        if pointerConsumed[name] then pointerConsumed[name]=nil else Press(name) end
+        -- Physical input is submitted on pointer-down. Keep onClick for
+        -- programmatic/accessibility activation without duplicating release.
+        if UE.Input.touchCount==0 and not UE.Input.GetMouseButton(0)
+            and UE.Time.frameCount>lastPhysicalFrame+1 then Press(name) end
     end
     button.onClick:AddListener(click)
-    uiBindings[#uiBindings+1]={name=name,rect=go:GetComponent(typeof(UE.RectTransform)),button=button,click=click}
+    local binding={name=name,rect=go:GetComponent(typeof(UE.RectTransform)),button=button,click=click,events={}}
+    uiBindings[#uiBindings+1]=binding
+    local trigger=go:GetComponent(typeof(UE.EventSystems.EventTrigger)) or go:AddComponent(typeof(UE.EventSystems.EventTrigger))
+    for _,row in ipairs({
+        {UE.EventSystems.EventTriggerType.PointerDown,function(e) pointerDown(e.pointerId,e.position) end},
+        {UE.EventSystems.EventTriggerType.Drag,function(e) pointerMove(e.pointerId,e.position) end},
+        {UE.EventSystems.EventTriggerType.PointerUp,function(e) pointerUp(e.pointerId) end}
+    }) do
+        local entry=UE.EventSystems.EventTrigger.Entry()
+        entry.eventID=row[1];entry.callback:AddListener(row[2]);trigger.triggers:Add(entry)
+        binding.events[#binding.events+1]={trigger=trigger,entry=entry,callback=row[2]}
+    end
 end
 local function pointerControls()
-    -- Poll the actual screen rectangles, independently of the platform UI module.
-    -- Merge all fingers before changing held state, so releasing one does not
-    -- release a control still held by another finger.
-    local held={}
-    local function point(position)
-        local screenPoint=UE.Vector2(position.x,position.y)
-        for _,b in ipairs(uiBindings) do
-            if b.button.gameObject.activeInHierarchy and b.button.interactable
-                and not (hud and hud.IsModal())
-                and UE.RectTransformUtility.RectangleContainsScreenPoint(b.rect,screenPoint,nil) then held[b.name]=true end
-        end
-    end
+    local seen={}
     if UE.Input.touchCount>0 then
         for i=0,UE.Input.touchCount-1 do
             local touch=UE.Input.GetTouch(i)
-            if touch.phase~=UE.TouchPhase.Ended and touch.phase~=UE.TouchPhase.Canceled then point(touch.position) end
+            local id=touch.fingerId;seen[id]=true
+            if touch.phase==UE.TouchPhase.Began then pointerDown(id,touch.position)
+            elseif touch.phase==UE.TouchPhase.Ended or touch.phase==UE.TouchPhase.Canceled then pointerUp(id)
+            else pointerMove(id,touch.position) end
         end
-    elseif UE.Input.GetMouseButton(0) then point(UE.Input.mousePosition) end
-    for _,b in ipairs(uiBindings) do SetHeld(b.name,held[b.name]==true) end
+    else
+        if UE.Input.GetMouseButtonDown(0) then pointerDown(-1,UE.Input.mousePosition) end
+        if UE.Input.GetMouseButton(0) then seen[-1]=true;pointerMove(-1,UE.Input.mousePosition) end
+        if UE.Input.GetMouseButtonUp(0) then pointerUp(-1) end
+    end
+    local missing={}
+    for id in pairs(pointers) do if not seen[id] then missing[#missing+1]=id end end
+    for _,id in ipairs(missing) do pointerUp(id) end
 end
 function Start()
     if DouyinApplication.isServer then return end
@@ -84,10 +137,8 @@ function Start()
         if DouyinApplication.isSimulator then
             print("[WK-COMBAT-POINTER] touch="..tostring(position).." mouse="..tostring(UE.Input.mousePosition))
         end
-        for _,b in ipairs(uiBindings) do
-            if b.button.gameObject.activeInHierarchy and b.button.interactable and not (hud and hud.IsModal())
-                and UE.RectTransformUtility.RectangleContainsScreenPoint(b.rect,screenPoint,nil) then Press(b.name);return end
-        end
+        -- This platform notification has no pointer ID or phase; physical
+        -- lifecycle processing above owns command submission.
     end
     DouyinInputService.onTouchEvent:AddListener(onTouch)
 end
@@ -103,7 +154,7 @@ end
 function OnActorDespawned(value)
     if value==actor then
         actor=nil;pose=nil;stick=UE.Vector2.zero
-        uiHeld={};uiPressed={};pending={};sprintToggle=false
+        ClearControls()
     end
 end
 function GetPose(actorID)
@@ -269,7 +320,6 @@ function Update()
         if not actor then return end
     end
     local dt=math.min(UE.Time.deltaTime,0.1)
-    pointerControls()
     if DouyinApplication.isSimulator and UE.Input.GetMouseButtonDown(0) then
         print("[WK-COMBAT-POINTER] mouse="..tostring(UE.Input.mousePosition))
     end
@@ -277,6 +327,7 @@ function Update()
     local v=views[tostring(actor.actorID)]
     if v then
         if epoch~=v.epoch then
+            ClearControls()
             if epoch~=nil then
                 local spawn=WKArenaConfig.spawn
                 actor:StopMove();actor:Teleport(UE.Vector3(spawn.x,spawn.y,spawn.z),UE.Quaternion.Euler(0,spawn.yaw,0))
@@ -311,9 +362,17 @@ function Update()
         end
     end
     local x,z=keyboardDirection()
+    local blocked=not focused or hud and hud.IsModal() or v and (v.hp<=0 or v.challenge=="defeat" or v.challenge=="victory")
+    if blocked and not wasBlocked then ClearControls() end
+    wasBlocked=blocked
+    pointerControls()
+    local pressed={}
+    for _,name in ipairs(uiPressed) do
+        if name=="lock" then arena.ToggleLock()
+        elseif name=="sprint" then sprintToggle=not sprintToggle
+        else pressed[name]=true end
+    end
     local locked=arena.IsLocked()
-    if uiPressed.lock then arena.ToggleLock();locked=arena.IsLocked();uiPressed.lock=nil end
-    if uiPressed.sprint then sprintToggle=not sprintToggle;uiPressed.sprint=nil end
     local heavy=UE.Input.GetMouseButton(1) or uiHeld.heavy==true
     local spin=UE.Input.GetKey("v") or uiHeld.spin==true
     local stickLength=math.sqrt(stick.x*stick.x+stick.y*stick.y)
@@ -349,20 +408,21 @@ function Update()
     -- Our pointer callbacks identify which combat control consumed the press.
     local overUI=hud and hud.IsPointerOver(UE.Input.mousePosition) or false
     for _,held in pairs(uiHeld) do if held then overUI=true end end
-    local modal=hud and hud.IsModal()
+    local modal=not focused or hud and hud.IsModal()
     if not modal then
-    if (not overUI and UE.Input.GetMouseButtonDown(0)) or uiPressed.light then enqueue("light") end
-    if (not overUI and UE.Input.GetMouseButtonDown(1)) or uiPressed.heavy then enqueue("heavy") end
-    if UE.Input.GetKeyDown(UE.KeyCode.Space) or uiPressed.dodge then enqueue("dodge") end
-    if UE.Input.GetKeyDown(UE.KeyCode.R) or uiPressed.gourd then enqueue("gourd") end
+    if not overUI and UE.Input.touchCount==0 and UE.Input.GetMouseButtonDown(0) then enqueue("light") end
+    if not overUI and UE.Input.GetMouseButtonDown(1) then enqueue("heavy") end
+    if UE.Input.GetKeyDown(UE.KeyCode.Space) then enqueue("dodge") end
+    if UE.Input.GetKeyDown(UE.KeyCode.R) then enqueue("gourd") end
     for _,row in ipairs({{"z","stance:smash"},{"x","stance:pillar"},{"c","stance:thrust"},{"v","spin"},{"1","immobilize"},{"2","cloud"},{"4","transform"},{"f","spirit"}}) do
         if UE.Input.GetKeyDown(row[1]) then enqueue(row[2]) end
     end
-    for _,name in ipairs({"stanceCycle","spin","immobilize","cloud","transform","spirit"}) do if uiPressed[name] then enqueue(name) end end
-    if UE.Input.GetKeyDown(UE.KeyCode.Return) or uiPressed.challenge then
+    for _,name in ipairs(uiPressed) do if name~="lock" and name~="sprint" and name~="challenge" then enqueue(name) end end
+    if UE.Input.GetKeyDown(UE.KeyCode.Return) or pressed.challenge then
         enqueue(v and (v.challenge=="defeat" or v.challenge=="victory") and "retry" or "start")
     end
     else x,z,sprint,heavy,spin=0,0,false,false,false end
+    if blocked then x,z,sprint,heavy,spin=0,0,false,false,false end
     uiPressed={}
     if DouyinApplication.isSimulator then
         if UE.Input.GetKeyDown(UE.KeyCode.F8) then enqueue("test-suite") end
@@ -424,7 +484,8 @@ function Update()
     else actor:StopMove() end
 end
 function OnApplicationFocus(value)
-    if not value then stick=UE.Vector2.zero;uiHeld={};uiPressed={};sprintToggle=false;if actor then actor:StopMove() end end
+    focused=value
+    if not value then stick=UE.Vector2.zero;ClearControls();if actor then actor:StopMove() end end
 end
 function OnDestroy()
     if DouyinApplication.isServer then return end
@@ -434,8 +495,13 @@ function OnDestroy()
     if onTouch then DouyinInputService.onTouchEvent:RemoveListener(onTouch) end
     for _,b in ipairs(uiBindings) do
         if b.button and not b.button:IsNull() then b.button.onClick:RemoveListener(b.click) end
+        for _,event in ipairs(b.events) do
+            if event.trigger and not event.trigger:IsNull() then
+                event.entry.callback:RemoveListener(event.callback);event.trigger.triggers:Remove(event.entry)
+            end
+        end
     end
     -- World disposal has already invalidated Actor services before this callback.
     -- Actor settings disappear with the Actor; do not access them during teardown.
-    actor=nil;uiHeld={};pending={}
+    actor=nil;ClearControls()
 end

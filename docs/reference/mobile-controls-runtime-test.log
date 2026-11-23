@@ -1,0 +1,122 @@
+{
+  "pass": true,
+  "testCount": 69,
+  "summaries": {
+    "client-1": {
+      "samples": 105,
+      "battleSamples": 14,
+      "battleFpsMean": 57.36602016314114,
+      "battleFpsMin": 57.18253506665,
+      "p95FrameMsMax": 17.590874806046,
+      "allocatedBytesMax": 1449008752,
+      "inputPayloadBytesPerSecMean": 2811.4509460059553,
+      "snapshotPayloadBytesPerSecMean": 26034.325497521007,
+      "audio": {
+        "timeSamples": 0,
+        "activeVoices": 0,
+        "missing": 3,
+        "peakVoices": 4,
+        "mapped": 48,
+        "montage": 73,
+        "footstep": 14,
+        "hit": 30,
+        "played": 150
+      },
+      "fx": {
+        "peak": 4,
+        "trails": 9,
+        "snake": 2,
+        "missed": 2,
+        "particles": 0,
+        "cloud": 3,
+        "stone": 0,
+        "bursts": 37,
+        "peakParticles": 40,
+        "transform": 7,
+        "immobilize": 3
+      },
+      "resolutions": [
+        [
+          1084,
+          644
+        ],
+        [
+          1096,
+          668
+        ],
+        [
+          1200,
+          676
+        ],
+        [
+          1600,
+          720
+        ]
+      ],
+      "visibleRenderersRange": [
+        345,
+        1889
+      ],
+      "visibleMeshTrianglesRange": [
+        1305274.0,
+        4668913.0
+      ]
+    },
+    "client-2": {
+      "samples": 104,
+      "battleSamples": 4,
+      "battleFpsMean": 57.952264458133754,
+      "battleFpsMin": 57.828248594616,
+      "p95FrameMsMax": 17.593124881387,
+      "allocatedBytesMax": 1448865464,
+      "inputPayloadBytesPerSecMean": 2759.021537938836,
+      "snapshotPayloadBytesPerSecMean": 26111.584548594143,
+      "audio": {
+        "footstep": 14,
+        "played": 145,
+        "hit": 28,
+        "activeVoices": 0,
+        "peakVoices": 9,
+        "missing": 4,
+        "mapped": 34,
+        "montage": 83,
+        "timeSamples": 0
+      },
+      "fx": {
+        "stone": 0,
+        "peakParticles": 61,
+        "missed": 0,
+        "immobilize": 0,
+        "particles": 0,
+        "cloud": 0,
+        "snake": 0,
+        "bursts": 46,
+        "peak": 9,
+        "transform": 0,
+        "trails": 5
+      },
+      "resolutions": [
+        [
+          1158,
+          2
+        ],
+        [
+          1158,
+          632
+        ],
+        [
+          1158,
+          664
+        ]
+      ],
+      "visibleRenderersRange": [
+        896,
+        2171
+      ],
+      "visibleMeshTrianglesRange": [
+        2202926.0,
+        4988465.0
+      ]
+    }
+  }
+}

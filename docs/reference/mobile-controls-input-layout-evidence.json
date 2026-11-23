@@ -1,0 +1,90 @@
+{
+  "input": [
+    {
+      "name": "same pointer callback + polling",
+      "pass": true
+    },
+    {
+      "name": "slide permanently releases without transfer",
+      "pass": true
+    },
+    {
+      "name": "blank origin never acquires button",
+      "pass": true
+    },
+    {
+      "name": "independent fingers and repeated presses",
+      "pass": true
+    },
+    {
+      "name": "touch cancellation",
+      "pass": true
+    },
+    {
+      "name": "unavailable/modal/reset",
+      "pass": true
+    },
+    {
+      "name": "production HUD cooldown/resources/forms/queueing/death eligibility",
+      "pass": true
+    }
+  ],
+  "geometry": [
+    {
+      "width": 960,
+      "height": 540,
+      "right": 0,
+      "bottom": 0,
+      "scale": 0.75,
+      "outerTouchSize": 51.0,
+      "buttons": 12,
+      "outside": 0,
+      "overlap": 0
+    },
+    {
+      "width": 960,
+      "height": 540,
+      "right": 18,
+      "bottom": 18,
+      "scale": 0.75,
+      "outerTouchSize": 51.0,
+      "buttons": 12,
+      "outside": 0,
+      "overlap": 0
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "right": 24,
+      "bottom": 24,
+      "scale": 1.0,
+      "outerTouchSize": 68.0,
+      "buttons": 12,
+      "outside": 0,
+      "overlap": 0
+    },
+    {
+      "width": 1600,
+      "height": 720,
+      "right": 48,
+      "bottom": 24,
+      "scale": 1.0,
+      "outerTouchSize": 68.0,
+      "buttons": 12,
+      "outside": 0,
+      "overlap": 0
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "right": 32,
+      "bottom": 24,
+      "scale": 0.9254901960784314,
+      "outerTouchSize": 62.93333333333334,
+      "buttons": 12,
+      "outside": 0,
+      "overlap": 0
+    }
+  ],
+  "scope": "production Lua lifecycle; mathematical builder geometry, not device input"
+}

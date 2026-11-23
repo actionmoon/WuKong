@@ -1,0 +1,4 @@
+server: PID 986，日志 /var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-bcgtumsq/server.log
+client-1: PID 1048，日志 /var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-bcgtumsq/client-1.log
+client-2: PID 1095，日志 /var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-bcgtumsq/client-2.log
+实例保持运行，记录：/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-bcgtumsq/session.json

@@ -1,0 +1,110 @@
+{
+  "pass": true,
+  "testCount": 10,
+  "summaries": {
+    "client-1": {
+      "samples": 288,
+      "battleSamples": 0,
+      "battleFpsMean": null,
+      "battleFpsMin": null,
+      "p95FrameMsMax": 17.595667392015,
+      "allocatedBytesMax": 1445646296,
+      "inputPayloadBytesPerSecMean": 2765.1525015747256,
+      "snapshotPayloadBytesPerSecMean": 25335.821827188298,
+      "audio": {
+        "peakVoices": 0,
+        "timeSamples": 0,
+        "played": 0,
+        "hit": 0,
+        "missing": 0,
+        "montage": 0,
+        "mapped": 0,
+        "activeVoices": 0,
+        "footstep": 0
+      },
+      "fx": {
+        "peakParticles": 0,
+        "missed": 0,
+        "bursts": 0,
+        "stone": 0,
+        "transform": 0,
+        "immobilize": 0,
+        "peak": 0,
+        "snake": 0,
+        "cloud": 0,
+        "particles": 0,
+        "trails": 0
+      },
+      "resolutions": [
+        [
+          1024,
+          768
+        ],
+        [
+          1200,
+          676
+        ],
+        [
+          1280,
+          720
+        ]
+      ],
+      "visibleRenderersRange": [
+        1398,
+        1789
+      ],
+      "visibleMeshTrianglesRange": [
+        3572352.0,
+        4129486.0
+      ]
+    },
+    "client-2": {
+      "samples": 287,
+      "battleSamples": 0,
+      "battleFpsMean": null,
+      "battleFpsMin": null,
+      "p95FrameMsMax": 17.595624551177,
+      "allocatedBytesMax": 1445179240,
+      "inputPayloadBytesPerSecMean": 2766.4923364696238,
+      "snapshotPayloadBytesPerSecMean": 25359.620180053887,
+      "audio": {
+        "missing": 0,
+        "footstep": 0,
+        "peakVoices": 0,
+        "timeSamples": 0,
+        "montage": 0,
+        "hit": 0,
+        "mapped": 0,
+        "played": 0,
+        "activeVoices": 0
+      },
+      "fx": {
+        "snake": 0,
+        "particles": 0,
+        "bursts": 0,
+        "stone": 0,
+        "trails": 0,
+        "missed": 0,
+        "cloud": 0,
+        "transform": 0,
+        "immobilize": 0,
+        "peakParticles": 0,
+        "peak": 0
+      },
+      "resolutions": [
+        [
+          1158,
+          664
+        ]
+      ],
+      "visibleRenderersRange": [
+        1830,
+        1830
+      ],
+      "visibleMeshTrianglesRange": [
+        4371368.0,
+        4371368.0
+      ]
+    }
+  }
+}

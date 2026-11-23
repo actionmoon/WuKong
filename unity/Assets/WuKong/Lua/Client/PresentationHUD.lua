@@ -16,6 +16,11 @@ local lastToast=nil
 local toastUntil=0
 local hiddenSystem={}
 local systemAge=0
+local controls,canvas=nil,nil
+local progress={}
+local helpCopy=nil
+local B=WKSkillsConfig.bianhua
+local D=WKSkillsConfig.spells
 
 local function text(name,value)
     local item=texts[name]
@@ -26,9 +31,36 @@ function Toast(value)
 end
 function ToggleHelp()
     shownHelp=not shownHelp;help:SetActive(shownHelp)
+    local go=UE.GameObject.Find("CombatInput")
+    if go then go:GetComponent(typeof(DouyinScript)).script.ClearControls() end
     print("[WK-HUD] help="..tostring(shownHelp))
 end
-function IsModal() return shownHelp or width<height end
+function IsModal() return shownHelp or UE.Screen.width<UE.Screen.height end
+function CanPress(name,notify)
+    if IsModal() then return false end
+    local v=view
+    if name=="challenge" then return true end
+    local reason=nil
+    if not v then reason="等待角色就绪"
+    elseif v.hp<=0 or v.challenge~="fight" and v.challenge~="ready" then reason="请重新挑战"
+    elseif (v.formPhase or "none")~="none" or (v.spiritPhase or "none")~="none" then
+        if not (v.form=="lang" and v.formPhase=="born" and
+            (name=="transform" or name=="light" or name=="heavy" or name=="dodge")) then reason="形态切换中" end
+    end
+    if not reason and v then
+        if v.form=="lang" and (name=="gourd" or name=="spin" or name=="cloud" or name=="immobilize" or name=="spirit")
+            or name=="stanceCycle" and v.form~="wukong" then reason="当前形态不可用"
+        elseif name=="immobilize" or name=="cloud" then
+            local spec=name=="immobilize" and D.immobilize.skills["10518"] or D.cloud.enter
+            if ((v.cooldowns or {})[name] or 0)>0 then reason="冷却中"
+            elseif v.mp<spec.mpRequired then reason="法力不足" end
+        elseif name=="transform" and v.form~="lang" and (v.transEnergy or 0)<B.transform.energy.max then reason="赤潮能量不足"
+        elseif name=="spirit" and (v.vigor or 0)<B.spirit.energy.max then reason="精魄能量不足"
+        elseif name=="gourd" and v.gourd<=0 then reason="葫芦已用尽" end
+    end
+    if reason and notify then Toast(reason) end
+    return reason==nil,reason
+end
 function IsPointerOver(position)
     if IsModal() then return true end
     local point=UE.Vector2(position.x,position.y)
@@ -62,22 +94,28 @@ function Apply(v)
 end
 function Start()
     if DouyinApplication.isServer then return end
-    local canvas=UE.GameObject.Find("ArenaHUD")
-    root=canvas.transform:Find("HUDSafeArea"):GetComponent(typeof(UE.RectTransform))
-    local ts=canvas:GetComponentsInChildren(typeof(UE.UI.Text),true)
+    local canvasObject=UE.GameObject.Find("ArenaHUD")
+    canvas=canvasObject:GetComponent(typeof(UE.Canvas))
+    root=canvasObject.transform:Find("HUDSafeArea"):GetComponent(typeof(UE.RectTransform))
+    controls=root:Find("CombatControls"):GetComponent(typeof(UE.RectTransform))
+    local ts=canvasObject:GetComponentsInChildren(typeof(UE.UI.Text),true)
     for i=0,ts.Length-1 do texts[ts[i].gameObject.name]=ts[i] end
-    local bs=canvas:GetComponentsInChildren(typeof(UE.UI.Button),true)
+    local bs=canvasObject:GetComponentsInChildren(typeof(UE.UI.Button),true)
     for i=0,bs.Length-1 do
         local name=string.sub(bs[i].gameObject.name,14)
         buttons[name]=bs[i];rects[name]=bs[i].gameObject:GetComponent(typeof(UE.RectTransform))
+        local fill=bs[i].transform:Find("ActionProgress_"..name)
+        if fill then progress[name]=fill:GetComponent(typeof(UE.UI.Image)) end
     end
     for _,name in ipairs({"PlayerHP","PlayerMP","PlayerStamina","BossHP"}) do
         bars[name]={fill=root:Find(name.."/"..name.."Fill"),ghost=root:Find(name.."/"..name.."Damage"),wait=0}
     end
     help=root:Find("HelpPanel").gameObject;help:SetActive(false)
+    helpCopy=texts.HelpText.text
     result=root:Find("ChallengeResultPanel").gameObject
     challenge=root:Find("CombatButton_challenge").gameObject
     arena=UE.GameObject.Find("ArenaPresentation"):GetComponent(typeof(DouyinScript)).script
+    input=UE.GameObject.Find("CombatInput"):GetComponent(typeof(DouyinScript)).script
     local button=buttons.help
     local callback=function() ToggleHelp() end
     button.onClick:AddListener(callback);listeners[#listeners+1]={button=button,callback=callback}
@@ -104,7 +142,26 @@ function MeasureLayout()
         local a,b=bounds[i],bounds[j]
         if a.x<b.x+b.width and b.x<a.x+a.width and a.y<b.y+b.height and b.y<a.y+a.height then overlap=overlap+1 end
     end end
-    return {width=UE.Screen.width,height=UE.Screen.height,outside=outside,overlap=overlap,buttons=bounds}
+    local safe=UE.Screen.safeArea
+    local violations=0
+    for _,b in ipairs(bounds) do
+        if progress[b.name] and (b.x<.6*UE.Screen.width-.5 or b.y>.6*UE.Screen.height+.5
+            or b.y+b.height>.6*UE.Screen.height+.5 or b.x<safe.x-.5 or b.y<safe.y-.5
+            or b.x+b.width>safe.x+safe.width+.5 or b.y+b.height>safe.y+safe.height+.5) then violations=violations+1 end
+    end
+    local function measure(r)
+        local box=r.rect
+        local a=UE.RectTransformUtility.WorldToScreenPoint(nil,r:TransformPoint(UE.Vector3(box.xMin,box.yMin,0)))
+        local b=UE.RectTransformUtility.WorldToScreenPoint(nil,r:TransformPoint(UE.Vector3(box.xMax,box.yMax,0)))
+        if a.x<.6*UE.Screen.width-.5 or a.y<safe.y-.5 or b.x>safe.x+safe.width+.5
+            or b.y>.6*UE.Screen.height+.5 or a.x<safe.x-.5 then violations=violations+1 end
+        return {x=a.x,y=a.y,width=b.x-a.x,height=b.y-a.y}
+    end
+    local container=measure(controls)
+    local toast=measure(texts.CombatToast:GetComponent(typeof(UE.RectTransform)))
+    return {width=UE.Screen.width,height=UE.Screen.height,outside=outside,overlap=overlap,
+        controlRegionViolations=violations,controlScale=controls.localScale.x*canvas.scaleFactor,
+        container=container,toast=toast,buttons=bounds}
 end
 local function refresh()
     local v=view
@@ -116,18 +173,34 @@ local function refresh()
     text("BossName",string.format("虎先锋   %.0f / 6480",v.bossHp))
     text("SkillBaseline",string.format("法力 %.0f / 220   体力 %.0f / %.0f\n赤潮 %.0f / 150   精魄 %.0f / 212",
         v.mp,v.stamina,v.staminaMax or 250,v.transEnergy or 150,v.vigor or 212))
-    text("ActionLabel_gourd","葫芦 "..v.gourd)
+    text("ActionLabel_gourd","葫芦\n"..v.gourd)
+    text("ActionLabel_stanceCycle",stance)
+    text("ActionLabel_sprint",input.IsSprinting() and "疾跑中" or "疾跑")
+    text("ActionLabel_heavy",input.IsHeld("heavy") and "蓄力中" or (v.form=="lang" and "广智重击" or "重棍").."\n按住蓄力")
+    text("ActionLabel_light",v.form=="lang" and "广智轻击" or "轻棍")
+    text("ActionLabel_spin",input.IsHeld("spin") and "棍花中" or "棍花\n按住")
     text("ActionLabel_lock",arena.IsLocked() and "已锁定" or "锁定")
     local cd=v.cooldowns or {}
     for _,name in ipairs({"immobilize","cloud"}) do
         local value=cd[name] or 0
-        text("ActionLabel_"..name,(name=="immobilize" and "定身" or "散气")..(value>0 and string.format("\n%.0fs",math.ceil(value)) or ""))
-        buttons[name].interactable=value<=0 and v.mp>=(name=="immobilize" and 50 or 30) and v.form=="wukong"
+        local _,reason=CanPress(name,false)
+        text("ActionLabel_"..name,(name=="immobilize" and "定身" or "散气")..(value>0 and string.format("\n%.0fs",math.ceil(value)) or name=="cloud" and v.cloud and "\n化气中" or reason and "\n"..reason or ""))
+        local spec=name=="immobilize" and D.immobilize.skills["10518"] or D.cloud.enter
+        progress[name].fillAmount=math.min(1,value/spec.cooldown)
     end
-    text("ActionLabel_transform",v.form=="lang" and "退出赤潮" or "赤潮")
-    buttons.transform.interactable=v.form=="lang" or (v.transEnergy or 0)>=150 and v.form=="wukong"
-    buttons.spirit.interactable=(v.vigor or 0)>=212 and v.form=="wukong"
-    buttons.gourd.interactable=v.gourd>0 and v.hp>0
+    local trans=math.min(1,(v.transEnergy or 0)/B.transform.energy.max)
+    local spirit=math.min(1,(v.vigor or 0)/B.spirit.energy.max)
+    text("ActionLabel_transform",v.form=="lang" and "返回" or "赤潮"..(trans<1 and string.format("\n%.0f%%",trans*100) or ""))
+    text("ActionLabel_spirit","广谋"..(spirit<1 and string.format("\n%.0f%%",spirit*100) or ""))
+    progress.transform.fillAmount=trans;progress.spirit.fillAmount=spirit
+    for name,fill in pairs(progress) do
+        local available=CanPress(name,false)
+        buttons[name].interactable=true
+        buttons[name]:GetComponent(typeof(UE.UI.Image)).color=available and UE.Color(.09,.065,.04,.88) or UE.Color(.12,.12,.12,.55)
+        if name=="heavy" or name=="spin" then
+            fill.fillAmount=input.IsHeld(name) and 1 or 0
+        end
+    end
     local ready=v.challenge=="ready"
     local ended=v.challenge=="victory" or v.challenge=="defeat"
     local visible=ready or ended and v.resultReady==true
@@ -138,7 +211,8 @@ local function refresh()
     local status=ready and "卧虎寺" or ended and (v.challenge=="victory" and "虎先锋 · 伏诛" or "身死")
         or "血池 · "..(v.boss and v.boss.phase or "虎先锋")
     text("ArenaStatus",status)
-    text("CameraHint",UE.Time.unscaledTime<toastUntil and lastToast or "H 帮助   M 声音")
+    text("CameraHint","空白处拖动视角")
+    text("CombatToast",UE.Time.unscaledTime<toastUntil and lastToast or "")
     for name,button in pairs(buttons) do
         if name~="challenge" and name~="mute" and name~="help" then
             button.gameObject:SetActive(not shownHelp and width>=height and (ready or v.challenge=="fight"))
@@ -152,9 +226,14 @@ function Update()
     local safe=UE.Screen.safeArea
     root.anchorMin=UE.Vector2(safe.x/width,safe.y/height)
     root.anchorMax=UE.Vector2((safe.x+safe.width)/width,(safe.y+safe.height)/height)
+    local right=width-safe.x-safe.width
+    local scale=math.max(0,math.min(height/720,math.min(.4*width-right,safe.width)/408,
+        math.min(.6*height-safe.y,safe.height)/408))
+    local localScale=scale/canvas.scaleFactor
+    controls.localScale=UE.Vector3(localScale,localScale,1)
     if width<height then
         help:SetActive(true);text("HelpText","请将设备横屏，使用摇杆和右侧按钮进入挑战。")
-    elseif not shownHelp then help:SetActive(false) end
+    else text("HelpText",helpCopy);help:SetActive(shownHelp) end
     local dt=UE.Time.unscaledDeltaTime
     systemAge=systemAge+dt
     if systemAge>=1 then systemAge=0;hideSystemControls() end
